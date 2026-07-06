@@ -1,0 +1,5 @@
+{
+  "results_csv": "C:\\repositorios\\tech-challenge-group-62\\FASE_2\\results\\ga_experiments.csv",
+  "experiments_run": 3,
+  "best_experiment_by_fitness": "high_mut_uniform"
+}

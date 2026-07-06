@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Environment / secrets
+.env
+.env.*
+
+# Model artifacts / large binaries
+*.joblib
+*.pkl
+*.h5
+*.pt
+*.onnx
+
+# Logs and outputs
+*.log
+llm_outputs/*
+!llm_outputs/.gitkeep
+results/*
+!results/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Claude Code local settings
+.claude/settings.local.json

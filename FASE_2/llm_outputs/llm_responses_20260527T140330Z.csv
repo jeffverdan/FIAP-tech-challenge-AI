@@ -1,0 +1,121 @@
+timestamp_utc,patient_id,sample_index,mode,model_file,predicted_label,predicted_probability_pcos,ground_truth_label,top_features,llm_response,medical_precision,cultural_sensitivity,language_adequacy,overall
+20260527T140330Z,P_001,444,local_fallback,ga_balanced_config.joblib,0,0.07271383549327742,1,"[[""Follicle No. (R)"", -1.1572395291951816], [""Follicle No. (L)"", -0.44905897367616654], [""Weight gain(Y/N)"", -0.2345956158164359], [""hair growth(Y/N)"", -0.22192581133876757], [""Skin darkening (Y/N)"", -0.2009005164647101]]","Interpretação do caso:
+- O modelo sugere probabilidade 7.27% de PCOS, com risco baixa a moderada.
+
+Fatores relevantes:
+- Variáveis com maior contribuição local: Follicle No. (R) (-1.16), Follicle No. (L) (-0.45), Weight gain(Y/N) (-0.23), hair growth(Y/N) (-0.22), Skin darkening (Y/N) (-0.20).
+- Esses sinais devem ser interpretados junto ao histórico clínico e exame físico.
+
+Recomendações práticas:
+- Confirmar critérios clínicos/laboratoriais e ultrassonográficos de PCOS.
+- Revisar risco metabólico (glicemia, perfil lipídico, IMC, estilo de vida).
+- Planejar seguimento com abordagem multiprofissional e educação em saúde.
+
+Confidencialidade e limites:
+- Esta interpretação usa dados anonimizados e não substitui decisão médica.
+- O modelo pode errar; usar apenas como apoio à triagem e priorização.",4,3,4,4
+20260527T140330Z,P_002,466,local_fallback,ga_balanced_config.joblib,0,0.5040737679285425,0,"[[""Follicle No. (R)"", 0.521778024498583], [""Follicle No. (L)"", 0.4363516909888445], [""Weight gain(Y/N)"", -0.2345956158164359], [""hair growth(Y/N)"", -0.22192581133876757], [""Skin darkening (Y/N)"", -0.2009005164647101]]","Interpretação do caso:
+- O modelo sugere probabilidade 50.41% de PCOS, com risco baixa a moderada.
+
+Fatores relevantes:
+- Variáveis com maior contribuição local: Follicle No. (R) (+0.52), Follicle No. (L) (+0.44), Weight gain(Y/N) (-0.23), hair growth(Y/N) (-0.22), Skin darkening (Y/N) (-0.20).
+- Esses sinais devem ser interpretados junto ao histórico clínico e exame físico.
+
+Recomendações práticas:
+- Confirmar critérios clínicos/laboratoriais e ultrassonográficos de PCOS.
+- Revisar risco metabólico (glicemia, perfil lipídico, IMC, estilo de vida).
+- Planejar seguimento com abordagem multiprofissional e educação em saúde.
+
+Confidencialidade e limites:
+- Esta interpretação usa dados anonimizados e não substitui decisão médica.
+- O modelo pode errar; usar apenas como apoio à triagem e priorização.",4,3,4,4
+20260527T140330Z,P_003,41,local_fallback,ga_balanced_config.joblib,0,0.4838348742876563,0,"[[""Follicle No. (R)"", 0.7316552187103036], [""Weight gain(Y/N)"", -0.2345956158164359], [""hair growth(Y/N)"", -0.22192581133876757], [""Skin darkening (Y/N)"", -0.2009005164647101], [""Follicle No. (L)"", 0.17072849158934122]]","Interpretação do caso:
+- O modelo sugere probabilidade 48.38% de PCOS, com risco baixa a moderada.
+
+Fatores relevantes:
+- Variáveis com maior contribuição local: Follicle No. (R) (+0.73), Weight gain(Y/N) (-0.23), hair growth(Y/N) (-0.22), Skin darkening (Y/N) (-0.20), Follicle No. (L) (+0.17).
+- Esses sinais devem ser interpretados junto ao histórico clínico e exame físico.
+
+Recomendações práticas:
+- Confirmar critérios clínicos/laboratoriais e ultrassonográficos de PCOS.
+- Revisar risco metabólico (glicemia, perfil lipídico, IMC, estilo de vida).
+- Planejar seguimento com abordagem multiprofissional e educação em saúde.
+
+Confidencialidade e limites:
+- Esta interpretação usa dados anonimizados e não substitui decisão médica.
+- O modelo pode errar; usar apenas como apoio à triagem e priorização.",4,3,4,4
+20260527T140330Z,P_004,210,local_fallback,ga_balanced_config.joblib,1,0.960944688918816,1,"[[""Follicle No. (R)"", 1.7810411897689065], [""Follicle No. (L)"", 0.5248927574553457], [""Skin darkening (Y/N)"", 0.4516485294958521], [""Weight gain(Y/N)"", 0.41924506826550156], [""Cycle(R/I)"", 0.37922418998512425]]","Interpretação do caso:
+- O modelo sugere probabilidade 96.09% de PCOS, com risco elevada.
+
+Fatores relevantes:
+- Variáveis com maior contribuição local: Follicle No. (R) (+1.78), Follicle No. (L) (+0.52), Skin darkening (Y/N) (+0.45), Weight gain(Y/N) (+0.42), Cycle(R/I) (+0.38).
+- Esses sinais devem ser interpretados junto ao histórico clínico e exame físico.
+
+Recomendações práticas:
+- Confirmar critérios clínicos/laboratoriais e ultrassonográficos de PCOS.
+- Revisar risco metabólico (glicemia, perfil lipídico, IMC, estilo de vida).
+- Planejar seguimento com abordagem multiprofissional e educação em saúde.
+
+Confidencialidade e limites:
+- Esta interpretação usa dados anonimizados e não substitui decisão médica.
+- O modelo pode errar; usar apenas como apoio à triagem e priorização.",4,3,4,4
+20260527T140330Z,P_005,485,local_fallback,ga_balanced_config.joblib,0,0.13810445187438777,0,"[[""Follicle No. (R)"", -0.5276079465600199], [""Follicle No. (L)"", -0.3605179072096654], [""Weight gain(Y/N)"", -0.2345956158164359], [""hair growth(Y/N)"", -0.22192581133876757], [""Skin darkening (Y/N)"", -0.2009005164647101]]","Interpretação do caso:
+- O modelo sugere probabilidade 13.81% de PCOS, com risco baixa a moderada.
+
+Fatores relevantes:
+- Variáveis com maior contribuição local: Follicle No. (R) (-0.53), Follicle No. (L) (-0.36), Weight gain(Y/N) (-0.23), hair growth(Y/N) (-0.22), Skin darkening (Y/N) (-0.20).
+- Esses sinais devem ser interpretados junto ao histórico clínico e exame físico.
+
+Recomendações práticas:
+- Confirmar critérios clínicos/laboratoriais e ultrassonográficos de PCOS.
+- Revisar risco metabólico (glicemia, perfil lipídico, IMC, estilo de vida).
+- Planejar seguimento com abordagem multiprofissional e educação em saúde.
+
+Confidencialidade e limites:
+- Esta interpretação usa dados anonimizados e não substitui decisão médica.
+- O modelo pode errar; usar apenas como apoio à triagem e priorização.",4,3,4,4
+20260527T140330Z,P_006,176,local_fallback,ga_balanced_config.joblib,1,0.9721689932090052,1,"[[""Follicle No. (R)"", 1.5711639955571859], [""Follicle No. (L)"", 0.790515956854849], [""hair growth(Y/N)"", 0.604556520543539], [""Skin darkening (Y/N)"", 0.4516485294958521], [""Weight gain(Y/N)"", 0.41924506826550156]]","Interpretação do caso:
+- O modelo sugere probabilidade 97.22% de PCOS, com risco elevada.
+
+Fatores relevantes:
+- Variáveis com maior contribuição local: Follicle No. (R) (+1.57), Follicle No. (L) (+0.79), hair growth(Y/N) (+0.60), Skin darkening (Y/N) (+0.45), Weight gain(Y/N) (+0.42).
+- Esses sinais devem ser interpretados junto ao histórico clínico e exame físico.
+
+Recomendações práticas:
+- Confirmar critérios clínicos/laboratoriais e ultrassonográficos de PCOS.
+- Revisar risco metabólico (glicemia, perfil lipídico, IMC, estilo de vida).
+- Planejar seguimento com abordagem multiprofissional e educação em saúde.
+
+Confidencialidade e limites:
+- Esta interpretação usa dados anonimizados e não substitui decisão médica.
+- O modelo pode errar; usar apenas como apoio à triagem e priorização.",4,3,4,4
+20260527T140330Z,P_007,227,local_fallback,ga_balanced_config.joblib,0,0.5199886505709748,1,"[[""Follicle No. (R)"", -0.7374851407717404], [""hair growth(Y/N)"", 0.604556520543539], [""Skin darkening (Y/N)"", 0.4516485294958521], [""Follicle No. (L)"", -0.44905897367616654], [""Weight gain(Y/N)"", 0.41924506826550156]]","Interpretação do caso:
+- O modelo sugere probabilidade 52.00% de PCOS, com risco baixa a moderada.
+
+Fatores relevantes:
+- Variáveis com maior contribuição local: Follicle No. (R) (-0.74), hair growth(Y/N) (+0.60), Skin darkening (Y/N) (+0.45), Follicle No. (L) (-0.45), Weight gain(Y/N) (+0.42).
+- Esses sinais devem ser interpretados junto ao histórico clínico e exame físico.
+
+Recomendações práticas:
+- Confirmar critérios clínicos/laboratoriais e ultrassonográficos de PCOS.
+- Revisar risco metabólico (glicemia, perfil lipídico, IMC, estilo de vida).
+- Planejar seguimento com abordagem multiprofissional e educação em saúde.
+
+Confidencialidade e limites:
+- Esta interpretação usa dados anonimizados e não substitui decisão médica.
+- O modelo pode errar; usar apenas como apoio à triagem e priorização.",4,3,4,4
+20260527T140330Z,P_008,100,local_fallback,ga_balanced_config.joblib,0,0.46176764548190896,0,"[[""Follicle No. (R)"", 0.7316552187103036], [""Weight gain(Y/N)"", -0.2345956158164359], [""hair growth(Y/N)"", -0.22192581133876757], [""Skin darkening (Y/N)"", -0.2009005164647101], [""Cycle(R/I)"", -0.1535395500915381]]","Interpretação do caso:
+- O modelo sugere probabilidade 46.18% de PCOS, com risco baixa a moderada.
+
+Fatores relevantes:
+- Variáveis com maior contribuição local: Follicle No. (R) (+0.73), Weight gain(Y/N) (-0.23), hair growth(Y/N) (-0.22), Skin darkening (Y/N) (-0.20), Cycle(R/I) (-0.15).
+- Esses sinais devem ser interpretados junto ao histórico clínico e exame físico.
+
+Recomendações práticas:
+- Confirmar critérios clínicos/laboratoriais e ultrassonográficos de PCOS.
+- Revisar risco metabólico (glicemia, perfil lipídico, IMC, estilo de vida).
+- Planejar seguimento com abordagem multiprofissional e educação em saúde.
+
+Confidencialidade e limites:
+- Esta interpretação usa dados anonimizados e não substitui decisão médica.
+- O modelo pode errar; usar apenas como apoio à triagem e priorização.",4,3,4,4

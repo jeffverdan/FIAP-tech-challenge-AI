@@ -1,0 +1,10 @@
+deap
+joblib
+openai
+transformers
+accelerate
+pandas
+scikit-learn
+numpy
+openpyxl
+jupyter

@@ -1,0 +1,17 @@
+{
+  "random_state": 42,
+  "dataset_path": "C:\\repositorios\\tech-challenge-group-62\\FASE_1\\data\\PCOS_data_without_infertility.xlsx",
+  "sheet_name": "Full_new",
+  "dropped_columns": [
+    "Sl. No",
+    "Patient File No.",
+    "Unnamed: 44"
+  ],
+  "best_k": 7,
+  "best_depth": 4,
+  "test_metrics": {
+    "lr_test_f1": 0.821917808219178,
+    "knn_test_f1": 0.711864406779661,
+    "dt_test_f1": 0.7246376811594203
+  }
+}
