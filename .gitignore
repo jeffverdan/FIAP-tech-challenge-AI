@@ -20,7 +20,7 @@ env/
 !.env.example
 
 # Model artifacts / large binaries
-*.joblib
+# *.joblib
 *.pkl
 *.h5
 *.pt
@@ -28,10 +28,6 @@ env/
 
 # Logs and outputs
 *.log
-llm_outputs/*
-!llm_outputs/.gitkeep
-results/*
-!results/.gitkeep
 
 # OS
 .DS_Store

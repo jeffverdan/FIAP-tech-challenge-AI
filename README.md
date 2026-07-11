@@ -27,7 +27,7 @@ O fio condutor das 4 fases é um problema real de saúde da mulher: **diagnósti
 | Fase | Pasta | Status | Foco técnico |
 | --- | --- | --- | --- |
 | **Fase 1** | [`FASE_1/`](./FASE_1) | ✅ Concluída | EDA, pré-processamento e modelos de classificação (ML clássico) |
-| **Fase 2** | [`FASE_2/`](./FASE_2) | 🚧 Em andamento | Otimização de hiperparâmetros com Algoritmos Genéticos + interpretação via LLM |
+| **Fase 2** | [`FASE_2/`](./FASE_2) | ✅ Concluída | Otimização de hiperparâmetros com Algoritmos Genéticos + interpretação via LLM |
 | **Fase 3** | _a definir_ | ⏳ Planejada | — |
 | **Fase 4** | _a definir_ | ⏳ Planejada | — |
 | **Projeto Final** | _a definir_ | ⏳ Planejada | Integração das 4 fases em uma solução completa |
@@ -46,7 +46,7 @@ Modelos preditivos de classificação (Regressão Logística, KNN, Árvore de De
 Evolui os modelos da Fase 1 com **otimização de hiperparâmetros via Algoritmo Genético (DEAP)** e adiciona uma camada de **interpretação das previsões usando LLMs** (OpenAI API ou modelos locais via Transformers).
 
 - **Stack:** Python, DEAP, scikit-learn, joblib, OpenAI API, Hugging Face Transformers/Accelerate
-- **Destaques:** pipeline de experimentos de GA com múltiplas configurações, persistência de artefatos (`models/`, `results/`), integração com LLM em modo local ou via API
+- **Destaques:** pipeline de experimentos de GA com múltiplas configurações, persistência de artefatos (`models/`, `results/`), integração com LLM em modo local ou via API, [vídeo de demonstração](https://youtu.be/OXV5hpyWxjs)
 - 📄 [README da Fase 2](./FASE_2/README.md)
 
 ---
