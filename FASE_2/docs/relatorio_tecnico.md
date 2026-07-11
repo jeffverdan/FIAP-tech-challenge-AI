@@ -5,6 +5,9 @@
 **Programa:** Pós-Graduação em Inteligência Artificial — FIAP  
 **Fase:** 2 — Otimização e Integração com LLMs
 
+**Repositório:** https://github.com/jeffverdan/FIAP-tech-challenge-AI/tree/main/FASE_2  
+**Vídeo de demonstração:** https://youtu.be/OXV5hpyWxjs
+
 ---
 
 ## 1. Introdução
@@ -155,8 +158,6 @@ A integração foi implementada com suporte dual:
 
 - **Modo principal:** OpenAI API (`gpt-4.1-mini`) — ativado quando `OPENAI_API_KEY` está configurada
 - **Modo fallback local:** Geração de texto estruturado a partir de templates determinísticos, usado quando a API não está disponível
-
-> **Execução com LLM real:** a integração foi efetivamente executada com a API da OpenAI (`gpt-4.1-mini`), e não apenas em modo fallback. Os artefatos correspondentes em `llm_outputs/` registram `mode = "openai_api"` (sem marcação de `[fallback]`), comprovando que as explicações clínicas foram geradas pelo modelo de linguagem pré-treinado. A chave é fornecida via arquivo `.env` (não versionado), carregado automaticamente pelo pipeline.
 
 ### 6.3 Pipeline de integração
 
