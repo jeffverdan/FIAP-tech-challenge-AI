@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import logging
 import os
 from datetime import datetime, timezone
 from pathlib import Path
@@ -12,6 +13,36 @@ import numpy as np
 import pandas as pd
 from sklearn.impute import SimpleImputer
 from sklearn.model_selection import train_test_split
+
+
+logger = logging.getLogger("fase2.llm")
+
+
+def load_env() -> None:
+    """Carrega variáveis do arquivo FASE_2/.env (se existir), sem sobrescrever o ambiente atual.
+
+    Torna a OPENAI_API_KEY disponível a partir de um arquivo local não versionado.
+    O import é opcional: se python-dotenv não estiver instalado, apenas ignora.
+    """
+    try:
+        from dotenv import load_dotenv
+    except ImportError:
+        logger.debug("python-dotenv não instalado; usando apenas variáveis de ambiente do sistema.")
+        return
+    env_path = Path(__file__).resolve().parents[1] / ".env"
+    if env_path.exists():
+        load_dotenv(env_path, override=False)
+        logger.info("Variáveis carregadas de: %s", env_path)
+
+
+def configure_logging() -> None:
+    """Configura o logging da aplicação. Nível controlado pela env var LOG_LEVEL (default INFO)."""
+    level_name = os.getenv("LOG_LEVEL", "INFO").upper()
+    level = getattr(logging, level_name, logging.INFO)
+    logging.basicConfig(
+        level=level,
+        format="%(asctime)s | %(levelname)-8s | %(name)s | %(message)s",
+    )
 
 
 RANDOM_STATE = 42
@@ -175,24 +206,24 @@ def qualitative_score(text: str) -> dict[str, int]:
 def run(args: argparse.Namespace) -> None:
     paths = resolve_paths()
     paths["llm_outputs"].mkdir(parents=True, exist_ok=True)
-    print("[LLM] Iniciando integração LLM...")
-    print(f"[LLM] Dataset: {paths['dataset']}")
-    print(f"[LLM] Diretório de saída: {paths['llm_outputs']}")
+    logger.info("Iniciando integração LLM...")
+    logger.info("Dataset: %s", paths["dataset"])
+    logger.info("Diretório de saída: %s", paths["llm_outputs"])
 
     df = load_dataset(paths["dataset"])
-    print(f"[LLM] Dataset carregado com {len(df)} linhas e {len(df.columns)} colunas.")
+    logger.info("Dataset carregado com %s linhas e %s colunas.", len(df), len(df.columns))
     X_test, y_test = get_test_split(df)
-    print(f"[LLM] Conjunto de teste preparado com {len(X_test)} amostras.")
+    logger.info("Conjunto de teste preparado com %s amostras.", len(X_test))
 
     model_file = paths["models_dir"] / args.model_file
-    print(f"[LLM] Carregando modelo otimizado: {model_file}")
+    logger.info("Carregando modelo otimizado: %s", model_file)
     payload = joblib.load(model_file)
     pipeline = payload["pipeline"]
     threshold = float(payload.get("threshold", 0.5))
-    print(f"[LLM] Threshold de decisão carregado: {threshold:.3f}")
+    logger.info("Threshold de decisão carregado: %.3f", threshold)
 
     sample_count = min(args.sample_count, len(X_test))
-    print(f"[LLM] sample_count solicitado={args.sample_count} | usado={sample_count}")
+    logger.info("sample_count solicitado=%s | usado=%s", args.sample_count, sample_count)
     samples = X_test.head(sample_count).copy()
     y_ref = y_test.head(sample_count).copy()
 
@@ -200,11 +231,11 @@ def run(args: argparse.Namespace) -> None:
     jsonl_records = []
     ts = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
     mode = "openai_api" if os.getenv("OPENAI_API_KEY") and not args.force_local else "local_fallback"
-    print(f"[LLM] Modo de execução: {mode}")
+    logger.info("Modo de execução: %s", mode)
     if mode == "openai_api":
-        print(f"[LLM] Modelo OpenAI selecionado: {args.openai_model}")
+        logger.info("Modelo OpenAI selecionado: %s", args.openai_model)
     else:
-        print("[LLM] API desabilitada ou sem chave; usando fallback local.")
+        logger.warning("API desabilitada ou sem chave; usando fallback local.")
 
     for idx, (row_idx, row) in enumerate(samples.iterrows(), start=1):
         patient_df = row.to_frame().T
@@ -216,19 +247,21 @@ def run(args: argparse.Namespace) -> None:
         anonymized = anonymize_patient_row(row)
         top_feats = top_features_for_patient(payload, patient_df, top_k=5)
         prompt = build_prompt(patient_id, anonymized, prob, pred, top_feats)
-        print(
-            f"[LLM] {patient_id} -> prob={prob:.3f}, pred={pred}, "
-            f"features_top1={top_feats[0][0] if top_feats else 'n/a'}"
+        logger.info(
+            "%s -> prob=%.3f, pred=%s, features_top1=%s",
+            patient_id, prob, pred, top_feats[0][0] if top_feats else "n/a",
         )
-        print(f"[LLM] {patient_id} -> tamanho prompt: {len(prompt)} caracteres")
+        logger.debug("%s -> tamanho prompt: %s caracteres", patient_id, len(prompt))
 
         if mode == "openai_api":
             try:
-                print(f"[LLM] {patient_id} -> chamando OpenAI API...")
+                logger.info("%s -> chamando OpenAI API...", patient_id)
                 llm_text = call_openai(prompt, args.openai_model)
-                print(f"[LLM] {patient_id} -> resposta recebida da API.")
+                logger.info("%s -> resposta recebida da API.", patient_id)
             except Exception as exc:  # fallback caso ocorram problemas de API/rede
-                print(f"[LLM] {patient_id} -> falha API ({type(exc).__name__}), usando fallback.")
+                logger.warning(
+                    "%s -> falha API (%s), usando fallback.", patient_id, type(exc).__name__
+                )
                 llm_text = (
                     f"[fallback] Falha na chamada API ({type(exc).__name__}).\n\n"
                     + fallback_local_explanation(prob, pred, top_feats)
@@ -237,11 +270,10 @@ def run(args: argparse.Namespace) -> None:
             llm_text = fallback_local_explanation(prob, pred, top_feats)
 
         rubric = qualitative_score(llm_text)
-        print(
-            f"[LLM] {patient_id} -> scores: "
-            f"medical={rubric['medical_precision']}, "
-            f"cultural={rubric['cultural_sensitivity']}, "
-            f"language={rubric['language_adequacy']}, overall={rubric['overall']}"
+        logger.info(
+            "%s -> scores: medical=%s, cultural=%s, language=%s, overall=%s",
+            patient_id, rubric["medical_precision"], rubric["cultural_sensitivity"],
+            rubric["language_adequacy"], rubric["overall"],
         )
         row_result = {
             "timestamp_utc": ts,
@@ -274,14 +306,14 @@ def run(args: argparse.Namespace) -> None:
                 "qualitative_scores": rubric,
             }
         )
-        print(f"[LLM] Caso {patient_id} processado (pred={pred}, p={prob:.3f}).")
+        logger.info("Caso %s processado (pred=%s, p=%.3f).", patient_id, pred, prob)
 
     out_csv = paths["llm_outputs"] / f"llm_responses_{ts}.csv"
     out_jsonl = paths["llm_outputs"] / f"llm_responses_{ts}.jsonl"
     out_matrix = paths["llm_outputs"] / f"llm_qualitative_matrix_{ts}.csv"
 
     df_out = pd.DataFrame(results)
-    print(f"[LLM] Salvando {len(df_out)} respostas...")
+    logger.info("Salvando %s respostas...", len(df_out))
     df_out.to_csv(out_csv, index=False)
     df_out[
         ["patient_id", "medical_precision", "cultural_sensitivity", "language_adequacy", "overall"]
@@ -290,9 +322,9 @@ def run(args: argparse.Namespace) -> None:
     with out_jsonl.open("w", encoding="utf-8") as f:
         for rec in jsonl_records:
             f.write(json.dumps(rec, ensure_ascii=False) + "\n")
-    print(f"[LLM] Arquivo CSV salvo em: {out_csv}")
-    print(f"[LLM] Arquivo JSONL salvo em: {out_jsonl}")
-    print(f"[LLM] Matriz qualitativa salva em: {out_matrix}")
+    logger.info("Arquivo CSV salvo em: %s", out_csv)
+    logger.info("Arquivo JSONL salvo em: %s", out_jsonl)
+    logger.info("Matriz qualitativa salva em: %s", out_matrix)
 
     summary = {
         "mode": mode,
@@ -302,7 +334,7 @@ def run(args: argparse.Namespace) -> None:
         "qualitative_matrix": str(out_matrix),
         "avg_overall_score": float(df_out["overall"].mean()) if len(df_out) else None,
     }
-    print(json.dumps(summary, indent=2, ensure_ascii=False))
+    logger.info("Resumo final:\n%s", json.dumps(summary, indent=2, ensure_ascii=False))
 
 
 def parse_args() -> argparse.Namespace:
@@ -319,4 +351,6 @@ def parse_args() -> argparse.Namespace:
 
 
 if __name__ == "__main__":
+    configure_logging()
+    load_env()
     run(parse_args())

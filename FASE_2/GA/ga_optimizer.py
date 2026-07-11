@@ -1,6 +1,8 @@
 from __future__ import annotations
 
 import json
+import logging
+import os
 import random
 import time
 from dataclasses import dataclass
@@ -17,6 +19,19 @@ from sklearn.metrics import confusion_matrix, f1_score, recall_score
 from sklearn.model_selection import StratifiedKFold, train_test_split
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
+
+
+logger = logging.getLogger("fase2.ga")
+
+
+def configure_logging() -> None:
+    """Configura o logging da aplicação. Nível controlado pela env var LOG_LEVEL (default INFO)."""
+    level_name = os.getenv("LOG_LEVEL", "INFO").upper()
+    level = getattr(logging, level_name, logging.INFO)
+    logging.basicConfig(
+        level=level,
+        format="%(asctime)s | %(levelname)-8s | %(name)s | %(message)s",
+    )
 
 
 RANDOM_STATE = 42
@@ -132,13 +147,13 @@ def decode_individual(individual: list[float]) -> dict[str, float | str | None]:
         "class_weight": class_weight,
         "threshold": threshold,
     }
-
+# type: ignore
 
 def build_pipeline(params: dict[str, float | str | None]) -> Pipeline:
     model = LogisticRegression(
         C=float(params["C"]),
         penalty=str(params["penalty"]),
-        class_weight=params["class_weight"],
+        class_weight=params["class_weight"], 
         solver="liblinear",
         max_iter=2000,
         random_state=RANDOM_STATE,
@@ -234,15 +249,15 @@ def run_single_experiment(
     np.random.seed(RANDOM_STATE)
 
     metric_weights = {"recall": 0.4, "specificity": 0.2, "f1": 0.3, "disparity": 0.1}
-    print("\n" + "=" * 88)
-    print(f"[GA] Iniciando experimento: {cfg.exp_id}")
-    print(
-        f"[GA] Config -> pop={cfg.population_size}, gen={cfg.generations}, "
-        f"cxpb={cfg.cxpb}, mutpb={cfg.mutpb}, crossover={cfg.crossover}, "
-        f"mutation_indpb={cfg.mutation_indpb}, tournament={cfg.tournament_size}, "
-        f"elitism={cfg.elitism_count}, early_stop_patience={cfg.early_stop_patience}"
+    logger.info("=" * 88)
+    logger.info("Iniciando experimento: %s", cfg.exp_id)
+    logger.info(
+        "Config -> pop=%s, gen=%s, cxpb=%s, mutpb=%s, crossover=%s, "
+        "mutation_indpb=%s, tournament=%s, elitism=%s, early_stop_patience=%s",
+        cfg.population_size, cfg.generations, cfg.cxpb, cfg.mutpb, cfg.crossover,
+        cfg.mutation_indpb, cfg.tournament_size, cfg.elitism_count, cfg.early_stop_patience,
     )
-    print(f"[GA] Pesos fitness -> {metric_weights}")
+    logger.info("Pesos fitness -> %s", metric_weights)
 
     if "FitnessMaxGA" not in creator.__dict__:
         creator.create("FitnessMaxGA", base.Fitness, weights=(1.0,))
@@ -290,7 +305,7 @@ def run_single_experiment(
     for ind in pop:
         ind.fitness.values = toolbox.evaluate(ind)
     initial_best = tools.selBest(pop, 1)[0]
-    print(f"[GA] Fitness inicial (melhor individuo): {initial_best.fitness.values[0]:.6f}")
+    logger.info("Fitness inicial (melhor individuo): %.6f", initial_best.fitness.values[0])
     best_fitness_so_far = float(initial_best.fitness.values[0])
     stagnation_counter = 0
 
@@ -324,7 +339,10 @@ def run_single_experiment(
         pop[:] = offspring
         gen_best = tools.selBest(pop, 1)[0]
         current_best_fitness = float(gen_best.fitness.values[0])
-        print(f"[GA] Geração {gen_idx + 1:02d}/{cfg.generations} -> best_fitness={current_best_fitness:.6f}")
+        logger.info(
+            "Geração %02d/%s -> best_fitness=%.6f",
+            gen_idx + 1, cfg.generations, current_best_fitness,
+        )
 
         if current_best_fitness > best_fitness_so_far + 1e-12:
             best_fitness_so_far = current_best_fitness
@@ -333,16 +351,16 @@ def run_single_experiment(
             stagnation_counter += 1
 
         if stagnation_counter >= cfg.early_stop_patience:
-            print(
-                f"[GA] Early stopping em {cfg.exp_id}: "
-                f"sem melhora por {cfg.early_stop_patience} gerações."
+            logger.warning(
+                "Early stopping em %s: sem melhora por %s gerações.",
+                cfg.exp_id, cfg.early_stop_patience,
             )
             break
 
     best = tools.selBest(pop, 1)[0]
     best_params = decode_individual(best)
-    print(f"[GA] Melhor indivíduo ({cfg.exp_id}) -> {best_params}")
-    print(f"[GA] Melhor fitness final ({cfg.exp_id}) -> {best.fitness.values[0]:.6f}")
+    logger.info("Melhor indivíduo (%s) -> %s", cfg.exp_id, best_params)
+    logger.info("Melhor fitness final (%s) -> %.6f", cfg.exp_id, best.fitness.values[0])
     best_pipeline = build_pipeline(best_params)
     best_pipeline.fit(X_train, y_train)
 
@@ -354,14 +372,12 @@ def run_single_experiment(
         age_test=age_test,
     )
     elapsed = time.perf_counter() - start
-    print(
-        f"[GA] Métricas teste ({cfg.exp_id}) -> "
-        f"recall={test_metrics['recall']:.4f}, "
-        f"specificity={test_metrics['specificity']:.4f}, "
-        f"f1={test_metrics['f1']:.4f}, "
-        f"disparity={test_metrics['disparity']:.4f}"
+    logger.info(
+        "Métricas teste (%s) -> recall=%.4f, specificity=%.4f, f1=%.4f, disparity=%.4f",
+        cfg.exp_id, test_metrics["recall"], test_metrics["specificity"],
+        test_metrics["f1"], test_metrics["disparity"],
     )
-    print(f"[GA] Tempo total ({cfg.exp_id}) -> {elapsed:.2f}s")
+    logger.info("Tempo total (%s) -> %.2fs", cfg.exp_id, elapsed)
 
     model_payload = {
         "pipeline": best_pipeline,
@@ -411,6 +427,7 @@ def evaluate_baseline_lr(
 
 
 def main() -> None:
+    configure_logging()
     paths = resolve_paths()
     paths["models_dir"].mkdir(parents=True, exist_ok=True)
     paths["results_dir"].mkdir(parents=True, exist_ok=True)
@@ -443,7 +460,7 @@ def main() -> None:
                 models_dir=paths["models_dir"],
             )
         )
-        print(f"[GA] Artefato salvo -> models/ga_{cfg.exp_id}.joblib")
+        logger.info("Artefato salvo -> models/ga_%s.joblib", cfg.exp_id)
 
     baseline_lr_path = paths["models_dir"] / "baseline_lr.joblib"
     if baseline_lr_path.exists():
@@ -466,10 +483,9 @@ def main() -> None:
             row["test_recall"] - baseline_metrics["recall"] if pd.notna(baseline_metrics["recall"]) else np.nan
         )
         if pd.notna(baseline_metrics["f1"]):
-            print(
-                f"[GA] Comparação vs baseline ({row['exp_id']}) -> "
-                f"delta_f1={row['delta_f1_vs_baseline']:+.4f}, "
-                f"delta_recall={row['delta_recall_vs_baseline']:+.4f}"
+            logger.info(
+                "Comparação vs baseline (%s) -> delta_f1=%+.4f, delta_recall=%+.4f",
+                row["exp_id"], row["delta_f1_vs_baseline"], row["delta_recall_vs_baseline"],
             )
 
     df_results = pd.DataFrame(rows)
@@ -481,13 +497,13 @@ def main() -> None:
         "experiments_run": len(rows),
         "best_experiment_by_fitness": df_results.sort_values("best_fitness", ascending=False).iloc[0]["exp_id"],
     }
-    print(f"[GA] CSV de resultados salvo em -> {results_csv}")
-    print(f"[GA] Melhor experimento por fitness -> {summary['best_experiment_by_fitness']}")
+    logger.info("CSV de resultados salvo em -> %s", results_csv)
+    logger.info("Melhor experimento por fitness -> %s", summary["best_experiment_by_fitness"])
     (paths["results_dir"] / "ga_summary.json").write_text(
         json.dumps(summary, indent=2, ensure_ascii=False),
         encoding="utf-8",
     )
-    print(json.dumps(summary, indent=2, ensure_ascii=False))
+    logger.info("Resumo final:\n%s", json.dumps(summary, indent=2, ensure_ascii=False))
 
 
 if __name__ == "__main__":

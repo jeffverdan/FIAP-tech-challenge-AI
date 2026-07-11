@@ -6,6 +6,10 @@ Este projeto continua a FASE_1 e adiciona:
 - Integracao com LLM para interpretacao de previsoes
 - Persistencia de artefatos para uso na Fase 3
 
+## Video de demonstracao
+
+[Assistir no YouTube](https://youtu.be/OXV5hpyWxjs) — demonstracao do GA, resultados comparativos e integracao com LLM.
+
 ## Etapa 1 (concluida)
 
 - Estrutura base de pastas criada
@@ -62,9 +66,29 @@ pip install -r requirements.txt
 - openpyxl
 - jupyter
 
-## Proximas etapas
+## Documentacao
 
-Pendencias, checklist de entrega e backlog tecnico estao consolidados em `TASKS.md`.
+- `docs/relatorio_tecnico.md` — relatorio tecnico completo (GA, resultados, LLM, prompts)
+- `docs/arquitetura.md` — arquitetura, componentes, fluxo de dados e decisoes de implementacao
+
+## Configuracao (.env)
+
+A integracao com a OpenAI le a chave da variavel `OPENAI_API_KEY`. Para nao expor a chave, copie o template e preencha:
+
+```powershell
+Copy-Item .env.example .env
+# edite .env e coloque sua OPENAI_API_KEY
+```
+
+O arquivo `.env` (na pasta `FASE_2/`) e carregado automaticamente por `LLM/llm_integration.py` via `python-dotenv` e e ignorado pelo git. Sem `.env`/chave, o script roda em modo fallback local.
+
+## Logging
+
+Todos os scripts usam `logging` estruturado. O nivel e controlado pela variavel de ambiente `LOG_LEVEL` (default `INFO`), tambem configuravel no `.env`:
+
+```powershell
+$env:LOG_LEVEL = "DEBUG"; & .\.venv\Scripts\python.exe .\GA\ga_optimizer.py
+```
 
 ## Etapa 2 (persistencia e baseline)
 

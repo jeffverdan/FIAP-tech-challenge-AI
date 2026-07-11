@@ -1,0 +1,6 @@
+patient_id,medical_precision,cultural_sensitivity,language_adequacy,overall
+P_001,4,4,4,4
+P_002,4,3,4,4
+P_003,4,4,4,4
+P_004,4,4,4,4
+P_005,4,3,4,4

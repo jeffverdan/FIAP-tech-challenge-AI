@@ -1,6 +1,8 @@
 from __future__ import annotations
 
 import json
+import logging
+import os
 from pathlib import Path
 
 import joblib
@@ -19,6 +21,19 @@ from sklearn.tree import DecisionTreeClassifier
 RANDOM_STATE = 42
 TARGET_COLUMN = "PCOS (Y/N)"
 DROP_COLUMNS = ["Sl. No", "Patient File No.", "Unnamed: 44"]
+
+
+logger = logging.getLogger("fase2.baselines")
+
+
+def configure_logging() -> None:
+    """Configura o logging da aplicação. Nível controlado pela env var LOG_LEVEL (default INFO)."""
+    level_name = os.getenv("LOG_LEVEL", "INFO").upper()
+    level = getattr(logging, level_name, logging.INFO)
+    logging.basicConfig(
+        level=level,
+        format="%(asctime)s | %(levelname)-8s | %(name)s | %(message)s",
+    )
 
 
 def resolve_paths() -> tuple[Path, Path]:
@@ -166,12 +181,15 @@ def build_and_save_models(df: pd.DataFrame, models_dir: Path) -> dict[str, float
 
 
 def main() -> None:
+    configure_logging()
     dataset_path, models_dir = resolve_paths()
     models_dir.mkdir(parents=True, exist_ok=True)
+    logger.info("Carregando dataset: %s", dataset_path)
     df = load_dataset(dataset_path)
+    logger.info("Dataset carregado com %s linhas e %s colunas.", len(df), len(df.columns))
     results = build_and_save_models(df, models_dir)
-    print("Baselines exportados com sucesso.")
-    print(json.dumps(results, indent=2))
+    logger.info("Baselines exportados com sucesso.")
+    logger.info("Resultados:\n%s", json.dumps(results, indent=2))
 
 
 if __name__ == "__main__":

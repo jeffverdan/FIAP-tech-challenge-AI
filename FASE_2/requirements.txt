@@ -1,6 +1,7 @@
 deap
 joblib
 openai
+python-dotenv
 transformers
 accelerate
 pandas

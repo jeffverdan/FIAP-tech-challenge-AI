@@ -1,0 +1,116 @@
+timestamp_utc,patient_id,sample_index,mode,model_file,predicted_label,predicted_probability_pcos,ground_truth_label,top_features,llm_response,medical_precision,cultural_sensitivity,language_adequacy,overall
+20260711T212428Z,P_001,444,openai_api,ga_balanced_config.joblib,0,0.07271383549327742,1,"[[""Follicle No. (R)"", -1.1572395291951816], [""Follicle No. (L)"", -0.44905897367616654], [""Weight gain(Y/N)"", -0.2345956158164359], [""hair growth(Y/N)"", -0.22192581133876757], [""Skin darkening (Y/N)"", -0.2009005164647101]]","**Interpretação do caso**  
+A paciente P_001, uma mulher adulta jovem de 27 anos, apresenta uma baixa probabilidade (7,3%) de Síndrome dos Ovários Policísticos (SOP), conforme predição do modelo utilizado, que classificou o caso como negativo para SOP. Isso significa que, com base nos dados clínicos e laboratoriais disponíveis, não há indicação forte para diagnóstico de SOP neste momento. A avaliação considera múltiplos parâmetros hormonais, características clínicas e ultrassonográficas, refletindo um perfil geral compatível com ausência da síndrome.
+
+**Fatores relevantes**  
+Os principais fatores que contribuíram para essa predição foram:  
+- Baixo número de folículos em ambos os ovários (1 folículo em cada lado), o que é menos sugestivo para SOP, que geralmente apresenta múltiplos folículos pequenos.  
+- Ausência de sintomas clínicos típicos como ganho de peso recente, crescimento excessivo de pelos (hirsutismo), escurecimento da pele ou queda de cabelo.  
+- Índice de massa corporal (IMC) dentro da faixa normal (23,1), sem sinais de sobrepeso ou obesidade, que são fatores de risco para SOP.  
+- Hormônios gonadotróficos (FSH, LH) e relação FSH/LH dentro de parâmetros que não indicam desequilíbrio típico da SOP.  
+- Níveis de AMH elevados (16,9 ng/mL), que podem ser observados em mulheres com maior reserva ovariana, mas isoladamente não confirmam SOP.  
+- Ciclos menstruais regulares, com duração e características normais.  
+- Ausência de sinais clínicos de hiperandrogenismo e boa rotina de exercícios, apesar do consumo de fast food.
+
+**Recomendações práticas**  
+- Manter acompanhamento clínico regular para monitorar sintomas e alterações no ciclo menstrual, especialmente se surgirem sinais sugestivos de SOP ou outras condições ginecológicas.  
+- Incentivar hábitos saudáveis, incluindo alimentação equilibrada e prática regular de exercícios físicos, que contribuem para o equilíbrio hormonal e saúde metabólica.  
+- Considerar avaliação complementar se houver alterações clínicas futuras, como irregularidade menstrual, sinais de hiperandrogenismo ou dificuldades para engravidar.  
+- Em caso de dúvidas ou sintomas novos, encaminhar para avaliação especializada em endocrinologia ou ginecologia para investigação detalhada.  
+- Orientar a paciente sobre a importância do autocuidado e acompanhamento preventivo, reforçando que a ausência de diagnóstico atual não exclui a necessidade de vigilância contínua.
+
+**Confidencialidade e limites**  
+Este parecer foi elaborado com base em dados anonimizados e respeitando a privacidade da paciente, sem exposição de informações pessoais identificáveis. É importante destacar que o modelo preditivo utilizado serve como uma ferramenta auxiliar e não substitui a avaliação clínica detalhada e individualizada. Resultados devem ser interpretados no contexto global do quadro clínico e exames complementares, considerando que fatores não capturados pelo modelo podem influenciar o diagnóstico e manejo. A comunicação deve ser sempre feita de forma acolhedora, respeitando as particularidades e necessidades da paciente.",4,4,4,4
+20260711T212428Z,P_002,466,openai_api,ga_balanced_config.joblib,0,0.5040737679285425,0,"[[""Follicle No. (R)"", 0.521778024498583], [""Follicle No. (L)"", 0.4363516909888445], [""Weight gain(Y/N)"", -0.2345956158164359], [""hair growth(Y/N)"", -0.22192581133876757], [""Skin darkening (Y/N)"", -0.2009005164647101]]","**Interpretação do caso**  
+A paciente P_002, mulher adulta de 35 anos, apresenta uma probabilidade intermediária (50,4%) de ter Síndrome dos Ovários Policísticos (SOP), segundo o modelo preditivo utilizado. Contudo, a predição binária do modelo indica que, neste momento, ela não atende aos critérios para diagnóstico de SOP. Isso sugere que, apesar de alguns sinais sugestivos, o quadro clínico e laboratorial não é suficientemente claro para confirmar a presença da síndrome.
+
+**Fatores relevantes**  
+Os principais fatores que influenciaram a predição foram:  
+- Número de folículos no ovário direito (11) e esquerdo (9), que estão levemente elevados e podem ser indicativos de alterações ovarianas, mas ainda dentro de um limite que não confirma SOP.  
+- Ausência de sintomas clínicos típicos como ganho de peso, crescimento excessivo de pelos (hirsutismo), escurecimento da pele, queda de cabelo e acne, que são sinais comuns na SOP e que tiveram impacto negativo na predição, reduzindo a probabilidade.  
+- Índice de massa corporal (IMC) está em 26,4, caracterizando sobrepeso leve, o que pode ser um fator de risco, mas isoladamente não confirma a síndrome.  
+- Hormônios como FSH, LH e AMH estão dentro de parâmetros que não indicam desregulação hormonal típica da SOP.  
+- Relação cintura-quadril próxima de 0,97, indicando distribuição central de gordura, que pode ser um ponto de atenção para saúde metabólica.
+
+**Recomendações práticas**  
+- Manter acompanhamento clínico regular com avaliação ginecológica e endocrinológica para monitorar sintomas e alterações hormonais, especialmente se surgirem irregularidades menstruais, sinais de hiperandrogenismo ou alterações metabólicas.  
+- Incentivar hábitos de vida saudáveis, com alimentação balanceada e prática regular de exercícios físicos, mesmo que a paciente não relate atividade física atualmente. Isso pode ajudar a controlar o peso e melhorar o perfil metabólico.  
+- Considerar exames complementares periódicos, como perfil hormonal detalhado e ultrassonografia transvaginal, para acompanhar a evolução dos folículos ovarianos e o endométrio.  
+- Esclarecer à paciente que a ausência de diagnóstico atual não exclui a possibilidade de desenvolvimento futuro da síndrome, sendo importante a vigilância clínica.  
+- Avaliar fatores psicossociais e oferecer suporte emocional, pois o acompanhamento de condições ginecológicas pode gerar ansiedade.
+
+**Confidencialidade e limites**  
+Esta análise foi realizada com base em dados clínicos anonimizados e um modelo preditivo que auxilia na avaliação da possibilidade de Síndrome dos Ovários Policísticos. É importante destacar que o modelo não substitui o diagnóstico médico, que deve ser feito por profissional qualificado considerando o contexto clínico completo da paciente. As informações aqui apresentadas devem ser usadas com cautela e respeitando a privacidade da paciente, garantindo que dados sensíveis não sejam expostos indevidamente.",4,3,4,4
+20260711T212428Z,P_003,41,openai_api,ga_balanced_config.joblib,0,0.4838348742876563,0,"[[""Follicle No. (R)"", 0.7316552187103036], [""Weight gain(Y/N)"", -0.2345956158164359], [""hair growth(Y/N)"", -0.22192581133876757], [""Skin darkening (Y/N)"", -0.2009005164647101], [""Follicle No. (L)"", 0.17072849158934122]]","**Interpretação do caso**  
+A paciente P_003, uma mulher adulta jovem de 29 anos, apresenta uma probabilidade intermediária (48,4%) de ter Síndrome dos Ovários Policísticos (SOP), segundo o modelo preditivo utilizado. Contudo, a predição binária do modelo indica que, no momento, ela não se enquadra no diagnóstico de SOP. Isso sugere que, embora haja alguns sinais que merecem atenção, não há evidências suficientes para confirmar a síndrome com base nos dados atuais.
+
+**Fatores relevantes**  
+Os principais fatores que influenciaram a predição foram:  
+- O número de folículos no ovário direito (10), que teve a maior contribuição positiva para a probabilidade de SOP.  
+- O número de folículos no ovário esquerdo (8), também com contribuição positiva, embora menor.  
+- Ausência de ganho de peso recente, crescimento excessivo de pelos, escurecimento da pele e outros sinais clínicos típicos da SOP, que contribuíram para reduzir a probabilidade da síndrome.  
+- Índice de massa corporal (IMC) de 28,6, indicando sobrepeso, que pode ser um fator de risco, mas não determinante isoladamente.  
+- Hormônios como FSH, LH e AMH estão dentro de parâmetros que não indicam desregulação típica da SOP.  
+- O ciclo menstrual parece regular (duração de 5 dias e ciclo regular), e não há relatos de sintomas clínicos típicos como acne, queda de cabelo ou irregularidades menstruais.
+
+**Recomendações práticas**  
+- Manter acompanhamento clínico regular para monitorar possíveis alterações no quadro, especialmente considerando o número de folículos ovarianos e o IMC.  
+- Incentivar hábitos de vida saudáveis, como prática regular de exercícios físicos e alimentação equilibrada, para controle do peso e melhora do perfil metabólico.  
+- Avaliar periodicamente os sintomas clínicos e laboratoriais, especialmente se surgirem alterações no ciclo menstrual, sinais de hiperandrogenismo ou resistência insulínica.  
+- Caso haja dúvidas diagnósticas ou surgimento de sintomas, considerar avaliação complementar com endocrinologista ou ginecologista especializado em saúde da mulher.  
+- Orientar a paciente sobre a importância do acompanhamento pré-natal adequado, visto que está grávida, para garantir saúde materna e fetal.
+
+**Confidencialidade e limites**  
+Este parecer foi elaborado respeitando a confidencialidade da paciente, sem exposição de dados pessoais identificáveis. É importante destacar que o modelo preditivo utilizado é uma ferramenta auxiliar e não substitui a avaliação clínica detalhada e o julgamento médico. A decisão diagnóstica e terapêutica deve sempre considerar o contexto clínico completo e a individualidade da paciente.",4,4,4,4
+20260711T212428Z,P_004,210,openai_api,ga_balanced_config.joblib,1,0.960944688918816,1,"[[""Follicle No. (R)"", 1.7810411897689065], [""Follicle No. (L)"", 0.5248927574553457], [""Skin darkening (Y/N)"", 0.4516485294958521], [""Weight gain(Y/N)"", 0.41924506826550156], [""Cycle(R/I)"", 0.37922418998512425]]","**Interpretação do caso**  
+O modelo preditivo indicou uma alta probabilidade (96,1%) de que a paciente P_004 apresente Síndrome dos Ovários Policísticos (SOP). A predição binária foi positiva para SOP, sugerindo que as características clínicas e laboratoriais analisadas são compatíveis com esse diagnóstico. É importante considerar essa informação como um suporte para avaliação clínica, não como diagnóstico definitivo.
+
+**Fatores relevantes**  
+Os principais fatores que contribuíram para essa predição foram:  
+- Número elevado de folículos no ovário direito (15) e esquerdo (12), o que é típico em SOP.  
+- Presença de escurecimento da pele, que pode estar relacionado a alterações hormonais e resistência à insulina.  
+- Ganho de peso recente, um sintoma comum em pacientes com SOP.  
+- Ciclos menstruais irregulares (ciclo R/I = 4), indicando possível anovulação ou disfunção ovulatória.  
+
+Outros dados importantes incluem:  
+- AMH elevado (4,57 ng/mL), que pode refletir maior reserva folicular típica da SOP.  
+- Relação FSH/LH alterada (7,45), embora o LH esteja baixo, o que merece avaliação clínica detalhada.  
+- Sintomas como queda de cabelo e escurecimento da pele, que reforçam a necessidade de investigação hormonal e metabólica.  
+
+**Recomendações práticas**  
+- Confirmar o diagnóstico com avaliação clínica detalhada, incluindo exame físico, ultrassonografia pélvica e exames laboratoriais complementares (perfil hormonal completo, glicemia, insulina, perfil lipídico).  
+- Avaliar e monitorar sintomas metabólicos e cardiovasculares, dado o risco aumentado em SOP.  
+- Orientar mudanças no estilo de vida, como alimentação balanceada e prática regular de exercícios físicos, para controle de peso e melhora metabólica.  
+- Considerar encaminhamento para endocrinologista ou ginecologista especializado em saúde da mulher para manejo multidisciplinar.  
+- Aconselhar acompanhamento psicológico, se necessário, para suporte emocional e adesão ao tratamento.  
+- Monitorar anemia (Hb 10,8 g/dl) e investigar causas, pois pode impactar o bem-estar geral.  
+
+**Confidencialidade e limites**  
+Este parecer foi elaborado com base em dados anonimizados e respeitando a confidencialidade da paciente. O modelo preditivo é uma ferramenta auxiliar e não substitui a avaliação clínica presencial e exames complementares. Resultados devem ser interpretados dentro do contexto clínico individual e com cautela, considerando possíveis variações e limitações do algoritmo. A decisão final sobre diagnóstico e tratamento deve ser feita pelo profissional de saúde responsável.",4,4,4,4
+20260711T212428Z,P_005,485,openai_api,ga_balanced_config.joblib,0,0.13810445187438777,0,"[[""Follicle No. (R)"", -0.5276079465600199], [""Follicle No. (L)"", -0.3605179072096654], [""Weight gain(Y/N)"", -0.2345956158164359], [""hair growth(Y/N)"", -0.22192581133876757], [""Skin darkening (Y/N)"", -0.2009005164647101]]","**Interpretação do caso**
+
+A paciente P_005, uma mulher adulta jovem de 30 anos, apresenta uma baixa probabilidade de Síndrome dos Ovários Policísticos (PCOS), com uma predição do modelo de 13,8% e classificação binária negativa para PCOS. Isso indica que, com base nos dados clínicos e laboratoriais disponíveis, é improvável que ela tenha PCOS no momento da avaliação. O modelo utilizou múltiplos parâmetros clínicos e laboratoriais para essa predição, considerando características hormonais, ultrassonográficas e sinais clínicos.
+
+**Fatores relevantes**
+
+Os principais fatores que contribuíram para a predição negativa foram:
+
+- Número de folículos no ovário direito (4) e esquerdo (2), que estão abaixo dos valores típicos para PCOS.
+- Ausência de ganho de peso recente.
+- Ausência de sinais clínicos comuns em PCOS, como crescimento excessivo de pelos (hirsutismo) e escurecimento da pele.
+- Índice de massa corporal (IMC) baixo (18,2), o que não é típico em pacientes com PCOS, que frequentemente apresentam sobrepeso ou obesidade.
+- Hormônios como LH e FSH estão em níveis baixos, com uma relação FSH/LH elevada, o que não sugere o padrão hormonal clássico do PCOS.
+- Níveis de AMH (0,72 ng/mL) relativamente baixos, indicando menor reserva ovariana, o que também não é característico do PCOS, que geralmente apresenta AMH elevado.
+
+**Recomendações práticas**
+
+- Continuar o acompanhamento clínico regular, especialmente considerando que a paciente está grávida, com níveis de beta-HCG compatíveis com gestação inicial.
+- Monitorar sinais clínicos e laboratoriais que possam surgir, como alterações no ciclo menstrual, ganho de peso, ou sintomas de hiperandrogenismo.
+- Avaliar anemia, pois o hemoglobina está baixa (10 g/dL), o que pode necessitar investigação e tratamento específico.
+- Incentivar hábitos saudáveis já presentes, como exercício regular, e orientar sobre alimentação equilibrada, mesmo com consumo de fast food relatado.
+- Caso surjam sintomas sugestivos de PCOS ou outras condições ginecológicas, realizar avaliação complementar com endocrinologista ou ginecologista.
+- Considerar avaliação da função tireoidiana, pois o TSH está no limite superior da normalidade (3,26 mIU/L), podendo impactar o ciclo menstrual e a gestação.
+
+**Confidencialidade e limites**
+
+Esta análise foi realizada com base em dados anonimizados e deve ser interpretada como um suporte à decisão clínica, não substituindo a avaliação médica presencial. O modelo utilizado tem limitações inerentes, podendo não captar todas as nuances clínicas individuais. Recomenda-se que as decisões clínicas sejam sempre fundamentadas em avaliação médica completa, considerando o contexto global da paciente. Todas as informações foram tratadas com confidencialidade, respeitando a privacidade e o sigilo da paciente.",4,3,4,4
