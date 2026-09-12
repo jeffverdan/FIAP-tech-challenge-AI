@@ -1,0 +1,49 @@
+{
+  "gerado_em": "2026-09-05",
+  "splits": {
+    "train": 306,
+    "val": 38,
+    "test": 38
+  },
+  "categorias": {
+    "train": {
+      "diagnostico": 14,
+      "protocolo": 74,
+      "contextualizada": 104,
+      "infertilidade": 11,
+      "estilo_de_vida": 10,
+      "laudo": 3,
+      "governanca": 17,
+      "recusa": 32,
+      "metabolico": 11,
+      "procedimento": 9,
+      "hiperandrogenismo": 11,
+      "sangramento": 10
+    },
+    "val": {
+      "contextualizada": 13,
+      "protocolo": 9,
+      "diagnostico": 2,
+      "recusa": 4,
+      "metabolico": 2,
+      "sangramento": 1,
+      "hiperandrogenismo": 2,
+      "governanca": 2,
+      "infertilidade": 2,
+      "estilo_de_vida": 1
+    },
+    "test": {
+      "metabolico": 2,
+      "recusa": 4,
+      "protocolo": 9,
+      "contextualizada": 13,
+      "infertilidade": 2,
+      "sangramento": 1,
+      "governanca": 2,
+      "diagnostico": 2,
+      "hiperandrogenismo": 2,
+      "estilo_de_vida": 1
+    }
+  },
+  "documentos_rag": 46
+}

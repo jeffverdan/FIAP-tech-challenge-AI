@@ -1,0 +1,31 @@
+# --- Núcleo ---
+python-dotenv
+pyyaml
+
+# --- Orquestração (assistente) ---
+langchain>=0.3
+langchain-core>=0.3
+langgraph>=0.2
+
+# --- Fine-tuning e runtime da LLM ---
+# Necessários apenas para treinar ou rodar o modelo ajustado.
+# Sem eles, o assistente cai automaticamente no modo fallback determinístico.
+torch
+transformers>=4.44
+peft>=0.11
+accelerate
+sentencepiece
+# usado apenas quando modelo.carregar_em_4bit = true no YAML de configuração
+bitsandbytes; platform_system == "Linux"
+
+# --- RAG ---
+# Opcionais: sem eles o retriever usa o backend BM25 (Python puro).
+faiss-cpu
+sentence-transformers
+
+# --- Interface ---
+streamlit
+pandas
+
+# --- Testes ---
+pytest

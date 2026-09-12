@@ -28,7 +28,7 @@ O fio condutor das 4 fases é um problema real de saúde da mulher: **diagnósti
 | --- | --- | --- | --- |
 | **Fase 1** | [`FASE_1/`](./FASE_1) | ✅ Concluída | EDA, pré-processamento e modelos de classificação (ML clássico) |
 | **Fase 2** | [`FASE_2/`](./FASE_2) | ✅ Concluída | Otimização de hiperparâmetros com Algoritmos Genéticos + interpretação via LLM |
-| **Fase 3** | _a definir_ | ⏳ Planejada | — |
+| **Fase 3** | [`FASE_3/`](./FASE_3) | ✅ Concluída | Fine-tuning de LLM (LoRA) + assistente médico com LangChain/LangGraph |
 | **Fase 4** | _a definir_ | ⏳ Planejada | — |
 | **Projeto Final** | _a definir_ | ⏳ Planejada | Integração das 4 fases em uma solução completa |
 
@@ -49,6 +49,19 @@ Evolui os modelos da Fase 1 com **otimização de hiperparâmetros via Algoritmo
 - **Destaques:** pipeline de experimentos de GA com múltiplas configurações, persistência de artefatos (`models/`, `results/`), integração com LLM em modo local ou via API, [vídeo de demonstração](https://youtu.be/OXV5hpyWxjs)
 - 📄 [README da Fase 2](./FASE_2/README.md)
 
+### Fase 3 — Assistente Médico com LLM Customizada, LangChain e LangGraph
+
+Sobe uma camada sobre as fases anteriores: em vez de prever um rótulo, o sistema **conversa
+com o médico sobre uma paciente específica**. Um LLM aberto é ajustado por **LoRA** aos
+documentos internos de um hospital sintético (protocolos, FAQs de médicos, modelos de laudo),
+e opera dentro de um **fluxo de decisão LangGraph** que cruza protocolo com prontuário
+eletrônico, emite alertas por severidade e exige validação humana para toda conduta.
+
+- **Stack:** Python, PEFT/LoRA, Hugging Face Transformers, LangChain, LangGraph, FAISS/BM25, SQLite, Streamlit, pytest
+- **Dados:** corpus 100% sintético — 7 protocolos internos, 3 modelos de documento, 45 FAQs, 40 prontuários anonimizados
+- **Destaques:** anonimização com pseudonimização HMAC e portão de qualidade anti-PII; guardrails determinísticos que impedem prescrição, fechamento de diagnóstico e alteração de prontuário; trilha de auditoria append-only com um evento por nó do grafo; explicabilidade por citação de protocolo, versão e seção; 107 testes automatizados; modo fallback que roda tudo sem GPU
+- 📄 [README da Fase 3](./FASE_3/README.md) · [Relatório técnico](./FASE_3/docs/relatorio_tecnico.md) · [Arquitetura](./FASE_3/docs/arquitetura.md)
+
 ---
 
 ## Como navegar
@@ -59,7 +72,7 @@ Cada pasta `FASE_N/` é um projeto autocontido, com seu próprio ambiente virtua
 tech-challenge-group-62/
 ├── FASE_1/    # ML clássico — diagnóstico de PCOS
 ├── FASE_2/    # Otimização genética + LLM
-├── FASE_3/    # (em breve)
+├── FASE_3/    # Assistente médico: fine-tuning LoRA + LangChain/LangGraph
 ├── FASE_4/    # (em breve)
 └── PROJETO_FINAL/  # (em breve)
 ```

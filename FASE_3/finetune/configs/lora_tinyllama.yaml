@@ -1,0 +1,54 @@
+# Configuração de fine-tuning — FASE 3
+# Perfil padrão: TinyLlama 1.1B com LoRA em GPU T4 (Google Colab, 16 GB).
+
+modelo:
+  base: TinyLlama/TinyLlama-1.1B-Chat-v1.0
+  max_seq_length: 1024
+  # 4bit reduz memória; em T4 o TinyLlama cabe sem quantização, mas mantemos o flag
+  # para permitir trocar por um modelo de 7B/8B sem alterar o código.
+  carregar_em_4bit: false
+  dtype: bfloat16          # em T4 (sem bf16) o script faz fallback automático para float16
+
+lora:
+  r: 16
+  alpha: 32
+  dropout: 0.05
+  bias: none
+  task_type: CAUSAL_LM
+  # Projeções de atenção + MLP. Cobrir o MLP melhora a absorção de conhecimento factual
+  # (protocolos), que é justamente o objetivo desta fase.
+  target_modules:
+    - q_proj
+    - k_proj
+    - v_proj
+    - o_proj
+    - gate_proj
+    - up_proj
+    - down_proj
+
+treino:
+  epocas: 3
+  batch_size: 2
+  gradient_accumulation_steps: 8      # batch efetivo = 16
+  learning_rate: 2.0e-4
+  lr_scheduler_type: cosine
+  warmup_ratio: 0.05
+  weight_decay: 0.01
+  logging_steps: 10
+  eval_strategy: epoch
+  save_strategy: epoch
+  save_total_limit: 2
+  gradient_checkpointing: true
+  optim: adamw_torch
+  seed: 62
+
+dados:
+  train: data/processed/train.jsonl
+  val: data/processed/val.jsonl
+  # Mascara o prompt no cálculo da loss: o modelo só é penalizado pelo que ele deve GERAR,
+  # não por reproduzir o system prompt e a pergunta.
+  treinar_apenas_na_resposta: true
+
+saida:
+  dir: finetune/outputs
+  adapter_dir: finetune/outputs/adapter

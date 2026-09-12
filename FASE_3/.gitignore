@@ -1,0 +1,7 @@
+# Artefatos locais da FASE_3
+data/vectorstore/
+finetune/outputs/
+logs/audit/*.jsonl
+*.db-journal
+*.db-wal
+*.db-shm

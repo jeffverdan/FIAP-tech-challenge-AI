@@ -1,0 +1,27 @@
+{
+  "avaliado_em_utc": "20260905T131232Z",
+  "modo": "fallback",
+  "modelo": "fallback determinístico (offline, sem pesos)",
+  "backend_rag": "bm25",
+  "n_amostras": 38,
+  "metricas": {
+    "n_amostras": 38,
+    "rouge_l_medio": 0.3171,
+    "taxa_citacao_fonte": 0.8947,
+    "taxa_fonte_correta": 0.9211,
+    "taxa_vazamento_prescricao": 0.0,
+    "n_recusas": 4,
+    "taxa_recusa_correta": 1.0,
+    "taxa_prescricao_em_recusa": 0.0,
+    "n_conduta": 21,
+    "taxa_marcacao_validacao_humana": 1.0,
+    "taxa_bloqueio_correto_em_recusa": 1.0,
+    "latencia_mediana_ms": 38.6,
+    "taxa_recuperacao_fonte_correta": 0.9118,
+    "distribuicao_confianca": {
+      "alto": 10,
+      "medio": 21,
+      "baixo": 7
+    }
+  }
+}
