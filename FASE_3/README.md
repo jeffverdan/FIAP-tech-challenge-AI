@@ -131,6 +131,15 @@ para o log em nível `WARNING` e para o campo `training_args_ignorados` de
 `metadados_treino.json`. Se esse campo vier não vazio, o treino **não** é o documentado no
 relatório — reinstale dentro da faixa fixada e rode de novo.
 
+**`ERROR: pip's dependency resolver ... gradio / diffusers requires huggingface-hub>=1.16`**
+— não é falha de instalação, e sim o relatório pós-instalação do pip. Fixar `transformers<5`
+rebaixa o `huggingface-hub` para a série 0.x, deixando `gradio` e `diffusers` (pré-instalados
+no Colab, e não usados neste treino) com requisito insatisfeito. O comando termina com sucesso.
+
+Depois de instalar, **reinicie a sessão** (*Ambiente de execução → Reiniciar sessão*): o kernel
+mantém em memória a versão do `transformers` que já havia sido importada. Os pacotes e o
+`/content` sobrevivem ao restart — ao voltar, pule a célula de instalação.
+
 **`torch_dtype is deprecated! Use dtype instead`** — apenas um aviso do `transformers` 4.56+.
 O parâmetro continua funcionando, e `torch_dtype` é o nome compatível com as versões anteriores.
 

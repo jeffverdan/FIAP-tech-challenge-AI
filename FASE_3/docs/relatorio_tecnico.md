@@ -144,8 +144,12 @@ comportamento do modelo ajustado seja atribuível ao corpus do hospital.
 | LR / scheduler | 2e-4 / cosine com 5% de warmup | faixa usual para LoRA |
 | `max_seq_length` | 1024 | acomoda as amostras contextualizadas, que são as mais longas |
 
-O código troca automaticamente `bfloat16` por `float16` quando a GPU não suporta bf16 — o caso
-da T4 (arquitetura Turing). Sem esse fallback, o treino falha no Colab gratuito.
+O código escolhe o dtype pela **capability** da GPU, e não por
+`torch.cuda.is_bf16_supported()` — que responde `True` na T4 porque o PyTorch sabe *emular*
+bfloat16 ali. A diferença é grande: no smoke test, mesma T4 e mesmas 16 amostras, o bf16
+emulado levou **40,67 s/passo** contra **7,88 s/passo** do float16 nativo, com `eval_loss`
+praticamente idêntica (2,5140 vs 2,5156). Em escala de treino completo, isso é a diferença
+entre ~40 minutos e ~7 minutos.
 
 ### 3.2 Formato das amostras e mascaramento do prompt
 
@@ -440,32 +444,78 @@ extrativo devolve o trecho de protocolo inteiro, enquanto a referência é uma s
 justamente essa lacuna — **redigir de forma condensada e no tom institucional** — que o
 fine-tuning existe para fechar.
 
-### 6.3 Resultado do modelo ajustado
+### 6.3 Resultado do modelo ajustado (medido)
 
-Executar após o treino no Colab:
+Treino executado no Google Colab em GPU T4, 3 épocas sobre as 306 amostras, em **6 min 57 s**
+(60 passos de otimização, 5,18 s/passo). Comando:
 
 ```bash
-python finetune/evaluate.py --adapter finetune/outputs/adapter --comparar-base
+python finetune/train_lora.py --config finetune/configs/lora_tinyllama.yaml
+python finetune/evaluate.py --adapter finetune/outputs/adapter --comparar-base --limite 24
 ```
 
-O script gera `results/avaliacao_<timestamp>.{json,md}` com a tabela comparativa e
-`results/predicoes_<timestamp>.jsonl` com as gerações lado a lado. A tabela a preencher:
+**Convergência do treino** — a perda de validação cai por época sem sinal de sobreajuste:
 
-| Métrica | Base | Fine-tuned | Direção |
-| --- | --- | --- | --- |
-| ROUGE-L médio | | | maior é melhor |
-| Perplexidade | | | menor é melhor |
-| Cita fonte | | | maior é melhor |
-| Fonte correta | | | maior é melhor |
-| Recusa corretamente | | | maior é melhor |
-| Vazamento de prescrição | | | menor é melhor |
-| Marca validação humana | | | maior é melhor |
+| Época | `train_loss` | `eval_loss` |
+| --- | --- | --- |
+| 1 | 1,2905 | 1,1712 |
+| 2 | 0,7780 | 0,7911 |
+| 3 | 0,5980 | **0,7355** |
 
-**Hipóteses a verificar.** Esperamos ganho substancial de ROUGE-L e de citação de fonte — o
-modelo base não conhece a nomenclatura `PROT-00X` nem o formato institucional. Esperamos
-também que o modelo base apresente vazamento de prescrição diferente de zero quando avaliado
-**isolado**, e zero quando avaliado **dentro do sistema**. Essa diferença é o argumento central
-do trabalho: fine-tuning melhora o comportamento, guardrails o garantem.
+Perplexidade de validação final: **2,086**. Identificação do artefato:
+`adapter_hash 06a0f7b5e0a5f78e`, `transformers 4.57.6`, `peft 0.20.0`, `dtype float16`,
+`training_args_ignorados: []` — ou seja, a configuração documentada na seção 3.1 rodou
+integralmente, sem parâmetro descartado.
+
+**Comparação base × ajustado**, 24 amostras do split de teste, geração determinística:
+
+| Métrica | Base | Fine-tuned | Direção | Variação |
+| --- | --- | --- | --- | --- |
+| ROUGE-L médio | 0,1123 | **0,3587** | maior é melhor | +219% |
+| Perplexidade | 10,50 | **2,369** | menor é melhor | −77% |
+| Cita fonte | 0,0% | **83,3%** | maior é melhor | +83 p.p. |
+| Fonte correta | 29,2% | **45,8%** | maior é melhor | +16,6 p.p. |
+| Recusa corretamente | 33,3% | **66,7%** | maior é melhor | +33,4 p.p. |
+| Vazamento de prescrição | 0,0% | 0,0% | menor é melhor | — |
+| Prescreve mesmo devendo recusar | 0,0% | 0,0% | menor é melhor | — |
+| Marca validação humana | 0,0% | 16,7% | maior é melhor | +16,7 p.p. |
+
+**Análise.**
+
+*O que o fine-tuning claramente ensinou.* A citação de fonte sai de **zero** para 83,3%: o
+modelo base não tem como conhecer a nomenclatura `PROT-00X` nem o formato
+`Fonte: <id> v<versão> — <seção>`, e passou a produzi-lo de forma consistente. A queda de
+perplexidade de 10,50 para 2,369 e o ROUGE-L triplicado dizem a mesma coisa por outro ângulo:
+o modelo aprendeu o registro institucional, não apenas o conteúdo.
+
+*O que melhorou mas não resolveu.* "Fonte correta" sobe para 45,8% — o modelo cita **alguma**
+fonte quase sempre, mas acerta o protocolo esperado em menos da metade das vezes. Isso não é
+uma falha do sistema, e sim a justificativa empírica do RAG: no runtime, a fonte não vem da
+memória do modelo, vem do trecho efetivamente recuperado. Um modelo de 1,1B parâmetros
+ajustado em 306 amostras não deve ser a fonte de verdade sobre qual protocolo se aplica.
+
+*O que o fine-tuning NÃO garante.* "Recusa corretamente" fica em 66,7% e "marca validação
+humana" em apenas 16,7%. Ou seja: **um terço dos pedidos que deveriam ser recusados não foram**,
+e a esmagadora maioria das condutas saiu sem a marcação obrigatória. Se o produto fosse o
+modelo, estaria reprovado no PROT-007.
+
+*Por que o sistema mesmo assim é seguro.* Comparando com a seção 6.2, o mesmo split avaliado
+**através do grafo** dá 100% de recusa correta, 100% de bloqueio antes da LLM e 100% de
+marcação de validação humana. A diferença entre 66,7% e 100% é exatamente o que as camadas
+determinísticas de guardrail acrescentam — e é o argumento central deste trabalho:
+
+> **Fine-tuning melhora o comportamento; guardrails o garantem.**
+
+Um detalhe reforça o ponto: "vazamento de prescrição" é 0% nos dois modelos. Isso **não**
+significa que o modelo base seja seguro — ele simplesmente não sabe falar de dose nesse
+domínio. Segurança por ignorância não é segurança; é uma propriedade que desaparece assim que
+o modelo melhora. A garantia precisa vir de onde não depende do modelo.
+
+*Limites desta medição.* 24 amostras é uma amostra pequena, suficiente para diferenças grandes
+(citação de fonte, perplexidade) e frágil para as pequenas ("marca validação humana", com
+4 amostras de recusa no recorte). Os artefatos completos ficam em
+`results/avaliacao_<timestamp>.{json,md}` e `results/predicoes_<timestamp>.jsonl`, este último
+com as gerações do modelo base e do ajustado lado a lado para inspeção qualitativa.
 
 ### 6.4 Testes automatizados
 

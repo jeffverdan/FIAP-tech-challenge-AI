@@ -48,16 +48,40 @@ def carregar_config(caminho: Path) -> dict:
 
 
 def escolher_dtype(preferido: str):
-    """bfloat16 exige Ampere+. Em T4 (Turing) o fallback para float16 é obrigatório."""
+    """
+    Escolhe o dtype de treino conforme a GPU disponível.
+
+    Cuidado com `torch.cuda.is_bf16_supported()`: ele responde **True** em GPUs Turing
+    (T4, a mais comum no Colab gratuito), porque o PyTorch sabe *emular* bfloat16 ali. Emulado,
+    porém, o bf16 é muito mais lento que o float16, que a T4 executa em tensor cores nativos.
+    Medição no smoke test desta fase, mesma T4 e mesmas 16 amostras:
+
+        bfloat16 emulado -> 40,67 s/passo   (eval_loss 2,5140)
+        float16 nativo   ->  7,88 s/passo   (eval_loss 2,5156)
+
+    Ou seja, 5,2x mais rápido sem diferença prática de qualidade. Por isso o teste correto é a
+    **capability** da GPU: bf16 nativo existe a partir de Ampere (compute capability 8.0).
+    """
     import torch
 
     if not torch.cuda.is_available():
         logger.warning("CUDA indisponível — treino em CPU será MUITO lento. Use o Colab.")
         return torch.float32
-    if preferido == "bfloat16" and torch.cuda.is_bf16_supported():
+
+    if preferido != "bfloat16":
+        return torch.float16
+
+    maior, menor = torch.cuda.get_device_capability()
+    if maior >= 8:
+        logger.info("GPU %s (compute %d.%d) — bfloat16 nativo.",
+                    torch.cuda.get_device_name(0), maior, menor)
         return torch.bfloat16
-    if preferido == "bfloat16":
-        logger.info("GPU sem suporte a bfloat16 (provável T4) — usando float16.")
+
+    logger.info(
+        "GPU %s (compute %d.%d) não tem bfloat16 nativo — usando float16. "
+        "is_bf16_supported() diria True aqui, mas via emulação, ~5x mais lenta.",
+        torch.cuda.get_device_name(0), maior, menor,
+    )
     return torch.float16
 
 
@@ -217,6 +241,8 @@ def main() -> None:
 
     metadados = {
         "modelo_base": base_model,
+        "dtype": str(dtype),
+        "gpu": (torch.cuda.get_device_name(0) if torch.cuda.is_available() else "cpu"),
         "treinado_em_utc": inicio.isoformat(),
         "duracao_s": round((datetime.now(timezone.utc) - inicio).total_seconds(), 1),
         "epocas": epocas,
