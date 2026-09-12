@@ -157,26 +157,28 @@ def main() -> None:
                 f"{treinaveis:,}", f"{total:,}", 100 * treinaveis / total)
 
     # ---- treino ----------------------------------------------------------------------
-    argumentos = TrainingArguments(
-        output_dir=str(out_dir),
-        num_train_epochs=epocas,
-        per_device_train_batch_size=t_cfg["batch_size"],
-        per_device_eval_batch_size=t_cfg["batch_size"],
-        gradient_accumulation_steps=t_cfg["gradient_accumulation_steps"],
-        learning_rate=float(t_cfg["learning_rate"]),
-        lr_scheduler_type=t_cfg["lr_scheduler_type"],
-        warmup_ratio=t_cfg["warmup_ratio"],
-        weight_decay=t_cfg["weight_decay"],
-        logging_steps=t_cfg["logging_steps"],
-        save_strategy=t_cfg["save_strategy"],
-        save_total_limit=t_cfg["save_total_limit"],
-        gradient_checkpointing=t_cfg.get("gradient_checkpointing", True),
-        optim=t_cfg.get("optim", "adamw_torch"),
-        seed=t_cfg["seed"],
-        fp16=(dtype == torch.float16),
-        bf16=(dtype == torch.bfloat16),
-        report_to=[],
-        **_eval_kwargs(t_cfg["eval_strategy"]),
+    argumentos, ignorados = montar_training_arguments(
+        {
+            "output_dir": str(out_dir),
+            "num_train_epochs": epocas,
+            "per_device_train_batch_size": t_cfg["batch_size"],
+            "per_device_eval_batch_size": t_cfg["batch_size"],
+            "gradient_accumulation_steps": t_cfg["gradient_accumulation_steps"],
+            "learning_rate": float(t_cfg["learning_rate"]),
+            "lr_scheduler_type": t_cfg["lr_scheduler_type"],
+            "warmup_ratio": t_cfg["warmup_ratio"],
+            "weight_decay": t_cfg["weight_decay"],
+            "logging_steps": t_cfg["logging_steps"],
+            "save_strategy": t_cfg["save_strategy"],
+            "save_total_limit": t_cfg["save_total_limit"],
+            "gradient_checkpointing": t_cfg.get("gradient_checkpointing", True),
+            "optim": t_cfg.get("optim", "adamw_torch"),
+            "seed": t_cfg["seed"],
+            "fp16": (dtype == torch.float16),
+            "bf16": (dtype == torch.bfloat16),
+            "report_to": [],
+            "eval_strategy": t_cfg["eval_strategy"],
+        }
     )
 
     trainer = Trainer(
@@ -211,6 +213,11 @@ def main() -> None:
         "perplexidade_val": round(float(torch.exp(torch.tensor(metricas_eval["eval_loss"]))), 3)
         if "eval_loss" in metricas_eval else None,
         "lora": dict(l_cfg),
+        "transformers": _versao("transformers"),
+        "peft": _versao("peft"),
+        # Honestidade sobre o que rodou: se a versão instalada do transformers não aceitou
+        # algum hiperparâmetro, ele fica registrado aqui em vez de sumir silenciosamente.
+        "training_args_ignorados": ignorados,
         "adapter_hash": hash_adapter(adapter_dir),
     }
     (adapter_dir / "metadados_treino.json").write_text(
@@ -222,15 +229,66 @@ def main() -> None:
         ensure_ascii=False))
 
 
-def _eval_kwargs(estrategia: str) -> dict:
-    """`evaluation_strategy` virou `eval_strategy` no transformers 4.46 — suportamos os dois."""
+# Nomes que mudaram entre versões do transformers. Chave = nome usado neste projeto;
+# valor = candidatos aceitos, em ordem de preferência.
+ALIASES_TRAINING_ARGS: dict[str, tuple[str, ...]] = {
+    "eval_strategy": ("eval_strategy", "evaluation_strategy"),
+    "save_strategy": ("save_strategy", "saving_strategy"),
+    "optim": ("optim", "optimizer"),
+}
+
+
+def _versao(pacote: str) -> str:
+    import importlib.metadata
+
+    try:
+        return importlib.metadata.version(pacote)
+    except Exception:
+        return "desconhecida"
+
+
+def montar_training_arguments(desejados: dict):
+    """
+    Constrói `TrainingArguments` tolerando renomeações e remoções entre versões.
+
+    O `transformers` renomeia e remove parâmetros com alguma frequência
+    (`evaluation_strategy` -> `eval_strategy` na 4.46, `warmup_ratio` removido do construtor
+    em versões mais recentes). Como este projeto precisa rodar no Colab, onde a versão
+    instalada muda sem aviso, montamos os argumentos contra a assinatura real da classe.
+
+    Um parâmetro descartado **altera o treino**, então nunca é descartado em silêncio: vai
+    para o log em nível WARNING e para `metadados_treino.json`. A alternativa — fixar
+    `transformers<5` — está documentada no README e é o caminho quando se quer exatamente
+    os hiperparâmetros descritos no relatório técnico.
+    """
     import inspect
 
     from transformers import TrainingArguments
 
     parametros = inspect.signature(TrainingArguments.__init__).parameters
-    chave = "eval_strategy" if "eval_strategy" in parametros else "evaluation_strategy"
-    return {chave: estrategia}
+    usados: dict = {}
+    ignorados: list[str] = []
+
+    for nome, valor in desejados.items():
+        candidatos = ALIASES_TRAINING_ARGS.get(nome, (nome,))
+        alvo = next((c for c in candidatos if c in parametros), None)
+        if alvo is None:
+            ignorados.append(nome)
+            continue
+        if alvo != nome:
+            logger.info("TrainingArguments: '%s' -> '%s' nesta versão.", nome, alvo)
+        usados[alvo] = valor
+
+    logger.info("transformers %s | peft %s", _versao("transformers"), _versao("peft"))
+    if ignorados:
+        logger.warning(
+            "Esta versão do transformers (%s) não aceita %d parâmetro(s): %s. "
+            "O treino segue SEM eles — o resultado pode divergir do relatório técnico. "
+            "Para reproduzir a configuração documentada: pip install 'transformers>=4.46,<5'",
+            _versao("transformers"), len(ignorados), ", ".join(ignorados),
+        )
+
+    return TrainingArguments(**usados), ignorados
 
 
 if __name__ == "__main__":

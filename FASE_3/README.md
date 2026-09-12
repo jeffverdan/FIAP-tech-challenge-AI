@@ -87,6 +87,9 @@ Saídas:
 Abra `finetune/notebook_colab.ipynb` no Colab, selecione GPU T4 e execute as células.
 O notebook clona o repositório, roda um smoke test, treina, avalia e exporta o adapter.
 
+> `.ipynb` é um notebook, não um script: ele não roda com `python arquivo.ipynb`. Abra no
+> Colab (**Arquivo → Abrir notebook → GitHub**) ou, localmente, com `jupyter notebook`.
+
 Localmente (requer GPU):
 
 ```bash
@@ -96,6 +99,44 @@ python finetune/evaluate.py --adapter finetune/outputs/adapter --comparar-base
 
 Descompacte o `adapter_fase3.zip` do Colab em `finetune/outputs/adapter` para que o
 assistente carregue o modelo ajustado automaticamente.
+
+#### Problemas conhecidos do ambiente Colab
+
+**`ImportError: Found an incompatible version of torchao. Found version 0.10.0, but only
+versions above 0.16.0 are supported`** — surge em `get_peft_model`, logo após o download dos
+pesos. O Colab traz `torchao 0.10.0` pré-instalado e o `peft` recente exige `>= 0.16`; ao
+montar as camadas LoRA, o `peft` chama `is_torchao_available()`, que **levanta `ImportError`**
+em vez de retornar `False` quando encontra uma versão antiga.
+
+O `torchao` só é usado para quantização que este treino não faz, então a correção é removê-lo:
+
+```python
+!pip uninstall -y torchao
+```
+
+Não é preciso reiniciar o runtime — o treino roda em um subprocesso (`!python ...`), que nasce
+já sem o pacote. A célula de instalação do notebook já faz isso. Evite `pip install -U torchao`
+como alternativa: a versão 0.16+ costuma exigir um `torch` diferente do que o Colab tem.
+
+**`TypeError: TrainingArguments.__init__() got an unexpected keyword argument 'warmup_ratio'`**
+— as majors novas do `transformers` reorganizaram `TrainingArguments` e removeram parâmetros do
+construtor. Por isso o notebook fixa `transformers>=4.46,<5`: é a faixa em que a configuração
+descrita no relatório técnico existe inteira.
+
+Como rede de segurança, `train_lora.py` não chama `TrainingArguments` com argumentos fixos —
+`montar_training_arguments()` monta a chamada contra a **assinatura real** da classe instalada,
+resolve renomeações conhecidas (`evaluation_strategy` → `eval_strategy`) e descarta o que a
+versão não aceitar. Um parâmetro descartado altera o treino, então nunca some em silêncio: vai
+para o log em nível `WARNING` e para o campo `training_args_ignorados` de
+`metadados_treino.json`. Se esse campo vier não vazio, o treino **não** é o documentado no
+relatório — reinstale dentro da faixa fixada e rode de novo.
+
+**`torch_dtype is deprecated! Use dtype instead`** — apenas um aviso do `transformers` 4.56+.
+O parâmetro continua funcionando, e `torch_dtype` é o nome compatível com as versões anteriores.
+
+**GPU diferente de T4** — o Colab pode alocar L4 ou A100 conforme a disponibilidade. O
+`train_lora.py` detecta o suporte a bfloat16 e ajusta o dtype sozinho; o log informa qual foi
+escolhido. Em GPU com bf16 o treino é mais rápido do que os ~20 min estimados para a T4.
 
 ### 3. Demonstração em linha de comando
 
