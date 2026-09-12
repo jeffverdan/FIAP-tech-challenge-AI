@@ -135,12 +135,26 @@ def main() -> None:
     modelo = AutoModelForCausalLM.from_pretrained(base_model, **kwargs)
     modelo.config.use_cache = False  # incompatível com gradient checkpointing
 
+    usa_checkpointing = t_cfg.get("gradient_checkpointing", True)
+
     if m_cfg.get("carregar_em_4bit"):
         from peft import prepare_model_for_kbit_training
 
+        # Entre outras coisas, esta função já chama enable_input_require_grads().
         modelo = prepare_model_for_kbit_training(
-            modelo, use_gradient_checkpointing=t_cfg.get("gradient_checkpointing", True)
+            modelo, use_gradient_checkpointing=usa_checkpointing
         )
+    elif usa_checkpointing:
+        # Gradient checkpointing + LoRA: o modelo base está congelado, então a saída do
+        # embedding não exige gradiente e o bloco recarregado pelo checkpoint fica sem
+        # caminho para o backward. O sintoma é
+        #     RuntimeError: element 0 of tensors does not require grad and does not have a grad_fn
+        # precedido de "None of the inputs have requires_grad=True".
+        # enable_input_require_grads() registra um hook que marca a saída do embedding como
+        # exigindo gradiente, restabelecendo o caminho. No caminho 4-bit isso já vem de
+        # prepare_model_for_kbit_training; aqui (bf16/fp16) precisa ser explícito.
+        modelo.enable_input_require_grads()
+        logger.info("enable_input_require_grads() aplicado (gradient checkpointing + LoRA).")
 
     lora = LoraConfig(
         r=l_cfg["r"],
@@ -171,7 +185,10 @@ def main() -> None:
             "logging_steps": t_cfg["logging_steps"],
             "save_strategy": t_cfg["save_strategy"],
             "save_total_limit": t_cfg["save_total_limit"],
-            "gradient_checkpointing": t_cfg.get("gradient_checkpointing", True),
+            "gradient_checkpointing": usa_checkpointing,
+            # use_reentrant=False é a implementação nova de checkpoint do PyTorch; além de a
+            # antiga estar depreciada, ela não impõe a exigência de requires_grad na entrada.
+            "gradient_checkpointing_kwargs": {"use_reentrant": False},
             "optim": t_cfg.get("optim", "adamw_torch"),
             "seed": t_cfg["seed"],
             "fp16": (dtype == torch.float16),
