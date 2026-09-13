@@ -1,7 +1,7 @@
 # Relatório Técnico — FASE 3
 ## Assistente Virtual Médico com LLM Customizada, LangChain e LangGraph
 
-**Tech Challenge — Pós-graduação em IA para Devs (FIAP) · Jeferson Verdan**
+**Tech Challenge — Pós-graduação em IA para Devs (FIAP) · Grupo 62**
 
 Gabriel Pontin Buranello · Jeferson Verdan Oliveira · Josue Monteiro de Oliveira ·
 Larissa Nunes da Silva · Oryange Strifezze
@@ -463,7 +463,7 @@ python finetune/evaluate.py --adapter finetune/outputs/adapter --comparar-base -
 | 3 | 0,5980 | **0,7355** |
 
 Perplexidade de validação final: **2,086**. Identificação do artefato:
-`adapter_hash 06a0f7b5e0a5f78e`, `transformers 4.57.6`, `peft 0.20.0`, `dtype float16`,
+`adapter_hash c4641c0107edafe0`, `transformers 4.57.6`, `peft 0.20.0`, `dtype float16`,
 `training_args_ignorados: []` — ou seja, a configuração documentada na seção 3.1 rodou
 integralmente, sem parâmetro descartado.
 
