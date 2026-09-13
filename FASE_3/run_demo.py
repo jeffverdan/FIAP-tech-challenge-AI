@@ -91,7 +91,7 @@ def main() -> None:
     assistente = AssistenteClinico()
     paciente_id = args.paciente or escolher_paciente(assistente)
 
-    separador("ASSISTENTE CLÍNICO — HOSPITAL AURORA (Tech Challenge FASE 3, Grupo 62)")
+    separador("ASSISTENTE CLÍNICO — HOSPITAL AURORA (Tech Challenge FASE 3, Jeferson Verdan)")
     print(f"  LLM          : {getattr(assistente.llm, 'descricao', '—')}")
     print(f"  RAG          : backend {assistente.retriever.backend.nome}, "
           f"{len(assistente.retriever.documentos)} trechos de protocolo")

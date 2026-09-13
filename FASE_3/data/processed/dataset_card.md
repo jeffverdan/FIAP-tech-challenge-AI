@@ -1,6 +1,6 @@
 # Dataset Card — Assistente Clínico Hospital Aurora (FASE 3)
 
-_Gerado em 2026-09-05 por `datagen/build_finetune_dataset.py`._
+_Gerado em 2026-09-12 por `datagen/build_finetune_dataset.py`._
 
 ## Natureza dos dados
 

@@ -1,6 +1,6 @@
 # Arquitetura da Solução — FASE 3
 
-Assistente virtual médico do Hospital Aurora — Tech Challenge FIAP, Grupo 62.
+Assistente virtual médico do Hospital Aurora — Tech Challenge FIAP, Jeferson Verdan.
 
 ---
 

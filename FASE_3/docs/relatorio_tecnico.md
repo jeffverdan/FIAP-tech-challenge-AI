@@ -1,7 +1,7 @@
 # Relatório Técnico — FASE 3
 ## Assistente Virtual Médico com LLM Customizada, LangChain e LangGraph
 
-**Tech Challenge — Pós-graduação em IA para Devs (FIAP) · Grupo 62**
+**Tech Challenge — Pós-graduação em IA para Devs (FIAP) · Jeferson Verdan**
 
 Gabriel Pontin Buranello · Jeferson Verdan Oliveira · Josue Monteiro de Oliveira ·
 Larissa Nunes da Silva · Oryange Strifezze

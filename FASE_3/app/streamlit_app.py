@@ -199,7 +199,7 @@ def aba_auditoria(assistente: AssistenteClinico) -> None:
 
 def main() -> None:
     st.title("🩺 Assistente Clínico — Hospital Aurora")
-    st.caption("Tech Challenge FASE 3 · Grupo 62 · Pós-graduação em IA para Devs (FIAP) — "
+    st.caption("Tech Challenge FASE 3 · Jeferson Verdan · Pós-graduação em IA para Devs (FIAP) — "
                "dados 100% sintéticos")
 
     assistente = carregar_assistente()

@@ -1,6 +1,6 @@
 # FASE 3 — Assistente Virtual Médico com LLM Customizada, LangChain e LangGraph
 
-Tech Challenge da Pós-graduação em IA para Devs (FIAP) — **Grupo 62**.
+Tech Challenge da Pós-graduação em IA para Devs (FIAP) — **Jeferson Verdan Oliveira**.
 
 Continuação das Fases 1 e 2: o mesmo problema clínico (**Síndrome dos Ovários Policísticos**)
 sobe uma camada — de modelos preditivos para um **assistente conversacional de apoio à
@@ -302,9 +302,8 @@ FASE_3/
 
 ## Vídeo de demonstração
 
-_(link a inserir)_
+https://youtu.be/Bq8TMKLUv54
 
-## Equipe
+## Desenvolvedor
 
-Gabriel Pontin Buranello · Jeferson Verdan Oliveira · Josue Monteiro de Oliveira ·
-Larissa Nunes da Silva · Oryange Strifezze
+Jeferson Verdan Oliveira
