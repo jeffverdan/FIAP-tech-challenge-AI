@@ -35,7 +35,6 @@ severidade, quem é avisado e com que prazo) é tomada por código determinísti
 | Integração com serviços gerenciados Azure | `monitor/azure/`, `scripts/azure_setup.ps1`, `scripts/check_azure.py` |
 | Dashboard em tempo real | `app/streamlit_app.py` |
 | Relatório técnico | [`docs/relatorio_tecnico.md`](docs/relatorio_tecnico.md) |
-| Roteiro do vídeo de demonstração | [`docs/roteiro_video.md`](docs/roteiro_video.md) |
 
 **Vídeo de demonstração:** _(link do YouTube, não listado — adicionar após a gravação)_
 
