@@ -239,7 +239,9 @@ class MotorFusao:
                 math.exp(-(t - e.t) * math.log(2) / self.meia_vida_s) for e in evs)
         mods = {e.origem for e in evs if t - e.t <= janela_modalidades_s and e.severidade >= Severidade.ATENCAO}
         s *= 1 + 0.25 * max(len(mods) - 1, 0)
-        nivel = "vermelho" if s >= 8 else "laranja" if s >= 4 else "amarelo" if s >= 1 else "verde"
+        # faixas calibradas na Central (8 leitos): vermelho exige urgente/crítico recente; alertas
+        # isolados de "atenção" (z-score, preditor) deixam o leito amarelo, não vermelho
+        nivel = "vermelho" if s >= 10 else "laranja" if s >= 5 else "amarelo" if s >= 2 else "verde"
         return {"escore": round(s, 2), "nivel": nivel, "modalidades_ativas": sorted(mods)}
 
     def alertas_paciente(self, paciente_id: str) -> list[Alerta]:

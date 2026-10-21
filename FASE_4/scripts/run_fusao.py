@@ -205,6 +205,34 @@ def figura_cenario(eventos, alertas, destino: Path) -> None:
     plt.close(fig)
 
 
+#: Leitos da Central (vista de vários pacientes). O Leito 12 é o cenário multimodal completo; os demais
+#: são cirurgias do conjunto de TESTE do VitalDB (nunca vistas pelos modelos), só com sinais vitais.
+LEITOS_CENTRAL = [
+    ("Leito 03", 166, "dessaturação e hipotensão"),
+    ("Leito 05", 161, "hipotensão tardia"),
+    ("Leito 07", 128, "dessaturação leve"),
+    ("Leito 08", 177, "bradicardia e dessaturação"),
+    ("Leito 10", 153, "hipotensão isolada"),
+    ("Leito 11", 132, "estável"),
+    ("Leito 14", 167, "estável"),
+]
+
+
+def montar_central() -> dict:
+    demo = CONFIG.processed_dir / "demo"
+    demo.mkdir(parents=True, exist_ok=True)
+    leitos = [{"leito": "Leito 12", "paciente_id": PACIENTE, "cenario": True,
+               "fonte": "cenário multimodal composto", "arquivo": f"data/processed/demo/vitaldb_case_{CASO_VITAIS:04d}.csv.gz"}]
+    for nome, caso, perfil in LEITOS_CENTRAL:
+        shutil.copy(RAW / "vitaldb" / f"case_{caso:04d}.csv.gz", demo / f"vitaldb_case_{caso:04d}.csv.gz")
+        leitos.append({"leito": nome, "paciente_id": f"VDB-{caso:04d}", "cenario": False,
+                       "fonte": f"VitalDB caso {caso} (teste) — {perfil}",
+                       "arquivo": f"data/processed/demo/vitaldb_case_{caso:04d}.csv.gz"})
+    (CONFIG.processed_dir / "central_leitos.json").write_text(json.dumps(leitos, ensure_ascii=False, indent=1),
+                                                             encoding="utf-8")
+    return {"leitos": len(leitos)}
+
+
 def main() -> None:
     OUT.mkdir(parents=True, exist_ok=True)
     print("[1/2] MIMIC-IV demo")
@@ -215,6 +243,7 @@ def main() -> None:
     print("  ", {k: v for k, v in m["cenario"].items() if k != "alertas_fusao"})
     for a in m["cenario"]["alertas_fusao"]:
         print(f"   {a['t_min']:6.1f} min [{a['severidade']}] {a['titulo']} ← {a['modalidades']}")
+    m["central"] = montar_central()
     (OUT / "metricas.json").write_text(json.dumps(m, indent=2, ensure_ascii=False, default=str), encoding="utf-8")
     print("ok →", OUT)
 

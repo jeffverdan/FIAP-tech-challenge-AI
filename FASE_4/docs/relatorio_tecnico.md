@@ -260,8 +260,9 @@ transcrição do Azure contra a transcrição manual do dataset:
 | day1_consultation09 | dor ao urinar | nenhum | nenhum | 18% |
 | day5_consultation03 | ansiedade | nenhum | fadiga, palpitação | 15% |
 
-- **Queixa principal encontrada em 7/7 consultas**, contra 6/8 com o fallback local (transcrição
-  manual + léxico). **WER médio do Azure Speech: 21,2%**, em áudio de teleconsulta e inglês
+- **Queixa principal encontrada em 7/7 consultas**, contra 6/7 com o fallback local (transcrição
+  manual + léxico) na mesma base de comparação. O fallback errou a day3_consultation03 porque não
+  normaliza "feeling unwell" para mal-estar. **WER médio do Azure Speech: 21,2%**, em áudio de teleconsulta e inglês
   britânico com sotaques variados.
 - Os sinais "extras" foram conferidos na transcrição manual e **foram de fato relatados pelo
   paciente**, só não eram a queixa principal:

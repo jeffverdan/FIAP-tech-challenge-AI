@@ -1,0 +1,58 @@
+[
+ {
+  "leito": "Leito 12",
+  "paciente_id": "AURORA-LEITO-12",
+  "cenario": true,
+  "fonte": "cenário multimodal composto",
+  "arquivo": "data/processed/demo/vitaldb_case_0049.csv.gz"
+ },
+ {
+  "leito": "Leito 03",
+  "paciente_id": "VDB-0166",
+  "cenario": false,
+  "fonte": "VitalDB caso 166 (teste) — dessaturação e hipotensão",
+  "arquivo": "data/processed/demo/vitaldb_case_0166.csv.gz"
+ },
+ {
+  "leito": "Leito 05",
+  "paciente_id": "VDB-0161",
+  "cenario": false,
+  "fonte": "VitalDB caso 161 (teste) — hipotensão tardia",
+  "arquivo": "data/processed/demo/vitaldb_case_0161.csv.gz"
+ },
+ {
+  "leito": "Leito 07",
+  "paciente_id": "VDB-0128",
+  "cenario": false,
+  "fonte": "VitalDB caso 128 (teste) — dessaturação leve",
+  "arquivo": "data/processed/demo/vitaldb_case_0128.csv.gz"
+ },
+ {
+  "leito": "Leito 08",
+  "paciente_id": "VDB-0177",
+  "cenario": false,
+  "fonte": "VitalDB caso 177 (teste) — bradicardia e dessaturação",
+  "arquivo": "data/processed/demo/vitaldb_case_0177.csv.gz"
+ },
+ {
+  "leito": "Leito 10",
+  "paciente_id": "VDB-0153",
+  "cenario": false,
+  "fonte": "VitalDB caso 153 (teste) — hipotensão isolada",
+  "arquivo": "data/processed/demo/vitaldb_case_0153.csv.gz"
+ },
+ {
+  "leito": "Leito 11",
+  "paciente_id": "VDB-0132",
+  "cenario": false,
+  "fonte": "VitalDB caso 132 (teste) — estável",
+  "arquivo": "data/processed/demo/vitaldb_case_0132.csv.gz"
+ },
+ {
+  "leito": "Leito 14",
+  "paciente_id": "VDB-0167",
+  "cenario": false,
+  "fonte": "VitalDB caso 167 (teste) — estável",
+  "arquivo": "data/processed/demo/vitaldb_case_0167.csv.gz"
+ }
+]

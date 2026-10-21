@@ -29,7 +29,7 @@ O fio condutor das 4 fases é um problema real de saúde da mulher: **diagnósti
 | **Fase 1** | [`FASE_1/`](./FASE_1) | ✅ Concluída | EDA, pré-processamento e modelos de classificação (ML clássico) |
 | **Fase 2** | [`FASE_2/`](./FASE_2) | ✅ Concluída | Otimização de hiperparâmetros com Algoritmos Genéticos + interpretação via LLM |
 | **Fase 3** | [`FASE_3/`](./FASE_3) | ✅ Concluída | Fine-tuning de LLM (LoRA) + assistente médico com LangChain/LangGraph |
-| **Fase 4** | [`FASE_4/`](./FASE_4) | 🚧 Em entrega | Monitoramento multimodal (vídeo, áudio, sinais vitais, prescrições) + Azure Speech/Language + detecção de anomalias |
+| **Fase 4** | [`FASE_4/`](./FASE_4) | ✅ Entregue | Monitoramento multimodal (vídeo, áudio, sinais vitais, prescrições) + Azure Speech/Language + detecção de anomalias |
 | **Projeto Final** | _a definir_ | ⏳ Planejada | Integração das 4 fases em uma solução completa |
 
 ### Fase 1 — Diagnóstico via Machine Learning
@@ -80,7 +80,7 @@ respiratória provável*. Esse motor dispara alertas com justificativa, destinat
   - armadilhas metodológicas tratadas (vazamento de falante, confusão por lote, mudança de domínio);
   - conta Azure trocável em 1 comando, com cache de respostas para *replay*;
   - dashboard em tempo real.
-- 📄 [README da Fase 4](./FASE_4/README.md) · [Relatório técnico](./FASE_4/docs/relatorio_tecnico.md) · [Roteiro do vídeo](./FASE_4/docs/roteiro_video.md)
+- 📄 [README da Fase 4](./FASE_4/README.md) · [Relatório técnico](./FASE_4/docs/relatorio_tecnico.md) · [PDF de entrega](./FASE_4/docs/FASE4_TechChallenge_RM370792_Jeferson_Verdan.pdf) · [Vídeo de demonstração](https://youtu.be/TLSd6YRJK0E)
 
 ---
 

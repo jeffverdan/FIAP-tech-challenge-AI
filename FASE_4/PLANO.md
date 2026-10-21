@@ -62,4 +62,4 @@ expirar. Modos: `live` (só Azure), `auto` (cache → Azure → fallback local),
 | 3 | Vídeo: pose, reabilitação, quedas |
 | 4 | Fusão, alertas, dashboard |
 | 5 | Relatório técnico, testes, roteiro do vídeo |
-| 6–7 | Jeff: criar recursos Azure, rodar em `live` para popular o cache, gravar o vídeo |
+| 6–7 | Criar recursos Azure, rodar em `live` para popular o cache, gravar o vídeo |

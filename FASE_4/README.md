@@ -36,7 +36,7 @@ severidade, quem é avisado e com que prazo) é tomada por código determinísti
 | Dashboard em tempo real | `app/streamlit_app.py` |
 | Relatório técnico | [`docs/relatorio_tecnico.md`](docs/relatorio_tecnico.md) |
 
-**Vídeo de demonstração:** _(link do YouTube, não listado — adicionar após a gravação)_
+**Vídeo de demonstração:** https://youtu.be/TLSd6YRJK0E · **PDF de entrega:** [`docs/FASE4_TechChallenge_RM370792_Jeferson_Verdan.pdf`](docs/FASE4_TechChallenge_RM370792_Jeferson_Verdan.pdf)
 
 ## Resultados principais
 
@@ -59,15 +59,15 @@ Os detalhes estão no [relatório técnico](docs/relatorio_tecnico.md).
 
 ```
  VitalDB / MIMIC (sinais vitais) ─► limpeza ─► regras sustentadas ─┐
-                                              z-score robusto ────┤
-                                              Isolation Forest ───┤
-                                              preditor hipotensão ┤
+                                              z-score robusto ─────┤
+                                              Isolation Forest ────┤
+                                              preditor hipotensão ─┤
  MIMIC (prescrições) ─► salto de dose / dose atípica / combinações ┤
- PriMock57 (consulta) ─► Azure Speech ─► Azure Text Analytics ────┤   Evento   ┌──────────────┐   Alerta
-                         └► marcadores acústicos ─► modelos de voz ┼──────────►│ Motor de     │──────────► painel
+ PriMock57 (consulta) ─► Azure Speech ─► Azure Text Analytics ─────┤   Evento   ┌──────────────┐   Alerta
+                         └► marcadores acústicos ─► modelos de voz ┼───────────►│ Motor de     │──────────► painel
  REHAB24-6 (fisio) ─► YOLOv8-pose/OpenPose ─► ângulos ─► desvios ──┤            │ fusão        │            webhook
  UR Fall (quarto) ─► YOLOv8-pose + YOLOv8 (leito) ─► queda ────────┘            │ (regras)     │            auditoria
-                                                                               └──────────────┘
+                                                                                └──────────────┘
 ```
 
 Cada detector, de qualquer modalidade, emite o mesmo objeto `Evento` (`monitor/events.py`). O
