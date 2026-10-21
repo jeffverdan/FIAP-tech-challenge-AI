@@ -1,0 +1,592 @@
+{
+ "paciente_id": "PRIMOCK-day4_consultation06",
+ "audio": "day4_consultation06_patient.wav",
+ "stt": {
+  "fonte": "azure_cache",
+  "provedor": "azure_speech",
+  "segmentos": 63,
+  "palavras": 630,
+  "texto": "OK, hello. Yeah, I'm Maria. Yeah. Sorry. 27th of March of 90. So I'm having like a really, really strong headache. I don't know what is happening. I'm quite concerned. So it started in the morning I feel like. Dizzy. My vision is a little bit blurred like it's, it's really painful and I'm getting really concerned, especially because I'm having like these changes in the vision. Yeah, yeah, yeah. Uh, it came like kind of suddenly. Well, I had the kidney stone, so let's say that that's 10. I have now maybe five, well, 66 probably. But it's more about me being really concerned because this is very weird. Sorry. Well, not really. Like this? I Yeah, like this. No, definitely. It's something new. It's in one side, the left side only. My vision is quite blurred it it's it's really weird, like some zigzag lines. Kind of. I don't know how to describe it properly. Yeah, I tried paracetamol but it didn't work. To be honest, I feel exactly the same. Well, the headache started like 4 year, 4 hours ago, so I would say like maybe three hours ago because I couldn't stand it. Yeah, yeah, yeah. I feel a little bit, a little bit. Looking I cannot stand screens. But yeah, definitely. And when I move, like The thing is that if I, if I leave bed, I start to feel like even worse if I move. So I just want to have my head, my head like really not moving. Oh yeah. Oh, I forgot to mention, definitely I vomit twice. Actually as soon as the the headache started I also vomited. So initially I thought it was something that I ate, but then the headache started to be really bad and I still feel nausea. So we are. I'm about to vomit very soon I think. Sorry. Yes. Uh, so uh, uh, not actually, uh, my mother has migraines. I'm not sure if that's relevant. And uh, also I have hypothyroidism in the family, so it might be, I don't know. I, I, I don't know. I think we are losing connection. Sorry I I think we lost connection. Yeah, yeah, yeah. Hypertir. These she also has not put her this. No, not that I'm aware. No. Not that I'm aware. Uh, yeah, not that I'm aware. I really doubt it. Well, I'm a little bit hypochondriac so I feel that this can be some kind of brain tumour, tumour or something because I'm like, this is really, the pain is so horrible that or maybe a stroke, I don't know. It's, it's just like, you know, you hear so many stories that you definitely start to wonder if I should go to any urgently because I might really have something serious. No, not, no, no. Not really. It's really about the head, that's why I find it very weird. Yup. Yeah, exactly. Sorry. No, no, it's uh, I don't know how to describe it, but it's just like. From kind of. Yes. No. Yeah. No, it's the first time. But I'm very familiar with the disease because my mother has it so well, but I never had it. And I thought that the onset of migraine will be, you know, in much early ages. So that's why I'm not sure if migraine makes sense.  Oh, that's great. Yeah. OK. So and you're, you're saying that if this is a migraine and if I try that medication, this should go away kind of today? Oh OK, that doesn't sound. OK. OK. OK, sounds. OK. OK, sounds good. Yeah, sounds, sounds a good plan. No, thank you very much. You were very helpful. OK. Yeah. Thank you very much. Fine. Should I disconnect?",
+  "wer_vs_manual": 0.178
+ },
+ "linguagem": {
+  "fonte": "azure_cache",
+  "provedor": "azure_language",
+  "sentimento": "mixed",
+  "scores": {
+   "positive": 0.18,
+   "neutral": 0.17,
+   "negative": 0.65
+  },
+  "frases_chave": [
+   "kidney stone",
+   "one side",
+   "left side",
+   "zigzag lines",
+   "many stories",
+   "first time",
+   "early ages",
+   "good plan",
+   "brain tumour",
+   "strong headache",
+   "Maria",
+   "March",
+   "morning",
+   "Dizzy",
+   "vision"
+  ],
+  "entidades": [
+   {
+    "texto": "27th of March of 90",
+    "categoria": "Date",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "really",
+    "categoria": "ConditionQualifier",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "really",
+    "categoria": "ConditionQualifier",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "strong",
+    "categoria": "ConditionQualifier",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "headache",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Headache"
+   },
+   {
+    "texto": "morning",
+    "categoria": "Time",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "Dizzy",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Dizziness"
+   },
+   {
+    "texto": "vision is a little",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "bit",
+    "categoria": "ConditionQualifier",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "blurred",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Blur"
+   },
+   {
+    "texto": "painful",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Pain"
+   },
+   {
+    "texto": "changes in the vision",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Visual changes"
+   },
+   {
+    "texto": "kidney stone",
+    "categoria": "Diagnosis",
+    "negada": false,
+    "normalizado": "Nephrolithiasis"
+   },
+   {
+    "texto": "left side",
+    "categoria": "Direction",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "vision",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Vision"
+   },
+   {
+    "texto": "blurred",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Blur"
+   },
+   {
+    "texto": "zigzag lines",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Esophago-gastric mucosal junction"
+   },
+   {
+    "texto": "paracetamol",
+    "categoria": "MedicationName",
+    "negada": false,
+    "normalizado": "acetaminophen"
+   },
+   {
+    "texto": "same",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Same"
+   },
+   {
+    "texto": "headache",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Headache"
+   },
+   {
+    "texto": "4 year",
+    "categoria": "Time",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "4 hours ago",
+    "categoria": "Time",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "three hours ago",
+    "categoria": "Time",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "feel",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Feelings"
+   },
+   {
+    "texto": "little bit",
+    "categoria": "ConditionQualifier",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "little bit",
+    "categoria": "ConditionQualifier",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "feel like",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "worse",
+    "categoria": "Course",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "head",
+    "categoria": "BodyStructure",
+    "negada": false,
+    "normalizado": "Head"
+   },
+   {
+    "texto": "head",
+    "categoria": "BodyStructure",
+    "negada": false,
+    "normalizado": "Head"
+   },
+   {
+    "texto": "moving",
+    "categoria": "SymptomOrSign",
+    "negada": true,
+    "normalizado": "Moving"
+   },
+   {
+    "texto": "vomit",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Vomiting"
+   },
+   {
+    "texto": "headache",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Headache"
+   },
+   {
+    "texto": "vomited",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Vomiting"
+   },
+   {
+    "texto": "headache",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Headache"
+   },
+   {
+    "texto": "really bad",
+    "categoria": "ConditionQualifier",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "nausea",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Nausea"
+   },
+   {
+    "texto": "vomit",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Vomiting"
+   },
+   {
+    "texto": "mother",
+    "categoria": "FamilyRelation",
+    "negada": false,
+    "normalizado": "Mother (person)"
+   },
+   {
+    "texto": "migraines",
+    "categoria": "Diagnosis",
+    "negada": false,
+    "normalizado": "Migraine Disorders"
+   },
+   {
+    "texto": "hypothyroidism",
+    "categoria": "Diagnosis",
+    "negada": false,
+    "normalizado": "Hypothyroidism"
+   },
+   {
+    "texto": "family",
+    "categoria": "FamilyRelation",
+    "negada": false,
+    "normalizado": "Family"
+   },
+   {
+    "texto": "Hypertir",
+    "categoria": "Diagnosis",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "little bit",
+    "categoria": "ConditionQualifier",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "hypochondriac",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Hypochondriasis"
+   },
+   {
+    "texto": "brain tumour",
+    "categoria": "Diagnosis",
+    "negada": false,
+    "normalizado": "Brain Neoplasms"
+   },
+   {
+    "texto": "tumour",
+    "categoria": "Diagnosis",
+    "negada": false,
+    "normalizado": "Neoplasms"
+   },
+   {
+    "texto": "pain",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Pain"
+   },
+   {
+    "texto": "horrible",
+    "categoria": "ConditionQualifier",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "stroke",
+    "categoria": "Diagnosis",
+    "negada": false,
+    "normalizado": "Cerebrovascular accident"
+   },
+   {
+    "texto": "head",
+    "categoria": "BodyStructure",
+    "negada": false,
+    "normalizado": "Head"
+   },
+   {
+    "texto": "disease",
+    "categoria": "Diagnosis",
+    "negada": false,
+    "normalizado": "Disease"
+   },
+   {
+    "texto": "mother",
+    "categoria": "FamilyRelation",
+    "negada": false,
+    "normalizado": "Mother (person)"
+   },
+   {
+    "texto": "migraine",
+    "categoria": "Diagnosis",
+    "negada": false,
+    "normalizado": "Migraine Disorders"
+   },
+   {
+    "texto": "migraine",
+    "categoria": "Diagnosis",
+    "negada": false,
+    "normalizado": "Migraine Disorders"
+   },
+   {
+    "texto": "migraine",
+    "categoria": "Diagnosis",
+    "negada": false,
+    "normalizado": "Migraine Disorders"
+   },
+   {
+    "texto": "medication",
+    "categoria": "TreatmentName",
+    "negada": false,
+    "normalizado": "Pharmaceutical Preparations"
+   },
+   {
+    "texto": "go away",
+    "categoria": "Course",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "today",
+    "categoria": "Time",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "OK",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Kelvin"
+   },
+   {
+    "texto": "sounds",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Sound - physical agent"
+   },
+   {
+    "texto": "OK",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Kelvin"
+   },
+   {
+    "texto": "sounds good",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "sounds",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Sound - physical agent"
+   },
+   {
+    "texto": "plan",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Infantile Neuroaxonal Dystrophy"
+   }
+  ],
+  "relacoes": [
+   {
+    "tipo": "QualifierOfCondition",
+    "papeis": {
+     "Qualifier": "really",
+     "Condition": "headache"
+    }
+   },
+   {
+    "tipo": "QualifierOfCondition",
+    "papeis": {
+     "Qualifier": "really",
+     "Condition": "headache"
+    }
+   },
+   {
+    "tipo": "QualifierOfCondition",
+    "papeis": {
+     "Qualifier": "strong",
+     "Condition": "headache"
+    }
+   },
+   {
+    "tipo": "QualifierOfCondition",
+    "papeis": {
+     "Condition": "vision is a little",
+     "Qualifier": "bit"
+    }
+   },
+   {
+    "tipo": "TimeOfCondition",
+    "papeis": {
+     "Condition": "headache",
+     "Time": "4 year"
+    }
+   },
+   {
+    "tipo": "TimeOfCondition",
+    "papeis": {
+     "Condition": "headache",
+     "Time": "4 hours ago"
+    }
+   },
+   {
+    "tipo": "TimeOfCondition",
+    "papeis": {
+     "Condition": "headache",
+     "Time": "three hours ago"
+    }
+   },
+   {
+    "tipo": "QualifierOfCondition",
+    "papeis": {
+     "Condition": "feel",
+     "Qualifier": "little bit"
+    }
+   },
+   {
+    "tipo": "QualifierOfCondition",
+    "papeis": {
+     "Condition": "feel",
+     "Qualifier": "little bit"
+    }
+   },
+   {
+    "tipo": "CourseOfCondition",
+    "papeis": {
+     "Condition": "feel like",
+     "Course": "worse"
+    }
+   },
+   {
+    "tipo": "BodySiteOfCondition",
+    "papeis": {
+     "BodyStructure": "head",
+     "Condition": "moving"
+    }
+   },
+   {
+    "tipo": "BodySiteOfCondition",
+    "papeis": {
+     "BodyStructure": "head",
+     "Condition": "moving"
+    }
+   },
+   {
+    "tipo": "QualifierOfCondition",
+    "papeis": {
+     "Condition": "headache",
+     "Qualifier": "really bad"
+    }
+   },
+   {
+    "tipo": "QualifierOfCondition",
+    "papeis": {
+     "Qualifier": "little bit",
+     "Condition": "hypochondriac"
+    }
+   },
+   {
+    "tipo": "QualifierOfCondition",
+    "papeis": {
+     "Condition": "pain",
+     "Qualifier": "horrible"
+    }
+   },
+   {
+    "tipo": "CourseOfCondition",
+    "papeis": {
+     "Condition": "migraine",
+     "Course": "go away"
+    }
+   },
+   {
+    "tipo": "TimeOfCondition",
+    "papeis": {
+     "Condition": "migraine",
+     "Time": "today"
+    }
+   }
+  ]
+ },
+ "sinais_alarme": {},
+ "acustica": {
+  "taxa_fala_sil_s": 3.2611,
+  "taxa_articulacao_sil_s": 4.1884,
+  "pausas_por_min": 25.1475,
+  "pausa_media_s": 0.5232,
+  "pausas_longas_por_min": 0.2206,
+  "frase_media_s": 1.8415,
+  "proporcao_fonacao": 0.7786,
+  "f0_media_hz": 210.8539,
+  "f0_desvio_st": 3.3695,
+  "f0_amplitude_st": 10.5702,
+  "jitter_local_pct": 1.3826,
+  "shimmer_local_pct": 10.4199,
+  "hnr_db": 14.1024,
+  "cpps_db": 5.2329,
+  "intensidade_media_db": -20.0242,
+  "intensidade_tendencia_db_min": -0.3414,
+  "duracao_fala_s": 272.0
+ },
+ "wav2vec2": true,
+ "modelos_voz": {
+  "disartria": {
+   "prob": 0.096,
+   "limiar": 0.568,
+   "calibrado": true
+  },
+  "respiratorio": {
+   "prob": 0.192,
+   "limiar": 0.614,
+   "calibrado": true
+  },
+  "fadiga": {
+   "prob": 0.306,
+   "limiar": 0.622,
+   "calibrado": true
+  }
+ },
+ "eventos": [],
+ "queixa_principal": "my chest hurts and it's been hard to breathe"
+}

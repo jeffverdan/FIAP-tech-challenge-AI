@@ -1,0 +1,1185 @@
+{
+ "_meta": {
+  "servico": "language",
+  "obtido_em": "2026-10-21T13:17:40+00:00",
+  "caracteres": 1602,
+  "endpoint": "https://aurora-language-b92b19.cognitiveservices.azure.com/"
+ },
+ "sentimento": {
+  "geral": "mixed",
+  "scores": {
+   "positive": 0.2,
+   "neutral": 0.18,
+   "negative": 0.63
+  },
+  "frases": [
+   {
+    "texto": "Hello there. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.02,
+     "neutral": 0.98,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Good afternoon. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.12,
+     "neutral": 0.88,
+     "negative": 0.0
+    },
+    "opinioes": [
+     {
+      "alvo": "afternoon",
+      "sentimento": "positive",
+      "avaliacoes": [
+       "Good"
+      ]
+     }
+    ]
+   },
+   {
+    "texto": "This is Jack. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.99,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Hi there. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.99,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yes, I my name is Jack Armani. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.99,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "And my date of birth is. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.99,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "12 August 1958. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 1.0,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yes, I am. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.16,
+     "neutral": 0.81,
+     "negative": 0.03
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I am so I woke up this morning. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.18,
+     "neutral": 0.61,
+     "negative": 0.21
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "And um. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.03,
+     "neutral": 0.95,
+     "negative": 0.02
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Hello. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.99,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah, so I'm a bit worried because I woke up this morning about an hour ago and I couldn't move my left arm anymore. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.02,
+     "negative": 0.98
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Well like I feel no pain but just can't move it. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.23,
+     "neutral": 0.38,
+     "negative": 0.4
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yes. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.21,
+     "neutral": 0.78,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "No, no, it's it's really the first time. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.1,
+     "neutral": 0.61,
+     "negative": 0.29
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Uh, no. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.04,
+     "neutral": 0.64,
+     "negative": 0.32
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Uh, everything as usual. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.09,
+     "neutral": 0.91,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "No. MMM not really, the the arm feels fine apart from me not be able to move it. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.39,
+     "neutral": 0.45,
+     "negative": 0.16
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "No, but I feel a bit of tingling on the left side of my face. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.65,
+     "negative": 0.33
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Since I woke up since I started to feel the since the the arm really stopped moving. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.95,
+     "negative": 0.04
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "So an hour ago.  ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.9,
+     "negative": 0.09
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Not really. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.48,
+     "negative": 0.5
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "It's just. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.18,
+     "neutral": 0.54,
+     "negative": 0.28
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Having like a bit of issues like I was trying to drink earlier and I drew both a bit and and tingling. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.74,
+     "negative": 0.25
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "On on the left side. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 1.0,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.05,
+     "neutral": 0.95,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah, it feels a bit harder. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.06,
+     "neutral": 0.14,
+     "negative": 0.8
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "It's more complicated, maybe, maybe a bit more slow. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.13,
+     "negative": 0.86
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I need to think more about it. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.04,
+     "neutral": 0.81,
+     "negative": 0.15
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "No. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.82,
+     "negative": 0.17
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Is this something I should be worried about? ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.09,
+     "negative": 0.9
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Uh, would, should I call, Would you be able to call the ambulance for me? ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.02,
+     "neutral": 0.94,
+     "negative": 0.04
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "OK. OK. OK. Thank you. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.87,
+     "neutral": 0.13,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Sure. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.31,
+     "neutral": 0.68,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I have type 2 diabetes and high blood pressure. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.85,
+     "negative": 0.15
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I'm I'm taking metformin, Losartan and amlodipine. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 1.0,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Only penicillin I believe. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.04,
+     "neutral": 0.95,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "My dad has got heart disease. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.03,
+     "negative": 0.97
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "But don't I don't know more detail. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.03,
+     "neutral": 0.77,
+     "negative": 0.2
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Not really. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.51,
+     "negative": 0.48
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yes. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.17,
+     "neutral": 0.82,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Uh, I used to. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.04,
+     "neutral": 0.79,
+     "negative": 0.17
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I will have a few drinks over the weekend. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.04,
+     "neutral": 0.96,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Maybe. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.98,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "A couple more during the week. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 1.0,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "A beers like pints. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.07,
+     "neutral": 0.89,
+     "negative": 0.05
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yes, yes, the the arm still can't move and I think the speech is getting a bit harder.  ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.06,
+     "neutral": 0.1,
+     "negative": 0.85
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "OK. OK, is there anything I should be doing now? ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.12,
+     "neutral": 0.81,
+     "negative": 0.07
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "OK. OK, I'm gonna go to the door. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.23,
+     "neutral": 0.73,
+     "negative": 0.04
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Thank you. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.71,
+     "neutral": 0.29,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "But.",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.02,
+     "neutral": 0.68,
+     "negative": 0.3
+    },
+    "opinioes": []
+   }
+  ]
+ },
+ "frases_chave": [
+  "high blood pressure",
+  "first time",
+  "left side",
+  "type 2 diabetes",
+  "heart disease",
+  "Jack Armani",
+  "No. MMM",
+  "left arm",
+  "afternoon",
+  "name",
+  "date",
+  "birth",
+  "pain",
+  "everything",
+  "bit",
+  "face",
+  "issues",
+  "something",
+  "ambulance",
+  "metformin",
+  "Losartan",
+  "amlodipine",
+  "penicillin",
+  "dad",
+  "detail",
+  "drinks",
+  "weekend",
+  "beers",
+  "pints",
+  "speech",
+  "door"
+ ],
+ "entidades_saude": [
+  {
+   "texto": "12 August 1958",
+   "categoria": "Date",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 109,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "morning",
+   "categoria": "Time",
+   "subcategoria": null,
+   "confianca": 0.8,
+   "offset": 159,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "up",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.61,
+   "offset": 225,
+   "normalizado": "Up",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0547043",
+    "CHV:0000038893",
+    "NCI:C64643",
+    "RCD:X791e",
+    "SNMI:G-A116"
+   ]
+  },
+  {
+   "texto": "morning",
+   "categoria": "Time",
+   "subcategoria": null,
+   "confianca": 0.93,
+   "offset": 233,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "an hour ago",
+   "categoria": "Time",
+   "subcategoria": null,
+   "confianca": 0.86,
+   "offset": 247,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "move my left",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.75,
+   "offset": 274,
+   "normalizado": null,
+   "negada": true,
+   "certeza": "negative",
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "arm",
+   "categoria": "BodyStructure",
+   "subcategoria": null,
+   "confianca": 0.77,
+   "offset": 287,
+   "normalizado": "Upper Extremity",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C1140618",
+    "AOD:0000027657",
+    "CHV:0000055073",
+    "CSP:2715-5391",
+    "CST:BODY/UE"
+   ]
+  },
+  {
+   "texto": "pain",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 320,
+   "normalizado": "Pain",
+   "negada": true,
+   "certeza": "negative",
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0030193",
+    "AOD:0000002779",
+    "BI:BI00754",
+    "CCC:Q63.0",
+    "CCPSS:0035760"
+   ]
+  },
+  {
+   "texto": "move",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.74,
+   "offset": 340,
+   "normalizado": "Does move",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0578671",
+    "CHV:0000040447",
+    "RCD:Xa89n",
+    "SNOMEDCT_US:302000008"
+   ]
+  },
+  {
+   "texto": "arm",
+   "categoria": "BodyStructure",
+   "subcategoria": null,
+   "confianca": 0.76,
+   "offset": 456,
+   "normalizado": "Upper Extremity",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C1140618",
+    "AOD:0000027657",
+    "CHV:0000055073",
+    "CSP:2715-5391",
+    "CST:BODY/UE"
+   ]
+  },
+  {
+   "texto": "feels fine",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.98,
+   "offset": 460,
+   "normalizado": "feeling fine",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C2219950",
+    "MEDCIN:1502"
+   ]
+  },
+  {
+   "texto": "able to move",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.78,
+   "offset": 492,
+   "normalizado": "Able to move",
+   "negada": true,
+   "certeza": "negative",
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0578670",
+    "RCD:Xa89m",
+    "SNOMEDCT_US:301999002"
+   ]
+  },
+  {
+   "texto": "bit",
+   "categoria": "ConditionQualifier",
+   "subcategoria": null,
+   "confianca": 0.86,
+   "offset": 526,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "tingling",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 533,
+   "normalizado": "Has tingling sensation",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C2242996",
+    "AOD:0000022974",
+    "CCPSS:0012223",
+    "CHV:0000033172",
+    "CST:PARESTHESIA"
+   ]
+  },
+  {
+   "texto": "left side",
+   "categoria": "Direction",
+   "subcategoria": null,
+   "confianca": 0.98,
+   "offset": 549,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "face",
+   "categoria": "BodyStructure",
+   "subcategoria": null,
+   "confianca": 0.98,
+   "offset": 565,
+   "normalizado": "Face",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0015450",
+    "AOD:0000013914",
+    "CCPSS:1004843",
+    "CHV:0000004839",
+    "CSP:0468-5015"
+   ]
+  },
+  {
+   "texto": "arm",
+   "categoria": "BodyStructure",
+   "subcategoria": null,
+   "confianca": 0.85,
+   "offset": 629,
+   "normalizado": "Upper Extremity",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C1140618",
+    "AOD:0000027657",
+    "CHV:0000055073",
+    "CSP:2715-5391",
+    "CST:BODY/UE"
+   ]
+  },
+  {
+   "texto": "stopped moving",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.92,
+   "offset": 640,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "an hour ago",
+   "categoria": "Time",
+   "subcategoria": null,
+   "confianca": 0.73,
+   "offset": 659,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "tingling",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.97,
+   "offset": 789,
+   "normalizado": "Has tingling sensation",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C2242996",
+    "AOD:0000022974",
+    "CCPSS:0012223",
+    "CHV:0000033172",
+    "CST:PARESTHESIA"
+   ]
+  },
+  {
+   "texto": "left side",
+   "categoria": "Direction",
+   "subcategoria": null,
+   "confianca": 0.88,
+   "offset": 809,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "ambulance",
+   "categoria": "CareEnvironment",
+   "subcategoria": null,
+   "confianca": 0.71,
+   "offset": 1044,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "type 2 diabetes",
+   "categoria": "Diagnosis",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 1098,
+   "normalizado": "Diabetes Mellitus, Non-Insulin-Dependent",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0011860",
+    "BI:BI00336",
+    "CCPSS:0045504",
+    "CCSR_ICD10CM:END005",
+    "CHV:0000003837"
+   ]
+  },
+  {
+   "texto": "high blood pressure",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 1118,
+   "normalizado": "Hypertensive disease",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0020538",
+    "AOD:0000023317",
+    "BI:BI00001",
+    "CCPSS:1017493",
+    "CCS:7.1"
+   ]
+  },
+  {
+   "texto": "metformin",
+   "categoria": "MedicationName",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 1154,
+   "normalizado": "metformin",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0025598",
+    "ATC:A10BA02",
+    "CHV:0000008019",
+    "CSP:4007-0083",
+    "DRUGBANK:DB00331"
+   ]
+  },
+  {
+   "texto": "Losartan",
+   "categoria": "MedicationName",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 1165,
+   "normalizado": "losartan",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0126174",
+    "AOD:0000018751",
+    "ATC:C09CA01",
+    "CHV:0000016349",
+    "CSP:4009-0050"
+   ]
+  },
+  {
+   "texto": "amlodipine",
+   "categoria": "MedicationName",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 1178,
+   "normalizado": "amlodipine",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0051696",
+    "ATC:C08CA01",
+    "CHV:0000013477",
+    "CSP:4008-0003",
+    "DRUGBANK:DB00381"
+   ]
+  },
+  {
+   "texto": "penicillin",
+   "categoria": "Allergen",
+   "subcategoria": null,
+   "confianca": 0.95,
+   "offset": 1195,
+   "normalizado": "penicillins",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0030842",
+    "AOD:0000019206",
+    "ATC:J01C",
+    "CCPSS:0014106",
+    "CHV:0000009423"
+   ]
+  },
+  {
+   "texto": "dad",
+   "categoria": "FamilyRelation",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 1220,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "heart disease",
+   "categoria": "Diagnosis",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 1232,
+   "normalizado": "Heart Diseases",
+   "negada": false,
+   "certeza": null,
+   "associacao": "other",
+   "codigos": [
+    "UMLS:C0018799",
+    "AOD:0000023339",
+    "CCPSS:0046242",
+    "CCS:7.2",
+    "CHV:0000005875"
+   ]
+  },
+  {
+   "texto": "over",
+   "categoria": "Frequency",
+   "subcategoria": null,
+   "confianca": 0.78,
+   "offset": 1340,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "weekend",
+   "categoria": "Time",
+   "subcategoria": null,
+   "confianca": 0.7,
+   "offset": 1349,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "week",
+   "categoria": "Time",
+   "subcategoria": null,
+   "confianca": 0.88,
+   "offset": 1390,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "arm",
+   "categoria": "BodyStructure",
+   "subcategoria": null,
+   "confianca": 0.66,
+   "offset": 1434,
+   "normalizado": "Upper Extremity",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C1140618",
+    "AOD:0000027657",
+    "CHV:0000055073",
+    "CSP:2715-5391",
+    "CST:BODY/UE"
+   ]
+  },
+  {
+   "texto": "can't move",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.94,
+   "offset": 1444,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "speech is getting a bit harder",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.95,
+   "offset": 1471,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  }
+ ],
+ "relacoes_saude": [
+  {
+   "tipo": "TimeOfCondition",
+   "papeis": {
+    "Condition": "up",
+    "Time": "morning"
+   }
+  },
+  {
+   "tipo": "TimeOfCondition",
+   "papeis": {
+    "Condition": "up",
+    "Time": "an hour ago"
+   }
+  },
+  {
+   "tipo": "BodySiteOfCondition",
+   "papeis": {
+    "Condition": "move my left",
+    "BodyStructure": "arm"
+   }
+  },
+  {
+   "tipo": "BodySiteOfCondition",
+   "papeis": {
+    "BodyStructure": "arm",
+    "Condition": "feels fine"
+   }
+  },
+  {
+   "tipo": "BodySiteOfCondition",
+   "papeis": {
+    "BodyStructure": "arm",
+    "Condition": "able to move"
+   }
+  },
+  {
+   "tipo": "QualifierOfCondition",
+   "papeis": {
+    "Qualifier": "bit",
+    "Condition": "tingling"
+   }
+  },
+  {
+   "tipo": "BodySiteOfCondition",
+   "papeis": {
+    "Condition": "tingling",
+    "BodyStructure": "face"
+   }
+  },
+  {
+   "tipo": "DirectionOfBodyStructure",
+   "papeis": {
+    "Direction": "left side",
+    "BodyStructure": "face"
+   }
+  },
+  {
+   "tipo": "BodySiteOfCondition",
+   "papeis": {
+    "BodyStructure": "arm",
+    "Condition": "stopped moving"
+   }
+  },
+  {
+   "tipo": "BodySiteOfCondition",
+   "papeis": {
+    "BodyStructure": "arm",
+    "Condition": "can't move"
+   }
+  }
+ ],
+ "idioma": "en",
+ "provedor": "azure_language"
+}

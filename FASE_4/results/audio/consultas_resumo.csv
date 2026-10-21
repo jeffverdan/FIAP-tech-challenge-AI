@@ -1,0 +1,12 @@
+consulta,queixa,stt,linguagem,wer,esperado,detectado,acertou_esperado,sentimento,p_disartria,p_respiratorio,p_fadiga,eventos,severidade_max
+day1_consultation02,"I have sore, red skin",azure_cache,azure_cache,0.171,-,-,True,mixed,0.068,0.236,0.232,0,0
+day1_consultation06,hard to breathe,azure_cache,azure_cache,0.232,dispneia,"dispneia,dor_toracica",True,mixed,0.051,0.337,0.238,3,3
+day1_consultation09,It hurts when I pee,azure_cache,azure_cache,0.182,-,-,True,mixed,0.057,0.328,0.452,0,0
+day2_consultation04,I feel breathless,azure_cache,azure_cache,0.321,dispneia,"dispneia,fadiga,hemoptise",True,mixed,0.052,0.18,0.242,3,2
+day2_consultation06,I’m having difficulty breathing,azure_cache,azure_cache,0.216,dispneia,dispneia,True,mixed,0.092,0.373,0.334,1,2
+day2_consultation07,I'm having chest discomfort,azure_cache,azure_cache,0.198,dor_toracica,"dispneia,dor_toracica",True,mixed,0.022,0.268,0.156,3,3
+day2_consultation09,I can't move my left arm,azure_cache,azure_cache,0.207,deficit_neurologico,deficit_neurologico,True,mixed,0.096,0.228,0.258,1,3
+day3_consultation03,I don't have much appetite or energy lately,azure_cache,azure_cache,0.264,fadiga,"dispneia,dor_toracica,fadiga",True,mixed,0.066,0.286,0.325,4,3
+day4_consultation06,my chest hurts and it's been hard to breathe,azure_cache,azure_cache,0.178,-,-,True,mixed,0.096,0.192,0.306,0,0
+day5_consultation03,I'm feeling very anxious,azure_cache,azure_cache,0.149,-,"fadiga,palpitacao",True,mixed,0.108,0.212,0.369,2,1
+day5_consultation09,Tired all the time,azure_cache,azure_cache,0.214,fadiga,fadiga,True,mixed,0.064,0.307,0.284,1,1

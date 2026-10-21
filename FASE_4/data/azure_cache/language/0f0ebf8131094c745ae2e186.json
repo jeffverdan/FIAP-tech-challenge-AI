@@ -1,0 +1,1493 @@
+{
+ "_meta": {
+  "servico": "language",
+  "obtido_em": "2026-10-21T13:00:21+00:00",
+  "caracteres": 2820,
+  "endpoint": "https://aurora-language-b92b19.cognitiveservices.azure.com/"
+ },
+ "sentimento": {
+  "geral": "mixed",
+  "scores": {
+   "positive": 0.25,
+   "neutral": 0.23,
+   "negative": 0.52
+  },
+  "frases": [
+   {
+    "texto": "Hello. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.99,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Hi, can you hear me? ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.02,
+     "neutral": 0.98,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah, I can hear you now. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.25,
+     "neutral": 0.75,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Oh yeah, my name is Jessica Smith and I'm 19 years old. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.36,
+     "neutral": 0.62,
+     "negative": 0.02
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah, so I mean, this is this is a bit embarrassing, but it's kind of hurting when I when I use the bathroom, when I pee and. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.01,
+     "negative": 0.99
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "It's been going on for a few days so I'm I'm a little bit worried about it. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.04,
+     "negative": 0.95
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I'm not sure what to do. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.45,
+     "negative": 0.55
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "It's it's not too bad. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.68,
+     "neutral": 0.28,
+     "negative": 0.04
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "It's sort of like a stinging kind of pain. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.06,
+     "negative": 0.93
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "It's not like unbearable, but it's it's definitely a, it definitely bothers me IP and yeah, I also maybe sometimes get some like pain kind of lowered down in my tummy when I when I go to the bathroom. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.04,
+     "negative": 0.95
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.04,
+     "neutral": 0.95,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Um, yeah, I don't know, Maybe, uh. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.04,
+     "neutral": 0.89,
+     "negative": 0.07
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Sort of sort of cramping. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.05,
+     "neutral": 0.65,
+     "negative": 0.3
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I'm not really sure, but it's not like it's not like cramping like when I get when I have a period or something. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.02,
+     "neutral": 0.63,
+     "negative": 0.35
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "It's like, I don't know. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.11,
+     "neutral": 0.74,
+     "negative": 0.16
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I'm not. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.03,
+     "neutral": 0.53,
+     "negative": 0.44
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I don't think so. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.1,
+     "neutral": 0.55,
+     "negative": 0.35
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I haven't noticed that, yeah. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.05,
+     "neutral": 0.81,
+     "negative": 0.14
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I don't know. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.06,
+     "neutral": 0.64,
+     "negative": 0.3
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "There was a little bit of blood earlier today, but besides that, not at all. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.02,
+     "neutral": 0.15,
+     "negative": 0.83
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "No, it does kind of it's kind of like doesn't smell very it smells a bit weird, I guess. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.12,
+     "neutral": 0.24,
+     "negative": 0.64
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "But no, not really anything, anything drastic. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.03,
+     "neutral": 0.52,
+     "negative": 0.45
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "No, not really, no. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.07,
+     "neutral": 0.31,
+     "negative": 0.63
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Uh, no, not, not at all. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.09,
+     "neutral": 0.43,
+     "negative": 0.48
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "No, no. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.09,
+     "neutral": 0.4,
+     "negative": 0.51
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "No fever. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.29,
+     "neutral": 0.67,
+     "negative": 0.04
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "No. I think so, yeah, it seems. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.13,
+     "neutral": 0.86,
+     "negative": 0.02
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Uh, no, not that I've not that I've noticed at all. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.05,
+     "neutral": 0.81,
+     "negative": 0.14
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "OK. Uh, yeah, I am. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.08,
+     "neutral": 0.9,
+     "negative": 0.02
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah, so I've had a boyfriend for about a couple months now, yeah. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.07,
+     "neutral": 0.9,
+     "negative": 0.03
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I don't know. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.09,
+     "neutral": 0.61,
+     "negative": 0.3
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I haven't noticed anything, no. I don't think I've ever, I don't think I've ever had one. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.3,
+     "neutral": 0.34,
+     "negative": 0.36
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Oh yeah, we use condoms. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.03,
+     "neutral": 0.97,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "A couple weeks ago. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.99,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Say again. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.05,
+     "neutral": 0.81,
+     "negative": 0.15
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I don't think so. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.1,
+     "neutral": 0.4,
+     "negative": 0.5
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.04,
+     "neutral": 0.95,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Uh-huh. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.07,
+     "neutral": 0.9,
+     "negative": 0.03
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah, I think I'm, I'm feeling OK otherwise, yeah. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.4,
+     "neutral": 0.54,
+     "negative": 0.06
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "So in the past I've had some some IBS. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.98,
+     "negative": 0.02
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "But other than that, I think no, like, uh, no serious medical problems that seem, yeah. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.21,
+     "neutral": 0.55,
+     "negative": 0.25
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Uh, no, I did AI did a a little bit ago or a couple days ago. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.03,
+     "neutral": 0.91,
+     "negative": 0.06
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Tried some over the counter bicarbonate to try and help with the pain but it wasn't it wasn't really helping. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.0,
+     "negative": 0.99
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah, I'm allergic to Clindamycin. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.12,
+     "negative": 0.87
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I I get some like a a swelling basically. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.97,
+     "negative": 0.02
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.04,
+     "neutral": 0.96,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "No, I don't think so. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.12,
+     "neutral": 0.41,
+     "negative": 0.47
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Not that I not anything I know about. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.74,
+     "negative": 0.24
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "So I live in a live in a flat near my college with a couple of like friends of mine. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.99,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "So I'm I'm not like living at home or anything. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.41,
+     "negative": 0.58
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Is that what you're talking about? ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.02,
+     "neutral": 0.63,
+     "negative": 0.35
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Sorry. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.02,
+     "neutral": 0.1,
+     "negative": 0.87
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I'm a student. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.94,
+     "negative": 0.06
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I'm studying biology. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.99,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "It's good, Yeah. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.83,
+     "neutral": 0.16,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "It's really, it's really interesting learning about learning about how, how the world works. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.83,
+     "neutral": 0.17,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.04,
+     "neutral": 0.96,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I don't know, maybe a doctor someday. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.1,
+     "neutral": 0.78,
+     "negative": 0.12
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "You never know. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.02,
+     "neutral": 0.64,
+     "negative": 0.34
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I don't, I don't smoke. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.08,
+     "neutral": 0.75,
+     "negative": 0.17
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I do drink, like on the weekends, yeah. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.11,
+     "neutral": 0.88,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah.  ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.05,
+     "neutral": 0.94,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "OK. OK. OK.  ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.35,
+     "neutral": 0.64,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "OK. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.05,
+     "neutral": 0.94,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "So 3 days of the medication and then wait a little bit. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 1.0,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "If it still doesn't go away, call back that OK. OK. OK. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.17,
+     "neutral": 0.8,
+     "negative": 0.03
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Is there is there anything like like should I be worried about like like not having sex or anything within the next week or anything like this? ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.06,
+     "neutral": 0.13,
+     "negative": 0.81
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "OK. OK. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.3,
+     "neutral": 0.69,
+     "negative": 0.02
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "That, that makes sense. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.73,
+     "neutral": 0.26,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "OK. Thank you so much. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.99,
+     "neutral": 0.01,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah, Thank you. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.68,
+     "neutral": 0.32,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Take care.",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.51,
+     "neutral": 0.48,
+     "negative": 0.01
+    },
+    "opinioes": []
+   }
+  ]
+ },
+ "frases_chave": [
+  "serious medical problems",
+  "Jessica Smith",
+  "stinging kind",
+  "little bit",
+  "counter bicarbonate",
+  "next week",
+  "couple months",
+  "name",
+  "bathroom",
+  "days",
+  "pain",
+  "IP",
+  "tummy",
+  "Sort",
+  "cramping",
+  "period",
+  "something",
+  "blood",
+  "fever",
+  "boyfriend",
+  "condoms",
+  "past",
+  "IBS",
+  "Clindamycin",
+  "swelling",
+  "live",
+  "flat",
+  "college",
+  "friends",
+  "home",
+  "student",
+  "biology",
+  "world",
+  "doctor",
+  "weekends",
+  "medication",
+  "sex",
+  "sense",
+  "care"
+ ],
+ "entidades_saude": [
+  {
+   "texto": "19 years old",
+   "categoria": "Age",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 96,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "embarrassing",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.73,
+   "offset": 149,
+   "normalizado": "Embarrassment",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0679112",
+    "AOD:0000003794",
+    "CHV:0000043007",
+    "LNC:LA31438-7",
+    "MDR:10076320"
+   ]
+  },
+  {
+   "texto": "hurting",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.93,
+   "offset": 180,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C4061918",
+    "NANDA-I:00893"
+   ]
+  },
+  {
+   "texto": "few days",
+   "categoria": "Time",
+   "subcategoria": null,
+   "confianca": 0.95,
+   "offset": 261,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "stinging kind",
+   "categoria": "ConditionQualifier",
+   "subcategoria": null,
+   "confianca": 0.8,
+   "offset": 380,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "pain",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 397,
+   "normalizado": "Pain",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0030193",
+    "AOD:0000002779",
+    "BI:BI00754",
+    "CCC:Q63.0",
+    "CCPSS:0035760"
+   ]
+  },
+  {
+   "texto": "pain",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 532,
+   "normalizado": "Pain",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0030193",
+    "AOD:0000002779",
+    "BI:BI00754",
+    "CCC:Q63.0",
+    "CCPSS:0035760"
+   ]
+  },
+  {
+   "texto": "lowered down",
+   "categoria": "Direction",
+   "subcategoria": null,
+   "confianca": 0.85,
+   "offset": 545,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "tummy",
+   "categoria": "BodyStructure",
+   "subcategoria": null,
+   "confianca": 0.98,
+   "offset": 564,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "cramping",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 661,
+   "normalizado": "Muscle Cramp",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0026821",
+    "CCPSS:0003813",
+    "CHV:0000008346",
+    "COSTAR:500",
+    "CSP:1982-9552"
+   ]
+  },
+  {
+   "texto": "cramping",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 724,
+   "normalizado": "Muscle Cramp",
+   "negada": true,
+   "certeza": "negative",
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0026821",
+    "CCPSS:0003813",
+    "CHV:0000008346",
+    "COSTAR:500",
+    "CSP:1982-9552"
+   ]
+  },
+  {
+   "texto": "little bit",
+   "categoria": "ConditionQualifier",
+   "subcategoria": null,
+   "confianca": 0.83,
+   "offset": 892,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "blood",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.97,
+   "offset": 906,
+   "normalizado": "Hemorrhage",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0019080",
+    "AOD:0000005403",
+    "CCPSS:1015413",
+    "CHV:0000006008",
+    "COSTAR:U000343"
+   ]
+  },
+  {
+   "texto": "earlier today",
+   "categoria": "Time",
+   "subcategoria": null,
+   "confianca": 0.82,
+   "offset": 912,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "smell very",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.83,
+   "offset": 1003,
+   "normalizado": null,
+   "negada": true,
+   "certeza": "negative",
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "smells",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.67,
+   "offset": 1017,
+   "normalizado": "Smell Perception",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0037361",
+    "AOD:0000022377",
+    "CHV:0000011427",
+    "CSP:2683-4808",
+    "GO:GO:0007608"
+   ]
+  },
+  {
+   "texto": "bit weird",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.72,
+   "offset": 1026,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "fever",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.98,
+   "offset": 1149,
+   "normalizado": "Fever",
+   "negada": true,
+   "certeza": "negative",
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0015967",
+    "AIR:FEVER",
+    "AOD:0000004396",
+    "BI:BI00751",
+    "CCPSS:1017166"
+   ]
+  },
+  {
+   "texto": "boyfriend",
+   "categoria": "FamilyRelation",
+   "subcategoria": null,
+   "confianca": 0.71,
+   "offset": 1280,
+   "normalizado": "Boyfriend",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0521319",
+    "AOD:0000015051",
+    "CHV:0000037920",
+    "NCI:C89281",
+    "SNMI:S-11098"
+   ]
+  },
+  {
+   "texto": "couple months",
+   "categoria": "Time",
+   "subcategoria": null,
+   "confianca": 0.88,
+   "offset": 1302,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "condoms",
+   "categoria": "TreatmentName",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 1447,
+   "normalizado": "Condoms, Male",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0009653",
+    "CHV:0000003266",
+    "HCPCS:A4267",
+    "LCH_NW:sh85030795",
+    "LNC:LA27912-7"
+   ]
+  },
+  {
+   "texto": "A couple weeks ago",
+   "categoria": "Time",
+   "subcategoria": null,
+   "confianca": 0.92,
+   "offset": 1456,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "OK",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.92,
+   "offset": 1550,
+   "normalizado": "Kelvin",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0439239",
+    "CHV:0000034460",
+    "NCI:C42537",
+    "RCD:X800n",
+    "SNOMEDCT_US:258713009"
+   ]
+  },
+  {
+   "texto": "IBS",
+   "categoria": "Diagnosis",
+   "subcategoria": null,
+   "confianca": 0.67,
+   "offset": 1604,
+   "normalizado": "Ichthyosis Bullosa of Siemens",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0432306",
+    "MSH:D053560",
+    "NCI:C84777",
+    "OMIM:146800",
+    "ORPHANET:455"
+   ]
+  },
+  {
+   "texto": "serious",
+   "categoria": "ConditionQualifier",
+   "subcategoria": null,
+   "confianca": 0.85,
+   "offset": 1655,
+   "normalizado": null,
+   "negada": true,
+   "certeza": "negative",
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "medical problems",
+   "categoria": "Diagnosis",
+   "subcategoria": null,
+   "confianca": 0.85,
+   "offset": 1663,
+   "normalizado": "Problem",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0033213",
+    "CCPSS:0045100",
+    "CHV:0000010135",
+    "ICPC2P:A29026",
+    "LNC:LA9617-7"
+   ]
+  },
+  {
+   "texto": "bit ago",
+   "categoria": "Time",
+   "subcategoria": null,
+   "confianca": 0.69,
+   "offset": 1729,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "couple days ago",
+   "categoria": "Time",
+   "subcategoria": null,
+   "confianca": 0.95,
+   "offset": 1742,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "over the counter",
+   "categoria": "MedicationRoute",
+   "subcategoria": null,
+   "confianca": 0.79,
+   "offset": 1770,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "bicarbonate",
+   "categoria": "MedicationName",
+   "subcategoria": null,
+   "confianca": 0.71,
+   "offset": 1787,
+   "normalizado": "Bicarbonates",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0005367",
+    "CCPSS:1005606",
+    "CHV:0000001845",
+    "CSP:0558-8195",
+    "LNC:LP15441-6"
+   ]
+  },
+  {
+   "texto": "pain",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 1824,
+   "normalizado": "Pain",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0030193",
+    "AOD:0000002779",
+    "BI:BI00754",
+    "CCC:Q63.0",
+    "CCPSS:0035760"
+   ]
+  },
+  {
+   "texto": "Clindamycin",
+   "categoria": "Allergen",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 1891,
+   "normalizado": "clindamycin",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0008947",
+    "ATC:G01AA10",
+    "CCPSS:0059600",
+    "CHV:0000003035",
+    "CSP:0189-5476"
+   ]
+  },
+  {
+   "texto": "swelling",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 1926,
+   "normalizado": "Swelling",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0038999",
+    "AOD:0000004456",
+    "CCPSS:1000701",
+    "CHV:0000011957",
+    "COSTAR:715"
+   ]
+  },
+  {
+   "texto": "friends",
+   "categoria": "FamilyRelation",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 2080,
+   "normalizado": "friend",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0079382",
+    "AOD:0000006313",
+    "CHV:0000015164",
+    "ICF:e320",
+    "ICF-CY:e320"
+   ]
+  },
+  {
+   "texto": "a student",
+   "categoria": "Employment",
+   "subcategoria": null,
+   "confianca": 0.94,
+   "offset": 2191,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "doctor",
+   "categoria": "HealthcareProfession",
+   "subcategoria": null,
+   "confianca": 0.88,
+   "offset": 2362,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "smoke",
+   "categoria": "SubstanceUse",
+   "subcategoria": null,
+   "confianca": 0.95,
+   "offset": 2411,
+   "normalizado": null,
+   "negada": true,
+   "certeza": "negative",
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "drink",
+   "categoria": "SubstanceUse",
+   "subcategoria": null,
+   "confianca": 0.82,
+   "offset": 2423,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "on the weekends",
+   "categoria": "Frequency",
+   "subcategoria": null,
+   "confianca": 0.87,
+   "offset": 2435,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "3 days",
+   "categoria": "Time",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 2485,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "medication",
+   "categoria": "TreatmentName",
+   "subcategoria": null,
+   "confianca": 0.94,
+   "offset": 2499,
+   "normalizado": "Pharmaceutical Preparations",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0013227",
+    "CCPSS:0055234",
+    "CHV:0000004159",
+    "CSP:0962-5347",
+    "HL7V2.5:M"
+   ]
+  },
+  {
+   "texto": "go away",
+   "categoria": "Course",
+   "subcategoria": null,
+   "confianca": 0.69,
+   "offset": 2558,
+   "normalizado": null,
+   "negada": true,
+   "certeza": "negative",
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "within",
+   "categoria": "RelationalOperator",
+   "subcategoria": null,
+   "confianca": 0.65,
+   "offset": 2694,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "next week",
+   "categoria": "Time",
+   "subcategoria": null,
+   "confianca": 0.93,
+   "offset": 2705,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  }
+ ],
+ "relacoes_saude": [
+  {
+   "tipo": "QualifierOfCondition",
+   "papeis": {
+    "Qualifier": "stinging kind",
+    "Condition": "pain"
+   }
+  },
+  {
+   "tipo": "BodySiteOfCondition",
+   "papeis": {
+    "Condition": "pain",
+    "BodyStructure": "tummy"
+   }
+  },
+  {
+   "tipo": "DirectionOfBodyStructure",
+   "papeis": {
+    "Direction": "lowered down",
+    "BodyStructure": "tummy"
+   }
+  },
+  {
+   "tipo": "QualifierOfCondition",
+   "papeis": {
+    "Qualifier": "little bit",
+    "Condition": "blood"
+   }
+  },
+  {
+   "tipo": "TimeOfCondition",
+   "papeis": {
+    "Condition": "blood",
+    "Time": "earlier today"
+   }
+  },
+  {
+   "tipo": "QualifierOfCondition",
+   "papeis": {
+    "Qualifier": "serious",
+    "Condition": "medical problems"
+   }
+  },
+  {
+   "tipo": "RouteOfMedication",
+   "papeis": {
+    "Route": "over the counter",
+    "Medication": "bicarbonate"
+   }
+  },
+  {
+   "tipo": "FrequencyOfSubstanceUse",
+   "papeis": {
+    "SubstanceUse": "drink",
+    "Frequency": "on the weekends"
+   }
+  },
+  {
+   "tipo": "TimeOfTreatment",
+   "papeis": {
+    "Time": "3 days",
+    "Treatment": "medication"
+   }
+  }
+ ],
+ "idioma": "en",
+ "provedor": "azure_language"
+}

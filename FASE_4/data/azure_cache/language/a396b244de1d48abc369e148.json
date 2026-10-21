@@ -1,0 +1,2279 @@
+{
+ "_meta": {
+  "servico": "language",
+  "obtido_em": "2026-10-21T12:55:46+00:00",
+  "caracteres": 3012,
+  "endpoint": "https://aurora-language-b92b19.cognitiveservices.azure.com/"
+ },
+ "sentimento": {
+  "geral": "mixed",
+  "scores": {
+   "positive": 0.28,
+   "neutral": 0.18,
+   "negative": 0.54
+  },
+  "frases": [
+   {
+    "texto": "Hello there. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.98,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yes, I can hear you. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.33,
+     "neutral": 0.67,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Are you the doctor? ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.99,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I'm contacting you because I've been quite short of breath lately. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.41,
+     "negative": 0.59
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Well, it seems to have been slowly getting worse over the last couple of weeks. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.01,
+     "negative": 0.99
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "It's become quite troublesome in the last few days. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.2,
+     "negative": 0.8
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I kind of. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.26,
+     "neutral": 0.71,
+     "negative": 0.03
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Normally I can walk to the shops without a problem, but. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.81,
+     "neutral": 0.18,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Now I'm having to sort of sit down and catch my breath and I'm even starting to get a bit breathless just about the house. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.03,
+     "neutral": 0.42,
+     "negative": 0.55
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "And, uh, it's got me kind of worried. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.02,
+     "neutral": 0.05,
+     "negative": 0.93
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I don't really know what's going on. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.03,
+     "neutral": 0.18,
+     "negative": 0.79
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Well. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.06,
+     "neutral": 0.82,
+     "negative": 0.13
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I've I've. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.14,
+     "neutral": 0.83,
+     "negative": 0.03
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I've got. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.16,
+     "neutral": 0.82,
+     "negative": 0.02
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Heart failure. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.01,
+     "negative": 0.99
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I was told that. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.06,
+     "neutral": 0.46,
+     "negative": 0.48
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "A while ago and I got a bit breathless when I was first diagnosed. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.02,
+     "neutral": 0.7,
+     "negative": 0.28
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "And put on some. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.03,
+     "neutral": 0.97,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "That that helped but I'm a bit worried it's just getting worse. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.0,
+     "negative": 0.99
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "No pain in my chest. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.77,
+     "neutral": 0.2,
+     "negative": 0.03
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I've got a bit of a dry cough, but it's not too troublesome. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.85,
+     "neutral": 0.14,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I'm feeling a little rundown, but otherwise. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.44,
+     "negative": 0.55
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Otherwise pretty normal. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.04,
+     "neutral": 0.95,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I've noticed my ankles have gotten bigger. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 1.0,
+     "negative": 0.0
+    },
+    "opinioes": [
+     {
+      "alvo": "ankles",
+      "sentimento": "positive",
+      "avaliacoes": [
+       "bigger"
+      ]
+     }
+    ]
+   },
+   {
+    "texto": "Uh, it's just like it's sort of swollen up a bit. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.05,
+     "neutral": 0.75,
+     "negative": 0.2
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Kind of. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.06,
+     "neutral": 0.92,
+     "negative": 0.03
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah, both ankles. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.98,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah, it's a bit embarrassing. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.01,
+     "negative": 0.98
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I kind of noticed it the last few days. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.99,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I think my ankles did swell up a bit last time the heart failure was a problem.  ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.03,
+     "negative": 0.97
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "No, not really. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.03,
+     "neutral": 0.3,
+     "negative": 0.67
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Uh, no. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.03,
+     "neutral": 0.6,
+     "negative": 0.37
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah, I'm, I'm. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.34,
+     "neutral": 0.64,
+     "negative": 0.03
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "That's fine. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.8,
+     "neutral": 0.16,
+     "negative": 0.04
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah, that. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.12,
+     "neutral": 0.87,
+     "negative": 0.02
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah, I usually pee a lot. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.04,
+     "neutral": 0.95,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "The ever since the drugs. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.02,
+     "neutral": 0.96,
+     "negative": 0.02
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Well, I was told I had, like they called it like a small heart attack about five years ago. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.04,
+     "neutral": 0.23,
+     "negative": 0.73
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I, I had, I, I had like some chest pain and they took me to hospital. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.16,
+     "negative": 0.83
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "And. A. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.03,
+     "neutral": 0.94,
+     "negative": 0.03
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "But then I just got better. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.22,
+     "neutral": 0.41,
+     "negative": 0.37
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I can't remember it just called it as something like that, a small heart attack. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.11,
+     "negative": 0.88
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I know they they said they it seemed it was like more than angina. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.02,
+     "neutral": 0.94,
+     "negative": 0.04
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "But. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.02,
+     "neutral": 0.66,
+     "negative": 0.32
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I didn't, but I only had to stay in hospital for a few days and. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.73,
+     "negative": 0.27
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "And yeah, I've been OK since then. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.61,
+     "neutral": 0.32,
+     "negative": 0.07
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "No, I think I'm otherwise I'm OK. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.53,
+     "neutral": 0.34,
+     "negative": 0.13
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "All right, Yeah, I take something called furosemide. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.06,
+     "neutral": 0.94,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Uh, I can't remember. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.71,
+     "negative": 0.28
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I'm sorry doctor, I have to check. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.14,
+     "negative": 0.86
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah, I take aspirin. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.06,
+     "neutral": 0.93,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "And Zopprolol. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.02,
+     "neutral": 0.97,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Not prolong. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.03,
+     "neutral": 0.86,
+     "negative": 0.11
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Simvastatin. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.17,
+     "neutral": 0.81,
+     "negative": 0.02
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "No, no allergies. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.45,
+     "neutral": 0.5,
+     "negative": 0.05
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "As my my father died of a of a heart attack. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.1,
+     "negative": 0.9
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "He was early 60s. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.02,
+     "neutral": 0.96,
+     "negative": 0.02
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "My mother had osteoporosis. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.65,
+     "negative": 0.35
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah, she's still living. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.06,
+     "neutral": 0.72,
+     "negative": 0.23
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I live on my own. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.04,
+     "neutral": 0.87,
+     "negative": 0.09
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "All right, got 2 cats. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.12,
+     "neutral": 0.87,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "They're my family. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.02,
+     "neutral": 0.36,
+     "negative": 0.62
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Uh, they're, they're cold. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.03,
+     "neutral": 0.79,
+     "negative": 0.18
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Umm. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.03,
+     "neutral": 0.93,
+     "negative": 0.04
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "They're called Holly and Tim. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.06,
+     "neutral": 0.93,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I work part time as a lorry driver. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.99,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "It's OK. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.76,
+     "neutral": 0.19,
+     "negative": 0.05
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I yeah, like when I'm working. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.46,
+     "neutral": 0.53,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "It's pretty exhausting. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.01,
+     "negative": 0.98
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I guess I'm a bit worried that if I get sick I won't. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.06,
+     "negative": 0.93
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "If I get more sick then I won't be able to work properly. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.1,
+     "negative": 0.89
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Oh no, I I I only take shifts during the day. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.06,
+     "neutral": 0.57,
+     "negative": 0.37
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I don't like working at night. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.04,
+     "neutral": 0.13,
+     "negative": 0.83
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Not anymore. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.23,
+     "negative": 0.76
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.05,
+     "neutral": 0.95,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Oh, it's about about a pack a day. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.99,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Back in the day. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.98,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Oh, that was oh good, 25 years. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.84,
+     "neutral": 0.12,
+     "negative": 0.04
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I don't drink alcohol. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.06,
+     "neutral": 0.47,
+     "negative": 0.47
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I try and walk to the shops at least once a day. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.99,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "But that's about it. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.04,
+     "neutral": 0.79,
+     "negative": 0.17
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I've. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.15,
+     "neutral": 0.83,
+     "negative": 0.02
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah, I don't. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.5,
+     "neutral": 0.48,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I don't go running like I used to when I was young. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.1,
+     "neutral": 0.46,
+     "negative": 0.45
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "That's what's going on. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.07,
+     "neutral": 0.89,
+     "negative": 0.04
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "MMM.  OK, if you think that would be best. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.45,
+     "neutral": 0.52,
+     "negative": 0.03
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "OK. What design? ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.37,
+     "neutral": 0.62,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I always remember now. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.2,
+     "neutral": 0.79,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah, I remember now. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.03,
+     "neutral": 0.97,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "But.  ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.02,
+     "neutral": 0.67,
+     "negative": 0.31
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I think that sounds like a good plan. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.98,
+     "neutral": 0.02,
+     "negative": 0.0
+    },
+    "opinioes": [
+     {
+      "alvo": "plan",
+      "sentimento": "positive",
+      "avaliacoes": [
+       "good"
+      ]
+     }
+    ]
+   },
+   {
+    "texto": "OK, I'll see how I get on. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.69,
+     "neutral": 0.3,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I think that's all pretty clear. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.8,
+     "neutral": 0.2,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Thank you very much, Doctor. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.99,
+     "neutral": 0.01,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Kissing.",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.45,
+     "neutral": 0.51,
+     "negative": 0.04
+    },
+    "opinioes": []
+   }
+  ]
+ },
+ "frases_chave": [
+  "small heart attack",
+  "Heart failure",
+  "dry cough",
+  "little rundown",
+  "early 60s",
+  "lorry driver",
+  "good plan",
+  "last couple",
+  "chest pain",
+  "doctor",
+  "breath",
+  "weeks",
+  "days",
+  "shops",
+  "problem",
+  "house",
+  "bit",
+  "ankles",
+  "Kind",
+  "drugs",
+  "hospital",
+  "angina",
+  "something",
+  "aspirin",
+  "Zopprolol",
+  "Simvastatin",
+  "allergies",
+  "father",
+  "mother",
+  "osteoporosis",
+  "2 cats",
+  "family",
+  "shifts",
+  "night",
+  "pack",
+  "alcohol",
+  "MMM",
+  "design",
+  "Kissing"
+ ],
+ "entidades_saude": [
+  {
+   "texto": "quite",
+   "categoria": "ConditionQualifier",
+   "subcategoria": null,
+   "confianca": 0.73,
+   "offset": 91,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "short of breath",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 97,
+   "normalizado": "Dyspnea",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0013404",
+    "AOD:0000005442",
+    "BI:BI00182",
+    "CCPSS:1015304",
+    "CHV:0000004216"
+   ]
+  },
+  {
+   "texto": "slowly getting worse",
+   "categoria": "Course",
+   "subcategoria": null,
+   "confianca": 0.91,
+   "offset": 149,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "last couple of weeks",
+   "categoria": "Time",
+   "subcategoria": null,
+   "confianca": 0.97,
+   "offset": 179,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "last few days",
+   "categoria": "Time",
+   "subcategoria": null,
+   "confianca": 0.95,
+   "offset": 238,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "sit down",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.94,
+   "offset": 347,
+   "normalizado": "Does sit down",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0560831",
+    "CHV:0000039714",
+    "RCD:Xa2Fg",
+    "SNOMEDCT_US:282915006"
+   ]
+  },
+  {
+   "texto": "catch my breath",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.98,
+   "offset": 360,
+   "normalizado": "CATCH My Breath Vaping Prevention Program",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C5555745",
+    "NCI:C179524"
+   ]
+  },
+  {
+   "texto": "bit",
+   "categoria": "ConditionQualifier",
+   "subcategoria": null,
+   "confianca": 0.81,
+   "offset": 407,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "breathless",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 411,
+   "normalizado": "Dyspnea",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0013404",
+    "AOD:0000005442",
+    "BI:BI00182",
+    "CCPSS:1015304",
+    "CHV:0000004216"
+   ]
+  },
+  {
+   "texto": "Heart failure",
+   "categoria": "Diagnosis",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 546,
+   "normalizado": "Heart failure",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0018801",
+    "AOD:0000005308",
+    "BI:BI00019",
+    "CCPSS:0017571",
+    "CCS:7.2.11.2"
+   ]
+  },
+  {
+   "texto": "while ago",
+   "categoria": "Time",
+   "subcategoria": null,
+   "confianca": 0.63,
+   "offset": 580,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "bit",
+   "categoria": "ConditionQualifier",
+   "subcategoria": null,
+   "confianca": 0.87,
+   "offset": 602,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "breathless",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 606,
+   "normalizado": "Dyspnea",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0013404",
+    "AOD:0000005442",
+    "BI:BI00182",
+    "CCPSS:1015304",
+    "CHV:0000004216"
+   ]
+  },
+  {
+   "texto": "getting worse",
+   "categoria": "Course",
+   "subcategoria": null,
+   "confianca": 0.71,
+   "offset": 711,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "pain",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 729,
+   "normalizado": "Pain",
+   "negada": true,
+   "certeza": "negative",
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0030193",
+    "AOD:0000002779",
+    "BI:BI00754",
+    "CCC:Q63.0",
+    "CCPSS:0035760"
+   ]
+  },
+  {
+   "texto": "chest",
+   "categoria": "BodyStructure",
+   "subcategoria": null,
+   "confianca": 0.88,
+   "offset": 740,
+   "normalizado": "Chest",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0817096",
+    "AOD:0000007432",
+    "CCPSS:1007001",
+    "CHV:0000049411",
+    "CSP:0468-8763"
+   ]
+  },
+  {
+   "texto": "bit",
+   "categoria": "ConditionQualifier",
+   "subcategoria": null,
+   "confianca": 0.57,
+   "offset": 758,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "dry",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 767,
+   "normalizado": "Dry",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0205222",
+    "CHV:0000020415",
+    "RCD:X78yG",
+    "SNMI:G-A325",
+    "SNOMEDCT_US:13880007"
+   ]
+  },
+  {
+   "texto": "cough",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 771,
+   "normalizado": "Coughing",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0010200",
+    "AOD:0000000620",
+    "BI:BI00179",
+    "CCPSS:1017295",
+    "CHV:0000003404"
+   ]
+  },
+  {
+   "texto": "troublesome",
+   "categoria": "ConditionQualifier",
+   "subcategoria": null,
+   "confianca": 0.65,
+   "offset": 795,
+   "normalizado": null,
+   "negada": true,
+   "certeza": "negative",
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "little",
+   "categoria": "ConditionQualifier",
+   "subcategoria": null,
+   "confianca": 0.62,
+   "offset": 822,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "rundown",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.97,
+   "offset": 829,
+   "normalizado": "rundown",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0848283",
+    "CHV:0000049641",
+    "ICPC2P:A04018"
+   ]
+  },
+  {
+   "texto": "normal",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.7,
+   "offset": 870,
+   "normalizado": "Normal",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0205307",
+    "CCPSS:1004033",
+    "CHV:0000020488",
+    "HL7V2.5:N",
+    "LNC:LA6626-1"
+   ]
+  },
+  {
+   "texto": "ankles have gotten bigger",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.97,
+   "offset": 894,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "swollen up",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.91,
+   "offset": 953,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "bit",
+   "categoria": "ConditionQualifier",
+   "subcategoria": null,
+   "confianca": 0.57,
+   "offset": 966,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "both",
+   "categoria": "Direction",
+   "subcategoria": null,
+   "confianca": 0.95,
+   "offset": 986,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "ankles",
+   "categoria": "BodyStructure",
+   "subcategoria": null,
+   "confianca": 0.96,
+   "offset": 991,
+   "normalizado": "Ankle",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0003086",
+    "AOD:0000017015",
+    "CHV:0000001216",
+    "CSP:2715-4789",
+    "FMA:9665"
+   ]
+  },
+  {
+   "texto": "embarrassing",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.68,
+   "offset": 1016,
+   "normalizado": "Embarrassment",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0679112",
+    "AOD:0000003794",
+    "CHV:0000043007",
+    "LNC:LA31438-7",
+    "MDR:10076320"
+   ]
+  },
+  {
+   "texto": "last few days",
+   "categoria": "Time",
+   "subcategoria": null,
+   "confianca": 0.96,
+   "offset": 1055,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "ankles did swell up",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.86,
+   "offset": 1081,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "heart failure",
+   "categoria": "Diagnosis",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 1121,
+   "normalizado": "Heart failure",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0018801",
+    "AOD:0000005308",
+    "BI:BI00019",
+    "CCPSS:0017571",
+    "CCS:7.2.11.2"
+   ]
+  },
+  {
+   "texto": "pee a lot",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.69,
+   "offset": 1232,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "small",
+   "categoria": "ConditionQualifier",
+   "subcategoria": null,
+   "confianca": 0.93,
+   "offset": 1320,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "heart attack",
+   "categoria": "Diagnosis",
+   "subcategoria": null,
+   "confianca": 0.97,
+   "offset": 1326,
+   "normalizado": "Myocardial Infarction",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0027051",
+    "AIR:MYCNF",
+    "AOD:0000005332",
+    "BI:BI00102",
+    "CCPSS:1018028"
+   ]
+  },
+  {
+   "texto": "five years ago",
+   "categoria": "Time",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 1345,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "chest pain",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 1390,
+   "normalizado": "Chest Pain",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0008031",
+    "BI:BI00012",
+    "CCPSS:1017850",
+    "CCS:7.2.5",
+    "CCSR_ICD10CM:CIR012"
+   ]
+  },
+  {
+   "texto": "hospital",
+   "categoria": "CareEnvironment",
+   "subcategoria": null,
+   "confianca": 0.97,
+   "offset": 1421,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "remember",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 1475,
+   "normalizado": "Mental Recall",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0034770",
+    "AOD:0000003669",
+    "CHV:0000010593",
+    "LCH:U004055",
+    "LNC:MTHU028121"
+   ]
+  },
+  {
+   "texto": "small",
+   "categoria": "ConditionQualifier",
+   "subcategoria": null,
+   "confianca": 0.98,
+   "offset": 1528,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "heart attack",
+   "categoria": "Diagnosis",
+   "subcategoria": null,
+   "confianca": 0.98,
+   "offset": 1534,
+   "normalizado": "Myocardial Infarction",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0027051",
+    "AIR:MYCNF",
+    "AOD:0000005332",
+    "BI:BI00102",
+    "CCPSS:1018028"
+   ]
+  },
+  {
+   "texto": "angina",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.91,
+   "offset": 1607,
+   "normalizado": "Angina Pectoris",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0002962",
+    "AOD:0000005330",
+    "BI:BI00047",
+    "CCPSS:1017852",
+    "CCS:7.2.4.1"
+   ]
+  },
+  {
+   "texto": "hospital",
+   "categoria": "CareEnvironment",
+   "subcategoria": null,
+   "confianca": 0.98,
+   "offset": 1656,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "few days",
+   "categoria": "Time",
+   "subcategoria": null,
+   "confianca": 0.91,
+   "offset": 1671,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "OK",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.88,
+   "offset": 1705,
+   "normalizado": "Kelvin",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0439239",
+    "CHV:0000034460",
+    "NCI:C42537",
+    "RCD:X800n",
+    "SNOMEDCT_US:258713009"
+   ]
+  },
+  {
+   "texto": "OK",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.88,
+   "offset": 1750,
+   "normalizado": "Kelvin",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0439239",
+    "CHV:0000034460",
+    "NCI:C42537",
+    "RCD:X800n",
+    "SNOMEDCT_US:258713009"
+   ]
+  },
+  {
+   "texto": "furosemide",
+   "categoria": "MedicationName",
+   "subcategoria": null,
+   "confianca": 0.98,
+   "offset": 1795,
+   "normalizado": "furosemide",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0016860",
+    "AOD:0000020192",
+    "ATC:C03CA01",
+    "CCPSS:0047607",
+    "CHV:0000005299"
+   ]
+  },
+  {
+   "texto": "remember",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 1819,
+   "normalizado": "Mental Recall",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0034770",
+    "AOD:0000003669",
+    "CHV:0000010593",
+    "LCH:U004055",
+    "LNC:MTHU028121"
+   ]
+  },
+  {
+   "texto": "doctor",
+   "categoria": "HealthcareProfession",
+   "subcategoria": null,
+   "confianca": 0.9,
+   "offset": 1839,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "aspirin",
+   "categoria": "MedicationName",
+   "subcategoria": null,
+   "confianca": 0.97,
+   "offset": 1877,
+   "normalizado": "aspirin",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0004057",
+    "AOD:0000028840",
+    "ATC:B01AC06",
+    "CCPSS:0061721",
+    "CHV:0000001530"
+   ]
+  },
+  {
+   "texto": "Zopprolol",
+   "categoria": "MedicationName",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 1890,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "Simvastatin",
+   "categoria": "MedicationName",
+   "subcategoria": null,
+   "confianca": 0.89,
+   "offset": 1914,
+   "normalizado": "simvastatin",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0074554",
+    "ATC:C10AA01",
+    "CHV:0000014812",
+    "CSP:5001-0024",
+    "DRUGBANK:DB00641"
+   ]
+  },
+  {
+   "texto": "allergies",
+   "categoria": "Diagnosis",
+   "subcategoria": null,
+   "confianca": 0.64,
+   "offset": 1934,
+   "normalizado": "Hypersensitivity",
+   "negada": true,
+   "certeza": "negative",
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0020517",
+    "AOD:0000023559",
+    "BI:BI00743",
+    "CCPSS:0026478",
+    "CHV:0000057872"
+   ]
+  },
+  {
+   "texto": "father",
+   "categoria": "FamilyRelation",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 1954,
+   "normalizado": "Father (person)",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0015671",
+    "AOD:0000007055",
+    "CCPSS:0056872",
+    "CHV:0000004913",
+    "CSP:1124-5492"
+   ]
+  },
+  {
+   "texto": "died",
+   "categoria": "Diagnosis",
+   "subcategoria": null,
+   "confianca": 0.85,
+   "offset": 1961,
+   "normalizado": "Death (finding)",
+   "negada": false,
+   "certeza": null,
+   "associacao": "other",
+   "codigos": [
+    "UMLS:C1306577",
+    "CHV:0000057892",
+    "ICPC2ICD10ENG:MTHU023756",
+    "LNC:LA7424-0",
+    "MDR:10011906"
+   ]
+  },
+  {
+   "texto": "heart attack",
+   "categoria": "Diagnosis",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 1976,
+   "normalizado": "Myocardial Infarction",
+   "negada": false,
+   "certeza": null,
+   "associacao": "other",
+   "codigos": [
+    "UMLS:C0027051",
+    "AIR:MYCNF",
+    "AOD:0000005332",
+    "BI:BI00102",
+    "CCPSS:1018028"
+   ]
+  },
+  {
+   "texto": "60s",
+   "categoria": "Age",
+   "subcategoria": null,
+   "confianca": 0.9,
+   "offset": 2003,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "mother",
+   "categoria": "FamilyRelation",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 2011,
+   "normalizado": "Mother (person)",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0026591",
+    "AOD:0000027173",
+    "CCPSS:U000286",
+    "CHV:0000008266",
+    "CSP:1124-5492"
+   ]
+  },
+  {
+   "texto": "osteoporosis",
+   "categoria": "Diagnosis",
+   "subcategoria": null,
+   "confianca": 0.98,
+   "offset": 2022,
+   "normalizado": "Osteoporosis",
+   "negada": false,
+   "certeza": null,
+   "associacao": "other",
+   "codigos": [
+    "UMLS:C0029456",
+    "AOD:0000005164",
+    "BI:BI00022",
+    "CCPSS:0056382",
+    "CCS:13.4"
+   ]
+  },
+  {
+   "texto": "my own",
+   "categoria": "LivingStatus",
+   "subcategoria": null,
+   "confianca": 0.91,
+   "offset": 2072,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "family",
+   "categoria": "FamilyRelation",
+   "subcategoria": null,
+   "confianca": 0.98,
+   "offset": 2114,
+   "normalizado": "Family",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0015576",
+    "AOD:0000006914",
+    "CCPSS:0030810",
+    "CHV:0000004879",
+    "CSP:1123-4254"
+   ]
+  },
+  {
+   "texto": "cold",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.7,
+   "offset": 2143,
+   "normalizado": "Common Cold",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0009443",
+    "AOD:0000004799",
+    "CCPSS:0059528",
+    "CHV:0000003199",
+    "CSP:3099-9293"
+   ]
+  },
+  {
+   "texto": "Umm",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.61,
+   "offset": 2149,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "work",
+   "categoria": "Employment",
+   "subcategoria": null,
+   "confianca": 0.81,
+   "offset": 2186,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "a lorry driver",
+   "categoria": "Employment",
+   "subcategoria": null,
+   "confianca": 0.82,
+   "offset": 2204,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "sick",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 2324,
+   "normalizado": "Illness (finding)",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0221423",
+    "AOD:0000003858",
+    "CHV:0000021421",
+    "ICD10CM:R69",
+    "MDR:10080284"
+   ]
+  },
+  {
+   "texto": "sick",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 2352,
+   "normalizado": "Illness (finding)",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0221423",
+    "AOD:0000003858",
+    "CHV:0000021421",
+    "ICD10CM:R69",
+    "MDR:10080284"
+   ]
+  },
+  {
+   "texto": "a day",
+   "categoria": "Frequency",
+   "subcategoria": null,
+   "confianca": 0.88,
+   "offset": 2520,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "25 years",
+   "categoria": "Time",
+   "subcategoria": null,
+   "confianca": 0.91,
+   "offset": 2566,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "alcohol",
+   "categoria": "SubstanceUse",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 2590,
+   "normalizado": null,
+   "negada": true,
+   "certeza": "negative",
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "once a day",
+   "categoria": "Frequency",
+   "subcategoria": null,
+   "confianca": 0.79,
+   "offset": 2636,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "running",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 2701,
+   "normalizado": "running (history)",
+   "negada": true,
+   "certeza": "negative",
+   "associacao": null,
+   "codigos": [
+    "UMLS:C2346414",
+    "MEDCIN:122465"
+   ]
+  },
+  {
+   "texto": "young",
+   "categoria": "Age",
+   "subcategoria": null,
+   "confianca": 0.63,
+   "offset": 2735,
+   "normalizado": "Young",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0332239",
+    "CHV:0000029360",
+    "SNMI:G-A462",
+    "SNOMEDCT_US:84422007"
+   ]
+  },
+  {
+   "texto": "MMM",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.84,
+   "offset": 2766,
+   "normalizado": "Moist mucous membranes",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0517391",
+    "NOC:060202"
+   ]
+  },
+  {
+   "texto": "remember now",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.92,
+   "offset": 2835,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "remember",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 2857,
+   "normalizado": "Mental Recall",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0034770",
+    "AOD:0000003669",
+    "CHV:0000010593",
+    "LCH:U004055",
+    "LNC:MTHU028121"
+   ]
+  },
+  {
+   "texto": "Kissing",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.72,
+   "offset": 3004,
+   "normalizado": "Kissing",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0233926",
+    "CHV:0000023225",
+    "SNM:F-97510",
+    "SNMI:F-9B356",
+    "SNOMEDCT_US:78962002"
+   ]
+  }
+ ],
+ "relacoes_saude": [
+  {
+   "tipo": "QualifierOfCondition",
+   "papeis": {
+    "Qualifier": "quite",
+    "Condition": "short of breath"
+   }
+  },
+  {
+   "tipo": "QualifierOfCondition",
+   "papeis": {
+    "Qualifier": "bit",
+    "Condition": "breathless"
+   }
+  },
+  {
+   "tipo": "TimeOfCondition",
+   "papeis": {
+    "Time": "while ago",
+    "Condition": "breathless"
+   }
+  },
+  {
+   "tipo": "QualifierOfCondition",
+   "papeis": {
+    "Qualifier": "bit",
+    "Condition": "breathless"
+   }
+  },
+  {
+   "tipo": "BodySiteOfCondition",
+   "papeis": {
+    "Condition": "pain",
+    "BodyStructure": "chest"
+   }
+  },
+  {
+   "tipo": "QualifierOfCondition",
+   "papeis": {
+    "Qualifier": "bit",
+    "Condition": "dry"
+   }
+  },
+  {
+   "tipo": "QualifierOfCondition",
+   "papeis": {
+    "Condition": "cough",
+    "Qualifier": "troublesome"
+   }
+  },
+  {
+   "tipo": "QualifierOfCondition",
+   "papeis": {
+    "Qualifier": "little",
+    "Condition": "rundown"
+   }
+  },
+  {
+   "tipo": "QualifierOfCondition",
+   "papeis": {
+    "Condition": "swollen up",
+    "Qualifier": "bit"
+   }
+  },
+  {
+   "tipo": "DirectionOfBodyStructure",
+   "papeis": {
+    "Direction": "both",
+    "BodyStructure": "ankles"
+   }
+  },
+  {
+   "tipo": "QualifierOfCondition",
+   "papeis": {
+    "Qualifier": "small",
+    "Condition": "heart attack"
+   }
+  },
+  {
+   "tipo": "TimeOfCondition",
+   "papeis": {
+    "Condition": "heart attack",
+    "Time": "five years ago"
+   }
+  },
+  {
+   "tipo": "QualifierOfCondition",
+   "papeis": {
+    "Qualifier": "small",
+    "Condition": "heart attack"
+   }
+  }
+ ],
+ "idioma": "en",
+ "provedor": "azure_language"
+}

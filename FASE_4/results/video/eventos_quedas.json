@@ -1,0 +1,610 @@
+[
+ {
+  "paciente_id": "URFALL-adl-30",
+  "origem": "movimentacao",
+  "tipo": "queda",
+  "severidade": 2,
+  "t": 6.666666666666667,
+  "descricao": "Queda detectada: descida rápida do quadril seguida de postura deitada fora do leito (tronco 126° da vertical)",
+  "detector": "pose",
+  "evidencias": {
+   "angulo_tronco": 125.62068176269531,
+   "razao_caixa": 0.8280235528945923,
+   "descida_t": 5.666666666666667
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-54A7CD5E7E",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "URFALL-adl-30",
+  "origem": "movimentacao",
+  "tipo": "imobilidade_pos_queda",
+  "severidade": 3,
+  "t": 9.266666666666667,
+  "descricao": "Paciente permanece no chão, sem se levantar, há 3 s após a queda",
+  "detector": "pose",
+  "evidencias": {
+   "segundos_no_chao": 2.6,
+   "deslocamento_rel": 0.42
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-F56AD0B696",
+  "severidade_rotulo": "crítico"
+ },
+ {
+  "paciente_id": "URFALL-adl-31",
+  "origem": "movimentacao",
+  "tipo": "queda",
+  "severidade": 2,
+  "t": 3.466666666666667,
+  "descricao": "Queda detectada: descida rápida do quadril seguida de postura deitada fora do leito (tronco 86° da vertical)",
+  "detector": "pose",
+  "evidencias": {
+   "angulo_tronco": 86.38947296142578,
+   "razao_caixa": 1.0633728504180908,
+   "descida_t": 2.0
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-7292CD6C46",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "URFALL-adl-32",
+  "origem": "movimentacao",
+  "tipo": "queda",
+  "severidade": 2,
+  "t": 3.933333333333333,
+  "descricao": "Queda detectada: descida rápida do quadril seguida de postura deitada fora do leito (tronco 0° da vertical)",
+  "detector": "pose",
+  "evidencias": {
+   "angulo_tronco": null,
+   "razao_caixa": null,
+   "descida_t": 2.3333333333333335
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-5FEBB40333",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "URFALL-adl-32",
+  "origem": "movimentacao",
+  "tipo": "imobilidade_pos_queda",
+  "severidade": 3,
+  "t": 5.933333333333334,
+  "descricao": "Paciente permanece no chão, sem se levantar, há 2 s após a queda",
+  "detector": "pose",
+  "evidencias": {
+   "segundos_no_chao": 2.0,
+   "deslocamento_rel": 0.36
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-B9DAD79A97",
+  "severidade_rotulo": "crítico"
+ },
+ {
+  "paciente_id": "URFALL-adl-33",
+  "origem": "movimentacao",
+  "tipo": "queda",
+  "severidade": 2,
+  "t": 4.0,
+  "descricao": "Queda detectada: descida rápida do quadril seguida de postura deitada fora do leito (tronco 92° da vertical)",
+  "detector": "pose",
+  "evidencias": {
+   "angulo_tronco": 92.49609375,
+   "razao_caixa": 1.0656810998916626,
+   "descida_t": 3.4
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-BF73AD3480",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "URFALL-adl-34",
+  "origem": "movimentacao",
+  "tipo": "queda",
+  "severidade": 2,
+  "t": 2.066666666666667,
+  "descricao": "Queda detectada: descida rápida do quadril seguida de postura deitada fora do leito (tronco 78° da vertical)",
+  "detector": "pose",
+  "evidencias": {
+   "angulo_tronco": 77.60364532470703,
+   "razao_caixa": 0.9134052395820618,
+   "descida_t": 1.3333333333333333
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-075A765339",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "URFALL-adl-35",
+  "origem": "movimentacao",
+  "tipo": "queda",
+  "severidade": 2,
+  "t": 3.066666666666667,
+  "descricao": "Queda detectada: descida rápida do quadril seguida de postura deitada fora do leito (tronco 123° da vertical)",
+  "detector": "pose",
+  "evidencias": {
+   "angulo_tronco": 123.4158706665039,
+   "razao_caixa": 1.7537660598754883,
+   "descida_t": 1.1333333333333333
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-DD5622F8D1",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "URFALL-adl-35",
+  "origem": "movimentacao",
+  "tipo": "imobilidade_pos_queda",
+  "severidade": 3,
+  "t": 5.2,
+  "descricao": "Paciente permanece no chão, sem se levantar, há 2 s após a queda",
+  "detector": "pose",
+  "evidencias": {
+   "segundos_no_chao": 2.1,
+   "deslocamento_rel": 0.43
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-ED9FDB1C52",
+  "severidade_rotulo": "crítico"
+ },
+ {
+  "paciente_id": "URFALL-adl-40",
+  "origem": "movimentacao",
+  "tipo": "queda",
+  "severidade": 2,
+  "t": 7.933333333333334,
+  "descricao": "Queda detectada: descida rápida do quadril seguida de postura deitada fora do leito (tronco 121° da vertical)",
+  "detector": "pose",
+  "evidencias": {
+   "angulo_tronco": 121.3555679321289,
+   "razao_caixa": 0.7779495120048523,
+   "descida_t": 6.733333333333333
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-797FD976DE",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "URFALL-adl-40",
+  "origem": "movimentacao",
+  "tipo": "imobilidade_pos_queda",
+  "severidade": 3,
+  "t": 10.4,
+  "descricao": "Paciente permanece no chão, sem se levantar, há 2 s após a queda",
+  "detector": "pose",
+  "evidencias": {
+   "segundos_no_chao": 2.5,
+   "deslocamento_rel": 0.31
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-8229B287DA",
+  "severidade_rotulo": "crítico"
+ },
+ {
+  "paciente_id": "URFALL-fall-01",
+  "origem": "movimentacao",
+  "tipo": "queda",
+  "severidade": 2,
+  "t": 3.8666666666666667,
+  "descricao": "Queda detectada: descida rápida do quadril seguida de postura deitada fora do leito (tronco 0° da vertical)",
+  "detector": "pose",
+  "evidencias": {
+   "angulo_tronco": null,
+   "razao_caixa": 1.4366270303726196,
+   "descida_t": 3.2
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-D0FB68F28C",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "URFALL-fall-02",
+  "origem": "movimentacao",
+  "tipo": "queda",
+  "severidade": 2,
+  "t": 2.466666666666667,
+  "descricao": "Queda detectada: descida rápida do quadril seguida de postura deitada fora do leito (tronco 52° da vertical)",
+  "detector": "pose",
+  "evidencias": {
+   "angulo_tronco": 51.529109954833984,
+   "razao_caixa": 2.5525588989257812,
+   "descida_t": 2.2
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-90594730F9",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "URFALL-fall-03",
+  "origem": "movimentacao",
+  "tipo": "queda",
+  "severidade": 2,
+  "t": 6.4,
+  "descricao": "Queda detectada: descida rápida do quadril seguida de postura deitada fora do leito (tronco 17° da vertical)",
+  "detector": "pose",
+  "evidencias": {
+   "angulo_tronco": 17.39925765991211,
+   "razao_caixa": 1.7382878065109253,
+   "descida_t": 5.533333333333333
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-3458084E32",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "URFALL-fall-04",
+  "origem": "movimentacao",
+  "tipo": "queda",
+  "severidade": 2,
+  "t": 1.2,
+  "descricao": "Queda detectada: descida rápida do quadril seguida de postura deitada fora do leito (tronco 65° da vertical)",
+  "detector": "pose",
+  "evidencias": {
+   "angulo_tronco": 64.56986236572266,
+   "razao_caixa": 1.375372290611267,
+   "descida_t": 1.2
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-AF0F02CBA5",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "URFALL-fall-05",
+  "origem": "movimentacao",
+  "tipo": "queda",
+  "severidade": 2,
+  "t": 3.7333333333333334,
+  "descricao": "Queda detectada: descida rápida do quadril seguida de postura deitada fora do leito (tronco 105° da vertical)",
+  "detector": "pose",
+  "evidencias": {
+   "angulo_tronco": 104.84342193603516,
+   "razao_caixa": 1.4641814231872559,
+   "descida_t": 3.2
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-FBD21032CE",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "URFALL-fall-07",
+  "origem": "movimentacao",
+  "tipo": "queda",
+  "severidade": 2,
+  "t": 3.8,
+  "descricao": "Queda detectada: descida rápida do quadril seguida de postura deitada fora do leito (tronco 0° da vertical)",
+  "detector": "pose",
+  "evidencias": {
+   "angulo_tronco": null,
+   "razao_caixa": null,
+   "descida_t": 3.4
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-4F07B3088C",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "URFALL-fall-08",
+  "origem": "movimentacao",
+  "tipo": "queda",
+  "severidade": 2,
+  "t": 1.6666666666666667,
+  "descricao": "Queda detectada: descida rápida do quadril seguida de postura deitada fora do leito (tronco 92° da vertical)",
+  "detector": "pose",
+  "evidencias": {
+   "angulo_tronco": 91.92469787597656,
+   "razao_caixa": 1.2906180620193481,
+   "descida_t": 1.6666666666666667
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-F491564FCF",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "URFALL-fall-09",
+  "origem": "movimentacao",
+  "tipo": "queda",
+  "severidade": 2,
+  "t": 5.0,
+  "descricao": "Queda detectada: descida rápida do quadril seguida de postura deitada fora do leito (tronco 0° da vertical)",
+  "detector": "pose",
+  "evidencias": {
+   "angulo_tronco": null,
+   "razao_caixa": null,
+   "descida_t": 4.466666666666667
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-412227AB65",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "URFALL-fall-10",
+  "origem": "movimentacao",
+  "tipo": "queda",
+  "severidade": 2,
+  "t": 2.066666666666667,
+  "descricao": "Queda detectada: descida rápida do quadril seguida de postura deitada fora do leito (tronco 81° da vertical)",
+  "detector": "pose",
+  "evidencias": {
+   "angulo_tronco": 81.07093048095703,
+   "razao_caixa": 1.4794576168060303,
+   "descida_t": 2.066666666666667
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-A5E09BB14D",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "URFALL-fall-11",
+  "origem": "movimentacao",
+  "tipo": "queda",
+  "severidade": 2,
+  "t": 2.6666666666666665,
+  "descricao": "Queda detectada: descida rápida do quadril seguida de postura deitada fora do leito (tronco 57° da vertical)",
+  "detector": "pose",
+  "evidencias": {
+   "angulo_tronco": 56.64885330200195,
+   "razao_caixa": 1.5163588523864746,
+   "descida_t": 2.1333333333333333
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-6769421D21",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "URFALL-fall-12",
+  "origem": "movimentacao",
+  "tipo": "queda",
+  "severidade": 2,
+  "t": 1.6666666666666667,
+  "descricao": "Queda detectada: descida rápida do quadril seguida de postura deitada fora do leito (tronco 69° da vertical)",
+  "detector": "pose",
+  "evidencias": {
+   "angulo_tronco": 68.5718002319336,
+   "razao_caixa": 1.4370214939117432,
+   "descida_t": 1.6666666666666667
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-D7943254FB",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "URFALL-fall-14",
+  "origem": "movimentacao",
+  "tipo": "queda",
+  "severidade": 2,
+  "t": 1.4,
+  "descricao": "Queda detectada: descida rápida do quadril seguida de postura deitada fora do leito (tronco 93° da vertical)",
+  "detector": "pose",
+  "evidencias": {
+   "angulo_tronco": 92.79537200927734,
+   "razao_caixa": 2.210397243499756,
+   "descida_t": 1.4
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-269BB0A8E1",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "URFALL-fall-15",
+  "origem": "movimentacao",
+  "tipo": "queda",
+  "severidade": 2,
+  "t": 1.7333333333333334,
+  "descricao": "Queda detectada: descida rápida do quadril seguida de postura deitada fora do leito (tronco 0° da vertical)",
+  "detector": "pose",
+  "evidencias": {
+   "angulo_tronco": null,
+   "razao_caixa": null,
+   "descida_t": 1.5333333333333334
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-FB6EC3CD33",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "URFALL-fall-16",
+  "origem": "movimentacao",
+  "tipo": "queda",
+  "severidade": 2,
+  "t": 1.4666666666666666,
+  "descricao": "Queda detectada: descida rápida do quadril seguida de postura deitada fora do leito (tronco 84° da vertical)",
+  "detector": "pose",
+  "evidencias": {
+   "angulo_tronco": 84.0317611694336,
+   "razao_caixa": 2.1973824501037598,
+   "descida_t": 1.4666666666666666
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-B6A42A2CD1",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "URFALL-fall-19",
+  "origem": "movimentacao",
+  "tipo": "queda",
+  "severidade": 2,
+  "t": 2.2,
+  "descricao": "Queda detectada: descida rápida do quadril seguida de postura deitada fora do leito (tronco 0° da vertical)",
+  "detector": "pose",
+  "evidencias": {
+   "angulo_tronco": null,
+   "razao_caixa": null,
+   "descida_t": 1.5333333333333334
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-7731B170A3",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "URFALL-fall-20",
+  "origem": "movimentacao",
+  "tipo": "queda",
+  "severidade": 2,
+  "t": 2.066666666666667,
+  "descricao": "Queda detectada: descida rápida do quadril seguida de postura deitada fora do leito (tronco 73° da vertical)",
+  "detector": "pose",
+  "evidencias": {
+   "angulo_tronco": 73.4397964477539,
+   "razao_caixa": 1.1718577146530151,
+   "descida_t": 1.4666666666666666
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-4622B4F02F",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "URFALL-fall-22",
+  "origem": "movimentacao",
+  "tipo": "queda",
+  "severidade": 2,
+  "t": 0.9333333333333333,
+  "descricao": "Queda detectada: descida rápida do quadril seguida de postura deitada fora do leito (tronco 83° da vertical)",
+  "detector": "pose",
+  "evidencias": {
+   "angulo_tronco": 83.21681213378906,
+   "razao_caixa": 1.6196928024291992,
+   "descida_t": 0.9333333333333333
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-4982508C43",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "URFALL-fall-23",
+  "origem": "movimentacao",
+  "tipo": "queda",
+  "severidade": 2,
+  "t": 1.8666666666666667,
+  "descricao": "Queda detectada: descida rápida do quadril seguida de postura deitada fora do leito (tronco 0° da vertical)",
+  "detector": "pose",
+  "evidencias": {
+   "angulo_tronco": null,
+   "razao_caixa": null,
+   "descida_t": 1.6
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-F5A08CD66F",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "URFALL-fall-24",
+  "origem": "movimentacao",
+  "tipo": "queda",
+  "severidade": 2,
+  "t": 1.1333333333333333,
+  "descricao": "Queda detectada: descida rápida do quadril seguida de postura deitada fora do leito (tronco 90° da vertical)",
+  "detector": "pose",
+  "evidencias": {
+   "angulo_tronco": 90.28238677978516,
+   "razao_caixa": 2.414445400238037,
+   "descida_t": 1.1333333333333333
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-BAEDFCDC56",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "URFALL-fall-25",
+  "origem": "movimentacao",
+  "tipo": "queda",
+  "severidade": 2,
+  "t": 2.6666666666666665,
+  "descricao": "Queda detectada: descida rápida do quadril seguida de postura deitada fora do leito (tronco 0° da vertical)",
+  "detector": "pose",
+  "evidencias": {
+   "angulo_tronco": null,
+   "razao_caixa": null,
+   "descida_t": 2.066666666666667
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-9752F5C617",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "URFALL-fall-26",
+  "origem": "movimentacao",
+  "tipo": "queda",
+  "severidade": 2,
+  "t": 1.2,
+  "descricao": "Queda detectada: descida rápida do quadril seguida de postura deitada fora do leito (tronco 92° da vertical)",
+  "detector": "pose",
+  "evidencias": {
+   "angulo_tronco": 91.93012237548828,
+   "razao_caixa": 1.6719436645507812,
+   "descida_t": 1.2
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-F9776D5571",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "URFALL-fall-27",
+  "origem": "movimentacao",
+  "tipo": "queda",
+  "severidade": 2,
+  "t": 2.933333333333333,
+  "descricao": "Queda detectada: descida rápida do quadril seguida de postura deitada fora do leito (tronco 0° da vertical)",
+  "detector": "pose",
+  "evidencias": {
+   "angulo_tronco": null,
+   "razao_caixa": null,
+   "descida_t": 2.4
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-E551217401",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "URFALL-fall-28",
+  "origem": "movimentacao",
+  "tipo": "queda",
+  "severidade": 2,
+  "t": 1.5333333333333334,
+  "descricao": "Queda detectada: descida rápida do quadril seguida de postura deitada fora do leito (tronco 77° da vertical)",
+  "detector": "pose",
+  "evidencias": {
+   "angulo_tronco": 76.72602081298828,
+   "razao_caixa": 1.5391020774841309,
+   "descida_t": 1.5333333333333334
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-6FD87FB454",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "URFALL-fall-29",
+  "origem": "movimentacao",
+  "tipo": "queda",
+  "severidade": 2,
+  "t": 2.7333333333333334,
+  "descricao": "Queda detectada: descida rápida do quadril seguida de postura deitada fora do leito (tronco 118° da vertical)",
+  "detector": "pose",
+  "evidencias": {
+   "angulo_tronco": 117.5262680053711,
+   "razao_caixa": 1.9357588291168213,
+   "descida_t": 2.0
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-D6E41E0635",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "URFALL-fall-30",
+  "origem": "movimentacao",
+  "tipo": "queda",
+  "severidade": 2,
+  "t": 1.5333333333333334,
+  "descricao": "Queda detectada: descida rápida do quadril seguida de postura deitada fora do leito (tronco 79° da vertical)",
+  "detector": "pose",
+  "evidencias": {
+   "angulo_tronco": 79.20533752441406,
+   "razao_caixa": 1.4661004543304443,
+   "descida_t": 1.5333333333333334
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-786F892000",
+  "severidade_rotulo": "urgente"
+ }
+]

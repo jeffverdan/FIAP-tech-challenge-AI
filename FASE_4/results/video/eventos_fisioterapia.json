@@ -1,0 +1,3692 @@
+[
+ {
+  "paciente_id": "REHAB-PM_000",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 20.666666666666668,
+  "descricao": "Repetição 2 fora do padrão esperado: extensão do cotovelo no topo: 137.98° (abaixo do esperado 154.07°); duração da repetição: 8s (acima do esperado 4.6s)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 2,
+   "escore": 3.41,
+   "desvios": [
+    {
+     "feature": "cotovelo_min",
+     "descricao": "extensão do cotovelo no topo",
+     "valor": 137.98,
+     "esperado": 154.07,
+     "z": -3.41,
+     "unidade": "°"
+    },
+    {
+     "feature": "duracao_s",
+     "descricao": "duração da repetição",
+     "valor": 8.0,
+     "esperado": 4.6,
+     "z": 2.55,
+     "unidade": "s"
+    }
+   ]
+  },
+  "duracao_s": 8.066666666666668,
+  "id": "EVT-C91D715E79",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "REHAB-PM_000",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 28.833333333333332,
+  "descricao": "Repetição 3 fora do padrão esperado (2 seguidas): duração da repetição: 8.1s (acima do esperado 4.6s)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 3,
+   "escore": 2.62,
+   "desvios": [
+    {
+     "feature": "duracao_s",
+     "descricao": "duração da repetição",
+     "valor": 8.1,
+     "esperado": 4.6,
+     "z": 2.62,
+     "unidade": "s"
+    }
+   ]
+  },
+  "duracao_s": 8.133333333333333,
+  "id": "EVT-30EE768739",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "REHAB-PM_000",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 42.166666666666664,
+  "descricao": "Repetição 5 fora do padrão esperado: extensão do cotovelo no topo: 137.44° (abaixo do esperado 154.07°)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 5,
+   "escore": 3.53,
+   "desvios": [
+    {
+     "feature": "cotovelo_min",
+     "descricao": "extensão do cotovelo no topo",
+     "valor": 137.44,
+     "esperado": 154.07,
+     "z": -3.53,
+     "unidade": "°"
+    }
+   ]
+  },
+  "duracao_s": 5.9666666666666615,
+  "id": "EVT-5CA840F44D",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "REHAB-PM_001",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 64.66666666666667,
+  "descricao": "Repetição 6 fora do padrão esperado: duração da repetição: 8.2s (acima do esperado 4.6s)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 6,
+   "escore": 2.7,
+   "desvios": [
+    {
+     "feature": "duracao_s",
+     "descricao": "duração da repetição",
+     "valor": 8.2,
+     "esperado": 4.6,
+     "z": 2.7,
+     "unidade": "s"
+    }
+   ]
+  },
+  "duracao_s": 8.333333333333336,
+  "id": "EVT-0C539BB624",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "REHAB-PM_001",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 78.2,
+  "descricao": "Repetição 7 fora do padrão esperado (2 seguidas): duração da repetição: 9.5s (acima do esperado 4.6s)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 7,
+   "escore": 3.67,
+   "desvios": [
+    {
+     "feature": "duracao_s",
+     "descricao": "duração da repetição",
+     "valor": 9.5,
+     "esperado": 4.6,
+     "z": 3.67,
+     "unidade": "s"
+    }
+   ]
+  },
+  "duracao_s": 9.533333333333331,
+  "id": "EVT-7F6E7BEA09",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "REHAB-PM_002",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 12.1,
+  "descricao": "Repetição 1 fora do padrão esperado: duração da repetição: 7s (acima do esperado 4.3s); extensão do cotovelo no topo: 110.89° (abaixo do esperado 139.33°)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 1,
+   "escore": 4.55,
+   "desvios": [
+    {
+     "feature": "duracao_s",
+     "descricao": "duração da repetição",
+     "valor": 7.0,
+     "esperado": 4.3,
+     "z": 4.55,
+     "unidade": "s"
+    },
+    {
+     "feature": "cotovelo_min",
+     "descricao": "extensão do cotovelo no topo",
+     "valor": 110.89,
+     "esperado": 139.33,
+     "z": -4.16,
+     "unidade": "°"
+    }
+   ]
+  },
+  "duracao_s": 7.033333333333333,
+  "id": "EVT-F3FBE84833",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "REHAB-PM_002",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 19.1,
+  "descricao": "Repetição 2 fora do padrão esperado (2 seguidas): duração da repetição: 6.9s (acima do esperado 4.3s); extensão do cotovelo no topo: 113.06° (abaixo do esperado 139.33°)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 2,
+   "escore": 4.38,
+   "desvios": [
+    {
+     "feature": "duracao_s",
+     "descricao": "duração da repetição",
+     "valor": 6.9,
+     "esperado": 4.3,
+     "z": 4.38,
+     "unidade": "s"
+    },
+    {
+     "feature": "cotovelo_min",
+     "descricao": "extensão do cotovelo no topo",
+     "valor": 113.06,
+     "esperado": 139.33,
+     "z": -3.84,
+     "unidade": "°"
+    }
+   ]
+  },
+  "duracao_s": 6.966666666666669,
+  "id": "EVT-13A2AF14E5",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "REHAB-PM_002",
+  "origem": "video",
+  "tipo": "padrao_incorreto_persistente",
+  "severidade": 2,
+  "t": 25.533333333333335,
+  "descricao": "Repetição 3 fora do padrão esperado (3 seguidas): extensão do cotovelo no topo: 110.66° (abaixo do esperado 139.33°); duração da repetição: 6.3s (acima do esperado 4.3s)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 3,
+   "escore": 4.19,
+   "desvios": [
+    {
+     "feature": "cotovelo_min",
+     "descricao": "extensão do cotovelo no topo",
+     "valor": 110.66,
+     "esperado": 139.33,
+     "z": -4.19,
+     "unidade": "°"
+    },
+    {
+     "feature": "duracao_s",
+     "descricao": "duração da repetição",
+     "valor": 6.3,
+     "esperado": 4.3,
+     "z": 3.37,
+     "unidade": "s"
+    }
+   ]
+  },
+  "duracao_s": 6.400000000000002,
+  "id": "EVT-0076951047",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "REHAB-PM_002",
+  "origem": "video",
+  "tipo": "padrao_incorreto_persistente",
+  "severidade": 2,
+  "t": 30.333333333333332,
+  "descricao": "Repetição 4 fora do padrão esperado (4 seguidas): extensão do cotovelo no topo: 112.91° (abaixo do esperado 139.33°)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 4,
+   "escore": 3.86,
+   "desvios": [
+    {
+     "feature": "cotovelo_min",
+     "descricao": "extensão do cotovelo no topo",
+     "valor": 112.91,
+     "esperado": 139.33,
+     "z": -3.86,
+     "unidade": "°"
+    }
+   ]
+  },
+  "duracao_s": 4.766666666666666,
+  "id": "EVT-E3146BDF12",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "REHAB-PM_002",
+  "origem": "video",
+  "tipo": "padrao_incorreto_persistente",
+  "severidade": 2,
+  "t": 40.833333333333336,
+  "descricao": "Repetição 5 fora do padrão esperado (5 seguidas): duração da repetição: 7.4s (acima do esperado 4.3s); extensão do cotovelo no topo: 106.47° (abaixo do esperado 139.33°)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 5,
+   "escore": 5.23,
+   "desvios": [
+    {
+     "feature": "duracao_s",
+     "descricao": "duração da repetição",
+     "valor": 7.4,
+     "esperado": 4.3,
+     "z": 5.23,
+     "unidade": "s"
+    },
+    {
+     "feature": "cotovelo_min",
+     "descricao": "extensão do cotovelo no topo",
+     "valor": 106.47,
+     "esperado": 139.33,
+     "z": -4.8,
+     "unidade": "°"
+    }
+   ]
+  },
+  "duracao_s": 7.5,
+  "id": "EVT-C1F042D2A6",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "REHAB-PM_002",
+  "origem": "video",
+  "tipo": "padrao_incorreto_persistente",
+  "severidade": 2,
+  "t": 46.9,
+  "descricao": "Repetição 6 fora do padrão esperado (6 seguidas): extensão do cotovelo no topo: 79.4° (abaixo do esperado 139.33°); duração da repetição: 6s (acima do esperado 4.3s)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 6,
+   "escore": 8.76,
+   "desvios": [
+    {
+     "feature": "cotovelo_min",
+     "descricao": "extensão do cotovelo no topo",
+     "valor": 79.4,
+     "esperado": 139.33,
+     "z": -8.76,
+     "unidade": "°"
+    },
+    {
+     "feature": "duracao_s",
+     "descricao": "duração da repetição",
+     "valor": 6.0,
+     "esperado": 4.3,
+     "z": 2.87,
+     "unidade": "s"
+    }
+   ]
+  },
+  "duracao_s": 6.033333333333331,
+  "id": "EVT-69DA857F01",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "REHAB-PM_002",
+  "origem": "video",
+  "tipo": "padrao_incorreto_persistente",
+  "severidade": 2,
+  "t": 53.5,
+  "descricao": "Repetição 7 fora do padrão esperado (7 seguidas): extensão do cotovelo no topo: 84.8° (abaixo do esperado 139.33°); duração da repetição: 6.5s (acima do esperado 4.3s)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 7,
+   "escore": 7.97,
+   "desvios": [
+    {
+     "feature": "cotovelo_min",
+     "descricao": "extensão do cotovelo no topo",
+     "valor": 84.8,
+     "esperado": 139.33,
+     "z": -7.97,
+     "unidade": "°"
+    },
+    {
+     "feature": "duracao_s",
+     "descricao": "duração da repetição",
+     "valor": 6.5,
+     "esperado": 4.3,
+     "z": 3.71,
+     "unidade": "s"
+    }
+   ]
+  },
+  "duracao_s": 6.56666666666667,
+  "id": "EVT-014C6EF3AF",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "REHAB-PM_002",
+  "origem": "video",
+  "tipo": "padrao_incorreto_persistente",
+  "severidade": 2,
+  "t": 60.0,
+  "descricao": "Repetição 8 fora do padrão esperado (8 seguidas): duração da repetição: 6.4s (acima do esperado 4.3s)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 8,
+   "escore": 3.54,
+   "desvios": [
+    {
+     "feature": "duracao_s",
+     "descricao": "duração da repetição",
+     "valor": 6.4,
+     "esperado": 4.3,
+     "z": 3.54,
+     "unidade": "s"
+    }
+   ]
+  },
+  "duracao_s": 6.466666666666669,
+  "id": "EVT-C5E347ACCA",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "REHAB-PM_008",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 52.333333333333336,
+  "descricao": "Repetição 6 fora do padrão esperado: duração da repetição: 4.6s (acima do esperado 2.9s)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 6,
+   "escore": 2.55,
+   "desvios": [
+    {
+     "feature": "duracao_s",
+     "descricao": "duração da repetição",
+     "valor": 4.6,
+     "esperado": 2.9,
+     "z": 2.55,
+     "unidade": "s"
+    }
+   ]
+  },
+  "duracao_s": 4.666666666666671,
+  "id": "EVT-E0D7290CF8",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "REHAB-PM_008",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 61.833333333333336,
+  "descricao": "Repetição 8 fora do padrão esperado: duração da repetição: 4.8s (acima do esperado 2.9s)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 8,
+   "escore": 2.85,
+   "desvios": [
+    {
+     "feature": "duracao_s",
+     "descricao": "duração da repetição",
+     "valor": 4.8,
+     "esperado": 2.9,
+     "z": 2.85,
+     "unidade": "s"
+    }
+   ]
+  },
+  "duracao_s": 4.900000000000006,
+  "id": "EVT-3A3D4E2765",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "REHAB-PM_008",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 71.66666666666667,
+  "descricao": "Repetição 10 fora do padrão esperado: duração da repetição: 4.6s (acima do esperado 2.9s)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 10,
+   "escore": 2.55,
+   "desvios": [
+    {
+     "feature": "duracao_s",
+     "descricao": "duração da repetição",
+     "valor": 4.6,
+     "esperado": 2.9,
+     "z": 2.55,
+     "unidade": "s"
+    }
+   ]
+  },
+  "duracao_s": 4.666666666666671,
+  "id": "EVT-826947C418",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "REHAB-PM_008",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 97.5,
+  "descricao": "Repetição 13 fora do padrão esperado: assimetria entre joelhos: 45.66° (acima do esperado 10.4°)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 13,
+   "escore": 4.26,
+   "desvios": [
+    {
+     "feature": "assimetria_joelhos",
+     "descricao": "assimetria entre joelhos",
+     "valor": 45.66,
+     "esperado": 10.4,
+     "z": 4.26,
+     "unidade": "°"
+    }
+   ]
+  },
+  "duracao_s": 3.1666666666666714,
+  "id": "EVT-DB873ACAB5",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "REHAB-PM_008",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 101.0,
+  "descricao": "Repetição 14 fora do padrão esperado (2 seguidas): assimetria entre joelhos: 54.33° (acima do esperado 10.4°)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 14,
+   "escore": 5.31,
+   "desvios": [
+    {
+     "feature": "assimetria_joelhos",
+     "descricao": "assimetria entre joelhos",
+     "valor": 54.33,
+     "esperado": 10.4,
+     "z": 5.31,
+     "unidade": "°"
+    }
+   ]
+  },
+  "duracao_s": 3.0,
+  "id": "EVT-EEBD45CA06",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "REHAB-PM_008",
+  "origem": "video",
+  "tipo": "padrao_incorreto_persistente",
+  "severidade": 2,
+  "t": 104.66666666666667,
+  "descricao": "Repetição 15 fora do padrão esperado (3 seguidas): assimetria entre joelhos: 43° (acima do esperado 10.4°)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 15,
+   "escore": 3.94,
+   "desvios": [
+    {
+     "feature": "assimetria_joelhos",
+     "descricao": "assimetria entre joelhos",
+     "valor": 43.0,
+     "esperado": 10.4,
+     "z": 3.94,
+     "unidade": "°"
+    }
+   ]
+  },
+  "duracao_s": 3.333333333333343,
+  "id": "EVT-8DFD318B17",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "REHAB-PM_008",
+  "origem": "video",
+  "tipo": "padrao_incorreto_persistente",
+  "severidade": 2,
+  "t": 108.5,
+  "descricao": "Repetição 16 fora do padrão esperado (4 seguidas): assimetria entre joelhos: 38.73° (acima do esperado 10.4°)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 16,
+   "escore": 3.42,
+   "desvios": [
+    {
+     "feature": "assimetria_joelhos",
+     "descricao": "assimetria entre joelhos",
+     "valor": 38.73,
+     "esperado": 10.4,
+     "z": 3.42,
+     "unidade": "°"
+    }
+   ]
+  },
+  "duracao_s": 3.1666666666666714,
+  "id": "EVT-2150870A2C",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "REHAB-PM_008",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 135.0,
+  "descricao": "Repetição 18 fora do padrão esperado: profundidade (descida do quadril / tronco): 0.31 (abaixo do esperado 0.58)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 18,
+   "escore": 2.73,
+   "desvios": [
+    {
+     "feature": "descida_quadril",
+     "descricao": "profundidade (descida do quadril / tronco)",
+     "valor": 0.31,
+     "esperado": 0.58,
+     "z": -2.73,
+     "unidade": ""
+    }
+   ]
+  },
+  "duracao_s": 3.666666666666657,
+  "id": "EVT-4148829C03",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "REHAB-PM_008",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 140.0,
+  "descricao": "Repetição 19 fora do padrão esperado (2 seguidas): profundidade (descida do quadril / tronco): 0.31 (abaixo do esperado 0.58)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 19,
+   "escore": 2.73,
+   "desvios": [
+    {
+     "feature": "descida_quadril",
+     "descricao": "profundidade (descida do quadril / tronco)",
+     "valor": 0.31,
+     "esperado": 0.58,
+     "z": -2.73,
+     "unidade": ""
+    }
+   ]
+  },
+  "duracao_s": 4.333333333333343,
+  "id": "EVT-39672F48D9",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "REHAB-PM_008",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 161.83333333333334,
+  "descricao": "Repetição 24 fora do padrão esperado: inclinação do tronco à frente: 40.35° (acima do esperado 24.07°)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 24,
+   "escore": 2.51,
+   "desvios": [
+    {
+     "feature": "tronco_max",
+     "descricao": "inclinação do tronco à frente",
+     "valor": 40.35,
+     "esperado": 24.07,
+     "z": 2.51,
+     "unidade": "°"
+    }
+   ]
+  },
+  "duracao_s": 3.1666666666666856,
+  "id": "EVT-0A95878F0C",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "REHAB-PM_008",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 171.66666666666666,
+  "descricao": "Repetição 27 fora do padrão esperado: inclinação do tronco à frente: 43.64° (acima do esperado 24.07°)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 27,
+   "escore": 3.02,
+   "desvios": [
+    {
+     "feature": "tronco_max",
+     "descricao": "inclinação do tronco à frente",
+     "valor": 43.64,
+     "esperado": 24.07,
+     "z": 3.02,
+     "unidade": "°"
+    }
+   ]
+  },
+  "duracao_s": 3.0,
+  "id": "EVT-72FD0521C1",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "REHAB-PM_012",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 64.5,
+  "descricao": "Repetição 7 fora do padrão esperado: extensão do cotovelo no topo: 139.63° (abaixo do esperado 154.08°)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 7,
+   "escore": 3.18,
+   "desvios": [
+    {
+     "feature": "cotovelo_min",
+     "descricao": "extensão do cotovelo no topo",
+     "valor": 139.63,
+     "esperado": 154.08,
+     "z": -3.18,
+     "unidade": "°"
+    }
+   ]
+  },
+  "duracao_s": 3.633333333333333,
+  "id": "EVT-6C65A46ABF",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "REHAB-PM_012",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 73.83333333333333,
+  "descricao": "Repetição 9 fora do padrão esperado: extensão do cotovelo no topo: 135.23° (abaixo do esperado 154.08°)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 9,
+   "escore": 4.15,
+   "desvios": [
+    {
+     "feature": "cotovelo_min",
+     "descricao": "extensão do cotovelo no topo",
+     "valor": 135.23,
+     "esperado": 154.08,
+     "z": -4.15,
+     "unidade": "°"
+    }
+   ]
+  },
+  "duracao_s": 4.799999999999997,
+  "id": "EVT-AD9DC30FEF",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "REHAB-PM_012",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 77.33333333333333,
+  "descricao": "Repetição 10 fora do padrão esperado (2 seguidas): movimento do braço esquerdo: 14.35° (acima do esperado 3.51°); extensão do cotovelo no topo: 141.93° (abaixo do esperado 154.08°)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 10,
+   "escore": 3.61,
+   "desvios": [
+    {
+     "feature": "braco_contralateral",
+     "descricao": "movimento do braço esquerdo",
+     "valor": 14.35,
+     "esperado": 3.51,
+     "z": 3.61,
+     "unidade": "°"
+    },
+    {
+     "feature": "cotovelo_min",
+     "descricao": "extensão do cotovelo no topo",
+     "valor": 141.93,
+     "esperado": 154.08,
+     "z": -2.68,
+     "unidade": "°"
+    }
+   ]
+  },
+  "duracao_s": 3.4666666666666686,
+  "id": "EVT-BE3CF88E27",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "REHAB-PM_016",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 12.333333333333334,
+  "descricao": "Repetição 1 fora do padrão esperado: duração da repetição: 7.6s (acima do esperado 4.3s)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 1,
+   "escore": 5.56,
+   "desvios": [
+    {
+     "feature": "duracao_s",
+     "descricao": "duração da repetição",
+     "valor": 7.6,
+     "esperado": 4.3,
+     "z": 5.56,
+     "unidade": "s"
+    }
+   ]
+  },
+  "duracao_s": 7.666666666666667,
+  "id": "EVT-169D37E865",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "REHAB-PM_016",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 18.266666666666666,
+  "descricao": "Repetição 2 fora do padrão esperado (2 seguidas): duração da repetição: 5.8s (acima do esperado 4.3s)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 2,
+   "escore": 2.53,
+   "desvios": [
+    {
+     "feature": "duracao_s",
+     "descricao": "duração da repetição",
+     "valor": 5.8,
+     "esperado": 4.3,
+     "z": 2.53,
+     "unidade": "s"
+    }
+   ]
+  },
+  "duracao_s": 5.899999999999999,
+  "id": "EVT-CAE47B0C85",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "REHAB-PM_016",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 28.4,
+  "descricao": "Repetição 4 fora do padrão esperado: altura do punho acima do ombro (× tronco): 0.48 (abaixo do esperado 0.76); amplitude de abdução do ombro: 118.63° (abaixo do esperado 146.17°)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 4,
+   "escore": 2.83,
+   "desvios": [
+    {
+     "feature": "punho_altura_max",
+     "descricao": "altura do punho acima do ombro (× tronco)",
+     "valor": 0.48,
+     "esperado": 0.76,
+     "z": -2.83,
+     "unidade": ""
+    },
+    {
+     "feature": "amplitude_abducao",
+     "descricao": "amplitude de abdução do ombro",
+     "valor": 118.63,
+     "esperado": 146.17,
+     "z": -2.81,
+     "unidade": "°"
+    }
+   ]
+  },
+  "duracao_s": 4.633333333333333,
+  "id": "EVT-18BE196889",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "REHAB-PM_016",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 32.56666666666667,
+  "descricao": "Repetição 5 fora do padrão esperado (2 seguidas): amplitude de abdução do ombro: 119.66° (abaixo do esperado 146.17°); altura do punho acima do ombro (× tronco): 0.49 (abaixo do esperado 0.76)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 5,
+   "escore": 2.71,
+   "desvios": [
+    {
+     "feature": "amplitude_abducao",
+     "descricao": "amplitude de abdução do ombro",
+     "valor": 119.66,
+     "esperado": 146.17,
+     "z": -2.71,
+     "unidade": "°"
+    },
+    {
+     "feature": "punho_altura_max",
+     "descricao": "altura do punho acima do ombro (× tronco)",
+     "valor": 0.49,
+     "esperado": 0.76,
+     "z": -2.68,
+     "unidade": ""
+    }
+   ]
+  },
+  "duracao_s": 4.133333333333336,
+  "id": "EVT-3ECA871CAF",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "REHAB-PM_016",
+  "origem": "video",
+  "tipo": "padrao_incorreto_persistente",
+  "severidade": 2,
+  "t": 44.833333333333336,
+  "descricao": "Repetição 6 fora do padrão esperado (3 seguidas): extensão do cotovelo no topo: 64.33° (abaixo do esperado 138.05°)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 6,
+   "escore": 8.52,
+   "desvios": [
+    {
+     "feature": "cotovelo_min",
+     "descricao": "extensão do cotovelo no topo",
+     "valor": 64.33,
+     "esperado": 138.05,
+     "z": -8.52,
+     "unidade": "°"
+    }
+   ]
+  },
+  "duracao_s": 5.166666666666671,
+  "id": "EVT-8D9E35EC96",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "REHAB-PM_016",
+  "origem": "video",
+  "tipo": "padrao_incorreto_persistente",
+  "severidade": 2,
+  "t": 50.5,
+  "descricao": "Repetição 7 fora do padrão esperado (4 seguidas): extensão do cotovelo no topo: 57.93° (abaixo do esperado 138.05°)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 7,
+   "escore": 9.26,
+   "desvios": [
+    {
+     "feature": "cotovelo_min",
+     "descricao": "extensão do cotovelo no topo",
+     "valor": 57.93,
+     "esperado": 138.05,
+     "z": -9.26,
+     "unidade": "°"
+    }
+   ]
+  },
+  "duracao_s": 5.633333333333333,
+  "id": "EVT-50196030DF",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "REHAB-PM_016",
+  "origem": "video",
+  "tipo": "padrao_incorreto_persistente",
+  "severidade": 2,
+  "t": 56.833333333333336,
+  "descricao": "Repetição 8 fora do padrão esperado (5 seguidas): extensão do cotovelo no topo: 82.19° (abaixo do esperado 138.05°); duração da repetição: 6.2s (acima do esperado 4.3s)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 8,
+   "escore": 6.45,
+   "desvios": [
+    {
+     "feature": "cotovelo_min",
+     "descricao": "extensão do cotovelo no topo",
+     "valor": 82.19,
+     "esperado": 138.05,
+     "z": -6.45,
+     "unidade": "°"
+    },
+    {
+     "feature": "duracao_s",
+     "descricao": "duração da repetição",
+     "valor": 6.2,
+     "esperado": 4.3,
+     "z": 3.2,
+     "unidade": "s"
+    }
+   ]
+  },
+  "duracao_s": 6.300000000000004,
+  "id": "EVT-D18A0721A0",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "REHAB-PM_016",
+  "origem": "video",
+  "tipo": "padrao_incorreto_persistente",
+  "severidade": 2,
+  "t": 62.0,
+  "descricao": "Repetição 9 fora do padrão esperado (6 seguidas): extensão do cotovelo no topo: 43.75° (abaixo do esperado 138.05°)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 9,
+   "escore": 10.9,
+   "desvios": [
+    {
+     "feature": "cotovelo_min",
+     "descricao": "extensão do cotovelo no topo",
+     "valor": 43.75,
+     "esperado": 138.05,
+     "z": -10.9,
+     "unidade": "°"
+    }
+   ]
+  },
+  "duracao_s": 5.133333333333333,
+  "id": "EVT-2FA2756BCB",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "REHAB-PM_016",
+  "origem": "video",
+  "tipo": "padrao_incorreto_persistente",
+  "severidade": 2,
+  "t": 66.0,
+  "descricao": "Repetição 10 fora do padrão esperado (7 seguidas): extensão do cotovelo no topo: 80.11° (abaixo do esperado 138.05°)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 10,
+   "escore": 6.7,
+   "desvios": [
+    {
+     "feature": "cotovelo_min",
+     "descricao": "extensão do cotovelo no topo",
+     "valor": 80.11,
+     "esperado": 138.05,
+     "z": -6.7,
+     "unidade": "°"
+    }
+   ]
+  },
+  "duracao_s": 3.9666666666666686,
+  "id": "EVT-AB598EFA52",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "REHAB-PM_022",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 38.333333333333336,
+  "descricao": "Repetição 9 fora do padrão esperado: assimetria entre joelhos: 42.86° (acima do esperado 10.07°)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 9,
+   "escore": 3.94,
+   "desvios": [
+    {
+     "feature": "assimetria_joelhos",
+     "descricao": "assimetria entre joelhos",
+     "valor": 42.86,
+     "esperado": 10.07,
+     "z": 3.94,
+     "unidade": "°"
+    }
+   ]
+  },
+  "duracao_s": 3.0,
+  "id": "EVT-771DA54717",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "REHAB-PM_022",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 41.0,
+  "descricao": "Repetição 10 fora do padrão esperado (2 seguidas): assimetria entre joelhos: 48.45° (acima do esperado 10.07°)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 10,
+   "escore": 4.61,
+   "desvios": [
+    {
+     "feature": "assimetria_joelhos",
+     "descricao": "assimetria entre joelhos",
+     "valor": 48.45,
+     "esperado": 10.07,
+     "z": 4.61,
+     "unidade": "°"
+    }
+   ]
+  },
+  "duracao_s": 2.3333333333333357,
+  "id": "EVT-05B3C212DE",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "REHAB-PM_022",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 79.16666666666667,
+  "descricao": "Repetição 18 fora do padrão esperado: flexão máxima do joelho (ângulo mínimo): 65.48° (abaixo do esperado 101.64°)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 18,
+   "escore": 2.54,
+   "desvios": [
+    {
+     "feature": "joelho_min",
+     "descricao": "flexão máxima do joelho (ângulo mínimo)",
+     "valor": 65.48,
+     "esperado": 101.64,
+     "z": -2.54,
+     "unidade": "°"
+    }
+   ]
+  },
+  "duracao_s": 2.833333333333343,
+  "id": "EVT-1B6A2D27FA",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "REHAB-PM_022",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 91.33333333333333,
+  "descricao": "Repetição 22 fora do padrão esperado: flexão máxima do joelho (ângulo mínimo): 64.36° (abaixo do esperado 101.64°)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 22,
+   "escore": 2.62,
+   "desvios": [
+    {
+     "feature": "joelho_min",
+     "descricao": "flexão máxima do joelho (ângulo mínimo)",
+     "valor": 64.36,
+     "esperado": 101.64,
+     "z": -2.62,
+     "unidade": "°"
+    }
+   ]
+  },
+  "duracao_s": 2.3333333333333286,
+  "id": "EVT-2980C421A6",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "REHAB-PM_024",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 44.0,
+  "descricao": "Repetição 6 fora do padrão esperado: duração da repetição: 6s (acima do esperado 4.3s); altura do punho acima do ombro (× tronco): 0.31 (abaixo do esperado 0.76)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 6,
+   "escore": 2.55,
+   "desvios": [
+    {
+     "feature": "duracao_s",
+     "descricao": "duração da repetição",
+     "valor": 6.0,
+     "esperado": 4.3,
+     "z": 2.55,
+     "unidade": "s"
+    },
+    {
+     "feature": "punho_altura_max",
+     "descricao": "altura do punho acima do ombro (× tronco)",
+     "valor": 0.31,
+     "esperado": 0.76,
+     "z": -2.52,
+     "unidade": ""
+    }
+   ]
+  },
+  "duracao_s": 6.0,
+  "id": "EVT-DD0ABFDD8B",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "REHAB-PM_024",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 51.666666666666664,
+  "descricao": "Repetição 7 fora do padrão esperado (2 seguidas): duração da repetição: 7.5s (acima do esperado 4.3s)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 7,
+   "escore": 4.8,
+   "desvios": [
+    {
+     "feature": "duracao_s",
+     "descricao": "duração da repetição",
+     "valor": 7.5,
+     "esperado": 4.3,
+     "z": 4.8,
+     "unidade": "s"
+    }
+   ]
+  },
+  "duracao_s": 7.633333333333333,
+  "id": "EVT-4D969D0615",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "REHAB-PM_024",
+  "origem": "video",
+  "tipo": "padrao_incorreto_persistente",
+  "severidade": 2,
+  "t": 57.0,
+  "descricao": "Repetição 8 fora do padrão esperado (3 seguidas): extensão do cotovelo no topo: 77.75° (abaixo do esperado 137.09°); amplitude de abdução do ombro: 35.88° (abaixo do esperado 146.17°); altura do punho acima do ombro (× tronco): 0.05 (abaixo do esperado 0.76)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 8,
+   "escore": 8.21,
+   "desvios": [
+    {
+     "feature": "cotovelo_min",
+     "descricao": "extensão do cotovelo no topo",
+     "valor": 77.75,
+     "esperado": 137.09,
+     "z": -8.21,
+     "unidade": "°"
+    },
+    {
+     "feature": "amplitude_abducao",
+     "descricao": "amplitude de abdução do ombro",
+     "valor": 35.88,
+     "esperado": 146.17,
+     "z": -4.42,
+     "unidade": "°"
+    },
+    {
+     "feature": "punho_altura_max",
+     "descricao": "altura do punho acima do ombro (× tronco)",
+     "valor": 0.05,
+     "esperado": 0.76,
+     "z": -3.94,
+     "unidade": ""
+    }
+   ]
+  },
+  "duracao_s": 5.299999999999997,
+  "id": "EVT-6A4467CC9F",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "REHAB-PM_024",
+  "origem": "video",
+  "tipo": "padrao_incorreto_persistente",
+  "severidade": 2,
+  "t": 63.5,
+  "descricao": "Repetição 9 fora do padrão esperado (4 seguidas): extensão do cotovelo no topo: 103.48° (abaixo do esperado 137.09°); duração da repetição: 6.4s (acima do esperado 4.3s)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 9,
+   "escore": 4.65,
+   "desvios": [
+    {
+     "feature": "cotovelo_min",
+     "descricao": "extensão do cotovelo no topo",
+     "valor": 103.48,
+     "esperado": 137.09,
+     "z": -4.65,
+     "unidade": "°"
+    },
+    {
+     "feature": "duracao_s",
+     "descricao": "duração da repetição",
+     "valor": 6.4,
+     "esperado": 4.3,
+     "z": 3.15,
+     "unidade": "s"
+    }
+   ]
+  },
+  "duracao_s": 6.466666666666669,
+  "id": "EVT-828EA6183A",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "REHAB-PM_029",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 34.333333333333336,
+  "descricao": "Repetição 6 fora do padrão esperado: assimetria entre joelhos: 35.47° (acima do esperado 10.52°)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 6,
+   "escore": 3.01,
+   "desvios": [
+    {
+     "feature": "assimetria_joelhos",
+     "descricao": "assimetria entre joelhos",
+     "valor": 35.47,
+     "esperado": 10.52,
+     "z": 3.01,
+     "unidade": "°"
+    }
+   ]
+  },
+  "duracao_s": 3.0000000000000036,
+  "id": "EVT-A55828825F",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "REHAB-PM_029",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 42.666666666666664,
+  "descricao": "Repetição 8 fora do padrão esperado: inclinação do tronco à frente: 13.18° (acima do esperado 2.72°)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 8,
+   "escore": 3.49,
+   "desvios": [
+    {
+     "feature": "tronco_max",
+     "descricao": "inclinação do tronco à frente",
+     "valor": 13.18,
+     "esperado": 2.72,
+     "z": 3.49,
+     "unidade": "°"
+    }
+   ]
+  },
+  "duracao_s": 3.633333333333333,
+  "id": "EVT-98F5041919",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "REHAB-PM_029",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 48.5,
+  "descricao": "Repetição 10 fora do padrão esperado: inclinação do tronco à frente: 12.24° (acima do esperado 2.72°)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 10,
+   "escore": 3.17,
+   "desvios": [
+    {
+     "feature": "tronco_max",
+     "descricao": "inclinação do tronco à frente",
+     "valor": 12.24,
+     "esperado": 2.72,
+     "z": 3.17,
+     "unidade": "°"
+    }
+   ]
+  },
+  "duracao_s": 2.4666666666666686,
+  "id": "EVT-298AA00D1E",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "REHAB-PM_029",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 99.33333333333333,
+  "descricao": "Repetição 20 fora do padrão esperado: inclinação do tronco à frente: 44.84° (acima do esperado 24.07°)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 20,
+   "escore": 3.21,
+   "desvios": [
+    {
+     "feature": "tronco_max",
+     "descricao": "inclinação do tronco à frente",
+     "valor": 44.84,
+     "esperado": 24.07,
+     "z": 3.21,
+     "unidade": "°"
+    }
+   ]
+  },
+  "duracao_s": 2.6333333333333258,
+  "id": "EVT-72066DC645",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "REHAB-PM_032",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 5.966666666666667,
+  "descricao": "Repetição 1 fora do padrão esperado: amplitude de abdução do ombro: 95.02° (abaixo do esperado 126.02°)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 1,
+   "escore": 2.6,
+   "desvios": [
+    {
+     "feature": "amplitude_abducao",
+     "descricao": "amplitude de abdução do ombro",
+     "valor": 95.02,
+     "esperado": 126.02,
+     "z": -2.6,
+     "unidade": "°"
+    }
+   ]
+  },
+  "duracao_s": 2.966666666666667,
+  "id": "EVT-BA73404FF9",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "REHAB-PM_032",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 14.7,
+  "descricao": "Repetição 4 fora do padrão esperado: amplitude de abdução do ombro: 94.84° (abaixo do esperado 126.02°)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 4,
+   "escore": 2.62,
+   "desvios": [
+    {
+     "feature": "amplitude_abducao",
+     "descricao": "amplitude de abdução do ombro",
+     "valor": 94.84,
+     "esperado": 126.02,
+     "z": -2.62,
+     "unidade": "°"
+    }
+   ]
+  },
+  "duracao_s": 2.7333333333333325,
+  "id": "EVT-2445442593",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "REHAB-PM_032",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 33.6,
+  "descricao": "Repetição 9 fora do padrão esperado: extensão do cotovelo no topo: 138.19° (abaixo do esperado 153.33°)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 9,
+   "escore": 2.8,
+   "desvios": [
+    {
+     "feature": "cotovelo_min",
+     "descricao": "extensão do cotovelo no topo",
+     "valor": 138.19,
+     "esperado": 153.33,
+     "z": -2.8,
+     "unidade": "°"
+    }
+   ]
+  },
+  "duracao_s": 3.2666666666666693,
+  "id": "EVT-68D64F8CB1",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "REHAB-PM_032",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 41.266666666666666,
+  "descricao": "Repetição 11 fora do padrão esperado: extensão do cotovelo no topo: 136.76° (abaixo do esperado 153.33°)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 11,
+   "escore": 3.06,
+   "desvios": [
+    {
+     "feature": "cotovelo_min",
+     "descricao": "extensão do cotovelo no topo",
+     "valor": 136.76,
+     "esperado": 153.33,
+     "z": -3.06,
+     "unidade": "°"
+    }
+   ]
+  },
+  "duracao_s": 4.166666666666664,
+  "id": "EVT-40026543B4",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "REHAB-PM_032",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 79.83333333333333,
+  "descricao": "Repetição 17 fora do padrão esperado: extensão do cotovelo no topo: 89.67° (abaixo do esperado 139.33°)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 17,
+   "escore": 7.19,
+   "desvios": [
+    {
+     "feature": "cotovelo_min",
+     "descricao": "extensão do cotovelo no topo",
+     "valor": 89.67,
+     "esperado": 139.33,
+     "z": -7.19,
+     "unidade": "°"
+    }
+   ]
+  },
+  "duracao_s": 4.333333333333329,
+  "id": "EVT-3BE519C906",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "REHAB-PM_032",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 83.66666666666667,
+  "descricao": "Repetição 18 fora do padrão esperado (2 seguidas): extensão do cotovelo no topo: 95.01° (abaixo do esperado 139.33°)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 18,
+   "escore": 6.42,
+   "desvios": [
+    {
+     "feature": "cotovelo_min",
+     "descricao": "extensão do cotovelo no topo",
+     "valor": 95.01,
+     "esperado": 139.33,
+     "z": -6.42,
+     "unidade": "°"
+    }
+   ]
+  },
+  "duracao_s": 3.8000000000000114,
+  "id": "EVT-E35E353519",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "REHAB-PM_032",
+  "origem": "video",
+  "tipo": "padrao_incorreto_persistente",
+  "severidade": 2,
+  "t": 87.56666666666666,
+  "descricao": "Repetição 19 fora do padrão esperado (3 seguidas): extensão do cotovelo no topo: 116.47° (abaixo do esperado 139.33°)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 19,
+   "escore": 3.31,
+   "desvios": [
+    {
+     "feature": "cotovelo_min",
+     "descricao": "extensão do cotovelo no topo",
+     "valor": 116.47,
+     "esperado": 139.33,
+     "z": -3.31,
+     "unidade": "°"
+    }
+   ]
+  },
+  "duracao_s": 3.86666666666666,
+  "id": "EVT-186FE997EE",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "REHAB-PM_032",
+  "origem": "video",
+  "tipo": "padrao_incorreto_persistente",
+  "severidade": 2,
+  "t": 91.76666666666667,
+  "descricao": "Repetição 20 fora do padrão esperado (4 seguidas): extensão do cotovelo no topo: 104.34° (abaixo do esperado 139.33°)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 20,
+   "escore": 5.07,
+   "desvios": [
+    {
+     "feature": "cotovelo_min",
+     "descricao": "extensão do cotovelo no topo",
+     "valor": 104.34,
+     "esperado": 139.33,
+     "z": -5.07,
+     "unidade": "°"
+    }
+   ]
+  },
+  "duracao_s": 4.166666666666671,
+  "id": "EVT-4927414C87",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "REHAB-PM_032",
+  "origem": "video",
+  "tipo": "padrao_incorreto_persistente",
+  "severidade": 2,
+  "t": 95.66666666666667,
+  "descricao": "Repetição 21 fora do padrão esperado (5 seguidas): extensão do cotovelo no topo: 93.13° (abaixo do esperado 139.33°)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 21,
+   "escore": 6.69,
+   "desvios": [
+    {
+     "feature": "cotovelo_min",
+     "descricao": "extensão do cotovelo no topo",
+     "valor": 93.13,
+     "esperado": 139.33,
+     "z": -6.69,
+     "unidade": "°"
+    }
+   ]
+  },
+  "duracao_s": 3.8666666666666742,
+  "id": "EVT-F196BC8C3F",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "REHAB-PM_038",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 34.333333333333336,
+  "descricao": "Repetição 9 fora do padrão esperado: flexão máxima do joelho (ângulo mínimo): 115.1° (abaixo do esperado 157.14°); flexão máxima do quadril (ângulo mínimo): 102.81° (abaixo do esperado 147.96°)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 9,
+   "escore": 2.93,
+   "desvios": [
+    {
+     "feature": "joelho_min",
+     "descricao": "flexão máxima do joelho (ângulo mínimo)",
+     "valor": 115.1,
+     "esperado": 157.14,
+     "z": -2.93,
+     "unidade": "°"
+    },
+    {
+     "feature": "quadril_min",
+     "descricao": "flexão máxima do quadril (ângulo mínimo)",
+     "valor": 102.81,
+     "esperado": 147.96,
+     "z": -2.65,
+     "unidade": "°"
+    }
+   ]
+  },
+  "duracao_s": 2.9666666666666686,
+  "id": "EVT-AC5A8DC816",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "REHAB-PM_038",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 37.333333333333336,
+  "descricao": "Repetição 10 fora do padrão esperado (2 seguidas): flexão máxima do joelho (ângulo mínimo): 115.85° (abaixo do esperado 157.14°); profundidade (descida do quadril / tronco): 0.88 (acima do esperado 0.51); flexão máxima do quadril (ângulo mínimo): 104.67° (abaixo do esperado 147.96°)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 10,
+   "escore": 2.88,
+   "desvios": [
+    {
+     "feature": "joelho_min",
+     "descricao": "flexão máxima do joelho (ângulo mínimo)",
+     "valor": 115.85,
+     "esperado": 157.14,
+     "z": -2.88,
+     "unidade": "°"
+    },
+    {
+     "feature": "descida_quadril",
+     "descricao": "profundidade (descida do quadril / tronco)",
+     "valor": 0.88,
+     "esperado": 0.51,
+     "z": 2.65,
+     "unidade": ""
+    },
+    {
+     "feature": "quadril_min",
+     "descricao": "flexão máxima do quadril (ângulo mínimo)",
+     "valor": 104.67,
+     "esperado": 147.96,
+     "z": -2.55,
+     "unidade": "°"
+    }
+   ]
+  },
+  "duracao_s": 2.9666666666666686,
+  "id": "EVT-6D6637BA8E",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "REHAB-PM_038",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 68.66666666666667,
+  "descricao": "Repetição 17 fora do padrão esperado: inclinação do tronco à frente: 43.1° (acima do esperado 23.59°)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 17,
+   "escore": 2.62,
+   "desvios": [
+    {
+     "feature": "tronco_max",
+     "descricao": "inclinação do tronco à frente",
+     "valor": 43.1,
+     "esperado": 23.59,
+     "z": 2.62,
+     "unidade": "°"
+    }
+   ]
+  },
+  "duracao_s": 3.4000000000000057,
+  "id": "EVT-DE3C6E10E4",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "REHAB-PM_039",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 6.333333333333333,
+  "descricao": "Repetição 1 fora do padrão esperado: movimento do braço esquerdo: 13.41° (acima do esperado 3.32°); altura do punho acima do ombro (× tronco): 0 (abaixo do esperado 0.56); amplitude de abdução do ombro: 91.49° (abaixo do esperado 120.88°)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 1,
+   "escore": 3.36,
+   "desvios": [
+    {
+     "feature": "braco_contralateral",
+     "descricao": "movimento do braço esquerdo",
+     "valor": 13.41,
+     "esperado": 3.32,
+     "z": 3.36,
+     "unidade": "°"
+    },
+    {
+     "feature": "punho_altura_max",
+     "descricao": "altura do punho acima do ombro (× tronco)",
+     "valor": 0.0,
+     "esperado": 0.56,
+     "z": -3.19,
+     "unidade": ""
+    },
+    {
+     "feature": "amplitude_abducao",
+     "descricao": "amplitude de abdução do ombro",
+     "valor": 91.49,
+     "esperado": 120.88,
+     "z": -2.52,
+     "unidade": "°"
+    }
+   ]
+  },
+  "duracao_s": 3.1666666666666665,
+  "id": "EVT-B22B523D98",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "REHAB-PM_039",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 30.166666666666668,
+  "descricao": "Repetição 6 fora do padrão esperado: extensão do cotovelo no topo: 141.19° (abaixo do esperado 154.18°)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 6,
+   "escore": 3.0,
+   "desvios": [
+    {
+     "feature": "cotovelo_min",
+     "descricao": "extensão do cotovelo no topo",
+     "valor": 141.19,
+     "esperado": 154.18,
+     "z": -3.0,
+     "unidade": "°"
+    }
+   ]
+  },
+  "duracao_s": 4.633333333333333,
+  "id": "EVT-EC99D658FF",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "REHAB-PM_039",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 110.36666666666666,
+  "descricao": "Repetição 17 fora do padrão esperado: extensão do cotovelo no topo: 101.87° (abaixo do esperado 139.5°)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 17,
+   "escore": 5.27,
+   "desvios": [
+    {
+     "feature": "cotovelo_min",
+     "descricao": "extensão do cotovelo no topo",
+     "valor": 101.87,
+     "esperado": 139.5,
+     "z": -5.27,
+     "unidade": "°"
+    }
+   ]
+  },
+  "duracao_s": 3.1999999999999886,
+  "id": "EVT-D1650659CF",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "REHAB-PM_039",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 125.0,
+  "descricao": "Repetição 21 fora do padrão esperado: extensão do cotovelo no topo: 117.67° (abaixo do esperado 139.5°)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 21,
+   "escore": 3.06,
+   "desvios": [
+    {
+     "feature": "cotovelo_min",
+     "descricao": "extensão do cotovelo no topo",
+     "valor": 117.67,
+     "esperado": 139.5,
+     "z": -3.06,
+     "unidade": "°"
+    }
+   ]
+  },
+  "duracao_s": 3.63333333333334,
+  "id": "EVT-B8ED365652",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "REHAB-PM_043",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 59.666666666666664,
+  "descricao": "Repetição 9 fora do padrão esperado: assimetria entre joelhos: 39.14° (acima do esperado 11.54°)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 9,
+   "escore": 3.3,
+   "desvios": [
+    {
+     "feature": "assimetria_joelhos",
+     "descricao": "assimetria entre joelhos",
+     "valor": 39.14,
+     "esperado": 11.54,
+     "z": 3.3,
+     "unidade": "°"
+    }
+   ]
+  },
+  "duracao_s": 2.9666666666666615,
+  "id": "EVT-F3549862B5",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "REHAB-PM_043",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 102.16666666666667,
+  "descricao": "Repetição 17 fora do padrão esperado: profundidade (descida do quadril / tronco): 0.87 (acima do esperado 0.58)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 17,
+   "escore": 2.84,
+   "desvios": [
+    {
+     "feature": "descida_quadril",
+     "descricao": "profundidade (descida do quadril / tronco)",
+     "valor": 0.87,
+     "esperado": 0.58,
+     "z": 2.84,
+     "unidade": ""
+    }
+   ]
+  },
+  "duracao_s": 3.1666666666666714,
+  "id": "EVT-30B5D9A4AE",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "REHAB-PM_043",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 105.33333333333333,
+  "descricao": "Repetição 18 fora do padrão esperado (2 seguidas): profundidade (descida do quadril / tronco): 0.93 (acima do esperado 0.58); flexão máxima do joelho (ângulo mínimo): 63.88° (abaixo do esperado 94.91°)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 18,
+   "escore": 3.47,
+   "desvios": [
+    {
+     "feature": "descida_quadril",
+     "descricao": "profundidade (descida do quadril / tronco)",
+     "valor": 0.93,
+     "esperado": 0.58,
+     "z": 3.47,
+     "unidade": ""
+    },
+    {
+     "feature": "joelho_min",
+     "descricao": "flexão máxima do joelho (ângulo mínimo)",
+     "valor": 63.88,
+     "esperado": 94.91,
+     "z": -2.58,
+     "unidade": "°"
+    }
+   ]
+  },
+  "duracao_s": 3.1333333333333258,
+  "id": "EVT-E1F470A7BD",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "REHAB-PM_043",
+  "origem": "video",
+  "tipo": "padrao_incorreto_persistente",
+  "severidade": 2,
+  "t": 108.4,
+  "descricao": "Repetição 19 fora do padrão esperado (3 seguidas): profundidade (descida do quadril / tronco): 0.94 (acima do esperado 0.58); flexão máxima do joelho (ângulo mínimo): 64.01° (abaixo do esperado 94.91°)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 19,
+   "escore": 3.5,
+   "desvios": [
+    {
+     "feature": "descida_quadril",
+     "descricao": "profundidade (descida do quadril / tronco)",
+     "valor": 0.94,
+     "esperado": 0.58,
+     "z": 3.5,
+     "unidade": ""
+    },
+    {
+     "feature": "joelho_min",
+     "descricao": "flexão máxima do joelho (ângulo mínimo)",
+     "valor": 64.01,
+     "esperado": 94.91,
+     "z": -2.57,
+     "unidade": "°"
+    }
+   ]
+  },
+  "duracao_s": 3.0333333333333456,
+  "id": "EVT-997E82A96D",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "REHAB-PM_043",
+  "origem": "video",
+  "tipo": "padrao_incorreto_persistente",
+  "severidade": 2,
+  "t": 111.33333333333333,
+  "descricao": "Repetição 20 fora do padrão esperado (4 seguidas): profundidade (descida do quadril / tronco): 0.92 (acima do esperado 0.58)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 20,
+   "escore": 3.3,
+   "desvios": [
+    {
+     "feature": "descida_quadril",
+     "descricao": "profundidade (descida do quadril / tronco)",
+     "valor": 0.92,
+     "esperado": 0.58,
+     "z": 3.3,
+     "unidade": ""
+    }
+   ]
+  },
+  "duracao_s": 2.8999999999999915,
+  "id": "EVT-18CF50F50B",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "REHAB-PM_105",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 65.0,
+  "descricao": "Repetição 12 fora do padrão esperado: inclinação do tronco à frente: 53.43° (acima do esperado 23.03°)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 12,
+   "escore": 4.0,
+   "desvios": [
+    {
+     "feature": "tronco_max",
+     "descricao": "inclinação do tronco à frente",
+     "valor": 53.43,
+     "esperado": 23.03,
+     "z": 4.0,
+     "unidade": "°"
+    }
+   ]
+  },
+  "duracao_s": 3.3333333333333357,
+  "id": "EVT-4E30536B97",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "REHAB-PM_105",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 68.66666666666667,
+  "descricao": "Repetição 13 fora do padrão esperado (2 seguidas): inclinação do tronco à frente: 49.12° (acima do esperado 23.03°)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 13,
+   "escore": 3.43,
+   "desvios": [
+    {
+     "feature": "tronco_max",
+     "descricao": "inclinação do tronco à frente",
+     "valor": 49.12,
+     "esperado": 23.03,
+     "z": 3.43,
+     "unidade": "°"
+    }
+   ]
+  },
+  "duracao_s": 3.63333333333334,
+  "id": "EVT-CCEACD89B6",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "REHAB-PM_105",
+  "origem": "video",
+  "tipo": "padrao_incorreto_persistente",
+  "severidade": 2,
+  "t": 72.5,
+  "descricao": "Repetição 14 fora do padrão esperado (3 seguidas): inclinação do tronco à frente: 44.91° (acima do esperado 23.03°)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 14,
+   "escore": 2.88,
+   "desvios": [
+    {
+     "feature": "tronco_max",
+     "descricao": "inclinação do tronco à frente",
+     "valor": 44.91,
+     "esperado": 23.03,
+     "z": 2.88,
+     "unidade": "°"
+    }
+   ]
+  },
+  "duracao_s": 3.799999999999997,
+  "id": "EVT-A3D1431465",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "REHAB-PM_105",
+  "origem": "video",
+  "tipo": "padrao_incorreto_persistente",
+  "severidade": 2,
+  "t": 76.0,
+  "descricao": "Repetição 15 fora do padrão esperado (4 seguidas): inclinação do tronco à frente: 69.21° (acima do esperado 23.03°); flexão máxima do quadril (ângulo mínimo): 46.95° (abaixo do esperado 105.39°)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 15,
+   "escore": 6.08,
+   "desvios": [
+    {
+     "feature": "tronco_max",
+     "descricao": "inclinação do tronco à frente",
+     "valor": 69.21,
+     "esperado": 23.03,
+     "z": 6.08,
+     "unidade": "°"
+    },
+    {
+     "feature": "quadril_min",
+     "descricao": "flexão máxima do quadril (ângulo mínimo)",
+     "valor": 46.95,
+     "esperado": 105.39,
+     "z": -2.91,
+     "unidade": "°"
+    }
+   ]
+  },
+  "duracao_s": 3.4666666666666686,
+  "id": "EVT-B1EFF3DE15",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "REHAB-PM_105",
+  "origem": "video",
+  "tipo": "padrao_incorreto_persistente",
+  "severidade": 2,
+  "t": 79.0,
+  "descricao": "Repetição 16 fora do padrão esperado (5 seguidas): inclinação do tronco à frente: 60.75° (acima do esperado 23.03°); flexão máxima do quadril (ângulo mínimo): 52.07° (abaixo do esperado 105.39°)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 16,
+   "escore": 4.96,
+   "desvios": [
+    {
+     "feature": "tronco_max",
+     "descricao": "inclinação do tronco à frente",
+     "valor": 60.75,
+     "esperado": 23.03,
+     "z": 4.96,
+     "unidade": "°"
+    },
+    {
+     "feature": "quadril_min",
+     "descricao": "flexão máxima do quadril (ângulo mínimo)",
+     "valor": 52.07,
+     "esperado": 105.39,
+     "z": -2.66,
+     "unidade": "°"
+    }
+   ]
+  },
+  "duracao_s": 2.9666666666666686,
+  "id": "EVT-44F6C23131",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "REHAB-PM_105",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 103.0,
+  "descricao": "Repetição 19 fora do padrão esperado: profundidade (descida do quadril / tronco): 0.92 (acima do esperado 0.5); flexão máxima do joelho (ângulo mínimo): 115.85° (abaixo do esperado 157.4°); flexão máxima do quadril (ângulo mínimo): 103.61° (abaixo do esperado 148.04°)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 19,
+   "escore": 3.01,
+   "desvios": [
+    {
+     "feature": "descida_quadril",
+     "descricao": "profundidade (descida do quadril / tronco)",
+     "valor": 0.92,
+     "esperado": 0.5,
+     "z": 3.01,
+     "unidade": ""
+    },
+    {
+     "feature": "joelho_min",
+     "descricao": "flexão máxima do joelho (ângulo mínimo)",
+     "valor": 115.85,
+     "esperado": 157.4,
+     "z": -2.8,
+     "unidade": "°"
+    },
+    {
+     "feature": "quadril_min",
+     "descricao": "flexão máxima do quadril (ângulo mínimo)",
+     "valor": 103.61,
+     "esperado": 148.04,
+     "z": -2.68,
+     "unidade": "°"
+    }
+   ]
+  },
+  "duracao_s": 3.299999999999997,
+  "id": "EVT-7440724810",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "REHAB-PM_105",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 106.33333333333333,
+  "descricao": "Repetição 20 fora do padrão esperado (2 seguidas): profundidade (descida do quadril / tronco): 0.92 (acima do esperado 0.5)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 20,
+   "escore": 3.03,
+   "desvios": [
+    {
+     "feature": "descida_quadril",
+     "descricao": "profundidade (descida do quadril / tronco)",
+     "valor": 0.92,
+     "esperado": 0.5,
+     "z": 3.03,
+     "unidade": ""
+    }
+   ]
+  },
+  "duracao_s": 3.299999999999997,
+  "id": "EVT-4EDE07E0AC",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "REHAB-PM_105",
+  "origem": "video",
+  "tipo": "padrao_incorreto_persistente",
+  "severidade": 2,
+  "t": 109.0,
+  "descricao": "Repetição 21 fora do padrão esperado (3 seguidas): profundidade (descida do quadril / tronco): 0.9 (acima do esperado 0.5); flexão máxima do joelho (ângulo mínimo): 118.88° (abaixo do esperado 157.4°)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 21,
+   "escore": 2.91,
+   "desvios": [
+    {
+     "feature": "descida_quadril",
+     "descricao": "profundidade (descida do quadril / tronco)",
+     "valor": 0.9,
+     "esperado": 0.5,
+     "z": 2.91,
+     "unidade": ""
+    },
+    {
+     "feature": "joelho_min",
+     "descricao": "flexão máxima do joelho (ângulo mínimo)",
+     "valor": 118.88,
+     "esperado": 157.4,
+     "z": -2.59,
+     "unidade": "°"
+    }
+   ]
+  },
+  "duracao_s": 2.63333333333334,
+  "id": "EVT-B228684CB3",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "REHAB-PM_109",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 16.666666666666668,
+  "descricao": "Repetição 1 fora do padrão esperado: duração da repetição: 10.4s (acima do esperado 4.85s)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 1,
+   "escore": 3.57,
+   "desvios": [
+    {
+     "feature": "duracao_s",
+     "descricao": "duração da repetição",
+     "valor": 10.4,
+     "esperado": 4.85,
+     "z": 3.57,
+     "unidade": "s"
+    }
+   ]
+  },
+  "duracao_s": 10.5,
+  "id": "EVT-676BDAED57",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "REHAB-PM_109",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 25.666666666666668,
+  "descricao": "Repetição 2 fora do padrão esperado (2 seguidas): duração da repetição: 8.9s (acima do esperado 4.85s)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 2,
+   "escore": 2.6,
+   "desvios": [
+    {
+     "feature": "duracao_s",
+     "descricao": "duração da repetição",
+     "valor": 8.9,
+     "esperado": 4.85,
+     "z": 2.6,
+     "unidade": "s"
+    }
+   ]
+  },
+  "duracao_s": 8.966666666666669,
+  "id": "EVT-0701C3B3FC",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "REHAB-PM_109",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 112.6,
+  "descricao": "Repetição 11 fora do padrão esperado: duração da repetição: 6.2s (acima do esperado 4.25s); altura do punho acima do ombro (× tronco): 0.41 (abaixo do esperado 0.76); amplitude de abdução do ombro: 119.16° (abaixo do esperado 146.17°)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 11,
+   "escore": 3.76,
+   "desvios": [
+    {
+     "feature": "duracao_s",
+     "descricao": "duração da repetição",
+     "valor": 6.2,
+     "esperado": 4.25,
+     "z": 3.76,
+     "unidade": "s"
+    },
+    {
+     "feature": "punho_altura_max",
+     "descricao": "altura do punho acima do ombro (× tronco)",
+     "valor": 0.41,
+     "esperado": 0.76,
+     "z": -3.5,
+     "unidade": ""
+    },
+    {
+     "feature": "amplitude_abducao",
+     "descricao": "amplitude de abdução do ombro",
+     "valor": 119.16,
+     "esperado": 146.17,
+     "z": -2.76,
+     "unidade": "°"
+    }
+   ]
+  },
+  "duracao_s": 6.266666666666666,
+  "id": "EVT-25463CC233",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "REHAB-PM_109",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 118.83333333333333,
+  "descricao": "Repetição 12 fora do padrão esperado (2 seguidas): altura do punho acima do ombro (× tronco): 0.41 (abaixo do esperado 0.76); duração da repetição: 6.1s (acima do esperado 4.25s)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 12,
+   "escore": 3.57,
+   "desvios": [
+    {
+     "feature": "punho_altura_max",
+     "descricao": "altura do punho acima do ombro (× tronco)",
+     "valor": 0.41,
+     "esperado": 0.76,
+     "z": -3.57,
+     "unidade": ""
+    },
+    {
+     "feature": "duracao_s",
+     "descricao": "duração da repetição",
+     "valor": 6.1,
+     "esperado": 4.25,
+     "z": 3.57,
+     "unidade": "s"
+    }
+   ]
+  },
+  "duracao_s": 6.199999999999989,
+  "id": "EVT-9D3E265810",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "REHAB-PM_109",
+  "origem": "video",
+  "tipo": "padrao_incorreto_persistente",
+  "severidade": 2,
+  "t": 125.93333333333334,
+  "descricao": "Repetição 13 fora do padrão esperado (3 seguidas): duração da repetição: 7s (acima do esperado 4.25s)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 13,
+   "escore": 5.3,
+   "desvios": [
+    {
+     "feature": "duracao_s",
+     "descricao": "duração da repetição",
+     "valor": 7.0,
+     "esperado": 4.25,
+     "z": 5.3,
+     "unidade": "s"
+    }
+   ]
+  },
+  "duracao_s": 7.066666666666677,
+  "id": "EVT-CF3479F832",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "REHAB-PM_109",
+  "origem": "video",
+  "tipo": "padrao_incorreto_persistente",
+  "severidade": 2,
+  "t": 133.0,
+  "descricao": "Repetição 14 fora do padrão esperado (4 seguidas): duração da repetição: 7s (acima do esperado 4.25s); altura do punho acima do ombro (× tronco): 0.36 (abaixo do esperado 0.76); amplitude de abdução do ombro: 119.71° (abaixo do esperado 146.17°)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 14,
+   "escore": 5.3,
+   "desvios": [
+    {
+     "feature": "duracao_s",
+     "descricao": "duração da repetição",
+     "valor": 7.0,
+     "esperado": 4.25,
+     "z": 5.3,
+     "unidade": "s"
+    },
+    {
+     "feature": "punho_altura_max",
+     "descricao": "altura do punho acima do ombro (× tronco)",
+     "valor": 0.36,
+     "esperado": 0.76,
+     "z": -3.98,
+     "unidade": ""
+    },
+    {
+     "feature": "amplitude_abducao",
+     "descricao": "amplitude de abdução do ombro",
+     "valor": 119.71,
+     "esperado": 146.17,
+     "z": -2.7,
+     "unidade": "°"
+    }
+   ]
+  },
+  "duracao_s": 7.033333333333331,
+  "id": "EVT-041ECAAFB2",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "REHAB-PM_109",
+  "origem": "video",
+  "tipo": "padrao_incorreto_persistente",
+  "severidade": 2,
+  "t": 139.0,
+  "descricao": "Repetição 15 fora do padrão esperado (5 seguidas): altura do punho acima do ombro (× tronco): 0.44 (abaixo do esperado 0.76); duração da repetição: 5.9s (acima do esperado 4.25s)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 15,
+   "escore": 3.26,
+   "desvios": [
+    {
+     "feature": "punho_altura_max",
+     "descricao": "altura do punho acima do ombro (× tronco)",
+     "valor": 0.44,
+     "esperado": 0.76,
+     "z": -3.26,
+     "unidade": ""
+    },
+    {
+     "feature": "duracao_s",
+     "descricao": "duração da repetição",
+     "valor": 5.9,
+     "esperado": 4.25,
+     "z": 3.18,
+     "unidade": "s"
+    }
+   ]
+  },
+  "duracao_s": 5.966666666666669,
+  "id": "EVT-29F5094BEB",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "REHAB-PM_109",
+  "origem": "video",
+  "tipo": "padrao_incorreto_persistente",
+  "severidade": 2,
+  "t": 146.73333333333332,
+  "descricao": "Repetição 16 fora do padrão esperado (6 seguidas): extensão do cotovelo no topo: 71.12° (abaixo do esperado 138.95°); altura do punho acima do ombro (× tronco): 0.38 (abaixo do esperado 0.76)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 16,
+   "escore": 9.59,
+   "desvios": [
+    {
+     "feature": "cotovelo_min",
+     "descricao": "extensão do cotovelo no topo",
+     "valor": 71.12,
+     "esperado": 138.95,
+     "z": -9.59,
+     "unidade": "°"
+    },
+    {
+     "feature": "punho_altura_max",
+     "descricao": "altura do punho acima do ombro (× tronco)",
+     "valor": 0.38,
+     "esperado": 0.76,
+     "z": -3.85,
+     "unidade": ""
+    }
+   ]
+  },
+  "duracao_s": 5.399999999999977,
+  "id": "EVT-72E3799AA0",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "REHAB-PM_109",
+  "origem": "video",
+  "tipo": "padrao_incorreto_persistente",
+  "severidade": 2,
+  "t": 153.33333333333334,
+  "descricao": "Repetição 17 fora do padrão esperado (7 seguidas): amplitude de abdução do ombro: 21.26° (abaixo do esperado 146.17°); extensão do cotovelo no topo: 74.31° (abaixo do esperado 138.95°); altura do punho acima do ombro (× tronco): -0.02 (abaixo do esperado 0.76)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 17,
+   "escore": 12.75,
+   "desvios": [
+    {
+     "feature": "amplitude_abducao",
+     "descricao": "amplitude de abdução do ombro",
+     "valor": 21.26,
+     "esperado": 146.17,
+     "z": -12.75,
+     "unidade": "°"
+    },
+    {
+     "feature": "cotovelo_min",
+     "descricao": "extensão do cotovelo no topo",
+     "valor": 74.31,
+     "esperado": 138.95,
+     "z": -9.14,
+     "unidade": "°"
+    },
+    {
+     "feature": "punho_altura_max",
+     "descricao": "altura do punho acima do ombro (× tronco)",
+     "valor": -0.02,
+     "esperado": 0.76,
+     "z": -7.85,
+     "unidade": ""
+    }
+   ]
+  },
+  "duracao_s": 6.566666666666663,
+  "id": "EVT-9B6C3D6DBD",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "REHAB-PM_109",
+  "origem": "video",
+  "tipo": "padrao_incorreto_persistente",
+  "severidade": 2,
+  "t": 158.66666666666666,
+  "descricao": "Repetição 18 fora do padrão esperado (8 seguidas): extensão do cotovelo no topo: 47.26° (abaixo do esperado 138.95°); amplitude de abdução do ombro: 20.42° (abaixo do esperado 146.17°); altura do punho acima do ombro (× tronco): -0.06 (abaixo do esperado 0.76)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 18,
+   "escore": 12.96,
+   "desvios": [
+    {
+     "feature": "cotovelo_min",
+     "descricao": "extensão do cotovelo no topo",
+     "valor": 47.26,
+     "esperado": 138.95,
+     "z": -12.96,
+     "unidade": "°"
+    },
+    {
+     "feature": "amplitude_abducao",
+     "descricao": "amplitude de abdução do ombro",
+     "valor": 20.42,
+     "esperado": 146.17,
+     "z": -12.83,
+     "unidade": "°"
+    },
+    {
+     "feature": "punho_altura_max",
+     "descricao": "altura do punho acima do ombro (× tronco)",
+     "valor": -0.06,
+     "esperado": 0.76,
+     "z": -8.18,
+     "unidade": ""
+    }
+   ]
+  },
+  "duracao_s": 5.299999999999983,
+  "id": "EVT-3E2401CF5B",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "REHAB-PM_109",
+  "origem": "video",
+  "tipo": "padrao_incorreto_persistente",
+  "severidade": 2,
+  "t": 165.16666666666666,
+  "descricao": "Repetição 19 fora do padrão esperado (9 seguidas): duração da repetição: 6.4s (acima do esperado 4.25s); extensão do cotovelo no topo: 113.9° (abaixo do esperado 138.95°)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 19,
+   "escore": 4.14,
+   "desvios": [
+    {
+     "feature": "duracao_s",
+     "descricao": "duração da repetição",
+     "valor": 6.4,
+     "esperado": 4.25,
+     "z": 4.14,
+     "unidade": "s"
+    },
+    {
+     "feature": "cotovelo_min",
+     "descricao": "extensão do cotovelo no topo",
+     "valor": 113.9,
+     "esperado": 138.95,
+     "z": -3.54,
+     "unidade": "°"
+    }
+   ]
+  },
+  "duracao_s": 6.466666666666669,
+  "id": "EVT-2E54048856",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "REHAB-PM_109",
+  "origem": "video",
+  "tipo": "padrao_incorreto_persistente",
+  "severidade": 2,
+  "t": 170.83333333333334,
+  "descricao": "Repetição 20 fora do padrão esperado (10 seguidas): extensão do cotovelo no topo: 93.34° (abaixo do esperado 138.95°); duração da repetição: 5.6s (acima do esperado 4.25s)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 20,
+   "escore": 6.45,
+   "desvios": [
+    {
+     "feature": "cotovelo_min",
+     "descricao": "extensão do cotovelo no topo",
+     "valor": 93.34,
+     "esperado": 138.95,
+     "z": -6.45,
+     "unidade": "°"
+    },
+    {
+     "feature": "duracao_s",
+     "descricao": "duração da repetição",
+     "valor": 5.6,
+     "esperado": 4.25,
+     "z": 2.6,
+     "unidade": "s"
+    }
+   ]
+  },
+  "duracao_s": 5.633333333333354,
+  "id": "EVT-68BC29BF1A",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "REHAB-PM_113",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 12.0,
+  "descricao": "Repetição 2 fora do padrão esperado: duração da repetição: 4.9s (acima do esperado 2.9s)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 2,
+   "escore": 2.7,
+   "desvios": [
+    {
+     "feature": "duracao_s",
+     "descricao": "duração da repetição",
+     "valor": 4.9,
+     "esperado": 2.9,
+     "z": 2.7,
+     "unidade": "s"
+    }
+   ]
+  },
+  "duracao_s": 4.966666666666667,
+  "id": "EVT-259B72690D",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "REHAB-PM_113",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 17.0,
+  "descricao": "Repetição 3 fora do padrão esperado (2 seguidas): duração da repetição: 4.9s (acima do esperado 2.9s)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 3,
+   "escore": 2.7,
+   "desvios": [
+    {
+     "feature": "duracao_s",
+     "descricao": "duração da repetição",
+     "valor": 4.9,
+     "esperado": 2.9,
+     "z": 2.7,
+     "unidade": "s"
+    }
+   ]
+  },
+  "duracao_s": 4.966666666666667,
+  "id": "EVT-585FB85918",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "REHAB-PM_113",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 26.833333333333332,
+  "descricao": "Repetição 5 fora do padrão esperado: duração da repetição: 5.1s (acima do esperado 2.9s)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 5,
+   "escore": 2.97,
+   "desvios": [
+    {
+     "feature": "duracao_s",
+     "descricao": "duração da repetição",
+     "valor": 5.1,
+     "esperado": 2.9,
+     "z": 2.97,
+     "unidade": "s"
+    }
+   ]
+  },
+  "duracao_s": 5.133333333333333,
+  "id": "EVT-1FB7013A5E",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "REHAB-PM_113",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 71.66666666666667,
+  "descricao": "Repetição 13 fora do padrão esperado: duração da repetição: 4.9s (acima do esperado 3s)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 13,
+   "escore": 2.56,
+   "desvios": [
+    {
+     "feature": "duracao_s",
+     "descricao": "duração da repetição",
+     "valor": 4.9,
+     "esperado": 3.0,
+     "z": 2.56,
+     "unidade": "s"
+    }
+   ]
+  },
+  "duracao_s": 4.966666666666669,
+  "id": "EVT-BA8FC1D67B",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "REHAB-PM_113",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 76.66666666666667,
+  "descricao": "Repetição 14 fora do padrão esperado (2 seguidas): duração da repetição: 4.9s (acima do esperado 3s)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 14,
+   "escore": 2.56,
+   "desvios": [
+    {
+     "feature": "duracao_s",
+     "descricao": "duração da repetição",
+     "valor": 4.9,
+     "esperado": 3.0,
+     "z": 2.56,
+     "unidade": "s"
+    }
+   ]
+  },
+  "duracao_s": 4.966666666666669,
+  "id": "EVT-EBE8F0BAE0",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "REHAB-PM_113",
+  "origem": "video",
+  "tipo": "padrao_incorreto_persistente",
+  "severidade": 2,
+  "t": 82.0,
+  "descricao": "Repetição 15 fora do padrão esperado (3 seguidas): duração da repetição: 5.3s (acima do esperado 3s)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 15,
+   "escore": 3.1,
+   "desvios": [
+    {
+     "feature": "duracao_s",
+     "descricao": "duração da repetição",
+     "valor": 5.3,
+     "esperado": 3.0,
+     "z": 3.1,
+     "unidade": "s"
+    }
+   ]
+  },
+  "duracao_s": 5.299999999999997,
+  "id": "EVT-E83584CA27",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "REHAB-PM_114",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 69.33333333333333,
+  "descricao": "Repetição 7 fora do padrão esperado: altura do punho acima do ombro (× tronco): -0.08 (abaixo do esperado 0.62)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 7,
+   "escore": 3.0,
+   "desvios": [
+    {
+     "feature": "punho_altura_max",
+     "descricao": "altura do punho acima do ombro (× tronco)",
+     "valor": -0.08,
+     "esperado": 0.62,
+     "z": -3.0,
+     "unidade": ""
+    }
+   ]
+  },
+  "duracao_s": 5.999999999999993,
+  "id": "EVT-181BF6C95F",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "REHAB-PM_114",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 75.66666666666667,
+  "descricao": "Repetição 8 fora do padrão esperado (2 seguidas): altura do punho acima do ombro (× tronco): 0.03 (abaixo do esperado 0.62)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 8,
+   "escore": 2.54,
+   "desvios": [
+    {
+     "feature": "punho_altura_max",
+     "descricao": "altura do punho acima do ombro (× tronco)",
+     "valor": 0.03,
+     "esperado": 0.62,
+     "z": -2.54,
+     "unidade": ""
+    }
+   ]
+  },
+  "duracao_s": 5.333333333333343,
+  "id": "EVT-2A48FD44CA",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "REHAB-PM_114",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 86.33333333333333,
+  "descricao": "Repetição 10 fora do padrão esperado: altura do punho acima do ombro (× tronco): -0.37 (abaixo do esperado 0.62); amplitude de abdução do ombro: 81.3° (abaixo do esperado 124.59°)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 10,
+   "escore": 4.23,
+   "desvios": [
+    {
+     "feature": "punho_altura_max",
+     "descricao": "altura do punho acima do ombro (× tronco)",
+     "valor": -0.37,
+     "esperado": 0.62,
+     "z": -4.23,
+     "unidade": ""
+    },
+    {
+     "feature": "amplitude_abducao",
+     "descricao": "amplitude de abdução do ombro",
+     "valor": 81.3,
+     "esperado": 124.59,
+     "z": -3.27,
+     "unidade": "°"
+    }
+   ]
+  },
+  "duracao_s": 4.966666666666669,
+  "id": "EVT-BBA0E7B405",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "REHAB-PM_114",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 91.0,
+  "descricao": "Repetição 11 fora do padrão esperado (2 seguidas): altura do punho acima do ombro (× tronco): -0.25 (abaixo do esperado 0.62); amplitude de abdução do ombro: 83.26° (abaixo do esperado 124.59°)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 11,
+   "escore": 3.69,
+   "desvios": [
+    {
+     "feature": "punho_altura_max",
+     "descricao": "altura do punho acima do ombro (× tronco)",
+     "valor": -0.25,
+     "esperado": 0.62,
+     "z": -3.69,
+     "unidade": ""
+    },
+    {
+     "feature": "amplitude_abducao",
+     "descricao": "amplitude de abdução do ombro",
+     "valor": 83.26,
+     "esperado": 124.59,
+     "z": -3.12,
+     "unidade": "°"
+    }
+   ]
+  },
+  "duracao_s": 4.0,
+  "id": "EVT-881F3B6B15",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "REHAB-PM_114",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 119.66666666666667,
+  "descricao": "Repetição 13 fora do padrão esperado: elevação/inclinação dos ombros: 39.3° (acima do esperado 18.91°)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 13,
+   "escore": 4.39,
+   "desvios": [
+    {
+     "feature": "ombros_desvio",
+     "descricao": "elevação/inclinação dos ombros",
+     "valor": 39.3,
+     "esperado": 18.91,
+     "z": 4.39,
+     "unidade": "°"
+    }
+   ]
+  },
+  "duracao_s": 5.300000000000011,
+  "id": "EVT-B593A2DFCF",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "REHAB-PM_114",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 128.0,
+  "descricao": "Repetição 15 fora do padrão esperado: elevação/inclinação dos ombros: 36.01° (acima do esperado 18.91°)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 15,
+   "escore": 3.68,
+   "desvios": [
+    {
+     "feature": "ombros_desvio",
+     "descricao": "elevação/inclinação dos ombros",
+     "valor": 36.01,
+     "esperado": 18.91,
+     "z": 3.68,
+     "unidade": "°"
+    }
+   ]
+  },
+  "duracao_s": 4.033333333333331,
+  "id": "EVT-42845552E8",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "REHAB-PM_114",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 132.16666666666666,
+  "descricao": "Repetição 16 fora do padrão esperado (2 seguidas): elevação/inclinação dos ombros: 35.44° (acima do esperado 18.91°)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 16,
+   "escore": 3.56,
+   "desvios": [
+    {
+     "feature": "ombros_desvio",
+     "descricao": "elevação/inclinação dos ombros",
+     "valor": 35.44,
+     "esperado": 18.91,
+     "z": 3.56,
+     "unidade": "°"
+    }
+   ]
+  },
+  "duracao_s": 4.133333333333326,
+  "id": "EVT-862B3BCAB9",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "REHAB-PM_114",
+  "origem": "video",
+  "tipo": "padrao_incorreto_persistente",
+  "severidade": 2,
+  "t": 139.16666666666666,
+  "descricao": "Repetição 17 fora do padrão esperado (3 seguidas): extensão do cotovelo no topo: 15.18° (abaixo do esperado 137.09°); altura do punho acima do ombro (× tronco): -0.04 (abaixo do esperado 0.75); amplitude de abdução do ombro: 98.06° (abaixo do esperado 143.55°)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 17,
+   "escore": 16.86,
+   "desvios": [
+    {
+     "feature": "cotovelo_min",
+     "descricao": "extensão do cotovelo no topo",
+     "valor": 15.18,
+     "esperado": 137.09,
+     "z": -16.86,
+     "unidade": "°"
+    },
+    {
+     "feature": "punho_altura_max",
+     "descricao": "altura do punho acima do ombro (× tronco)",
+     "valor": -0.04,
+     "esperado": 0.75,
+     "z": -7.88,
+     "unidade": ""
+    },
+    {
+     "feature": "amplitude_abducao",
+     "descricao": "amplitude de abdução do ombro",
+     "valor": 98.06,
+     "esperado": 143.55,
+     "z": -3.61,
+     "unidade": "°"
+    }
+   ]
+  },
+  "duracao_s": 3.666666666666657,
+  "id": "EVT-A210095257",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "REHAB-PM_114",
+  "origem": "video",
+  "tipo": "padrao_incorreto_persistente",
+  "severidade": 2,
+  "t": 146.33333333333334,
+  "descricao": "Repetição 18 fora do padrão esperado (4 seguidas): extensão do cotovelo no topo: 39.83° (abaixo do esperado 137.09°); altura do punho acima do ombro (× tronco): -0.18 (abaixo do esperado 0.75); amplitude de abdução do ombro: 87.8° (abaixo do esperado 143.55°)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 18,
+   "escore": 13.45,
+   "desvios": [
+    {
+     "feature": "cotovelo_min",
+     "descricao": "extensão do cotovelo no topo",
+     "valor": 39.83,
+     "esperado": 137.09,
+     "z": -13.45,
+     "unidade": "°"
+    },
+    {
+     "feature": "punho_altura_max",
+     "descricao": "altura do punho acima do ombro (× tronco)",
+     "valor": -0.18,
+     "esperado": 0.75,
+     "z": -9.3,
+     "unidade": ""
+    },
+    {
+     "feature": "amplitude_abducao",
+     "descricao": "amplitude de abdução do ombro",
+     "valor": 87.8,
+     "esperado": 143.55,
+     "z": -4.43,
+     "unidade": "°"
+    }
+   ]
+  },
+  "duracao_s": 4.333333333333343,
+  "id": "EVT-D589E5F5B6",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "REHAB-PM_114",
+  "origem": "video",
+  "tipo": "padrao_incorreto_persistente",
+  "severidade": 2,
+  "t": 152.33333333333334,
+  "descricao": "Repetição 19 fora do padrão esperado (5 seguidas): extensão do cotovelo no topo: 70.15° (abaixo do esperado 137.09°); altura do punho acima do ombro (× tronco): 0.07 (abaixo do esperado 0.75); amplitude de abdução do ombro: 103.23° (abaixo do esperado 143.55°)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 19,
+   "escore": 9.26,
+   "desvios": [
+    {
+     "feature": "cotovelo_min",
+     "descricao": "extensão do cotovelo no topo",
+     "valor": 70.15,
+     "esperado": 137.09,
+     "z": -9.26,
+     "unidade": "°"
+    },
+    {
+     "feature": "punho_altura_max",
+     "descricao": "altura do punho acima do ombro (× tronco)",
+     "valor": 0.07,
+     "esperado": 0.75,
+     "z": -6.84,
+     "unidade": ""
+    },
+    {
+     "feature": "amplitude_abducao",
+     "descricao": "amplitude de abdução do ombro",
+     "valor": 103.23,
+     "esperado": 143.55,
+     "z": -3.2,
+     "unidade": "°"
+    }
+   ]
+  },
+  "duracao_s": 5.166666666666686,
+  "id": "EVT-1A0EDBC097",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "REHAB-PM_114",
+  "origem": "video",
+  "tipo": "padrao_incorreto_persistente",
+  "severidade": 2,
+  "t": 157.66666666666666,
+  "descricao": "Repetição 20 fora do padrão esperado (6 seguidas): altura do punho acima do ombro (× tronco): -0.04 (abaixo do esperado 0.75); extensão do cotovelo no topo: 104.11° (abaixo do esperado 137.09°); amplitude de abdução do ombro: 93.63° (abaixo do esperado 143.55°)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 20,
+   "escore": 7.9,
+   "desvios": [
+    {
+     "feature": "punho_altura_max",
+     "descricao": "altura do punho acima do ombro (× tronco)",
+     "valor": -0.04,
+     "esperado": 0.75,
+     "z": -7.9,
+     "unidade": ""
+    },
+    {
+     "feature": "cotovelo_min",
+     "descricao": "extensão do cotovelo no topo",
+     "valor": 104.11,
+     "esperado": 137.09,
+     "z": -4.56,
+     "unidade": "°"
+    },
+    {
+     "feature": "amplitude_abducao",
+     "descricao": "amplitude de abdução do ombro",
+     "valor": 93.63,
+     "esperado": 143.55,
+     "z": -3.97,
+     "unidade": "°"
+    }
+   ]
+  },
+  "duracao_s": 4.333333333333314,
+  "id": "EVT-0E7D2BB782",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "REHAB-PM_114",
+  "origem": "video",
+  "tipo": "padrao_incorreto_persistente",
+  "severidade": 2,
+  "t": 163.33333333333334,
+  "descricao": "Repetição 21 fora do padrão esperado (7 seguidas): extensão do cotovelo no topo: 48.73° (abaixo do esperado 137.09°); altura do punho acima do ombro (× tronco): 0.11 (abaixo do esperado 0.75); amplitude de abdução do ombro: 102.92° (abaixo do esperado 143.55°)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 21,
+   "escore": 12.22,
+   "desvios": [
+    {
+     "feature": "cotovelo_min",
+     "descricao": "extensão do cotovelo no topo",
+     "valor": 48.73,
+     "esperado": 137.09,
+     "z": -12.22,
+     "unidade": "°"
+    },
+    {
+     "feature": "punho_altura_max",
+     "descricao": "altura do punho acima do ombro (× tronco)",
+     "valor": 0.11,
+     "esperado": 0.75,
+     "z": -6.39,
+     "unidade": ""
+    },
+    {
+     "feature": "amplitude_abducao",
+     "descricao": "amplitude de abdução do ombro",
+     "valor": 102.92,
+     "esperado": 143.55,
+     "z": -3.23,
+     "unidade": "°"
+    }
+   ]
+  },
+  "duracao_s": 5.0,
+  "id": "EVT-95672934E8",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "REHAB-PM_114",
+  "origem": "video",
+  "tipo": "padrao_incorreto_persistente",
+  "severidade": 2,
+  "t": 167.33333333333334,
+  "descricao": "Repetição 22 fora do padrão esperado (8 seguidas): extensão do cotovelo no topo: 80.23° (abaixo do esperado 137.09°); altura do punho acima do ombro (× tronco): 0.04 (abaixo do esperado 0.75); amplitude de abdução do ombro: 94.28° (abaixo do esperado 143.55°)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 22,
+   "escore": 7.87,
+   "desvios": [
+    {
+     "feature": "cotovelo_min",
+     "descricao": "extensão do cotovelo no topo",
+     "valor": 80.23,
+     "esperado": 137.09,
+     "z": -7.87,
+     "unidade": "°"
+    },
+    {
+     "feature": "punho_altura_max",
+     "descricao": "altura do punho acima do ombro (× tronco)",
+     "valor": 0.04,
+     "esperado": 0.75,
+     "z": -7.07,
+     "unidade": ""
+    },
+    {
+     "feature": "amplitude_abducao",
+     "descricao": "amplitude de abdução do ombro",
+     "valor": 94.28,
+     "esperado": 143.55,
+     "z": -3.91,
+     "unidade": "°"
+    }
+   ]
+  },
+  "duracao_s": 3.9666666666666686,
+  "id": "EVT-CB1E82D137",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "REHAB-PM_118",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 54.333333333333336,
+  "descricao": "Repetição 13 fora do padrão esperado: profundidade (descida do quadril / tronco): 0.34 (abaixo do esperado 0.59)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 13,
+   "escore": 2.53,
+   "desvios": [
+    {
+     "feature": "descida_quadril",
+     "descricao": "profundidade (descida do quadril / tronco)",
+     "valor": 0.34,
+     "esperado": 0.59,
+     "z": -2.53,
+     "unidade": ""
+    }
+   ]
+  },
+  "duracao_s": 3.133333333333333,
+  "id": "EVT-78CD8A2251",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "REHAB-PM_118",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 74.33333333333333,
+  "descricao": "Repetição 20 fora do padrão esperado: profundidade (descida do quadril / tronco): 0.34 (abaixo do esperado 0.59)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 20,
+   "escore": 2.5,
+   "desvios": [
+    {
+     "feature": "descida_quadril",
+     "descricao": "profundidade (descida do quadril / tronco)",
+     "valor": 0.34,
+     "esperado": 0.59,
+     "z": -2.5,
+     "unidade": ""
+    }
+   ]
+  },
+  "duracao_s": 2.1333333333333258,
+  "id": "EVT-160638701C",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "REHAB-PM_118",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 76.66666666666667,
+  "descricao": "Repetição 21 fora do padrão esperado (2 seguidas): profundidade (descida do quadril / tronco): 0.3 (abaixo do esperado 0.59)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 21,
+   "escore": 2.89,
+   "desvios": [
+    {
+     "feature": "descida_quadril",
+     "descricao": "profundidade (descida do quadril / tronco)",
+     "valor": 0.3,
+     "esperado": 0.59,
+     "z": -2.89,
+     "unidade": ""
+    }
+   ]
+  },
+  "duracao_s": 2.3000000000000114,
+  "id": "EVT-B2592734BF",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "REHAB-PM_122",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 26.0,
+  "descricao": "Repetição 5 fora do padrão esperado: extensão do cotovelo no topo: 142.9° (abaixo do esperado 154.34°)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 5,
+   "escore": 2.7,
+   "desvios": [
+    {
+     "feature": "cotovelo_min",
+     "descricao": "extensão do cotovelo no topo",
+     "valor": 142.9,
+     "esperado": 154.34,
+     "z": -2.7,
+     "unidade": "°"
+    }
+   ]
+  },
+  "duracao_s": 4.166666666666668,
+  "id": "EVT-E230F944C0",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "REHAB-PM_122",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 106.0,
+  "descricao": "Repetição 17 fora do padrão esperado: extensão do cotovelo no topo: 79.82° (abaixo do esperado 137.09°)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 17,
+   "escore": 7.06,
+   "desvios": [
+    {
+     "feature": "cotovelo_min",
+     "descricao": "extensão do cotovelo no topo",
+     "valor": 79.82,
+     "esperado": 137.09,
+     "z": -7.06,
+     "unidade": "°"
+    }
+   ]
+  },
+  "duracao_s": 6.466666666666669,
+  "id": "EVT-468F702DD3",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "REHAB-PM_122",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 112.0,
+  "descricao": "Repetição 18 fora do padrão esperado (2 seguidas): extensão do cotovelo no topo: 57.62° (abaixo do esperado 137.09°)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 18,
+   "escore": 9.8,
+   "desvios": [
+    {
+     "feature": "cotovelo_min",
+     "descricao": "extensão do cotovelo no topo",
+     "valor": 57.62,
+     "esperado": 137.09,
+     "z": -9.8,
+     "unidade": "°"
+    }
+   ]
+  },
+  "duracao_s": 5.5,
+  "id": "EVT-034E376EEE",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "REHAB-PM_122",
+  "origem": "video",
+  "tipo": "padrao_incorreto_persistente",
+  "severidade": 2,
+  "t": 117.66666666666667,
+  "descricao": "Repetição 19 fora do padrão esperado (3 seguidas): extensão do cotovelo no topo: 76.08° (abaixo do esperado 137.09°); altura do punho acima do ombro (× tronco): 0.47 (abaixo do esperado 0.75)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 19,
+   "escore": 7.52,
+   "desvios": [
+    {
+     "feature": "cotovelo_min",
+     "descricao": "extensão do cotovelo no topo",
+     "valor": 76.08,
+     "esperado": 137.09,
+     "z": -7.52,
+     "unidade": "°"
+    },
+    {
+     "feature": "punho_altura_max",
+     "descricao": "altura do punho acima do ombro (× tronco)",
+     "valor": 0.47,
+     "esperado": 0.75,
+     "z": -2.78,
+     "unidade": ""
+    }
+   ]
+  },
+  "duracao_s": 5.333333333333343,
+  "id": "EVT-AA585F3938",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "REHAB-PM_122",
+  "origem": "video",
+  "tipo": "padrao_incorreto_persistente",
+  "severidade": 2,
+  "t": 123.16666666666667,
+  "descricao": "Repetição 20 fora do padrão esperado (4 seguidas): extensão do cotovelo no topo: 90.14° (abaixo do esperado 137.09°)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 20,
+   "escore": 5.79,
+   "desvios": [
+    {
+     "feature": "cotovelo_min",
+     "descricao": "extensão do cotovelo no topo",
+     "valor": 90.14,
+     "esperado": 137.09,
+     "z": -5.79,
+     "unidade": "°"
+    }
+   ]
+  },
+  "duracao_s": 5.0,
+  "id": "EVT-277C230649",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "REHAB-PM_126",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 48.666666666666664,
+  "descricao": "Repetição 10 fora do padrão esperado: flexão máxima do joelho (ângulo mínimo): 122.03° (abaixo do esperado 156.43°)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 10,
+   "escore": 2.86,
+   "desvios": [
+    {
+     "feature": "joelho_min",
+     "descricao": "flexão máxima do joelho (ângulo mínimo)",
+     "valor": 122.03,
+     "esperado": 156.43,
+     "z": -2.86,
+     "unidade": "°"
+    }
+   ]
+  },
+  "duracao_s": 3.3333333333333286,
+  "id": "EVT-C902405B26",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "REHAB-PM_126",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 66.33333333333333,
+  "descricao": "Repetição 11 fora do padrão esperado (2 seguidas): profundidade (descida do quadril / tronco): 0.31 (abaixo do esperado 0.58)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 11,
+   "escore": 2.68,
+   "desvios": [
+    {
+     "feature": "descida_quadril",
+     "descricao": "profundidade (descida do quadril / tronco)",
+     "valor": 0.31,
+     "esperado": 0.58,
+     "z": -2.68,
+     "unidade": ""
+    }
+   ]
+  },
+  "duracao_s": 3.6666666666666643,
+  "id": "EVT-EBC416875B",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "REHAB-PM_126",
+  "origem": "video",
+  "tipo": "padrao_incorreto_persistente",
+  "severidade": 2,
+  "t": 71.33333333333333,
+  "descricao": "Repetição 12 fora do padrão esperado (3 seguidas): profundidade (descida do quadril / tronco): 0.3 (abaixo do esperado 0.58)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 12,
+   "escore": 2.77,
+   "desvios": [
+    {
+     "feature": "descida_quadril",
+     "descricao": "profundidade (descida do quadril / tronco)",
+     "valor": 0.3,
+     "esperado": 0.58,
+     "z": -2.77,
+     "unidade": ""
+    }
+   ]
+  },
+  "duracao_s": 4.333333333333329,
+  "id": "EVT-1AE5CF9F5B",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "REHAB-PM_126",
+  "origem": "video",
+  "tipo": "padrao_incorreto_persistente",
+  "severidade": 2,
+  "t": 76.33333333333333,
+  "descricao": "Repetição 13 fora do padrão esperado (4 seguidas): profundidade (descida do quadril / tronco): 0.33 (abaixo do esperado 0.58)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 13,
+   "escore": 2.53,
+   "desvios": [
+    {
+     "feature": "descida_quadril",
+     "descricao": "profundidade (descida do quadril / tronco)",
+     "valor": 0.33,
+     "esperado": 0.58,
+     "z": -2.53,
+     "unidade": ""
+    }
+   ]
+  },
+  "duracao_s": 4.333333333333329,
+  "id": "EVT-42818C70C4",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "REHAB-PM_126",
+  "origem": "video",
+  "tipo": "padrao_incorreto_persistente",
+  "severidade": 2,
+  "t": 81.66666666666667,
+  "descricao": "Repetição 14 fora do padrão esperado (5 seguidas): profundidade (descida do quadril / tronco): 0.32 (abaixo do esperado 0.58)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 14,
+   "escore": 2.62,
+   "desvios": [
+    {
+     "feature": "descida_quadril",
+     "descricao": "profundidade (descida do quadril / tronco)",
+     "valor": 0.32,
+     "esperado": 0.58,
+     "z": -2.62,
+     "unidade": ""
+    }
+   ]
+  },
+  "duracao_s": 4.333333333333343,
+  "id": "EVT-2B04A9D907",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "REHAB-PM_126",
+  "origem": "video",
+  "tipo": "padrao_incorreto_persistente",
+  "severidade": 2,
+  "t": 86.33333333333333,
+  "descricao": "Repetição 15 fora do padrão esperado (6 seguidas): profundidade (descida do quadril / tronco): 0.28 (abaixo do esperado 0.58)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 15,
+   "escore": 2.99,
+   "desvios": [
+    {
+     "feature": "descida_quadril",
+     "descricao": "profundidade (descida do quadril / tronco)",
+     "valor": 0.28,
+     "esperado": 0.58,
+     "z": -2.99,
+     "unidade": ""
+    }
+   ]
+  },
+  "duracao_s": 4.0,
+  "id": "EVT-99F564F748",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "REHAB-PM_126",
+  "origem": "video",
+  "tipo": "padrao_incorreto_persistente",
+  "severidade": 2,
+  "t": 91.0,
+  "descricao": "Repetição 16 fora do padrão esperado (7 seguidas): inclinação do tronco à frente: 42.37° (acima do esperado 24.07°)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 16,
+   "escore": 2.66,
+   "desvios": [
+    {
+     "feature": "tronco_max",
+     "descricao": "inclinação do tronco à frente",
+     "valor": 42.37,
+     "esperado": 24.07,
+     "z": 2.66,
+     "unidade": "°"
+    }
+   ]
+  },
+  "duracao_s": 3.3333333333333286,
+  "id": "EVT-4D97E48125",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "REHAB-PM_126",
+  "origem": "video",
+  "tipo": "padrao_incorreto_persistente",
+  "severidade": 2,
+  "t": 95.33333333333333,
+  "descricao": "Repetição 17 fora do padrão esperado (8 seguidas): inclinação do tronco à frente: 53.84° (acima do esperado 24.07°)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 17,
+   "escore": 4.32,
+   "desvios": [
+    {
+     "feature": "tronco_max",
+     "descricao": "inclinação do tronco à frente",
+     "valor": 53.84,
+     "esperado": 24.07,
+     "z": 4.32,
+     "unidade": "°"
+    }
+   ]
+  },
+  "duracao_s": 3.666666666666657,
+  "id": "EVT-A248DB8321",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "REHAB-PM_126",
+  "origem": "video",
+  "tipo": "execucao_fora_do_padrao",
+  "severidade": 1,
+  "t": 108.0,
+  "descricao": "Repetição 20 fora do padrão esperado: inclinação do tronco à frente: 47.51° (acima do esperado 24.07°)",
+  "detector": "pose",
+  "evidencias": {
+   "repeticao": 20,
+   "escore": 3.4,
+   "desvios": [
+    {
+     "feature": "tronco_max",
+     "descricao": "inclinação do tronco à frente",
+     "valor": 47.51,
+     "esperado": 24.07,
+     "z": 3.4,
+     "unidade": "°"
+    }
+   ]
+  },
+  "duracao_s": 4.0,
+  "id": "EVT-2EF8B8E208",
+  "severidade_rotulo": "atenção"
+ }
+]

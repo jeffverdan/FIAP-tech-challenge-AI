@@ -1,0 +1,520 @@
+{
+ "paciente_id": "PRIMOCK-day1_consultation02",
+ "audio": "day1_consultation02_patient.wav",
+ "stt": {
+  "fonte": "azure_cache",
+  "provedor": "azure_speech",
+  "segmentos": 49,
+  "palavras": 682,
+  "texto": "Hello. Can you hear me well? OK. Yes, so it's been a few days now. I have like a sore and a red skin. It's kind of it's really itchy and it's like super annoying. So I'd like to find something quick to solve it. Mostly like my chest, my, my hands, my arms. Like I agree. It's, it's super annoying. Like it's itching a lot, like all the time. And I can't even sleep at night. Like I really need something quickly to, to solve it. Because even at work, I like when I'm in the meeting and I have to like think about my work and focus like actually focus on my work. It's really annoying because I can't actually think about what I have to say. I'm always like disturbed by this disease. And so yes, earlier I was like prescribed for my eczema and they gave me like some cream and something to when I like was when I was in the shower. I had to put something, but yeah. And I mean, at that time, yes, But the symptoms, like these symptoms are like when these symptoms appeared again, I tried those and it didn't work. I've tried a few things, like I bought like a steroid cream at the pharmacy last night, but it apparently didn't help because it's still eating a lot today. Yeah. Uh, steroid cream. And it's much more like itchy and my eczema was more like only in the arms. And now it's also on the chest and in the in the on the hands as well. Like, yeah, when like I like, for instance, hiking during the weekends. And I, I can't really do it anymore because it's like very like, like I wanted to do that last weekend and it was super painful. And I have to take like showers every day to be able to kind of ease this. Thoughts. Which is very very annoying. Yeah. Exactly. No. So my skin is a bit cracked in some parts, like kind of cracked, if you see what I mean. But yeah. No. Four days ago. No, I haven't. It's actually like it's very annoying because I'm thinking about maybe I should change something because I, I haven't and I don't understand. Then I'm kind of afraid of asking people around me because it's kind of, you know, I don't feel really comfortable asking about these questions. It's kind of intimate. And so I will tell your help now. And no, just the chest, hands and like like inside the elbows. Yeah. In my what? Oh, on my face, no. No, just itching, nothing else. No. I I think so. Any what? And I so I had eczema before so maybe it's this, but it seems like more like my eczema was only on the arm. So I'm I'm not sure I I really have no idea. Yeah. No, I just had asthma in the past but not anymore. No. I like something. Sorry, Yeah. Hello. Yes. Oh, allergies? No. So I live with a few flatmates. So, you know, I'm 31. I yeah, I have a full time job and so I'm living with a few people to save money. I work at a pharmaceutical company. So it's been, it's been a few years now. It's it's kind of interesting. We're working on like a kind of project manager. I mean, do you want to to know more about it? No. You know, once in a while I can I highlight hanging out with people once in a while. So yeah, I'd say a few, a few beers per week, something like this. Nothing, nothing crazy. I used to drink a lot more when I was younger, but it's been, it's been a while.  OK. OK. OK. OK. OK. OK, just I I have tried antihistamines lately but it didn't really help. I have tried the antihistamines but it didn't really help. OK. That sounds good. Uh, no, that's it. Thank you very much. Right. Thank you, Victor. Bye.",
+  "wer_vs_manual": 0.171
+ },
+ "linguagem": {
+  "fonte": "azure_cache",
+  "provedor": "azure_language",
+  "sentimento": "mixed",
+  "scores": {
+   "positive": 0.26,
+   "neutral": 0.12,
+   "negative": 0.62
+  },
+  "frases_chave": [
+   "full time job",
+   "pharmaceutical company",
+   "project manager",
+   "steroid cream",
+   "red skin",
+   "sore",
+   "something",
+   "chest",
+   "hands",
+   "arms",
+   "night",
+   "work",
+   "meeting",
+   "disease",
+   "eczema"
+  ],
+  "entidades": [
+   {
+    "texto": "well",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Good"
+   },
+   {
+    "texto": "few days",
+    "categoria": "Time",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "sore",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Sore to touch"
+   },
+   {
+    "texto": "red skin",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Erythema"
+   },
+   {
+    "texto": "itchy",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Pruritus"
+   },
+   {
+    "texto": "chest",
+    "categoria": "BodyStructure",
+    "negada": false,
+    "normalizado": "Chest"
+   },
+   {
+    "texto": "hands",
+    "categoria": "BodyStructure",
+    "negada": false,
+    "normalizado": "Hand"
+   },
+   {
+    "texto": "arms",
+    "categoria": "BodyStructure",
+    "negada": false,
+    "normalizado": "Upper Extremity"
+   },
+   {
+    "texto": "itching",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Pruritus"
+   },
+   {
+    "texto": "lot",
+    "categoria": "ConditionQualifier",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "can't even sleep at",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "disease",
+    "categoria": "Diagnosis",
+    "negada": false,
+    "normalizado": "Disease"
+   },
+   {
+    "texto": "eczema",
+    "categoria": "Diagnosis",
+    "negada": false,
+    "normalizado": "Eczema"
+   },
+   {
+    "texto": "symptoms",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Symptoms"
+   },
+   {
+    "texto": "symptoms",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Symptoms"
+   },
+   {
+    "texto": "symptoms",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Symptoms"
+   },
+   {
+    "texto": "steroid",
+    "categoria": "MedicationClass",
+    "negada": false,
+    "normalizado": "Steroids"
+   },
+   {
+    "texto": "cream",
+    "categoria": "MedicationForm",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "pharmacy",
+    "categoria": "CareEnvironment",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "last night",
+    "categoria": "Time",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "eating a lot",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "today",
+    "categoria": "Time",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "steroid",
+    "categoria": "MedicationClass",
+    "negada": false,
+    "normalizado": "Steroids"
+   },
+   {
+    "texto": "cream",
+    "categoria": "MedicationForm",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "itchy",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Pruritus"
+   },
+   {
+    "texto": "eczema",
+    "categoria": "Diagnosis",
+    "negada": false,
+    "normalizado": "Eczema"
+   },
+   {
+    "texto": "arms",
+    "categoria": "BodyStructure",
+    "negada": false,
+    "normalizado": "Upper Extremity"
+   },
+   {
+    "texto": "chest",
+    "categoria": "BodyStructure",
+    "negada": false,
+    "normalizado": "Chest"
+   },
+   {
+    "texto": "hands",
+    "categoria": "BodyStructure",
+    "negada": false,
+    "normalizado": "Hand"
+   },
+   {
+    "texto": "last weekend",
+    "categoria": "Time",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "painful",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Pain"
+   },
+   {
+    "texto": "showers",
+    "categoria": "TreatmentName",
+    "negada": false,
+    "normalizado": "Safety showers"
+   },
+   {
+    "texto": "skin",
+    "categoria": "BodyStructure",
+    "negada": false,
+    "normalizado": "Skin"
+   },
+   {
+    "texto": "bit",
+    "categoria": "ConditionQualifier",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "cracked",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Crack"
+   },
+   {
+    "texto": "cracked",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Crack"
+   },
+   {
+    "texto": "Four days ago",
+    "categoria": "Time",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "people",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Persons"
+   },
+   {
+    "texto": "chest",
+    "categoria": "BodyStructure",
+    "negada": false,
+    "normalizado": "Chest"
+   },
+   {
+    "texto": "hands",
+    "categoria": "BodyStructure",
+    "negada": false,
+    "normalizado": "Hand"
+   },
+   {
+    "texto": "elbows",
+    "categoria": "BodyStructure",
+    "negada": false,
+    "normalizado": "Elbow"
+   },
+   {
+    "texto": "face",
+    "categoria": "BodyStructure",
+    "negada": false,
+    "normalizado": "Face"
+   },
+   {
+    "texto": "itching",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Pruritus"
+   },
+   {
+    "texto": "eczema",
+    "categoria": "Diagnosis",
+    "negada": false,
+    "normalizado": "Eczema"
+   },
+   {
+    "texto": "eczema",
+    "categoria": "Diagnosis",
+    "negada": false,
+    "normalizado": "Eczema"
+   },
+   {
+    "texto": "arm",
+    "categoria": "BodyStructure",
+    "negada": false,
+    "normalizado": "Upper Extremity"
+   },
+   {
+    "texto": "asthma",
+    "categoria": "Diagnosis",
+    "negada": false,
+    "normalizado": "Asthma"
+   },
+   {
+    "texto": "allergies",
+    "categoria": "Diagnosis",
+    "negada": false,
+    "normalizado": "Hypersensitivity"
+   },
+   {
+    "texto": "few flatmates",
+    "categoria": "LivingStatus",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "31",
+    "categoria": "Age",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "full time job",
+    "categoria": "Employment",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "few people",
+    "categoria": "LivingStatus",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "a pharmaceutical company",
+    "categoria": "Employment",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "a few years now",
+    "categoria": "Time",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "per week",
+    "categoria": "Frequency",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "drink",
+    "categoria": "SubstanceUse",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "younger",
+    "categoria": "Age",
+    "negada": false,
+    "normalizado": "Youth"
+   },
+   {
+    "texto": "antihistamines",
+    "categoria": "MedicationClass",
+    "negada": false,
+    "normalizado": "Histamine Antagonists"
+   },
+   {
+    "texto": "antihistamines",
+    "categoria": "MedicationClass",
+    "negada": false,
+    "normalizado": "Histamine Antagonists"
+   },
+   {
+    "texto": "Right",
+    "categoria": "Direction",
+    "negada": false,
+    "normalizado": null
+   }
+  ],
+  "relacoes": [
+   {
+    "tipo": "QualifierOfCondition",
+    "papeis": {
+     "Condition": "itching",
+     "Qualifier": "lot"
+    }
+   },
+   {
+    "tipo": "FormOfMedication",
+    "papeis": {
+     "Medication": "steroid",
+     "Form": "cream"
+    }
+   },
+   {
+    "tipo": "TimeOfMedication",
+    "papeis": {
+     "Medication": "steroid",
+     "Time": "last night"
+    }
+   },
+   {
+    "tipo": "TimeOfCondition",
+    "papeis": {
+     "Condition": "eating a lot",
+     "Time": "today"
+    }
+   },
+   {
+    "tipo": "FormOfMedication",
+    "papeis": {
+     "Medication": "steroid",
+     "Form": "cream"
+    }
+   },
+   {
+    "tipo": "BodySiteOfCondition",
+    "papeis": {
+     "Condition": "eczema",
+     "BodyStructure": "arms"
+    }
+   },
+   {
+    "tipo": "TimeOfCondition",
+    "papeis": {
+     "Time": "last weekend",
+     "Condition": "painful"
+    }
+   },
+   {
+    "tipo": "BodySiteOfCondition",
+    "papeis": {
+     "BodyStructure": "skin",
+     "Condition": "cracked"
+    }
+   },
+   {
+    "tipo": "BodySiteOfCondition",
+    "papeis": {
+     "BodyStructure": "skin",
+     "Condition": "cracked"
+    }
+   },
+   {
+    "tipo": "QualifierOfCondition",
+    "papeis": {
+     "Qualifier": "bit",
+     "Condition": "cracked"
+    }
+   },
+   {
+    "tipo": "BodySiteOfCondition",
+    "papeis": {
+     "Condition": "eczema",
+     "BodyStructure": "arm"
+    }
+   }
+  ]
+ },
+ "sinais_alarme": {},
+ "acustica": {
+  "taxa_fala_sil_s": 3.3711,
+  "taxa_articulacao_sil_s": 4.5938,
+  "pausas_por_min": 28.8956,
+  "pausa_media_s": 0.549,
+  "pausas_longas_por_min": 0.7105,
+  "frase_media_s": 1.5114,
+  "proporcao_fonacao": 0.7339,
+  "f0_media_hz": 163.0975,
+  "f0_desvio_st": 4.2182,
+  "f0_amplitude_st": 13.991,
+  "jitter_local_pct": 2.0918,
+  "shimmer_local_pct": 13.8879,
+  "hnr_db": 10.1384,
+  "cpps_db": 5.7363,
+  "intensidade_media_db": -20.9443,
+  "intensidade_tendencia_db_min": 0.0519,
+  "duracao_fala_s": 253.33
+ },
+ "wav2vec2": true,
+ "modelos_voz": {
+  "disartria": {
+   "prob": 0.068,
+   "limiar": 0.568,
+   "calibrado": true
+  },
+  "respiratorio": {
+   "prob": 0.236,
+   "limiar": 0.614,
+   "calibrado": true
+  },
+  "fadiga": {
+   "prob": 0.232,
+   "limiar": 0.622,
+   "calibrado": true
+  }
+ },
+ "eventos": [],
+ "queixa_principal": "I have sore, red skin"
+}

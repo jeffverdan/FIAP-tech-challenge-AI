@@ -1,0 +1,1837 @@
+{
+ "_meta": {
+  "servico": "language",
+  "obtido_em": "2026-10-21T13:23:54+00:00",
+  "caracteres": 3539,
+  "endpoint": "https://aurora-language-b92b19.cognitiveservices.azure.com/"
+ },
+ "sentimento": {
+  "geral": "mixed",
+  "scores": {
+   "positive": 0.28,
+   "neutral": 0.21,
+   "negative": 0.51
+  },
+  "frases": [
+   {
+    "texto": "I can hear you. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.57,
+     "neutral": 0.43,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Can you hear me? ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.04,
+     "neutral": 0.95,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Hello, I'm Peter. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.27,
+     "neutral": 0.72,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I'm I'm. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.26,
+     "neutral": 0.72,
+     "negative": 0.02
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I'm doing OK I guess. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.58,
+     "neutral": 0.39,
+     "negative": 0.03
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "That's Peter Peterson. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.3,
+     "neutral": 0.69,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I'm I'm I'm 35 years old, but it's going to be difficult now and. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.42,
+     "negative": 0.57
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "My e-mail address is peter.peterson@lawyers.co.uk. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.02,
+     "neutral": 0.98,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I am. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.19,
+     "neutral": 0.73,
+     "negative": 0.08
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "That's right. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.52,
+     "neutral": 0.45,
+     "negative": 0.02
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Thank you very much. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 1.0,
+     "neutral": 0.0,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "That's right. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.52,
+     "neutral": 0.45,
+     "negative": 0.02
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Started long, long ago now that I've been feeling down and, and I didn't really have yeah, energy My, my, my wife was starting to complain as well in in nightly activities and I just felt like I I needed to call you guys and needed to get some, some more information about what could be going on. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.34,
+     "negative": 0.65
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "It's just that yeah, nothing is like feeling right. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.14,
+     "neutral": 0.24,
+     "negative": 0.63
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I feel out of place and and it's. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.02,
+     "negative": 0.96
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah, just just down overall. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.02,
+     "neutral": 0.98,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah, I feel like I'm feeling short of breath. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.05,
+     "negative": 0.93
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Breath. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.98,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "It's like always, Yeah, out of energy. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.09,
+     "neutral": 0.26,
+     "negative": 0.65
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I would say yes, definitely does fit. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.19,
+     "neutral": 0.81,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "You you never want to say that, do you? ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.12,
+     "neutral": 0.33,
+     "negative": 0.55
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I mean, I mean work is OK. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.3,
+     "neutral": 0.58,
+     "negative": 0.11
+    },
+    "opinioes": [
+     {
+      "alvo": "work",
+      "sentimento": "positive",
+      "avaliacoes": [
+       "OK"
+      ]
+     }
+    ]
+   },
+   {
+    "texto": "I have trouble at work sometimes having had a feeling nauseous. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.79,
+     "negative": 0.21
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "But I can do my work, that's that's OK. Again. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.16,
+     "neutral": 0.78,
+     "negative": 0.07
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Who likes to be a lawyer? ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.03,
+     "neutral": 0.82,
+     "negative": 0.15
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Sorry, that was me. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.03,
+     "neutral": 0.05,
+     "negative": 0.93
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Umm. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.03,
+     "neutral": 0.95,
+     "negative": 0.02
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yes, of course, I like. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.87,
+     "neutral": 0.1,
+     "negative": 0.03
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I like. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.92,
+     "neutral": 0.06,
+     "negative": 0.03
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "It is OK sometimes because I'm having a loss of appetite. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.06,
+     "neutral": 0.07,
+     "negative": 0.87
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I'm yeah, I'm not eating very much and complaints other than that it's it's OK, yeah. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.52,
+     "neutral": 0.36,
+     "negative": 0.12
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I have a little bit, yes, uh, but uh, that's, that's. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.11,
+     "neutral": 0.85,
+     "negative": 0.04
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Over over a long period now. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.84,
+     "negative": 0.15
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "That must have started when I. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.06,
+     "neutral": 0.81,
+     "negative": 0.13
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "When I changed over to the new law firm, uh, I would say months ago. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.92,
+     "negative": 0.08
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Three months ago, 3 1/2 months ago, that was. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.98,
+     "negative": 0.02
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah, it stopped me than that, yeah. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.12,
+     "neutral": 0.29,
+     "negative": 0.59
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "It started a little bit earlier than that I I I'm not sure though how it is connected. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.97,
+     "negative": 0.03
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Something like that, yeah. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.35,
+     "neutral": 0.63,
+     "negative": 0.02
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Oh gosh, I would say less than a stone. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.32,
+     "neutral": 0.45,
+     "negative": 0.23
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I feel nauseous every now and again. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.02,
+     "negative": 0.98
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "It's it's coming up. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.32,
+     "neutral": 0.66,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.05,
+     "neutral": 0.95,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Just every now and again, not feeling very good. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.0,
+     "negative": 1.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Trying to eat something but don't really want to. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.03,
+     "neutral": 0.49,
+     "negative": 0.48
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "That's OK, I would say I don't really have problems when going to the toilet, it's to spend less. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.65,
+     "neutral": 0.29,
+     "negative": 0.06
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yes, yes. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.27,
+     "neutral": 0.72,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "No, no diarrhoea. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.51,
+     "neutral": 0.32,
+     "negative": 0.17
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "No, no well set. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.06,
+     "negative": 0.93
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "No, no, no. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.12,
+     "neutral": 0.33,
+     "negative": 0.55
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "No, actually not. Yeah, I'm feeling unwell. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.04,
+     "negative": 0.96
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "In the in the. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.98,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "In the power region, yeah. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.05,
+     "neutral": 0.94,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Motion. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 1.0,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "No, not. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.05,
+     "neutral": 0.43,
+     "negative": 0.52
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I do not, no. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.05,
+     "neutral": 0.34,
+     "negative": 0.61
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yes, it's fine. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.77,
+     "neutral": 0.2,
+     "negative": 0.03
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "No, not really. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.03,
+     "neutral": 0.32,
+     "negative": 0.65
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Just the assurance of breath. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.21,
+     "neutral": 0.78,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "It's like when, when, when I go into the lift it, it happens to be that I like, you know, my heart starts beating and I can't really breathe. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.15,
+     "neutral": 0.14,
+     "negative": 0.71
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "No, it happens every time. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.02,
+     "neutral": 0.79,
+     "negative": 0.19
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "It happens very significantly in in the lift or when I'm when I'm. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.16,
+     "neutral": 0.82,
+     "negative": 0.02
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Walk or run. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.03,
+     "neutral": 0.97,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "No, actually, no, I would. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.22,
+     "neutral": 0.42,
+     "negative": 0.35
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "That's right, yes. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.42,
+     "neutral": 0.57,
+     "negative": 0.02
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah, my heart starts beating. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.03,
+     "neutral": 0.05,
+     "negative": 0.92
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I I feel like I can't breathe. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.05,
+     "negative": 0.94
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "And and it's, it's, it's very difficult to. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.01,
+     "negative": 0.99
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Uh, yeah, two times. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.98,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Fine. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.09,
+     "neutral": 0.38,
+     "negative": 0.53
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Uh, it's going. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.05,
+     "neutral": 0.88,
+     "negative": 0.06
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah, just just that you, you know when when you just feel unwell and yeah, your heart starts meeting. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.3,
+     "neutral": 0.62,
+     "negative": 0.09
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah, accept. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.38,
+     "neutral": 0.62,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "That. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.06,
+     "neutral": 0.92,
+     "negative": 0.03
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Not really, no. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.02,
+     "neutral": 0.45,
+     "negative": 0.53
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "It's just. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.16,
+     "neutral": 0.52,
+     "negative": 0.32
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.05,
+     "neutral": 0.95,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Cold chest pain out of pain. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.11,
+     "negative": 0.88
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yes, I had two activity of my thyroid. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.99,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Uh. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.91,
+     "negative": 0.08
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Thyroid too little activity? ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.64,
+     "negative": 0.36
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yes. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.19,
+     "neutral": 0.8,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah, yeah, yeah. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.05,
+     "neutral": 0.95,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "And in, in. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.12,
+     "neutral": 0.86,
+     "negative": 0.02
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "And so with that, I took thyroxine. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.91,
+     "negative": 0.08
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Uh, not anymore. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.02,
+     "neutral": 0.5,
+     "negative": 0.48
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I have. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.1,
+     "neutral": 0.86,
+     "negative": 0.03
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I have not been taking it in the last actually since I changed law firm I would say. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.04,
+     "neutral": 0.88,
+     "negative": 0.09
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Oh, it might be coinciding, I'm not sure about that. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.96,
+     "negative": 0.04
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Uh, haven't taken one in a long time.  ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.94,
+     "negative": 0.05
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "OK. Yes.  ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.44,
+     "neutral": 0.55,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "OK.  ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.07,
+     "neutral": 0.92,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "OK, I have. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.33,
+     "neutral": 0.64,
+     "negative": 0.03
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Thing lately at home I have. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.96,
+     "negative": 0.03
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yes. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.19,
+     "neutral": 0.79,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I haven't been walking lately at all. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.17,
+     "negative": 0.83
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "So it's like really hard for me to identify when I feel the shortness of breath. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.04,
+     "negative": 0.95
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I just wanted to add that into because I haven't been walking, I haven't been feeling good enough for good at all. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.16,
+     "neutral": 0.48,
+     "negative": 0.36
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "So yeah. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.07,
+     "neutral": 0.92,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Thank you. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.73,
+     "neutral": 0.26,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I will, yes.  ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.68,
+     "neutral": 0.3,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "OK, can I? ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.3,
+     "neutral": 0.64,
+     "negative": 0.06
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Well, how? ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.15,
+     "neutral": 0.78,
+     "negative": 0.07
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "How do I call support? ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.99,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "OK. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.04,
+     "neutral": 0.96,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I will find it, thank you. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 1.0,
+     "neutral": 0.0,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Thank you. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.7,
+     "neutral": 0.3,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Ciao.",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.99,
+     "negative": 0.0
+    },
+    "opinioes": []
+   }
+  ]
+ },
+ "frases_chave": [
+  "new law firm",
+  "Cold chest pain",
+  "mail address",
+  "nightly activities",
+  "little bit",
+  "long period",
+  "power region",
+  "two activity",
+  "little activity",
+  "long time",
+  "Peter Peterson",
+  "lawyers",
+  "energy",
+  "wife",
+  "information",
+  "place",
+  "breath",
+  "work",
+  "trouble",
+  "feeling",
+  "course",
+  "loss",
+  "appetite",
+  "complaints",
+  "Something",
+  "less",
+  "stone",
+  "problems",
+  "toilet",
+  "diarrhoea",
+  "Motion",
+  "assurance",
+  "lift",
+  "heart",
+  "Walk",
+  "thyroid",
+  "thyroxine",
+  "home",
+  "shortness",
+  "support"
+ ],
+ "entidades_saude": [
+  {
+   "texto": "OK",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.86,
+   "offset": 70,
+   "normalizado": "Kelvin",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0439239",
+    "CHV:0000034460",
+    "NCI:C42537",
+    "RCD:X800n",
+    "SNOMEDCT_US:258713009"
+   ]
+  },
+  {
+   "texto": "35 years old",
+   "categoria": "Age",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 117,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "ago",
+   "categoria": "Time",
+   "subcategoria": null,
+   "confianca": 0.68,
+   "offset": 296,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "feeling down",
+   "categoria": "Diagnosis",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 319,
+   "normalizado": "Depressed mood",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0344315",
+    "AOD:0000022486",
+    "CCPSS:1003439",
+    "CHV:0000030931",
+    "ICNP:366979004"
+   ]
+  },
+  {
+   "texto": "wife",
+   "categoria": "FamilyRelation",
+   "subcategoria": null,
+   "confianca": 0.96,
+   "offset": 386,
+   "normalizado": "wife",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0242665",
+    "AOD:0000009855",
+    "CHV:0000024911",
+    "CSP:4003-0056",
+    "HL7V3.0:WIFE"
+   ]
+  },
+  {
+   "texto": "like feeling right",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.73,
+   "offset": 606,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "feel out of place",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.84,
+   "offset": 628,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "down",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.79,
+   "offset": 676,
+   "normalizado": "Down Syndrome",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0013080",
+    "AOD:0000005004",
+    "CCPSS:0037265",
+    "CHV:0000004101",
+    "COSTAR:U000198"
+   ]
+  },
+  {
+   "texto": "short of breath",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 720,
+   "normalizado": "Dyspnea",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0013404",
+    "AOD:0000005442",
+    "BI:BI00182",
+    "CCPSS:1015304",
+    "CHV:0000004216"
+   ]
+  },
+  {
+   "texto": "nauseous",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 943,
+   "normalizado": "Nausea",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0027497",
+    "AOD:0000005505",
+    "BI:BI00280",
+    "CCC:B04.1",
+    "CCPSS:1014479"
+   ]
+  },
+  {
+   "texto": "Umm",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.61,
+   "offset": 1046,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "loss of appetite",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 1123,
+   "normalizado": "Loss of appetite (finding)",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C1971624",
+    "AOD:0000006432",
+    "COSTAR:U000386",
+    "CST:ANOREXIA",
+    "HPO:HP:0004396"
+   ]
+  },
+  {
+   "texto": "eating very much",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.94,
+   "offset": 1159,
+   "normalizado": null,
+   "negada": true,
+   "certeza": "negative",
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "months",
+   "categoria": "Time",
+   "subcategoria": null,
+   "confianca": 0.59,
+   "offset": 1398,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "Three months ago",
+   "categoria": "Time",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 1410,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "3 1/2 months ago",
+   "categoria": "Time",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 1428,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "less than",
+   "categoria": "RelationalOperator",
+   "subcategoria": null,
+   "confianca": 0.71,
+   "offset": 1628,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "stone",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.77,
+   "offset": 1640,
+   "normalizado": "Calculi",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0006736",
+    "CCPSS:0017593",
+    "CHV:0000002312",
+    "LCH:U000746",
+    "LCH_NW:sh85018800"
+   ]
+  },
+  {
+   "texto": "nauseous",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 1654,
+   "normalizado": "Nausea",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0027497",
+    "AOD:0000005505",
+    "BI:BI00280",
+    "CCC:B04.1",
+    "CCPSS:1014479"
+   ]
+  },
+  {
+   "texto": "every now and again",
+   "categoria": "Course",
+   "subcategoria": null,
+   "confianca": 0.67,
+   "offset": 1663,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "feeling very good",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 1741,
+   "normalizado": null,
+   "negada": true,
+   "certeza": "negative",
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "problems",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.68,
+   "offset": 1853,
+   "normalizado": "Problems - What subject filter",
+   "negada": true,
+   "certeza": "negative",
+   "associacao": null,
+   "codigos": [
+    "UMLS:C1546466",
+    "HL7V2.5:PRB"
+   ]
+  },
+  {
+   "texto": "diarrhoea",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 1925,
+   "normalizado": "Diarrhea",
+   "negada": true,
+   "certeza": "negative",
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0011991",
+    "AOD:0000005512",
+    "BI:BI00232",
+    "CCC:B03.3",
+    "CCPSS:1017488"
+   ]
+  },
+  {
+   "texto": "well set",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.8,
+   "offset": 1943,
+   "normalizado": null,
+   "negada": true,
+   "certeza": "negative",
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "feeling unwell",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.85,
+   "offset": 1993,
+   "normalizado": "Malaise",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0231218",
+    "AIR:MALAZ",
+    "AOD:0000021622",
+    "CCPSS:1017325",
+    "CHV:0000022637"
+   ]
+  },
+  {
+   "texto": "Motion",
+   "categoria": "ExaminationName",
+   "subcategoria": null,
+   "confianca": 0.7,
+   "offset": 2051,
+   "normalizado": "Motion",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0026597",
+    "AOD:0000001005",
+    "CHV:0000008269",
+    "LCH:U003030",
+    "LCH_NW:sh85087557"
+   ]
+  },
+  {
+   "texto": "assurance of breath",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.78,
+   "offset": 2123,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "heart starts beating",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.78,
+   "offset": 2237,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "breathe",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.96,
+   "offset": 2277,
+   "normalizado": "outcomes otolaryngology breathing",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C2015926",
+    "MEDCIN:133084"
+   ]
+  },
+  {
+   "texto": "every time",
+   "categoria": "Frequency",
+   "subcategoria": null,
+   "confianca": 0.56,
+   "offset": 2301,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "heart",
+   "categoria": "BodyStructure",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 2448,
+   "normalizado": "Heart",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0018787",
+    "AIR:MFHRT",
+    "AOD:0000002498",
+    "BI:BI00027",
+    "CCPSS:0029042"
+   ]
+  },
+  {
+   "texto": "beating",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.87,
+   "offset": 2461,
+   "normalizado": "beatings nos",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0868443",
+    "CHV:0000050925",
+    "MTHICD9:E960.0"
+   ]
+  },
+  {
+   "texto": "can't breathe",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.87,
+   "offset": 2486,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "feel",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.67,
+   "offset": 2642,
+   "normalizado": "Feelings",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C1527305",
+    "AOD:0000006327",
+    "CHV:0000004396",
+    "CSP:2483-2589",
+    "LNC:MTHU021518"
+   ]
+  },
+  {
+   "texto": "unwell",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.92,
+   "offset": 2647,
+   "normalizado": "Unwell",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0857256",
+    "MDR:10046268"
+   ]
+  },
+  {
+   "texto": "heart",
+   "categoria": "BodyStructure",
+   "subcategoria": null,
+   "confianca": 0.68,
+   "offset": 2669,
+   "normalizado": "Heart",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0018787",
+    "AIR:MFHRT",
+    "AOD:0000002498",
+    "BI:BI00027",
+    "CCPSS:0029042"
+   ]
+  },
+  {
+   "texto": "Cold chest pain",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.95,
+   "offset": 2744,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "pain",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 2767,
+   "normalizado": "Pain",
+   "negada": true,
+   "certeza": "negative",
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0030193",
+    "AOD:0000002779",
+    "BI:BI00754",
+    "CCC:Q63.0",
+    "CCPSS:0035760"
+   ]
+  },
+  {
+   "texto": "activity",
+   "categoria": "ExaminationName",
+   "subcategoria": null,
+   "confianca": 0.65,
+   "offset": 2788,
+   "normalizado": "Active",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0205177",
+    "CCPSS:0062959",
+    "CHV:0000020376",
+    "LNC:LA16666-2",
+    "NCI:C45329"
+   ]
+  },
+  {
+   "texto": "my thyroid",
+   "categoria": "ExaminationName",
+   "subcategoria": null,
+   "confianca": 0.68,
+   "offset": 2800,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "little activity",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.68,
+   "offset": 2828,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "thyroxine",
+   "categoria": "MedicationName",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 2905,
+   "normalizado": "levothyroxine",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0040165",
+    "AOD:0000018732",
+    "CHV:0000012274",
+    "CPM:32081",
+    "CSP:2929-0910"
+   ]
+  },
+  {
+   "texto": "shortness of breath",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 3277,
+   "normalizado": "Dyspnea",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0013404",
+    "AOD:0000005442",
+    "BI:BI00182",
+    "CCPSS:1015304",
+    "CHV:0000004216"
+   ]
+  },
+  {
+   "texto": "feeling good enough for good",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.93,
+   "offset": 3376,
+   "normalizado": null,
+   "negada": true,
+   "certeza": "negative",
+   "associacao": null,
+   "codigos": []
+  }
+ ],
+ "relacoes_saude": [
+  {
+   "tipo": "TimeOfCondition",
+   "papeis": {
+    "Time": "ago",
+    "Condition": "feeling down"
+   }
+  },
+  {
+   "tipo": "CourseOfCondition",
+   "papeis": {
+    "Condition": "nauseous",
+    "Course": "every now and again"
+   }
+  },
+  {
+   "tipo": "BodySiteOfCondition",
+   "papeis": {
+    "BodyStructure": "heart",
+    "Condition": "beating"
+   }
+  },
+  {
+   "tipo": "BodySiteOfCondition",
+   "papeis": {
+    "Condition": "unwell",
+    "BodyStructure": "heart"
+   }
+  }
+ ],
+ "idioma": "en",
+ "provedor": "azure_language"
+}

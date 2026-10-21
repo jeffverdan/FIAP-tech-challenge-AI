@@ -1,0 +1,2129 @@
+{
+ "_meta": {
+  "servico": "language",
+  "obtido_em": "2026-10-21T13:29:06+00:00",
+  "caracteres": 3281,
+  "endpoint": "https://aurora-language-b92b19.cognitiveservices.azure.com/"
+ },
+ "sentimento": {
+  "geral": "mixed",
+  "scores": {
+   "positive": 0.18,
+   "neutral": 0.17,
+   "negative": 0.65
+  },
+  "frases": [
+   {
+    "texto": "OK, hello. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.11,
+     "neutral": 0.89,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah, I'm Maria. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.52,
+     "neutral": 0.46,
+     "negative": 0.02
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.04,
+     "neutral": 0.96,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Sorry. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.03,
+     "neutral": 0.12,
+     "negative": 0.84
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "27th of March of 90. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 1.0,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "So I'm having like a really, really strong headache. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.07,
+     "negative": 0.93
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I don't know what is happening. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.02,
+     "neutral": 0.29,
+     "negative": 0.69
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I'm quite concerned. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.36,
+     "neutral": 0.19,
+     "negative": 0.45
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "So it started in the morning I feel like. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.03,
+     "neutral": 0.84,
+     "negative": 0.13
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Dizzy. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.02,
+     "neutral": 0.24,
+     "negative": 0.74
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "My vision is a little bit blurred like it's, it's really painful and I'm getting really concerned, especially because I'm having like these changes in the vision. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.0,
+     "negative": 1.0
+    },
+    "opinioes": [
+     {
+      "alvo": "vision",
+      "sentimento": "negative",
+      "avaliacoes": [
+       "blurred"
+      ]
+     }
+    ]
+   },
+   {
+    "texto": "Yeah, yeah, yeah. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.05,
+     "neutral": 0.95,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Uh, it came like kind of suddenly. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.09,
+     "neutral": 0.68,
+     "negative": 0.22
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Well, I had the kidney stone, so let's say that that's 10. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.04,
+     "neutral": 0.95,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I have now maybe five, well, 66 probably. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 1.0,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "But it's more about me being really concerned because this is very weird. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.05,
+     "negative": 0.94
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Sorry. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.02,
+     "neutral": 0.1,
+     "negative": 0.88
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Well, not really. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.05,
+     "neutral": 0.62,
+     "negative": 0.33
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Like this? ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.15,
+     "neutral": 0.74,
+     "negative": 0.11
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I Yeah, like this. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.22,
+     "neutral": 0.77,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "No, definitely. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.19,
+     "neutral": 0.73,
+     "negative": 0.08
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "It's something new. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.35,
+     "neutral": 0.62,
+     "negative": 0.03
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "It's in one side, the left side only. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 1.0,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "My vision is quite blurred it it's it's really weird, like some zigzag lines. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.05,
+     "negative": 0.94
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Kind of. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.06,
+     "neutral": 0.92,
+     "negative": 0.02
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I don't know how to describe it properly. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.02,
+     "neutral": 0.17,
+     "negative": 0.81
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah, I tried paracetamol but it didn't work. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.01,
+     "negative": 0.99
+    },
+    "opinioes": [
+     {
+      "alvo": "paracetamol",
+      "sentimento": "negative",
+      "avaliacoes": [
+       "work"
+      ]
+     }
+    ]
+   },
+   {
+    "texto": "To be honest, I feel exactly the same. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.47,
+     "neutral": 0.42,
+     "negative": 0.1
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Well, the headache started like 4 year, 4 hours ago, so I would say like maybe three hours ago because I couldn't stand it. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.01,
+     "negative": 0.98
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah, yeah, yeah. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.04,
+     "neutral": 0.95,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I feel a little bit, a little bit. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.03,
+     "neutral": 0.83,
+     "negative": 0.14
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Looking I cannot stand screens. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.06,
+     "negative": 0.94
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "But yeah, definitely. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.31,
+     "neutral": 0.68,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "And when I move, like The thing is that if I, if I leave bed, I start to feel like even worse if I move. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.07,
+     "negative": 0.92
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "So I just want to have my head, my head like really not moving. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.11,
+     "neutral": 0.76,
+     "negative": 0.13
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Oh yeah. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.18,
+     "neutral": 0.79,
+     "negative": 0.03
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Oh, I forgot to mention, definitely I vomit twice. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.04,
+     "neutral": 0.49,
+     "negative": 0.47
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Actually as soon as the the headache started I also vomited. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.01,
+     "negative": 0.99
+    },
+    "opinioes": [
+     {
+      "alvo": "headache",
+      "sentimento": "negative",
+      "avaliacoes": [
+       "vomited"
+      ]
+     }
+    ]
+   },
+   {
+    "texto": "So initially I thought it was something that I ate, but then the headache started to be really bad and I still feel nausea. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.0,
+     "negative": 1.0
+    },
+    "opinioes": [
+     {
+      "alvo": "headache",
+      "sentimento": "negative",
+      "avaliacoes": [
+       "bad"
+      ]
+     }
+    ]
+   },
+   {
+    "texto": "So we are. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.12,
+     "neutral": 0.86,
+     "negative": 0.03
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I'm about to vomit very soon I think. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.02,
+     "neutral": 0.37,
+     "negative": 0.61
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Sorry. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.02,
+     "neutral": 0.09,
+     "negative": 0.88
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yes. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.17,
+     "neutral": 0.81,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Uh, so uh, uh, not actually, uh, my mother has migraines. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.03,
+     "neutral": 0.31,
+     "negative": 0.66
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I'm not sure if that's relevant. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.89,
+     "negative": 0.11
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "And uh, also I have hypothyroidism in the family, so it might be, I don't know. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.18,
+     "neutral": 0.6,
+     "negative": 0.22
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I, I, I don't know. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.1,
+     "neutral": 0.45,
+     "negative": 0.45
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I think we are losing connection. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.01,
+     "negative": 0.99
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Sorry I I think we lost connection. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.0,
+     "negative": 1.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah, yeah, yeah. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.05,
+     "neutral": 0.94,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Hypertir. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.02,
+     "neutral": 0.94,
+     "negative": 0.04
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "These she also has not put her this. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.96,
+     "negative": 0.03
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "No, not that I'm aware. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.03,
+     "neutral": 0.44,
+     "negative": 0.53
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "No. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.8,
+     "negative": 0.19
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Not that I'm aware. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.54,
+     "negative": 0.45
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Uh, yeah, not that I'm aware. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.04,
+     "neutral": 0.8,
+     "negative": 0.16
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I really doubt it. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.04,
+     "negative": 0.96
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Well, I'm a little bit hypochondriac so I feel that this can be some kind of brain tumour, tumour or something because I'm like, this is really, the pain is so horrible that or maybe a stroke, I don't know. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.04,
+     "negative": 0.95
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "It's, it's just like, you know, you hear so many stories that you definitely start to wonder if I should go to any urgently because I might really have something serious. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.37,
+     "neutral": 0.5,
+     "negative": 0.13
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "No, not, no, no. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.14,
+     "neutral": 0.32,
+     "negative": 0.54
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Not really. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.48,
+     "negative": 0.51
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "It's really about the head, that's why I find it very weird. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.05,
+     "negative": 0.94
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yup. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.44,
+     "neutral": 0.55,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah, exactly. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.44,
+     "neutral": 0.55,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Sorry. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.03,
+     "neutral": 0.13,
+     "negative": 0.84
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "No, no, it's uh, I don't know how to describe it, but it's just like. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.09,
+     "neutral": 0.64,
+     "negative": 0.27
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "From kind of. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.02,
+     "neutral": 0.98,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yes. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.23,
+     "neutral": 0.76,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "No. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.02,
+     "neutral": 0.79,
+     "negative": 0.19
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.03,
+     "neutral": 0.96,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "No, it's the first time. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.82,
+     "negative": 0.17
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "But I'm very familiar with the disease because my mother has it so well, but I never had it. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.03,
+     "neutral": 0.07,
+     "negative": 0.9
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "And I thought that the onset of migraine will be, you know, in much early ages. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.05,
+     "neutral": 0.69,
+     "negative": 0.26
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "So that's why I'm not sure if migraine makes sense.  ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.9,
+     "negative": 0.09
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Oh, that's great. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.95,
+     "neutral": 0.04,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.04,
+     "neutral": 0.95,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "OK. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.06,
+     "neutral": 0.93,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "So and you're, you're saying that if this is a migraine and if I try that medication, this should go away kind of today? ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.03,
+     "neutral": 0.45,
+     "negative": 0.51
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Oh OK, that doesn't sound. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.13,
+     "neutral": 0.36,
+     "negative": 0.51
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "OK. OK. OK, sounds. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.22,
+     "neutral": 0.76,
+     "negative": 0.02
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "OK. OK, sounds good. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.72,
+     "neutral": 0.27,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah, sounds, sounds a good plan. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.87,
+     "neutral": 0.13,
+     "negative": 0.0
+    },
+    "opinioes": [
+     {
+      "alvo": "plan",
+      "sentimento": "positive",
+      "avaliacoes": [
+       "good"
+      ]
+     }
+    ]
+   },
+   {
+    "texto": "No, thank you very much. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.81,
+     "neutral": 0.18,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "You were very helpful. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.98,
+     "neutral": 0.02,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "OK. Yeah. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.25,
+     "neutral": 0.74,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Thank you very much. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 1.0,
+     "neutral": 0.0,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Fine. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.08,
+     "neutral": 0.32,
+     "negative": 0.6
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Should I disconnect?",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.9,
+     "negative": 0.1
+    },
+    "opinioes": []
+   }
+  ]
+ },
+ "frases_chave": [
+  "kidney stone",
+  "one side",
+  "left side",
+  "zigzag lines",
+  "many stories",
+  "first time",
+  "early ages",
+  "good plan",
+  "brain tumour",
+  "strong headache",
+  "Maria",
+  "March",
+  "morning",
+  "Dizzy",
+  "vision",
+  "changes",
+  "something",
+  "Kind",
+  "paracetamol",
+  "screens",
+  "bed",
+  "nausea",
+  "mother",
+  "migraines",
+  "hypothyroidism",
+  "family",
+  "connection",
+  "Hypertir",
+  "No.",
+  "pain",
+  "stroke",
+  "Yup",
+  "disease",
+  "onset",
+  "sense",
+  "medication"
+ ],
+ "entidades_saude": [
+  {
+   "texto": "27th of March of 90",
+   "categoria": "Date",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 41,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "really",
+   "categoria": "ConditionQualifier",
+   "subcategoria": null,
+   "confianca": 0.62,
+   "offset": 83,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "really",
+   "categoria": "ConditionQualifier",
+   "subcategoria": null,
+   "confianca": 0.66,
+   "offset": 91,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "strong",
+   "categoria": "ConditionQualifier",
+   "subcategoria": null,
+   "confianca": 0.95,
+   "offset": 98,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "headache",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.95,
+   "offset": 105,
+   "normalizado": "Headache",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0018681",
+    "AOD:0000006115",
+    "BI:BI00020",
+    "CCPSS:1014497",
+    "CHV:0000005820"
+   ]
+  },
+  {
+   "texto": "morning",
+   "categoria": "Time",
+   "subcategoria": null,
+   "confianca": 0.98,
+   "offset": 189,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "Dizzy",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 210,
+   "normalizado": "Dizziness",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0012833",
+    "AOD:0000004419",
+    "BI:BI00535",
+    "CCPSS:1014548",
+    "CHV:0000004059"
+   ]
+  },
+  {
+   "texto": "vision is a little",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.69,
+   "offset": 220,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "bit",
+   "categoria": "ConditionQualifier",
+   "subcategoria": null,
+   "confianca": 0.61,
+   "offset": 239,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "blurred",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.95,
+   "offset": 243,
+   "normalizado": "Blur",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C1511231",
+    "NCI:C37919"
+   ]
+  },
+  {
+   "texto": "painful",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.91,
+   "offset": 274,
+   "normalizado": "Pain",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0030193",
+    "AOD:0000002779",
+    "BI:BI00754",
+    "CCC:Q63.0",
+    "CCPSS:0035760"
+   ]
+  },
+  {
+   "texto": "changes in the vision",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.96,
+   "offset": 357,
+   "normalizado": "Visual changes",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0750280",
+    "CCPSS:1016186",
+    "CHV:0000048290",
+    "NCI:C157424",
+    "OMIM:MTHU023886"
+   ]
+  },
+  {
+   "texto": "kidney stone",
+   "categoria": "Diagnosis",
+   "subcategoria": null,
+   "confianca": 0.8,
+   "offset": 449,
+   "normalizado": "Nephrolithiasis",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0392525",
+    "AOD:0000005854",
+    "BI:BI00446",
+    "CCPSS:0054202",
+    "CCS:10.1.5.1"
+   ]
+  },
+  {
+   "texto": "left side",
+   "categoria": "Direction",
+   "subcategoria": null,
+   "confianca": 0.73,
+   "offset": 721,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "vision",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.76,
+   "offset": 740,
+   "normalizado": "Vision",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0042789",
+    "AOD:0000002747",
+    "CCPSS:0034996",
+    "CHV:0000013030",
+    "CSP:1113-5071"
+   ]
+  },
+  {
+   "texto": "blurred",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.95,
+   "offset": 756,
+   "normalizado": "Blur",
+   "negada": false,
+   "certeza": "positivePossible",
+   "associacao": null,
+   "codigos": [
+    "UMLS:C1511231",
+    "NCI:C37919"
+   ]
+  },
+  {
+   "texto": "zigzag lines",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 801,
+   "normalizado": "Esophago-gastric mucosal junction",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C1267580",
+    "CHV:0000056710",
+    "SNOMEDCT_US:110604002"
+   ]
+  },
+  {
+   "texto": "paracetamol",
+   "categoria": "MedicationName",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 880,
+   "normalizado": "acetaminophen",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0000970",
+    "AOD:0000020175",
+    "ATC:N02BE01",
+    "CCPSS:0063002",
+    "CHV:0000000600"
+   ]
+  },
+  {
+   "texto": "same",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.6,
+   "offset": 945,
+   "normalizado": "Same",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0445247",
+    "CHV:0000035532",
+    "LNC:LA11009-0",
+    "NCI:C64637",
+    "RCD:X90gA"
+   ]
+  },
+  {
+   "texto": "headache",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 961,
+   "normalizado": "Headache",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0018681",
+    "AOD:0000006115",
+    "BI:BI00020",
+    "CCPSS:1014497",
+    "CHV:0000005820"
+   ]
+  },
+  {
+   "texto": "4 year",
+   "categoria": "Time",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 983,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "4 hours ago",
+   "categoria": "Time",
+   "subcategoria": null,
+   "confianca": 0.98,
+   "offset": 991,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "three hours ago",
+   "categoria": "Time",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 1030,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "feel",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.62,
+   "offset": 1095,
+   "normalizado": "Feelings",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C1527305",
+    "AOD:0000006327",
+    "CHV:0000004396",
+    "CSP:2483-2589",
+    "LNC:MTHU021518"
+   ]
+  },
+  {
+   "texto": "little bit",
+   "categoria": "ConditionQualifier",
+   "subcategoria": null,
+   "confianca": 0.59,
+   "offset": 1102,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "little bit",
+   "categoria": "ConditionQualifier",
+   "subcategoria": null,
+   "confianca": 0.6,
+   "offset": 1116,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "feel like",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.69,
+   "offset": 1255,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "worse",
+   "categoria": "Course",
+   "subcategoria": null,
+   "confianca": 0.59,
+   "offset": 1270,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "head",
+   "categoria": "BodyStructure",
+   "subcategoria": null,
+   "confianca": 0.69,
+   "offset": 1313,
+   "normalizado": "Head",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0018670",
+    "AOD:0000004570",
+    "CHV:0000005814",
+    "CSP:0468-4078",
+    "CST:BODY/HEAD"
+   ]
+  },
+  {
+   "texto": "head",
+   "categoria": "BodyStructure",
+   "subcategoria": null,
+   "confianca": 0.68,
+   "offset": 1322,
+   "normalizado": "Head",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0018670",
+    "AOD:0000004570",
+    "CHV:0000005814",
+    "CSP:0468-4078",
+    "CST:BODY/HEAD"
+   ]
+  },
+  {
+   "texto": "moving",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.74,
+   "offset": 1343,
+   "normalizado": "Moving",
+   "negada": true,
+   "certeza": "negative",
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0560560",
+    "CHV:0000039679",
+    "RCD:Xa2Ab"
+   ]
+  },
+  {
+   "texto": "vomit",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 1398,
+   "normalizado": "Vomiting",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0042963",
+    "AOD:0000005506",
+    "BI:BI00287",
+    "CCC:B04.2",
+    "CCPSS:1014480"
+   ]
+  },
+  {
+   "texto": "headache",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 1439,
+   "normalizado": "Headache",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0018681",
+    "AOD:0000006115",
+    "BI:BI00020",
+    "CCPSS:1014497",
+    "CHV:0000005820"
+   ]
+  },
+  {
+   "texto": "vomited",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 1463,
+   "normalizado": "Vomiting",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0042963",
+    "AOD:0000005506",
+    "BI:BI00287",
+    "CCC:B04.2",
+    "CCPSS:1014480"
+   ]
+  },
+  {
+   "texto": "headache",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 1537,
+   "normalizado": "Headache",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0018681",
+    "AOD:0000006115",
+    "BI:BI00020",
+    "CCPSS:1014497",
+    "CHV:0000005820"
+   ]
+  },
+  {
+   "texto": "really bad",
+   "categoria": "ConditionQualifier",
+   "subcategoria": null,
+   "confianca": 0.86,
+   "offset": 1560,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "nausea",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 1588,
+   "normalizado": "Nausea",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0027497",
+    "AOD:0000005505",
+    "BI:BI00280",
+    "CCC:B04.1",
+    "CCPSS:1014479"
+   ]
+  },
+  {
+   "texto": "vomit",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 1620,
+   "normalizado": "Vomiting",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0042963",
+    "AOD:0000005506",
+    "BI:BI00287",
+    "CCC:B04.2",
+    "CCPSS:1014480"
+   ]
+  },
+  {
+   "texto": "mother",
+   "categoria": "FamilyRelation",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 1693,
+   "normalizado": "Mother (person)",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0026591",
+    "AOD:0000027173",
+    "CCPSS:U000286",
+    "CHV:0000008266",
+    "CSP:1124-5492"
+   ]
+  },
+  {
+   "texto": "migraines",
+   "categoria": "Diagnosis",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 1704,
+   "normalizado": "Migraine Disorders",
+   "negada": false,
+   "certeza": null,
+   "associacao": "other",
+   "codigos": [
+    "UMLS:C0149931",
+    "AOD:0000006120",
+    "BI:BI00539",
+    "CCPSS:0046442",
+    "CCS:6.5.1"
+   ]
+  },
+  {
+   "texto": "hypothyroidism",
+   "categoria": "Diagnosis",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 1768,
+   "normalizado": "Hypothyroidism",
+   "negada": false,
+   "certeza": null,
+   "associacao": "other",
+   "codigos": [
+    "UMLS:C0020676",
+    "AIR:HYPOT",
+    "AOD:0000005992",
+    "BI:BI00015",
+    "CCPSS:1017778"
+   ]
+  },
+  {
+   "texto": "family",
+   "categoria": "FamilyRelation",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 1790,
+   "normalizado": "Family",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0015576",
+    "AOD:0000006914",
+    "CCPSS:0030810",
+    "CHV:0000004879",
+    "CSP:1123-4254"
+   ]
+  },
+  {
+   "texto": "Hypertir",
+   "categoria": "Diagnosis",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 1936,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "little bit",
+   "categoria": "ConditionQualifier",
+   "subcategoria": null,
+   "confianca": 0.74,
+   "offset": 2092,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "hypochondriac",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.73,
+   "offset": 2103,
+   "normalizado": "Hypochondriasis",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0020604",
+    "AOD:0000006622",
+    "CCPSS:0048714",
+    "CHV:0000006470",
+    "CSP:2483-6952"
+   ]
+  },
+  {
+   "texto": "brain tumour",
+   "categoria": "Diagnosis",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 2157,
+   "normalizado": "Brain Neoplasms",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0006118",
+    "CCPSS:0043101",
+    "CHV:0000002140",
+    "COSTAR:U000087",
+    "CSP:2006-2736"
+   ]
+  },
+  {
+   "texto": "tumour",
+   "categoria": "Diagnosis",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 2171,
+   "normalizado": "Neoplasms",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0027651",
+    "AOD:0000004515",
+    "CCPSS:1010221",
+    "CCS:2",
+    "CHV:0000008566"
+   ]
+  },
+  {
+   "texto": "pain",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 2229,
+   "normalizado": "Pain",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0030193",
+    "AOD:0000002779",
+    "BI:BI00754",
+    "CCC:Q63.0",
+    "CCPSS:0035760"
+   ]
+  },
+  {
+   "texto": "horrible",
+   "categoria": "ConditionQualifier",
+   "subcategoria": null,
+   "confianca": 0.82,
+   "offset": 2240,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "stroke",
+   "categoria": "Diagnosis",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 2265,
+   "normalizado": "Cerebrovascular accident",
+   "negada": false,
+   "certeza": "neutralPossible",
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0038454",
+    "AOD:0000006137",
+    "BI:BI00086",
+    "CCPSS:1017565",
+    "CHV:0000011781"
+   ]
+  },
+  {
+   "texto": "head",
+   "categoria": "BodyStructure",
+   "subcategoria": null,
+   "confianca": 0.97,
+   "offset": 2509,
+   "normalizado": "Head",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0018670",
+    "AOD:0000004570",
+    "CHV:0000005814",
+    "CSP:0468-4078",
+    "CST:BODY/HEAD"
+   ]
+  },
+  {
+   "texto": "disease",
+   "categoria": "Diagnosis",
+   "subcategoria": null,
+   "confianca": 0.98,
+   "offset": 2730,
+   "normalizado": "Disease",
+   "negada": false,
+   "certeza": null,
+   "associacao": "other",
+   "codigos": [
+    "UMLS:C0012634",
+    "CCPSS:0007490",
+    "CHV:0000004014",
+    "CSP:0944-4756",
+    "ICPC2ICD10ENG:MTHU000256"
+   ]
+  },
+  {
+   "texto": "mother",
+   "categoria": "FamilyRelation",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 2749,
+   "normalizado": "Mother (person)",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0026591",
+    "AOD:0000027173",
+    "CCPSS:U000286",
+    "CHV:0000008266",
+    "CSP:1124-5492"
+   ]
+  },
+  {
+   "texto": "migraine",
+   "categoria": "Diagnosis",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 2824,
+   "normalizado": "Migraine Disorders",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0149931",
+    "AOD:0000006120",
+    "BI:BI00539",
+    "CCPSS:0046442",
+    "CCS:6.5.1"
+   ]
+  },
+  {
+   "texto": "migraine",
+   "categoria": "Diagnosis",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 2902,
+   "normalizado": "Migraine Disorders",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0149931",
+    "AOD:0000006120",
+    "BI:BI00539",
+    "CCPSS:0046442",
+    "CCS:6.5.1"
+   ]
+  },
+  {
+   "texto": "migraine",
+   "categoria": "Diagnosis",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 3000,
+   "normalizado": "Migraine Disorders",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0149931",
+    "AOD:0000006120",
+    "BI:BI00539",
+    "CCPSS:0046442",
+    "CCS:6.5.1"
+   ]
+  },
+  {
+   "texto": "medication",
+   "categoria": "TreatmentName",
+   "subcategoria": null,
+   "confianca": 0.85,
+   "offset": 3027,
+   "normalizado": "Pharmaceutical Preparations",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0013227",
+    "CCPSS:0055234",
+    "CHV:0000004159",
+    "CSP:0962-5347",
+    "HL7V2.5:M"
+   ]
+  },
+  {
+   "texto": "go away",
+   "categoria": "Course",
+   "subcategoria": null,
+   "confianca": 0.85,
+   "offset": 3051,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "today",
+   "categoria": "Time",
+   "subcategoria": null,
+   "confianca": 0.95,
+   "offset": 3067,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "OK",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.81,
+   "offset": 3109,
+   "normalizado": "Kelvin",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0439239",
+    "CHV:0000034460",
+    "NCI:C42537",
+    "RCD:X800n",
+    "SNOMEDCT_US:258713009"
+   ]
+  },
+  {
+   "texto": "sounds",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.9,
+   "offset": 3113,
+   "normalizado": "Sound - physical agent",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0037709",
+    "ALT:BAG",
+    "AOD:0000001108",
+    "CHV:0000011536",
+    "CSP:2322-9777"
+   ]
+  },
+  {
+   "texto": "OK",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.81,
+   "offset": 3125,
+   "normalizado": "Kelvin",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0439239",
+    "CHV:0000034460",
+    "NCI:C42537",
+    "RCD:X800n",
+    "SNOMEDCT_US:258713009"
+   ]
+  },
+  {
+   "texto": "sounds good",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.97,
+   "offset": 3129,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "sounds",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.9,
+   "offset": 3148,
+   "normalizado": "Sound - physical agent",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0037709",
+    "ALT:BAG",
+    "AOD:0000001108",
+    "CHV:0000011536",
+    "CSP:2322-9777"
+   ]
+  },
+  {
+   "texto": "plan",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.56,
+   "offset": 3170,
+   "normalizado": "Infantile Neuroaxonal Dystrophy",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0270724",
+    "CHV:0000026506",
+    "MDR:10088200",
+    "MSH:D019150",
+    "NCI:C84927"
+   ]
+  }
+ ],
+ "relacoes_saude": [
+  {
+   "tipo": "QualifierOfCondition",
+   "papeis": {
+    "Qualifier": "really",
+    "Condition": "headache"
+   }
+  },
+  {
+   "tipo": "QualifierOfCondition",
+   "papeis": {
+    "Qualifier": "really",
+    "Condition": "headache"
+   }
+  },
+  {
+   "tipo": "QualifierOfCondition",
+   "papeis": {
+    "Qualifier": "strong",
+    "Condition": "headache"
+   }
+  },
+  {
+   "tipo": "QualifierOfCondition",
+   "papeis": {
+    "Condition": "vision is a little",
+    "Qualifier": "bit"
+   }
+  },
+  {
+   "tipo": "TimeOfCondition",
+   "papeis": {
+    "Condition": "headache",
+    "Time": "4 year"
+   }
+  },
+  {
+   "tipo": "TimeOfCondition",
+   "papeis": {
+    "Condition": "headache",
+    "Time": "4 hours ago"
+   }
+  },
+  {
+   "tipo": "TimeOfCondition",
+   "papeis": {
+    "Condition": "headache",
+    "Time": "three hours ago"
+   }
+  },
+  {
+   "tipo": "QualifierOfCondition",
+   "papeis": {
+    "Condition": "feel",
+    "Qualifier": "little bit"
+   }
+  },
+  {
+   "tipo": "QualifierOfCondition",
+   "papeis": {
+    "Condition": "feel",
+    "Qualifier": "little bit"
+   }
+  },
+  {
+   "tipo": "CourseOfCondition",
+   "papeis": {
+    "Condition": "feel like",
+    "Course": "worse"
+   }
+  },
+  {
+   "tipo": "BodySiteOfCondition",
+   "papeis": {
+    "BodyStructure": "head",
+    "Condition": "moving"
+   }
+  },
+  {
+   "tipo": "BodySiteOfCondition",
+   "papeis": {
+    "BodyStructure": "head",
+    "Condition": "moving"
+   }
+  },
+  {
+   "tipo": "QualifierOfCondition",
+   "papeis": {
+    "Condition": "headache",
+    "Qualifier": "really bad"
+   }
+  },
+  {
+   "tipo": "QualifierOfCondition",
+   "papeis": {
+    "Qualifier": "little bit",
+    "Condition": "hypochondriac"
+   }
+  },
+  {
+   "tipo": "QualifierOfCondition",
+   "papeis": {
+    "Condition": "pain",
+    "Qualifier": "horrible"
+   }
+  },
+  {
+   "tipo": "CourseOfCondition",
+   "papeis": {
+    "Condition": "migraine",
+    "Course": "go away"
+   }
+  },
+  {
+   "tipo": "TimeOfCondition",
+   "papeis": {
+    "Condition": "migraine",
+    "Time": "today"
+   }
+  }
+ ],
+ "idioma": "en",
+ "provedor": "azure_language"
+}

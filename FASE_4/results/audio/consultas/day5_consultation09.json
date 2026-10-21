@@ -1,0 +1,567 @@
+{
+ "paciente_id": "PRIMOCK-day5_consultation09",
+ "audio": "day5_consultation09_patient.wav",
+ "stt": {
+  "fonte": "azure_cache",
+  "provedor": "azure_speech",
+  "segmentos": 81,
+  "palavras": 703,
+  "texto": "Hello. Hi there. Yeah, it's Matt. Carter and it's 14th of August 1989. And was it was the last bit. It's one Babylon Ave. Yes. And coming I I don't really know what's been going on, but it's just aching all over for. Definitely the last six weeks, it might have been slightly longer than that, but it's just sort of that feeling really tired, rundown. Where are we now? We just started April. Definitely Christmas, New Year, I felt. Relatively. Well, I think. So since then, actually, yeah, I, I was on holiday in. Umm, in the states? And yeah, it probably coincided with sometime around then end of January, start of Feb. Uh, probably a couple of weeks after I got back. Yeah, had a, had a great time, very active. No, not that I recall. Yeah, not. No, the symptoms sort of all started afterwards. Uh, no. And I don't think so. I'm probably less hungry. But no, no weight change, just a bit. Yeah, probably slightly smaller portions or yeah, more of an effort to actually eat everything that's in front of me. No. No. No, that's all fine. I don't have any rashes now. There was, in fact, I've got a photo on my phone and if, if that's helpful, I can try and show you hang on. Because this, yeah, this was weird. This sort of came up and then. Disappeared after a couple of weeks. That was the light. I don't know that. Can you see that? I think sort of calf back of my car because I didn't notice it. My wife noticed it actually. Probably. Around. The end of February, the middle to end of Feb, and then it like it didn't actually cause too much itching or anything at the time and I. It faded over a couple of weeks I guess. To be honest, that actually coincided with a bit of a sore throat I had, so possibly a little bit feverish, but I I sort of put it down to that. I definitely like, I do quite a lot of walking and we did quite a lot while we were out in the on holiday as well, but definitely. Yeah, I mean, I don't recall anybody. I don't remember seeing anything bitten. But you often like, yeah, as you're walking through. I was in shorts and boots, but you feel the other bit. Just sort of near Yosemite. No, the sort of headache may be in just generally feeling a bit crappy. Oh, we've done that. I've been going to work. I don't know how effective it's been, but yeah, I've been been. And I work for a health technology company actually. Yeah, definitely sort of tired and. Yeah, less energy, sort of. It probably less engaged than I I would normally be. Not as much I I don't know if it's I haven't been able to or I've just been a bit lazy with it. I'm not exercising as much as I would normally. Hey, I look pretty good at the moment actually. Like previously that has been an issue, but. Other than sort of physically feeling a bit. Crappy I. Yeah, in a pretty good place. Yeah, sort of aching. Shoulders, back, hips, knees. But sort of, yeah, not any. No. I mean. 8 GB count. Asthma and hay fever if they help. It's done pretty well controlled I think. Yeah, I've got one of those. Preventative. OK, yeah. Twice a day, but I've not used myself. I I have I've been using the every day for the morning and night but not the WS or not. And identity I think. One of the. It might be very. Gerizine, can I get that from just from the pharmacy? Next. Uh. Sorry, occasionally that was. Just my wife.   I yeah, I'm in general happy with what? What's the infection? OK. OK. OK. OK, so do the test 1st and then and that follow up we can just do over the phone again? Yeah. Excellent. That that's really helpful. Thank you very much. Oh, sorry, he broke up a bit then. Oh no, not no. OK. Thank you. Bye.",
+  "wer_vs_manual": 0.214
+ },
+ "linguagem": {
+  "fonte": "azure_cache",
+  "provedor": "azure_language",
+  "sentimento": "mixed",
+  "scores": {
+   "positive": 0.37,
+   "neutral": 0.13,
+   "negative": 0.49
+  },
+  "frases_chave": [
+   "one Babylon Ave",
+   "health technology company",
+   "last six weeks",
+   "last bit",
+   "New Year",
+   "weight change",
+   "smaller portions",
+   "sore throat",
+   "less energy",
+   "good place",
+   "8 GB count",
+   "hay fever",
+   "other bit",
+   "great time",
+   "Matt"
+  ],
+  "entidades": [
+   {
+    "texto": "14th of August 1989",
+    "categoria": "Date",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "aching",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Ache"
+   },
+   {
+    "texto": "last six weeks",
+    "categoria": "Time",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "tired",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Feeling tired"
+   },
+   {
+    "texto": "rundown",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "rundown"
+   },
+   {
+    "texto": "April",
+    "categoria": "Time",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "of January",
+    "categoria": "Time",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "Feb",
+    "categoria": "Time",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "couple of weeks",
+    "categoria": "Time",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "symptoms",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Symptoms"
+   },
+   {
+    "texto": "less hungry",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "weight change",
+    "categoria": "SymptomOrSign",
+    "negada": true,
+    "normalizado": "Body Weight Changes"
+   },
+   {
+    "texto": "rashes",
+    "categoria": "SymptomOrSign",
+    "negada": true,
+    "normalizado": "Exanthema"
+   },
+   {
+    "texto": "Disappeared",
+    "categoria": "Course",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "couple of weeks",
+    "categoria": "Time",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "calf",
+    "categoria": "BodyStructure",
+    "negada": false,
+    "normalizado": "Structure of calf of leg"
+   },
+   {
+    "texto": "wife",
+    "categoria": "FamilyRelation",
+    "negada": false,
+    "normalizado": "wife"
+   },
+   {
+    "texto": "end of February",
+    "categoria": "Time",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "middle",
+    "categoria": "Time",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "end of Feb",
+    "categoria": "Time",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "too much",
+    "categoria": "ConditionQualifier",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "itching",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Pruritus"
+   },
+   {
+    "texto": "faded",
+    "categoria": "Course",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "couple of weeks",
+    "categoria": "Time",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "sore throat",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Sore Throat"
+   },
+   {
+    "texto": "little bit",
+    "categoria": "ConditionQualifier",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "feverish",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Fever"
+   },
+   {
+    "texto": "remember seeing anything bitten",
+    "categoria": "SymptomOrSign",
+    "negada": true,
+    "normalizado": null
+   },
+   {
+    "texto": "shorts",
+    "categoria": "TreatmentName",
+    "negada": false,
+    "normalizado": "Shorts (physical object)"
+   },
+   {
+    "texto": "boots",
+    "categoria": "TreatmentName",
+    "negada": false,
+    "normalizado": "Boots"
+   },
+   {
+    "texto": "headache",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Headache"
+   },
+   {
+    "texto": "feeling",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Feelings"
+   },
+   {
+    "texto": "bit",
+    "categoria": "ConditionQualifier",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "crappy",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "I've been going to work",
+    "categoria": "Employment",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "work",
+    "categoria": "Employment",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "tired",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Feeling tired"
+   },
+   {
+    "texto": "less energy",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "look pretty good",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "physically feeling a bit",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "Crappy I.",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "aching",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Ache"
+   },
+   {
+    "texto": "Shoulders",
+    "categoria": "BodyStructure",
+    "negada": false,
+    "normalizado": "Shoulder"
+   },
+   {
+    "texto": "back",
+    "categoria": "BodyStructure",
+    "negada": false,
+    "normalizado": "Back"
+   },
+   {
+    "texto": "hips",
+    "categoria": "BodyStructure",
+    "negada": false,
+    "normalizado": "Hip structure"
+   },
+   {
+    "texto": "knees",
+    "categoria": "BodyStructure",
+    "negada": false,
+    "normalizado": "Knee"
+   },
+   {
+    "texto": "8",
+    "categoria": "MeasurementValue",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "GB",
+    "categoria": "MeasurementUnit",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "count",
+    "categoria": "ExaminationName",
+    "negada": false,
+    "normalizado": "Count"
+   },
+   {
+    "texto": "Asthma",
+    "categoria": "Diagnosis",
+    "negada": false,
+    "normalizado": "Asthma"
+   },
+   {
+    "texto": "hay fever",
+    "categoria": "Diagnosis",
+    "negada": false,
+    "normalizado": "Hay fever"
+   },
+   {
+    "texto": "Preventative",
+    "categoria": "MedicationName",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "Twice a day",
+    "categoria": "Frequency",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "every day",
+    "categoria": "Frequency",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "morning and night",
+    "categoria": "Frequency",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "WS",
+    "categoria": "Diagnosis",
+    "negada": true,
+    "normalizado": "Williams Syndrome"
+   },
+   {
+    "texto": "Gerizine",
+    "categoria": "MedicationName",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "wife",
+    "categoria": "FamilyRelation",
+    "negada": false,
+    "normalizado": "wife"
+   },
+   {
+    "texto": "infection",
+    "categoria": "Diagnosis",
+    "negada": false,
+    "normalizado": "Infection"
+   },
+   {
+    "texto": "test",
+    "categoria": "ExaminationName",
+    "negada": false,
+    "normalizado": "Laboratory Procedures"
+   },
+   {
+    "texto": "1st",
+    "categoria": "Time",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "follow up",
+    "categoria": "AdministrativeEvent",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "broke",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Broken"
+   }
+  ],
+  "relacoes": [
+   {
+    "tipo": "TimeOfCondition",
+    "papeis": {
+     "Time": "last six weeks",
+     "Condition": "tired"
+    }
+   },
+   {
+    "tipo": "TimeOfCondition",
+    "papeis": {
+     "Time": "last six weeks",
+     "Condition": "rundown"
+    }
+   },
+   {
+    "tipo": "TimeOfCondition",
+    "papeis": {
+     "Time": "end of February",
+     "Condition": "itching"
+    }
+   },
+   {
+    "tipo": "TimeOfCondition",
+    "papeis": {
+     "Time": "middle",
+     "Condition": "itching"
+    }
+   },
+   {
+    "tipo": "TimeOfCondition",
+    "papeis": {
+     "Time": "end of Feb",
+     "Condition": "itching"
+    }
+   },
+   {
+    "tipo": "QualifierOfCondition",
+    "papeis": {
+     "Qualifier": "too much",
+     "Condition": "itching"
+    }
+   },
+   {
+    "tipo": "QualifierOfCondition",
+    "papeis": {
+     "Qualifier": "little bit",
+     "Condition": "feverish"
+    }
+   },
+   {
+    "tipo": "QualifierOfCondition",
+    "papeis": {
+     "Qualifier": "bit",
+     "Condition": "crappy"
+    }
+   },
+   {
+    "tipo": "ValueOfExamination",
+    "papeis": {
+     "Value": "8",
+     "Examination": "count"
+    }
+   },
+   {
+    "tipo": "UnitOfExamination",
+    "papeis": {
+     "Unit": "GB",
+     "Examination": "count"
+    }
+   },
+   {
+    "tipo": "TimeOfExamination",
+    "papeis": {
+     "Examination": "test",
+     "Time": "1st"
+    }
+   }
+  ]
+ },
+ "sinais_alarme": {
+  "fadiga": {
+   "severidade": 1,
+   "mencoes": [
+    "tired",
+    "tired"
+   ]
+  }
+ },
+ "acustica": {
+  "taxa_fala_sil_s": 2.6555,
+  "taxa_articulacao_sil_s": 4.1995,
+  "pausas_por_min": 35.258,
+  "pausa_media_s": 0.6224,
+  "pausas_longas_por_min": 2.6682,
+  "frase_media_s": 1.0703,
+  "proporcao_fonacao": 0.6323,
+  "f0_media_hz": 148.4828,
+  "f0_desvio_st": 4.9955,
+  "f0_amplitude_st": 14.032,
+  "jitter_local_pct": 1.9088,
+  "shimmer_local_pct": 15.7078,
+  "hnr_db": 7.8047,
+  "cpps_db": 3.3158,
+  "intensidade_media_db": -26.1922,
+  "intensidade_tendencia_db_min": -0.2123,
+  "duracao_fala_s": 314.82
+ },
+ "wav2vec2": true,
+ "modelos_voz": {
+  "disartria": {
+   "prob": 0.064,
+   "limiar": 0.568,
+   "calibrado": true
+  },
+  "respiratorio": {
+   "prob": 0.307,
+   "limiar": 0.614,
+   "calibrado": true
+  },
+  "fadiga": {
+   "prob": 0.284,
+   "limiar": 0.622,
+   "calibrado": true
+  }
+ },
+ "eventos": [
+  {
+   "paciente_id": "PRIMOCK-day5_consultation09",
+   "origem": "audio",
+   "tipo": "sintoma_relatado_fadiga",
+   "severidade": 1,
+   "t": 577.12,
+   "descricao": "Paciente relata fadiga: tired",
+   "detector": "azure",
+   "evidencias": {
+    "mencoes": [
+     "tired",
+     "tired"
+    ],
+    "fonte_texto": "azure_cache",
+    "fonte_stt": "azure_cache"
+   },
+   "duracao_s": 0.0,
+   "id": "EVT-061F5C751B",
+   "severidade_rotulo": "atenção"
+  }
+ ],
+ "queixa_principal": "Tired all the time"
+}

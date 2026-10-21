@@ -1,0 +1,279 @@
+[
+ {
+  "paciente_id": "VDB-0137",
+  "origem": "vitais",
+  "tipo": "desvio_rr",
+  "severidade": 1,
+  "t": 352.0,
+  "descricao": "Queda abrupta de frequência respiratória: 12 irpm vs. linha de base 20 (z=-4.0)",
+  "detector": "estatistico",
+  "evidencias": {
+   "canal": "RR",
+   "z": -4.0,
+   "mediana_recente": 12.0,
+   "mediana_base": 20.0,
+   "desvio_robusto": 0.0
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-77D3DBDBA0",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "VDB-0137",
+  "origem": "vitais",
+  "tipo": "desvio_spo2",
+  "severidade": 1,
+  "t": 442.0,
+  "descricao": "Queda abrupta de saturação de O₂: 96 % vs. linha de base 100 (z=-4.0)",
+  "detector": "estatistico",
+  "evidencias": {
+   "canal": "SPO2",
+   "z": -4.0,
+   "mediana_recente": 96.0,
+   "mediana_base": 100.0,
+   "desvio_robusto": 0.0
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-C6753AB2C5",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "VDB-0137",
+  "origem": "vitais",
+  "tipo": "hipotensao",
+  "severidade": 2,
+  "t": 540.0,
+  "descricao": "PA média < 65 mmHg por ≥ 1 min (atual 61 mmHg)",
+  "detector": "regra",
+  "evidencias": {
+   "canal": "MAP",
+   "valor": 61.0,
+   "limite": 65,
+   "inicio_t": 480.0,
+   "sustentado_s": 60.0,
+   "extremo": 47.0
+  },
+  "duracao_s": 532.0,
+  "id": "EVT-F7507D302D",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "VDB-0137",
+  "origem": "vitais",
+  "tipo": "desvio_map",
+  "severidade": 1,
+  "t": 1042.0,
+  "descricao": "Subida abrupta de PA média: 139 mmHg vs. linha de base 58 (z=+20.2)",
+  "detector": "estatistico",
+  "evidencias": {
+   "canal": "MAP",
+   "z": 20.25,
+   "mediana_recente": 139.0,
+   "mediana_base": 58.0,
+   "desvio_robusto": 2.97
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-05251DB19C",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "VDB-0137",
+  "origem": "vitais",
+  "tipo": "hipotensao",
+  "severidade": 2,
+  "t": 1100.0,
+  "descricao": "PA média < 65 mmHg por ≥ 1 min (atual 61 mmHg)",
+  "detector": "regra",
+  "evidencias": {
+   "canal": "MAP",
+   "valor": 61.0,
+   "limite": 65,
+   "inicio_t": 1040.0,
+   "sustentado_s": 60.0,
+   "extremo": 53.0
+  },
+  "duracao_s": 262.0,
+  "id": "EVT-876A89CDFC",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "VDB-0137",
+  "origem": "vitais",
+  "tipo": "risco_hipotensao_10min",
+  "severidade": 1,
+  "t": 1470.0,
+  "descricao": "Risco de hipotensão nos próximos 10 min: p=31% (PAM atual 77 mmHg, tendência +2.8 mmHg/min)",
+  "detector": "ml",
+  "evidencias": {
+   "probabilidade": 0.305,
+   "limiar": 0.091,
+   "MAP_atual": 77.0,
+   "MAP_inclinacao_5min": 2.83
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-7C7C4C04AE",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "VDB-0137",
+  "origem": "vitais",
+  "tipo": "risco_hipotensao_10min",
+  "severidade": 1,
+  "t": 2370.0,
+  "descricao": "Risco de hipotensão nos próximos 10 min: p=36% (PAM atual 70 mmHg, tendência -1.0 mmHg/min)",
+  "detector": "ml",
+  "evidencias": {
+   "probabilidade": 0.359,
+   "limiar": 0.091,
+   "MAP_atual": 70.0,
+   "MAP_inclinacao_5min": -0.99
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-FADF9BE137",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "VDB-0137",
+  "origem": "vitais",
+  "tipo": "risco_hipotensao_10min",
+  "severidade": 1,
+  "t": 3270.0,
+  "descricao": "Risco de hipotensão nos próximos 10 min: p=20% (PAM atual 70 mmHg, tendência +0.7 mmHg/min)",
+  "detector": "ml",
+  "evidencias": {
+   "probabilidade": 0.197,
+   "limiar": 0.091,
+   "MAP_atual": 70.0,
+   "MAP_inclinacao_5min": 0.68
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-AD3BF5CA18",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "VDB-0137",
+  "origem": "vitais",
+  "tipo": "risco_hipotensao_10min",
+  "severidade": 1,
+  "t": 4440.0,
+  "descricao": "Risco de hipotensão nos próximos 10 min: p=11% (PAM atual 85 mmHg, tendência -1.9 mmHg/min)",
+  "detector": "ml",
+  "evidencias": {
+   "probabilidade": 0.112,
+   "limiar": 0.091,
+   "MAP_atual": 85.0,
+   "MAP_inclinacao_5min": -1.88
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-1F5A276D08",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "VDB-0137",
+  "origem": "vitais",
+  "tipo": "desvio_map",
+  "severidade": 1,
+  "t": 4782.0,
+  "descricao": "Subida abrupta de PA média: 113 mmHg vs. linha de base 86 (z=+6.1)",
+  "detector": "estatistico",
+  "evidencias": {
+   "canal": "MAP",
+   "z": 6.07,
+   "mediana_recente": 113.0,
+   "mediana_base": 86.0,
+   "desvio_robusto": 4.45
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-1E105072C9",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "VDB-0137",
+  "origem": "vitais",
+  "tipo": "padrao_multivariado_atipico",
+  "severidade": 1,
+  "t": 4830.0,
+  "descricao": "Combinação atípica de sinais vitais — principais desvios: DBP_tend (z=-24.5), DBP_var (z=+16.0), SBP_tend (z=-11.3)",
+  "detector": "ml",
+  "evidencias": {
+   "score": -0.6651,
+   "limiar": -0.5636,
+   "explicacao": [
+    [
+     "DBP_tend",
+     -24.51
+    ],
+    [
+     "DBP_var",
+     15.99
+    ],
+    [
+     "SBP_tend",
+     -11.3
+    ]
+   ],
+   "janelas_consecutivas": 2
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-B32B956669",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "VDB-0137",
+  "origem": "vitais",
+  "tipo": "desvio_map",
+  "severidade": 1,
+  "t": 5422.0,
+  "descricao": "Subida abrupta de PA média: 108 mmHg vs. linha de base 86 (z=+4.9)",
+  "detector": "estatistico",
+  "evidencias": {
+   "canal": "MAP",
+   "z": 4.95,
+   "mediana_recente": 108.0,
+   "mediana_base": 86.0,
+   "desvio_robusto": 4.45
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-210CE01BA2",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "VDB-0137",
+  "origem": "vitais",
+  "tipo": "desvio_hr",
+  "severidade": 1,
+  "t": 5462.0,
+  "descricao": "Subida abrupta de frequência cardíaca: 120 bpm vs. linha de base 51 (z=+23.0)",
+  "detector": "estatistico",
+  "evidencias": {
+   "canal": "HR",
+   "z": 23.0,
+   "mediana_recente": 120.0,
+   "mediana_base": 51.0,
+   "desvio_robusto": 1.48
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-99F6D17D73",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "VDB-0137",
+  "origem": "vitais",
+  "tipo": "hipertensao",
+  "severidade": 1,
+  "t": 5726.0,
+  "descricao": "PA sistólica > 180 mmHg por ≥ 2 min (atual 190 mmHg)",
+  "detector": "regra",
+  "evidencias": {
+   "canal": "SBP",
+   "valor": 190.0,
+   "limite": 180,
+   "inicio_t": 5606.0,
+   "sustentado_s": 120.0,
+   "extremo": 202.0
+  },
+  "duracao_s": 196.0,
+  "id": "EVT-3807932D75",
+  "severidade_rotulo": "atenção"
+ }
+]

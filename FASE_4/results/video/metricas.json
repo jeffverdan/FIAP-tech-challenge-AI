@@ -1,0 +1,320 @@
+{
+  "acuracia_pose": {
+    "PM_001-Camera17-30fps": {
+      "yolov8n-pose": {
+        "quadros": 121,
+        "pck@0.2": 0.995,
+        "erro_mediano_tronco": 0.076,
+        "erro_por_articulacao": {
+          "ombro_e": 0.047,
+          "cotovelo_e": 0.033,
+          "punho_e": 0.084,
+          "ombro_d": 0.079,
+          "cotovelo_d": 0.079,
+          "punho_d": 0.127,
+          "quadril_e": 0.156,
+          "joelho_e": 0.046,
+          "tornozelo_e": 0.06,
+          "quadril_d": 0.143,
+          "joelho_d": 0.08,
+          "tornozelo_d": 0.05
+        },
+        "erro_angulo_abducao_ombro_mediano_graus": 6.6,
+        "segundos_por_quadro": 0.085
+      },
+      "openpose": {
+        "quadros": 121,
+        "pck@0.2": 0.999,
+        "erro_mediano_tronco": 0.069,
+        "erro_por_articulacao": {
+          "ombro_e": 0.061,
+          "cotovelo_e": 0.029,
+          "punho_e": 0.086,
+          "ombro_d": 0.068,
+          "cotovelo_d": 0.098,
+          "punho_d": 0.146,
+          "quadril_e": 0.119,
+          "joelho_e": 0.047,
+          "tornozelo_e": 0.053,
+          "quadril_d": 0.107,
+          "joelho_d": 0.04,
+          "tornozelo_d": 0.062
+        },
+        "erro_angulo_abducao_ombro_mediano_graus": 8.8,
+        "segundos_por_quadro": 1.758
+      }
+    },
+    "PM_022-Camera17-30fps": {
+      "yolov8n-pose": {
+        "quadros": 121,
+        "pck@0.2": 0.928,
+        "erro_mediano_tronco": 0.094,
+        "erro_por_articulacao": {
+          "ombro_e": 0.073,
+          "cotovelo_e": 0.108,
+          "punho_e": 0.097,
+          "ombro_d": 0.032,
+          "cotovelo_d": 0.149,
+          "punho_d": 0.118,
+          "quadril_e": 0.121,
+          "joelho_e": 0.077,
+          "tornozelo_e": 0.072,
+          "quadril_d": 0.088,
+          "joelho_d": 0.105,
+          "tornozelo_d": 0.099
+        },
+        "erro_angulo_abducao_ombro_mediano_graus": 10.5,
+        "segundos_por_quadro": 0.084
+      },
+      "openpose": {
+        "quadros": 121,
+        "pck@0.2": 0.955,
+        "erro_mediano_tronco": 0.07,
+        "erro_por_articulacao": {
+          "ombro_e": 0.032,
+          "cotovelo_e": 0.113,
+          "punho_e": 0.092,
+          "ombro_d": 0.04,
+          "cotovelo_d": 0.146,
+          "punho_d": 0.084,
+          "quadril_e": 0.078,
+          "joelho_e": 0.04,
+          "tornozelo_e": 0.082,
+          "quadril_d": 0.057,
+          "joelho_d": 0.057,
+          "tornozelo_d": 0.068
+        },
+        "erro_angulo_abducao_ombro_mediano_graus": 14.0,
+        "segundos_por_quadro": 1.767
+      }
+    }
+  },
+  "fisioterapia": {
+    "abdução do braço direito": {
+      "repeticoes": 178,
+      "incorretas": 88,
+      "pacientes": 9,
+      "padrao_esperado": {
+        "auroc": 0.665,
+        "limiar_z": 2.5,
+        "sensibilidade": 0.534,
+        "especificidade": 0.722,
+        "acuracia_balanceada": 0.628
+      },
+      "supervisionado_lopo": {
+        "auroc": 0.777,
+        "acuracia_balanceada": 0.702
+      },
+      "desvios_mais_frequentes": {
+        "cotovelo_min": 38,
+        "duracao_s": 17,
+        "punho_altura_max": 8,
+        "amplitude_abducao": 4,
+        "ombros_desvio": 3
+      },
+      "features_mediana": {
+        "incorreta": {
+          "amplitude_abducao": 136.82,
+          "cotovelo_min": 138.19,
+          "tronco_desvio": 1.57,
+          "ombros_desvio": 12.86,
+          "braco_contralateral": 5.13,
+          "punho_altura_max": 0.58,
+          "duracao_s": 4.9,
+          "picos_extras": 0.0
+        },
+        "correta": {
+          "amplitude_abducao": 130.55,
+          "cotovelo_min": 147.16,
+          "tronco_desvio": 1.41,
+          "ombros_desvio": 15.69,
+          "braco_contralateral": 3.76,
+          "punho_altura_max": 0.71,
+          "duracao_s": 4.6,
+          "picos_extras": 0.0
+        }
+      }
+    },
+    "agachamento": {
+      "repeticoes": 195,
+      "incorretas": 61,
+      "pacientes": 9,
+      "padrao_esperado": {
+        "auroc": 0.698,
+        "limiar_z": 2.5,
+        "sensibilidade": 0.443,
+        "especificidade": 0.806,
+        "acuracia_balanceada": 0.624
+      },
+      "supervisionado_lopo": {
+        "auroc": 0.805,
+        "acuracia_balanceada": 0.714
+      },
+      "desvios_mais_frequentes": {
+        "descida_quadril": 17,
+        "tronco_max": 14,
+        "duracao_s": 9,
+        "assimetria_joelhos": 8,
+        "joelho_min": 5
+      },
+      "features_mediana": {
+        "incorreta": {
+          "joelho_min": 101.54,
+          "quadril_min": 98.16,
+          "descida_quadril": 0.68,
+          "tronco_max": 23.96,
+          "assimetria_joelhos": 9.44,
+          "duracao_s": 3.1,
+          "picos_extras": 0.0
+        },
+        "correta": {
+          "joelho_min": 126.43,
+          "quadril_min": 125.43,
+          "descida_quadril": 0.55,
+          "tronco_max": 5.13,
+          "assimetria_joelhos": 9.72,
+          "duracao_s": 3.1,
+          "picos_extras": 0.0
+        }
+      }
+    }
+  },
+  "contagem_repeticoes": {
+    "por_video": {
+      "PM_000": {
+        "exercicio": 1,
+        "gt": 5,
+        "auto": 5
+      },
+      "PM_001": {
+        "exercicio": 1,
+        "gt": 10,
+        "auto": 10
+      },
+      "PM_002": {
+        "exercicio": 1,
+        "gt": 9,
+        "auto": 9
+      },
+      "PM_012": {
+        "exercicio": 1,
+        "gt": 10,
+        "auto": 10
+      },
+      "PM_016": {
+        "exercicio": 1,
+        "gt": 10,
+        "auto": 10
+      },
+      "PM_023": {
+        "exercicio": 1,
+        "gt": 10,
+        "auto": 10
+      },
+      "PM_024": {
+        "exercicio": 1,
+        "gt": 10,
+        "auto": 10
+      },
+      "PM_032": {
+        "exercicio": 1,
+        "gt": 21,
+        "auto": 22
+      },
+      "PM_039": {
+        "exercicio": 1,
+        "gt": 21,
+        "auto": 22
+      },
+      "PM_101": {
+        "exercicio": 1,
+        "gt": 10,
+        "auto": 0
+      },
+      "PM_109": {
+        "exercicio": 1,
+        "gt": 20,
+        "auto": 19
+      },
+      "PM_114": {
+        "exercicio": 1,
+        "gt": 22,
+        "auto": 23
+      },
+      "PM_122": {
+        "exercicio": 1,
+        "gt": 20,
+        "auto": 21
+      },
+      "PM_008": {
+        "exercicio": 6,
+        "gt": 27,
+        "auto": 27
+      },
+      "PM_022": {
+        "exercicio": 6,
+        "gt": 22,
+        "auto": 22
+      },
+      "PM_029": {
+        "exercicio": 6,
+        "gt": 20,
+        "auto": 20
+      },
+      "PM_038": {
+        "exercicio": 6,
+        "gt": 20,
+        "auto": 20
+      },
+      "PM_043": {
+        "exercicio": 6,
+        "gt": 20,
+        "auto": 20
+      },
+      "PM_105": {
+        "exercicio": 6,
+        "gt": 21,
+        "auto": 21
+      },
+      "PM_113": {
+        "exercicio": 6,
+        "gt": 22,
+        "auto": 22
+      },
+      "PM_118": {
+        "exercicio": 6,
+        "gt": 23,
+        "auto": 23
+      },
+      "PM_126": {
+        "exercicio": 6,
+        "gt": 20,
+        "auto": 20
+      }
+    },
+    "erro_absoluto_medio": 0.68,
+    "videos_contagem_exata": "16/22"
+  },
+  "quedas": {
+    "videos_queda": 30,
+    "videos_atividade_normal": 40,
+    "vp": 25,
+    "fn": 5,
+    "fp": 7,
+    "vn": 33,
+    "sensibilidade": 0.833,
+    "especificidade": 0.825,
+    "latencia_mediana_s": 0.97,
+    "imobilidade_pos_queda_detectada": 0,
+    "especificidade_adl_sem_deitar": "24/24",
+    "alertas_em_adl_deitando_no_chao_ou_cama": "7/16",
+    "segundos_de_video_apos_a_queda_mediana": 0.87,
+    "adl_com_leito_detectado": 19,
+    "adl_deitou_no_leito": 0
+  },
+  "demos": [
+    "/mnt/attach/outputs/FASE_4/results/video/demo/fisioterapia_PM_114.mp4",
+    "/mnt/attach/outputs/FASE_4/results/video/demo/queda_fall-10.mp4",
+    "/mnt/attach/outputs/FASE_4/results/video/demo/normal_adl-01.mp4"
+  ]
+}

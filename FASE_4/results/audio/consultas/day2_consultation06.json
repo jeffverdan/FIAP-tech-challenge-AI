@@ -1,0 +1,493 @@
+{
+ "paciente_id": "PRIMOCK-day2_consultation06",
+ "audio": "day2_consultation06_patient.wav",
+ "stt": {
+  "fonte": "azure_cache",
+  "provedor": "azure_speech",
+  "segmentos": 59,
+  "palavras": 430,
+  "texto": "Hello. Good morning. Hi, I'm Honda. Yeah, sure. Umm, my name is Bondo, umm, and I'm 27 years old, umm, so I was born in 1991, uh, 17th of November. Yeah, yeah. Yeah, exactly. I've I'm kind of struggling to breathe at the moment. I, I got stung by a wasp recently, but I'm not sure whether it's kind of bitten or stung, but I, I'm feeling like slightly anxious that there's a bit of I've got a bit of a rash on my arm where I got stung and, and I kind of yeah, as I said, I've got this difficulty breathing and potentially. There's a bit of swelling in my lips and tongue. It was a bit weird. It was just a few minutes ago. Yeah, it's just kind of on the right hand side and and it's just a bit sore maybe it hasn't kind of fully swollen up yet. Yeah. Yeah. Right. I, I, I, I don't feel like it's like particularly acute, but I'm just kind of a bit anxious that it might get a bit worse. I don't, I just wanted to speak to someone. Not that I know of. I haven't, no. I I I find it difficult to tell the difference between a beer and a wasp, but I. Yeah, it was one of the two. Yeah, it was on my arm. Yeah, sure, it's just. Just there. Mm-hmm. It's it's slightly red, yeah. And and kind of there's a bit of a like a whole where where I think that the what's done? Not particularly. I guess it's just a bit kind of blotchy and a bit of a rash. It doesn't feel like particularly swollen. Not at the, not at the moment. No. Nothing. Nothing yet. I I've had eczema before. Yeah, that, that's kind of the the major thing. Nothing, nothing. I'm allergic to penicillin. Not that I think is particularly relevant. No, I don't have. I don't have any. Not that I know of. I've yeah, I've been around dogs and cats and I've been. No. Yeah, sometimes. Occasionally. No. Yes. I am a computer scientist. Yes. I have a cat. Yup. Yeah. Yeah.   Right.   Yeah. Yeah.  OK. No, I think, I think that kind of that makes me feel a bit better, I guess. Can I get that? Can I get the? Uh sorry the antihistamine from any shop or like does it have pharmacy? OK.  OK. Right. Yeah. OK, great. Yeah, that makes sense. OK. Thanks. I appreciate your time. Bye bye. Bye.",
+  "wer_vs_manual": 0.216
+ },
+ "linguagem": {
+  "fonte": "azure_cache",
+  "provedor": "azure_language",
+  "sentimento": "mixed",
+  "scores": {
+   "positive": 0.3,
+   "neutral": 0.22,
+   "negative": 0.47
+  },
+  "frases_chave": [
+   "right hand side",
+   "major thing",
+   "computer scientist",
+   "Honda",
+   "name",
+   "Bondo",
+   "November",
+   "moment",
+   "wasp",
+   "bit",
+   "rash",
+   "arm",
+   "difficulty",
+   "swelling",
+   "lips"
+  ],
+  "entidades": [
+   {
+    "texto": "27 years old",
+    "categoria": "Age",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "born",
+    "categoria": "Diagnosis",
+    "negada": false,
+    "normalizado": "Childbirth"
+   },
+   {
+    "texto": "1991",
+    "categoria": "Time",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "struggling to breathe",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "stung",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Sting Injury"
+   },
+   {
+    "texto": "bitten",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "bite injury"
+   },
+   {
+    "texto": "stung",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Sting Injury"
+   },
+   {
+    "texto": "slightly",
+    "categoria": "ConditionQualifier",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "anxious",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Anxiety"
+   },
+   {
+    "texto": "rash",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Exanthema"
+   },
+   {
+    "texto": "arm",
+    "categoria": "BodyStructure",
+    "negada": false,
+    "normalizado": "Upper Extremity"
+   },
+   {
+    "texto": "stung",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Sting Injury"
+   },
+   {
+    "texto": "difficulty breathing",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Dyspnea"
+   },
+   {
+    "texto": "bit",
+    "categoria": "ConditionQualifier",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "swelling",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Swelling"
+   },
+   {
+    "texto": "lips",
+    "categoria": "BodyStructure",
+    "negada": false,
+    "normalizado": "Lip structure"
+   },
+   {
+    "texto": "tongue",
+    "categoria": "BodyStructure",
+    "negada": false,
+    "normalizado": "Tongue"
+   },
+   {
+    "texto": "few minutes ago",
+    "categoria": "Time",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "right",
+    "categoria": "Direction",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "hand",
+    "categoria": "BodyStructure",
+    "negada": false,
+    "normalizado": "Hand"
+   },
+   {
+    "texto": "bit",
+    "categoria": "ConditionQualifier",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "sore",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Sore to touch"
+   },
+   {
+    "texto": "fully",
+    "categoria": "ConditionQualifier",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "swollen up",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "Right",
+    "categoria": "Direction",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "acute",
+    "categoria": "ConditionQualifier",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "bit",
+    "categoria": "ConditionQualifier",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "anxious",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Anxiety"
+   },
+   {
+    "texto": "bit worse",
+    "categoria": "Course",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "arm",
+    "categoria": "BodyStructure",
+    "negada": false,
+    "normalizado": "Upper Extremity"
+   },
+   {
+    "texto": "Mm",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Morular Metaplasia of the Endometrium"
+   },
+   {
+    "texto": "slightly",
+    "categoria": "ConditionQualifier",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "red",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Redness"
+   },
+   {
+    "texto": "bit",
+    "categoria": "ConditionQualifier",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "blotchy",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Blotchy"
+   },
+   {
+    "texto": "bit",
+    "categoria": "ConditionQualifier",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "rash",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Exanthema"
+   },
+   {
+    "texto": "swollen",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Swelling"
+   },
+   {
+    "texto": "eczema",
+    "categoria": "Diagnosis",
+    "negada": false,
+    "normalizado": "Eczema"
+   },
+   {
+    "texto": "penicillin",
+    "categoria": "Allergen",
+    "negada": false,
+    "normalizado": "penicillins"
+   },
+   {
+    "texto": "Right",
+    "categoria": "Direction",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "bit",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "bit - unit of measure"
+   },
+   {
+    "texto": "antihistamine",
+    "categoria": "MedicationClass",
+    "negada": false,
+    "normalizado": "Histamine Antagonists"
+   },
+   {
+    "texto": "Right",
+    "categoria": "Direction",
+    "negada": false,
+    "normalizado": null
+   }
+  ],
+  "relacoes": [
+   {
+    "tipo": "TimeOfCondition",
+    "papeis": {
+     "Condition": "born",
+     "Time": "1991"
+    }
+   },
+   {
+    "tipo": "QualifierOfCondition",
+    "papeis": {
+     "Qualifier": "slightly",
+     "Condition": "anxious"
+    }
+   },
+   {
+    "tipo": "BodySiteOfCondition",
+    "papeis": {
+     "BodyStructure": "arm",
+     "Condition": "stung"
+    }
+   },
+   {
+    "tipo": "QualifierOfCondition",
+    "papeis": {
+     "Qualifier": "bit",
+     "Condition": "swelling"
+    }
+   },
+   {
+    "tipo": "BodySiteOfCondition",
+    "papeis": {
+     "Condition": "swelling",
+     "BodyStructure": "lips"
+    }
+   },
+   {
+    "tipo": "BodySiteOfCondition",
+    "papeis": {
+     "Condition": "swelling",
+     "BodyStructure": "tongue"
+    }
+   },
+   {
+    "tipo": "DirectionOfBodyStructure",
+    "papeis": {
+     "Direction": "right",
+     "BodyStructure": "hand"
+    }
+   },
+   {
+    "tipo": "BodySiteOfCondition",
+    "papeis": {
+     "BodyStructure": "hand",
+     "Condition": "sore"
+    }
+   },
+   {
+    "tipo": "BodySiteOfCondition",
+    "papeis": {
+     "BodyStructure": "hand",
+     "Condition": "swollen up"
+    }
+   },
+   {
+    "tipo": "QualifierOfCondition",
+    "papeis": {
+     "Qualifier": "bit",
+     "Condition": "sore"
+    }
+   },
+   {
+    "tipo": "QualifierOfCondition",
+    "papeis": {
+     "Qualifier": "fully",
+     "Condition": "swollen up"
+    }
+   },
+   {
+    "tipo": "QualifierOfCondition",
+    "papeis": {
+     "Qualifier": "acute",
+     "Condition": "anxious"
+    }
+   },
+   {
+    "tipo": "QualifierOfCondition",
+    "papeis": {
+     "Qualifier": "bit",
+     "Condition": "anxious"
+    }
+   },
+   {
+    "tipo": "CourseOfCondition",
+    "papeis": {
+     "Condition": "anxious",
+     "Course": "bit worse"
+    }
+   },
+   {
+    "tipo": "QualifierOfCondition",
+    "papeis": {
+     "Qualifier": "slightly",
+     "Condition": "red"
+    }
+   },
+   {
+    "tipo": "QualifierOfCondition",
+    "papeis": {
+     "Qualifier": "bit",
+     "Condition": "blotchy"
+    }
+   },
+   {
+    "tipo": "QualifierOfCondition",
+    "papeis": {
+     "Condition": "blotchy",
+     "Qualifier": "bit"
+    }
+   }
+  ]
+ },
+ "sinais_alarme": {
+  "dispneia": {
+   "severidade": 2,
+   "mencoes": [
+    "difficulty breathing"
+   ]
+  }
+ },
+ "acustica": {
+  "taxa_fala_sil_s": 3.1143,
+  "taxa_articulacao_sil_s": 4.3579,
+  "pausas_por_min": 34.246,
+  "pausa_media_s": 0.4951,
+  "pausas_longas_por_min": 0.9975,
+  "frase_media_s": 1.24,
+  "proporcao_fonacao": 0.7146,
+  "f0_media_hz": 133.3454,
+  "f0_desvio_st": 4.7196,
+  "f0_amplitude_st": 15.7791,
+  "jitter_local_pct": 1.9797,
+  "shimmer_local_pct": 13.5711,
+  "hnr_db": 10.8065,
+  "cpps_db": 7.0553,
+  "intensidade_media_db": -22.5647,
+  "intensidade_tendencia_db_min": -0.5663,
+  "duracao_fala_s": 180.46
+ },
+ "wav2vec2": true,
+ "modelos_voz": {
+  "disartria": {
+   "prob": 0.092,
+   "limiar": 0.568,
+   "calibrado": true
+  },
+  "respiratorio": {
+   "prob": 0.373,
+   "limiar": 0.614,
+   "calibrado": true
+  },
+  "fadiga": {
+   "prob": 0.334,
+   "limiar": 0.622,
+   "calibrado": true
+  }
+ },
+ "eventos": [
+  {
+   "paciente_id": "PRIMOCK-day2_consultation06",
+   "origem": "audio",
+   "tipo": "sintoma_relatado_dispneia",
+   "severidade": 2,
+   "t": 596.95,
+   "descricao": "Paciente relata dispneia: difficulty breathing",
+   "detector": "azure",
+   "evidencias": {
+    "mencoes": [
+     "difficulty breathing"
+    ],
+    "fonte_texto": "azure_cache",
+    "fonte_stt": "azure_cache"
+   },
+   "duracao_s": 0.0,
+   "id": "EVT-40D9F4B071",
+   "severidade_rotulo": "urgente"
+  }
+ ],
+ "queixa_principal": "I’m having difficulty breathing"
+}

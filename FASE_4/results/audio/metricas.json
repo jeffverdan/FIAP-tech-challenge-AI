@@ -1,0 +1,551 @@
+{
+  "azure": {
+    "modo": "auto",
+    "speech": {
+      "regiao": "brazilsouth",
+      "chave": "5JF9…2A",
+      "idioma": "en-GB"
+    },
+    "language": {
+      "endpoint": "https://aurora-language-b92b19.cognitiveservices.azure.com/",
+      "chave": "EKQ5…Gi",
+      "idioma": "en"
+    },
+    "cache": "C:\\repositorios\\tech-challenge-group-62\\FASE_4\\data\\azure_cache"
+  },
+  "disartria_torgo": {
+    "variante_escolhida": "wav2vec2",
+    "modelo_escolhido": "logistica",
+    "comparacao": {
+      "logistica": {
+        "auroc": 0.766,
+        "auprc": 0.826
+      }
+    },
+    "n": 399,
+    "positivos": 199,
+    "grupos": 15,
+    "folds": 5,
+    "limiar": 0.568,
+    "sensibilidade": 0.633,
+    "especificidade": 0.805,
+    "acuracia_balanceada": 0.719,
+    "auroc": 0.766,
+    "auprc": 0.826,
+    "variantes": {
+      "marcadores": {
+        "auroc": 0.552,
+        "auprc": 0.645,
+        "sensibilidade": 0.337,
+        "especificidade": 0.805,
+        "modelo_escolhido": "logistica"
+      },
+      "wav2vec2": {
+        "auroc": 0.766,
+        "auprc": 0.826,
+        "sensibilidade": 0.633,
+        "especificidade": 0.805,
+        "modelo_escolhido": "logistica"
+      },
+      "marcadores+wav2vec2": {
+        "auroc": 0.745,
+        "auprc": 0.813,
+        "sensibilidade": 0.603,
+        "especificidade": 0.805,
+        "modelo_escolhido": "logistica"
+      }
+    },
+    "nivel_falante": {
+      "auroc": 0.911,
+      "acertos": 12,
+      "falantes": 15,
+      "detalhe": [
+        {
+          "falante": "F01",
+          "y": 1,
+          "p": 0.95,
+          "n": 10,
+          "pred": true
+        },
+        {
+          "falante": "F03",
+          "y": 1,
+          "p": 0.287,
+          "n": 64,
+          "pred": false
+        },
+        {
+          "falante": "F04",
+          "y": 1,
+          "p": 0.514,
+          "n": 26,
+          "pred": false
+        },
+        {
+          "falante": "FC01",
+          "y": 0,
+          "p": 0.34,
+          "n": 12,
+          "pred": false
+        },
+        {
+          "falante": "FC02",
+          "y": 0,
+          "p": 0.357,
+          "n": 45,
+          "pred": false
+        },
+        {
+          "falante": "FC03",
+          "y": 0,
+          "p": 0.468,
+          "n": 43,
+          "pred": false
+        },
+        {
+          "falante": "M01",
+          "y": 1,
+          "p": 0.859,
+          "n": 17,
+          "pred": true
+        },
+        {
+          "falante": "M02",
+          "y": 1,
+          "p": 0.968,
+          "n": 17,
+          "pred": true
+        },
+        {
+          "falante": "M03",
+          "y": 1,
+          "p": 0.711,
+          "n": 21,
+          "pred": true
+        },
+        {
+          "falante": "M04",
+          "y": 1,
+          "p": 0.946,
+          "n": 19,
+          "pred": true
+        },
+        {
+          "falante": "M05",
+          "y": 1,
+          "p": 0.973,
+          "n": 25,
+          "pred": true
+        },
+        {
+          "falante": "MC01",
+          "y": 0,
+          "p": 0.175,
+          "n": 27,
+          "pred": false
+        },
+        {
+          "falante": "MC02",
+          "y": 0,
+          "p": 0.126,
+          "n": 19,
+          "pred": false
+        },
+        {
+          "falante": "MC03",
+          "y": 0,
+          "p": 0.187,
+          "n": 36,
+          "pred": false
+        },
+        {
+          "falante": "MC04",
+          "y": 0,
+          "p": 0.67,
+          "n": 18,
+          "pred": true
+        }
+      ]
+    },
+    "marcadores_mediana": {
+      "controle": {
+        "taxa_fala_sil_s": 0.629,
+        "taxa_articulacao_sil_s": 0.847,
+        "pausas_por_min": 0.0,
+        "pausa_media_s": 0.0,
+        "pausas_longas_por_min": 0.0,
+        "frase_media_s": 1.99,
+        "proporcao_fonacao": 0.99,
+        "f0_media_hz": 161.962,
+        "f0_desvio_st": 1.636,
+        "f0_amplitude_st": 4.798,
+        "jitter_local_pct": 2.19,
+        "shimmer_local_pct": 8.126,
+        "hnr_db": 11.65,
+        "cpps_db": 9.87,
+        "intensidade_media_db": -32.315
+      },
+      "disartria": {
+        "taxa_fala_sil_s": 0.907,
+        "taxa_articulacao_sil_s": 1.894,
+        "pausas_por_min": 0.0,
+        "pausa_media_s": 0.0,
+        "pausas_longas_por_min": 0.0,
+        "frase_media_s": 1.2,
+        "proporcao_fonacao": 0.577,
+        "f0_media_hz": 183.89,
+        "f0_desvio_st": 2.302,
+        "f0_amplitude_st": 6.22,
+        "jitter_local_pct": 1.968,
+        "shimmer_local_pct": 8.081,
+        "hnr_db": 13.431,
+        "cpps_db": 7.578,
+        "intensidade_media_db": -29.388
+      }
+    }
+  },
+  "coswara": {
+    "confusao_por_lote": {
+      "auroc_prever_lote_2020_vs_2021_pelo_audio": 0.845,
+      "participantes": 417
+    },
+    "respiratorio": {
+      "variante_escolhida": "marcadores+wav2vec2",
+      "modelo_escolhido": "logistica",
+      "comparacao": {
+        "logistica": {
+          "auroc": 0.681,
+          "auprc": 0.476
+        }
+      },
+      "n": 346,
+      "positivos": 111,
+      "grupos": 346,
+      "folds": 5,
+      "limiar": 0.614,
+      "sensibilidade": 0.45,
+      "especificidade": 0.804,
+      "acuracia_balanceada": 0.627,
+      "auroc": 0.681,
+      "auprc": 0.476,
+      "variantes": {
+        "marcadores": {
+          "auroc": 0.656,
+          "auprc": 0.439,
+          "sensibilidade": 0.396,
+          "especificidade": 0.804,
+          "modelo_escolhido": "rf"
+        },
+        "wav2vec2": {
+          "auroc": 0.679,
+          "auprc": 0.48,
+          "sensibilidade": 0.396,
+          "especificidade": 0.804,
+          "modelo_escolhido": "logistica"
+        },
+        "marcadores+wav2vec2": {
+          "auroc": 0.681,
+          "auprc": 0.476,
+          "sensibilidade": 0.45,
+          "especificidade": 0.804,
+          "modelo_escolhido": "logistica"
+        }
+      },
+      "protocolo": "lotes 2021; controle = participantes sem o sintoma",
+      "protocolo_ingenuo_auroc": 0.887,
+      "marcadores_mediana": {
+        "sem_sintoma": {
+          "taxa_fala_sil_s": 2.325,
+          "taxa_articulacao_sil_s": 3.565,
+          "pausas_por_min": 27.836,
+          "pausa_media_s": 0.446,
+          "pausas_longas_por_min": 0.0,
+          "frase_media_s": 1.139,
+          "proporcao_fonacao": 0.685,
+          "f0_media_hz": 174.316,
+          "f0_desvio_st": 3.144,
+          "f0_amplitude_st": 6.66,
+          "jitter_local_pct": 2.124,
+          "shimmer_local_pct": 12.627,
+          "hnr_db": 12.75,
+          "cpps_db": 3.193,
+          "intensidade_media_db": -27.977,
+          "intensidade_tendencia_db_min": 1.249
+        },
+        "respiratorio": {
+          "taxa_fala_sil_s": 2.31,
+          "taxa_articulacao_sil_s": 3.878,
+          "pausas_por_min": 28.548,
+          "pausa_media_s": 0.547,
+          "pausas_longas_por_min": 0.0,
+          "frase_media_s": 1.025,
+          "proporcao_fonacao": 0.666,
+          "f0_media_hz": 163.082,
+          "f0_desvio_st": 3.714,
+          "f0_amplitude_st": 9.436,
+          "jitter_local_pct": 2.091,
+          "shimmer_local_pct": 13.009,
+          "hnr_db": 12.676,
+          "cpps_db": 3.049,
+          "intensidade_media_db": -29.015,
+          "intensidade_tendencia_db_min": -2.219
+        }
+      }
+    },
+    "fadiga": {
+      "variante_escolhida": "marcadores+wav2vec2",
+      "modelo_escolhido": "logistica",
+      "comparacao": {
+        "logistica": {
+          "auroc": 0.635,
+          "auprc": 0.412
+        }
+      },
+      "n": 346,
+      "positivos": 119,
+      "grupos": 346,
+      "folds": 5,
+      "limiar": 0.622,
+      "sensibilidade": 0.261,
+      "especificidade": 0.802,
+      "acuracia_balanceada": 0.531,
+      "auroc": 0.635,
+      "auprc": 0.412,
+      "variantes": {
+        "marcadores": {
+          "auroc": 0.618,
+          "auprc": 0.42,
+          "sensibilidade": 0.311,
+          "especificidade": 0.802,
+          "modelo_escolhido": "logistica"
+        },
+        "wav2vec2": {
+          "auroc": 0.624,
+          "auprc": 0.405,
+          "sensibilidade": 0.235,
+          "especificidade": 0.802,
+          "modelo_escolhido": "logistica"
+        },
+        "marcadores+wav2vec2": {
+          "auroc": 0.635,
+          "auprc": 0.412,
+          "sensibilidade": 0.261,
+          "especificidade": 0.802,
+          "modelo_escolhido": "logistica"
+        }
+      },
+      "protocolo": "lotes 2021; controle = participantes sem o sintoma",
+      "protocolo_ingenuo_auroc": 0.883,
+      "marcadores_mediana": {
+        "sem_sintoma": {
+          "taxa_fala_sil_s": 2.3,
+          "taxa_articulacao_sil_s": 3.631,
+          "pausas_por_min": 26.634,
+          "pausa_media_s": 0.459,
+          "pausas_longas_por_min": 0.0,
+          "frase_media_s": 1.011,
+          "proporcao_fonacao": 0.66,
+          "f0_media_hz": 171.995,
+          "f0_desvio_st": 3.325,
+          "f0_amplitude_st": 7.167,
+          "jitter_local_pct": 2.147,
+          "shimmer_local_pct": 12.823,
+          "hnr_db": 12.66,
+          "cpps_db": 2.883,
+          "intensidade_media_db": -29.333,
+          "intensidade_tendencia_db_min": 2.396
+        },
+        "fadiga": {
+          "taxa_fala_sil_s": 2.355,
+          "taxa_articulacao_sil_s": 3.604,
+          "pausas_por_min": 30.196,
+          "pausa_media_s": 0.48,
+          "pausas_longas_por_min": 0.0,
+          "frase_media_s": 1.196,
+          "proporcao_fonacao": 0.686,
+          "f0_media_hz": 163.082,
+          "f0_desvio_st": 3.458,
+          "f0_amplitude_st": 8.386,
+          "jitter_local_pct": 2.046,
+          "shimmer_local_pct": 12.61,
+          "hnr_db": 13.123,
+          "cpps_db": 3.592,
+          "intensidade_media_db": -27.334,
+          "intensidade_tendencia_db_min": -2.014
+        }
+      }
+    },
+    "disartria_no_dominio_coswara": {
+      "falantes_saudaveis": 36,
+      "alertas_sem_calibracao": 31,
+      "alertas_com_calibracao_loo": 1
+    }
+  },
+  "consultas_primock": {
+    "consultas": 11,
+    "calibracao_dominio_voz": {
+      "disartria": {
+        "falantes_saudaveis": 11,
+        "alertas_sem_calibracao": 10,
+        "alertas_com_calibracao_loo": 0
+      },
+      "respiratorio": {
+        "falantes_saudaveis": 11,
+        "alertas_sem_calibracao": 0,
+        "alertas_com_calibracao_loo": 0
+      },
+      "fadiga": {
+        "falantes_saudaveis": 11,
+        "alertas_sem_calibracao": 0,
+        "alertas_com_calibracao_loo": 0
+      }
+    },
+    "fonte_stt": {
+      "azure_cache": 11
+    },
+    "fonte_linguagem": {
+      "azure_cache": 11
+    },
+    "queixa_principal_detectada": "7/7",
+    "controles_sem_alarme": "3/4",
+    "wer_medio": 0.212,
+    "alertas_de_voz_calibrados_em_falantes_saudaveis": {
+      "disartria": 0,
+      "respiratorio": 0,
+      "fadiga": 0,
+      "consultas": 11
+    }
+  },
+  "demos": {
+    "calibracao_torgo": {
+      "respiratorio": {
+        "falantes_saudaveis": 200,
+        "alertas_sem_calibracao": 47,
+        "alertas_com_calibracao_loo": 14
+      },
+      "fadiga": {
+        "falantes_saudaveis": 200,
+        "alertas_sem_calibracao": 16,
+        "alertas_com_calibracao_loo": 30
+      }
+    },
+    "disartria_M05": {
+      "modelos_voz": {
+        "disartria": {
+          "prob": 0.99,
+          "limiar": 0.568,
+          "calibrado": false
+        },
+        "respiratorio": {
+          "prob": 0.433,
+          "limiar": 0.614,
+          "calibrado": true
+        },
+        "fadiga": {
+          "prob": 0.701,
+          "limiar": 0.622,
+          "calibrado": true
+        }
+      },
+      "eventos": [
+        "Padrão vocal compatível com disartria (p=99%, limiar 57%)",
+        "Padrão vocal compatível com fadiga (p=70%, limiar 62%)"
+      ],
+      "acustica": {
+        "taxa_fala_sil_s": 0.6772,
+        "pausas_por_min": 24.0092,
+        "frase_media_s": 0.8551,
+        "f0_desvio_st": 3.3016,
+        "hnr_db": 15.7882,
+        "cpps_db": 6.2638
+      }
+    },
+    "controle_MC01": {
+      "modelos_voz": {
+        "disartria": {
+          "prob": 0.077,
+          "limiar": 0.568,
+          "calibrado": false
+        },
+        "respiratorio": {
+          "prob": 0.213,
+          "limiar": 0.614,
+          "calibrado": true
+        },
+        "fadiga": {
+          "prob": 0.584,
+          "limiar": 0.622,
+          "calibrado": true
+        }
+      },
+      "eventos": [],
+      "acustica": {
+        "taxa_fala_sil_s": 0.6509,
+        "pausas_por_min": 17.6365,
+        "frase_media_s": 1.9147,
+        "f0_desvio_st": 1.5215,
+        "hnr_db": 14.4122,
+        "cpps_db": 10.7514
+      }
+    },
+    "dispneia_coswara": {
+      "modelos_voz": {
+        "disartria": {
+          "prob": 0.833,
+          "limiar": 0.568,
+          "calibrado": true
+        },
+        "respiratorio": {
+          "prob": 0.82,
+          "limiar": 0.614,
+          "calibrado": false
+        },
+        "fadiga": {
+          "prob": 0.206,
+          "limiar": 0.622,
+          "calibrado": false
+        }
+      },
+      "eventos": [
+        "Padrão vocal compatível com disartria (p=83%, limiar 57%)",
+        "Padrão vocal compatível com dificuldade respiratória (p=82%, limiar 61%)"
+      ],
+      "acustica": {
+        "taxa_fala_sil_s": 0.4358,
+        "pausas_por_min": 17.4306,
+        "frase_media_s": 0.2126,
+        "f0_desvio_st": 10.2735,
+        "hnr_db": 11.6513,
+        "cpps_db": 0.3687
+      }
+    },
+    "saudavel_coswara": {
+      "modelos_voz": {
+        "disartria": {
+          "prob": 0.45,
+          "limiar": 0.568,
+          "calibrado": true
+        },
+        "respiratorio": {
+          "prob": 0.085,
+          "limiar": 0.614,
+          "calibrado": false
+        },
+        "fadiga": {
+          "prob": 0.37,
+          "limiar": 0.622,
+          "calibrado": false
+        }
+      },
+      "eventos": [],
+      "acustica": {
+        "taxa_fala_sil_s": 1.6044,
+        "pausas_por_min": 55.4259,
+        "frase_media_s": 0.3744,
+        "f0_desvio_st": 5.4933,
+        "hnr_db": 11.0892,
+        "cpps_db": 2.519
+      }
+    }
+  }
+}

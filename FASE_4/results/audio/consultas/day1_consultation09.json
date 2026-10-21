@@ -1,0 +1,410 @@
+{
+ "paciente_id": "PRIMOCK-day1_consultation09",
+ "audio": "day1_consultation09_patient.wav",
+ "stt": {
+  "fonte": "azure_cache",
+  "provedor": "azure_speech",
+  "segmentos": 55,
+  "palavras": 564,
+  "texto": "Hello. Hi, can you hear me? Yeah, I can hear you now. Oh yeah, my name is Jessica Smith and I'm 19 years old. Yeah, so I mean, this is this is a bit embarrassing, but it's kind of hurting when I when I use the bathroom, when I pee and. It's been going on for a few days so I'm I'm a little bit worried about it. I'm not sure what to do. It's it's not too bad. It's sort of like a stinging kind of pain. It's not like unbearable, but it's it's definitely a, it definitely bothers me IP and yeah, I also maybe sometimes get some like pain kind of lowered down in my tummy when I when I go to the bathroom. Yeah. Um, yeah, I don't know, Maybe, uh. Sort of sort of cramping. I'm not really sure, but it's not like it's not like cramping like when I get when I have a period or something. It's like, I don't know. I'm not. I don't think so. I haven't noticed that, yeah. I don't know. There was a little bit of blood earlier today, but besides that, not at all. No, it does kind of it's kind of like doesn't smell very it smells a bit weird, I guess. But no, not really anything, anything drastic. No, not really, no. Uh, no, not, not at all. No, no. No fever. No. I think so, yeah, it seems. Uh, no, not that I've not that I've noticed at all. OK. Uh, yeah, I am. Yeah, so I've had a boyfriend for about a couple months now, yeah. I don't know. I haven't noticed anything, no. I don't think I've ever, I don't think I've ever had one. Oh yeah, we use condoms. A couple weeks ago. Say again. I don't think so. Yeah. Uh-huh. Yeah, I think I'm, I'm feeling OK otherwise, yeah. So in the past I've had some some IBS. But other than that, I think no, like, uh, no serious medical problems that seem, yeah. Uh, no, I did AI did a a little bit ago or a couple days ago. Tried some over the counter bicarbonate to try and help with the pain but it wasn't it wasn't really helping. Yeah, I'm allergic to Clindamycin. I I get some like a a swelling basically. Yeah. No, I don't think so. Not that I not anything I know about. So I live in a live in a flat near my college with a couple of like friends of mine. So I'm I'm not like living at home or anything. Is that what you're talking about? Sorry. I'm a student. I'm studying biology. It's good, Yeah. It's really, it's really interesting learning about learning about how, how the world works. Yeah. I don't know, maybe a doctor someday. You never know. I don't, I don't smoke. I do drink, like on the weekends, yeah. Yeah.  OK. OK. OK.  OK. So 3 days of the medication and then wait a little bit. If it still doesn't go away, call back that OK. OK. OK. Is there is there anything like like should I be worried about like like not having sex or anything within the next week or anything like this? OK. OK. That, that makes sense. OK. Thank you so much. Yeah, Thank you. Take care.",
+  "wer_vs_manual": 0.182
+ },
+ "linguagem": {
+  "fonte": "azure_cache",
+  "provedor": "azure_language",
+  "sentimento": "mixed",
+  "scores": {
+   "positive": 0.25,
+   "neutral": 0.23,
+   "negative": 0.52
+  },
+  "frases_chave": [
+   "serious medical problems",
+   "Jessica Smith",
+   "stinging kind",
+   "little bit",
+   "counter bicarbonate",
+   "next week",
+   "couple months",
+   "name",
+   "bathroom",
+   "days",
+   "pain",
+   "IP",
+   "tummy",
+   "Sort",
+   "cramping"
+  ],
+  "entidades": [
+   {
+    "texto": "19 years old",
+    "categoria": "Age",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "embarrassing",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Embarrassment"
+   },
+   {
+    "texto": "hurting",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "few days",
+    "categoria": "Time",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "stinging kind",
+    "categoria": "ConditionQualifier",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "pain",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Pain"
+   },
+   {
+    "texto": "pain",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Pain"
+   },
+   {
+    "texto": "lowered down",
+    "categoria": "Direction",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "tummy",
+    "categoria": "BodyStructure",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "cramping",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Muscle Cramp"
+   },
+   {
+    "texto": "cramping",
+    "categoria": "SymptomOrSign",
+    "negada": true,
+    "normalizado": "Muscle Cramp"
+   },
+   {
+    "texto": "little bit",
+    "categoria": "ConditionQualifier",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "blood",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Hemorrhage"
+   },
+   {
+    "texto": "earlier today",
+    "categoria": "Time",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "smell very",
+    "categoria": "SymptomOrSign",
+    "negada": true,
+    "normalizado": null
+   },
+   {
+    "texto": "smells",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Smell Perception"
+   },
+   {
+    "texto": "bit weird",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "fever",
+    "categoria": "SymptomOrSign",
+    "negada": true,
+    "normalizado": "Fever"
+   },
+   {
+    "texto": "boyfriend",
+    "categoria": "FamilyRelation",
+    "negada": false,
+    "normalizado": "Boyfriend"
+   },
+   {
+    "texto": "couple months",
+    "categoria": "Time",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "condoms",
+    "categoria": "TreatmentName",
+    "negada": false,
+    "normalizado": "Condoms, Male"
+   },
+   {
+    "texto": "A couple weeks ago",
+    "categoria": "Time",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "OK",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Kelvin"
+   },
+   {
+    "texto": "IBS",
+    "categoria": "Diagnosis",
+    "negada": false,
+    "normalizado": "Ichthyosis Bullosa of Siemens"
+   },
+   {
+    "texto": "serious",
+    "categoria": "ConditionQualifier",
+    "negada": true,
+    "normalizado": null
+   },
+   {
+    "texto": "medical problems",
+    "categoria": "Diagnosis",
+    "negada": false,
+    "normalizado": "Problem"
+   },
+   {
+    "texto": "bit ago",
+    "categoria": "Time",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "couple days ago",
+    "categoria": "Time",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "over the counter",
+    "categoria": "MedicationRoute",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "bicarbonate",
+    "categoria": "MedicationName",
+    "negada": false,
+    "normalizado": "Bicarbonates"
+   },
+   {
+    "texto": "pain",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Pain"
+   },
+   {
+    "texto": "Clindamycin",
+    "categoria": "Allergen",
+    "negada": false,
+    "normalizado": "clindamycin"
+   },
+   {
+    "texto": "swelling",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Swelling"
+   },
+   {
+    "texto": "friends",
+    "categoria": "FamilyRelation",
+    "negada": false,
+    "normalizado": "friend"
+   },
+   {
+    "texto": "a student",
+    "categoria": "Employment",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "doctor",
+    "categoria": "HealthcareProfession",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "smoke",
+    "categoria": "SubstanceUse",
+    "negada": true,
+    "normalizado": null
+   },
+   {
+    "texto": "drink",
+    "categoria": "SubstanceUse",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "on the weekends",
+    "categoria": "Frequency",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "3 days",
+    "categoria": "Time",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "medication",
+    "categoria": "TreatmentName",
+    "negada": false,
+    "normalizado": "Pharmaceutical Preparations"
+   },
+   {
+    "texto": "go away",
+    "categoria": "Course",
+    "negada": true,
+    "normalizado": null
+   },
+   {
+    "texto": "within",
+    "categoria": "RelationalOperator",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "next week",
+    "categoria": "Time",
+    "negada": false,
+    "normalizado": null
+   }
+  ],
+  "relacoes": [
+   {
+    "tipo": "QualifierOfCondition",
+    "papeis": {
+     "Qualifier": "stinging kind",
+     "Condition": "pain"
+    }
+   },
+   {
+    "tipo": "BodySiteOfCondition",
+    "papeis": {
+     "Condition": "pain",
+     "BodyStructure": "tummy"
+    }
+   },
+   {
+    "tipo": "DirectionOfBodyStructure",
+    "papeis": {
+     "Direction": "lowered down",
+     "BodyStructure": "tummy"
+    }
+   },
+   {
+    "tipo": "QualifierOfCondition",
+    "papeis": {
+     "Qualifier": "little bit",
+     "Condition": "blood"
+    }
+   },
+   {
+    "tipo": "TimeOfCondition",
+    "papeis": {
+     "Condition": "blood",
+     "Time": "earlier today"
+    }
+   },
+   {
+    "tipo": "QualifierOfCondition",
+    "papeis": {
+     "Qualifier": "serious",
+     "Condition": "medical problems"
+    }
+   },
+   {
+    "tipo": "RouteOfMedication",
+    "papeis": {
+     "Route": "over the counter",
+     "Medication": "bicarbonate"
+    }
+   },
+   {
+    "tipo": "FrequencyOfSubstanceUse",
+    "papeis": {
+     "SubstanceUse": "drink",
+     "Frequency": "on the weekends"
+    }
+   },
+   {
+    "tipo": "TimeOfTreatment",
+    "papeis": {
+     "Time": "3 days",
+     "Treatment": "medication"
+    }
+   }
+  ]
+ },
+ "sinais_alarme": {},
+ "acustica": {
+  "taxa_fala_sil_s": 3.2354,
+  "taxa_articulacao_sil_s": 4.7826,
+  "pausas_por_min": 29.6988,
+  "pausa_media_s": 0.6458,
+  "pausas_longas_por_min": 2.6999,
+  "frase_media_s": 1.3544,
+  "proporcao_fonacao": 0.6765,
+  "f0_media_hz": 197.3979,
+  "f0_desvio_st": 3.8624,
+  "f0_amplitude_st": 10.7664,
+  "jitter_local_pct": 1.8349,
+  "shimmer_local_pct": 12.8122,
+  "hnr_db": 11.9628,
+  "cpps_db": 3.3102,
+  "intensidade_media_db": -23.6182,
+  "intensidade_tendencia_db_min": 0.3141,
+  "duracao_fala_s": 222.23
+ },
+ "wav2vec2": true,
+ "modelos_voz": {
+  "disartria": {
+   "prob": 0.057,
+   "limiar": 0.568,
+   "calibrado": true
+  },
+  "respiratorio": {
+   "prob": 0.328,
+   "limiar": 0.614,
+   "calibrado": true
+  },
+  "fadiga": {
+   "prob": 0.452,
+   "limiar": 0.622,
+   "calibrado": true
+  }
+ },
+ "eventos": [],
+ "queixa_principal": "It hurts when I pee"
+}

@@ -1,0 +1,1908 @@
+{
+ "_meta": {
+  "servico": "language",
+  "obtido_em": "2026-10-21T12:50:14+00:00",
+  "caracteres": 3436,
+  "endpoint": "https://aurora-language-b92b19.cognitiveservices.azure.com/"
+ },
+ "sentimento": {
+  "geral": "mixed",
+  "scores": {
+   "positive": 0.26,
+   "neutral": 0.12,
+   "negative": 0.62
+  },
+  "frases": [
+   {
+    "texto": "Hello. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.99,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Can you hear me well? ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.1,
+     "neutral": 0.8,
+     "negative": 0.1
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "OK. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.05,
+     "neutral": 0.95,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yes, so it's been a few days now. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.93,
+     "negative": 0.05
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I have like a sore and a red skin. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.05,
+     "negative": 0.95
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "It's kind of it's really itchy and it's like super annoying. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.0,
+     "negative": 1.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "So I'd like to find something quick to solve it. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.75,
+     "neutral": 0.23,
+     "negative": 0.02
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Mostly like my chest, my, my hands, my arms. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.02,
+     "neutral": 0.96,
+     "negative": 0.02
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Like I agree. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.88,
+     "neutral": 0.11,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "It's, it's super annoying. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.0,
+     "negative": 1.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Like it's itching a lot, like all the time. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.05,
+     "neutral": 0.16,
+     "negative": 0.79
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "And I can't even sleep at night. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.0,
+     "negative": 0.99
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Like I really need something quickly to, to solve it. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.45,
+     "neutral": 0.51,
+     "negative": 0.04
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Because even at work, I like when I'm in the meeting and I have to like think about my work and focus like actually focus on my work. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.11,
+     "neutral": 0.87,
+     "negative": 0.02
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "It's really annoying because I can't actually think about what I have to say. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.0,
+     "negative": 1.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I'm always like disturbed by this disease. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.06,
+     "negative": 0.93
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "And so yes, earlier I was like prescribed for my eczema and they gave me like some cream and something to when I like was when I was in the shower. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.87,
+     "neutral": 0.1,
+     "negative": 0.03
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I had to put something, but yeah. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.05,
+     "neutral": 0.88,
+     "negative": 0.07
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "And I mean, at that time, yes, But the symptoms, like these symptoms are like when these symptoms appeared again, I tried those and it didn't work. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.09,
+     "negative": 0.9
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I've tried a few things, like I bought like a steroid cream at the pharmacy last night, but it apparently didn't help because it's still eating a lot today. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.02,
+     "negative": 0.97
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.04,
+     "neutral": 0.95,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Uh, steroid cream. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.99,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "And it's much more like itchy and my eczema was more like only in the arms. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.05,
+     "negative": 0.95
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "And now it's also on the chest and in the in the on the hands as well. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 1.0,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Like, yeah, when like I like, for instance, hiking during the weekends. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.5,
+     "neutral": 0.47,
+     "negative": 0.03
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "And I, I can't really do it anymore because it's like very like, like I wanted to do that last weekend and it was super painful. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.01,
+     "negative": 0.99
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "And I have to take like showers every day to be able to kind of ease this. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.7,
+     "neutral": 0.22,
+     "negative": 0.08
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Thoughts. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.04,
+     "neutral": 0.94,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Which is very very annoying. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.0,
+     "negative": 1.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.04,
+     "neutral": 0.95,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Exactly. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.34,
+     "neutral": 0.65,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "No. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.02,
+     "neutral": 0.78,
+     "negative": 0.2
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "So my skin is a bit cracked in some parts, like kind of cracked, if you see what I mean. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.0,
+     "negative": 1.0
+    },
+    "opinioes": [
+     {
+      "alvo": "skin",
+      "sentimento": "negative",
+      "avaliacoes": [
+       "cracked"
+      ]
+     }
+    ]
+   },
+   {
+    "texto": "But yeah. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.03,
+     "neutral": 0.9,
+     "negative": 0.08
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "No. Four days ago. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.95,
+     "negative": 0.05
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "No, I haven't. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.02,
+     "neutral": 0.42,
+     "negative": 0.56
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "It's actually like it's very annoying because I'm thinking about maybe I should change something because I, I haven't and I don't understand. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.02,
+     "negative": 0.98
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Then I'm kind of afraid of asking people around me because it's kind of, you know, I don't feel really comfortable asking about these questions. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.05,
+     "negative": 0.95
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "It's kind of intimate. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.26,
+     "neutral": 0.72,
+     "negative": 0.02
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "And so I will tell your help now. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.35,
+     "neutral": 0.64,
+     "negative": 0.02
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "And no, just the chest, hands and like like inside the elbows. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.02,
+     "neutral": 0.97,
+     "negative": 0.02
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.05,
+     "neutral": 0.94,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "In my what? ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.04,
+     "neutral": 0.87,
+     "negative": 0.09
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Oh, on my face, no. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.14,
+     "neutral": 0.24,
+     "negative": 0.62
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "No, just itching, nothing else. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.07,
+     "neutral": 0.14,
+     "negative": 0.8
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "No. I I think so. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.26,
+     "neutral": 0.66,
+     "negative": 0.08
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Any what? ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.02,
+     "neutral": 0.97,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "And I so I had eczema before so maybe it's this, but it seems like more like my eczema was only on the arm. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.03,
+     "neutral": 0.95,
+     "negative": 0.02
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "So I'm I'm not sure I I really have no idea. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.55,
+     "negative": 0.45
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.04,
+     "neutral": 0.95,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "No, I just had asthma in the past but not anymore. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.22,
+     "negative": 0.76
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "No. I like something. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.66,
+     "neutral": 0.09,
+     "negative": 0.25
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Sorry, Yeah. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.06,
+     "neutral": 0.18,
+     "negative": 0.76
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Hello. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.99,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yes. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.2,
+     "neutral": 0.79,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Oh, allergies? ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.11,
+     "neutral": 0.43,
+     "negative": 0.46
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "No. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.02,
+     "neutral": 0.8,
+     "negative": 0.19
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "So I live with a few flatmates. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.98,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "So, you know, I'm 31. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.04,
+     "neutral": 0.94,
+     "negative": 0.02
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I yeah, I have a full time job and so I'm living with a few people to save money. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.12,
+     "neutral": 0.85,
+     "negative": 0.03
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I work at a pharmaceutical company. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 1.0,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "So it's been, it's been a few years now. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.84,
+     "negative": 0.15
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "It's it's kind of interesting. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.89,
+     "neutral": 0.1,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "We're working on like a kind of project manager. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.99,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I mean, do you want to to know more about it? ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.07,
+     "neutral": 0.9,
+     "negative": 0.03
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "No. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.82,
+     "negative": 0.16
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "You know, once in a while I can I highlight hanging out with people once in a while. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.19,
+     "neutral": 0.79,
+     "negative": 0.02
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "So yeah, I'd say a few, a few beers per week, something like this. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.04,
+     "neutral": 0.96,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Nothing, nothing crazy. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.27,
+     "neutral": 0.54,
+     "negative": 0.19
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I used to drink a lot more when I was younger, but it's been, it's been a while.  ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.05,
+     "neutral": 0.88,
+     "negative": 0.07
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "OK. OK. OK. OK. OK. OK, just I I have tried antihistamines lately but it didn't really help. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.04,
+     "neutral": 0.13,
+     "negative": 0.83
+    },
+    "opinioes": [
+     {
+      "alvo": "antihistamines",
+      "sentimento": "positive",
+      "avaliacoes": [
+       "OK",
+       "help",
+       "OK. OK"
+      ]
+     }
+    ]
+   },
+   {
+    "texto": "I have tried the antihistamines but it didn't really help. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.01,
+     "negative": 0.99
+    },
+    "opinioes": [
+     {
+      "alvo": "antihistamines",
+      "sentimento": "negative",
+      "avaliacoes": [
+       "help"
+      ]
+     }
+    ]
+   },
+   {
+    "texto": "OK. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.05,
+     "neutral": 0.95,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "That sounds good. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.98,
+     "neutral": 0.02,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Uh, no, that's it. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.05,
+     "neutral": 0.81,
+     "negative": 0.14
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Thank you very much. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 1.0,
+     "neutral": 0.0,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Right. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.06,
+     "neutral": 0.93,
+     "negative": 0.02
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Thank you, Victor. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.78,
+     "neutral": 0.22,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Bye.",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.09,
+     "neutral": 0.91,
+     "negative": 0.0
+    },
+    "opinioes": []
+   }
+  ]
+ },
+ "frases_chave": [
+  "full time job",
+  "pharmaceutical company",
+  "project manager",
+  "steroid cream",
+  "red skin",
+  "sore",
+  "something",
+  "chest",
+  "hands",
+  "arms",
+  "night",
+  "work",
+  "meeting",
+  "disease",
+  "eczema",
+  "shower",
+  "symptoms",
+  "things",
+  "pharmacy",
+  "lot",
+  "itchy",
+  "instance",
+  "weekends",
+  "Thoughts",
+  "No.",
+  "parts",
+  "people",
+  "questions",
+  "help",
+  "elbows",
+  "face",
+  "idea",
+  "asthma",
+  "past",
+  "allergies",
+  "flatmates",
+  "money",
+  "kind",
+  "beers",
+  "Nothing",
+  "antihistamines",
+  "Victor",
+  "Bye"
+ ],
+ "entidades_saude": [
+  {
+   "texto": "well",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.61,
+   "offset": 23,
+   "normalizado": "Good",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0205170",
+    "CCPSS:U003268",
+    "CHV:0000020369",
+    "LNC:LA8967-7",
+    "NCI:C64975"
+   ]
+  },
+  {
+   "texto": "few days",
+   "categoria": "Time",
+   "subcategoria": null,
+   "confianca": 0.94,
+   "offset": 53,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "sore",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 81,
+   "normalizado": "Sore to touch",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0234233",
+    "CCPSS:0036212",
+    "CHV:0000023288",
+    "CST:PAIN",
+    "LNC:LA17709-9"
+   ]
+  },
+  {
+   "texto": "red skin",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 92,
+   "normalizado": "Erythema",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0041834",
+    "AOD:0000005215",
+    "CCPSS:0007249",
+    "CHV:0000012741",
+    "COSTAR:U000245"
+   ]
+  },
+  {
+   "texto": "itchy",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.98,
+   "offset": 127,
+   "normalizado": "Pruritus",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0033774",
+    "AOD:0000005226",
+    "BI:BI00607",
+    "CCPSS:1014802",
+    "CHV:0000010273"
+   ]
+  },
+  {
+   "texto": "chest",
+   "categoria": "BodyStructure",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 227,
+   "normalizado": "Chest",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0817096",
+    "AOD:0000007432",
+    "CCPSS:1007001",
+    "CHV:0000049411",
+    "CSP:0468-8763"
+   ]
+  },
+  {
+   "texto": "hands",
+   "categoria": "BodyStructure",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 241,
+   "normalizado": "Hand",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0018563",
+    "AOD:0000002469",
+    "CHV:0000005789",
+    "CSP:2715-5520",
+    "FMA:9712"
+   ]
+  },
+  {
+   "texto": "arms",
+   "categoria": "BodyStructure",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 251,
+   "normalizado": "Upper Extremity",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C1140618",
+    "AOD:0000027657",
+    "CHV:0000055073",
+    "CSP:2715-5391",
+    "CST:BODY/UE"
+   ]
+  },
+  {
+   "texto": "itching",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 308,
+   "normalizado": "Pruritus",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0033774",
+    "AOD:0000005226",
+    "BI:BI00607",
+    "CCPSS:1014802",
+    "CHV:0000010273"
+   ]
+  },
+  {
+   "texto": "lot",
+   "categoria": "ConditionQualifier",
+   "subcategoria": null,
+   "confianca": 0.93,
+   "offset": 318,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "can't even sleep at",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.68,
+   "offset": 348,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "disease",
+   "categoria": "Diagnosis",
+   "subcategoria": null,
+   "confianca": 0.62,
+   "offset": 675,
+   "normalizado": "Disease",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0012634",
+    "CCPSS:0007490",
+    "CHV:0000004014",
+    "CSP:0944-4756",
+    "ICPC2ICD10ENG:MTHU000256"
+   ]
+  },
+  {
+   "texto": "eczema",
+   "categoria": "Diagnosis",
+   "subcategoria": null,
+   "confianca": 0.98,
+   "offset": 733,
+   "normalizado": "Eczema",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0013595",
+    "AOD:0000005208",
+    "BI:BI00585",
+    "CCPSS:0043411",
+    "CHV:0000004268"
+   ]
+  },
+  {
+   "texto": "symptoms",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.98,
+   "offset": 905,
+   "normalizado": "Symptoms",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C1457887",
+    "AOD:0000004363",
+    "CCPSS:0009963",
+    "CST:GENSYMPTOMS",
+    "ICD9CM:780-789.99"
+   ]
+  },
+  {
+   "texto": "symptoms",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.97,
+   "offset": 926,
+   "normalizado": "Symptoms",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C1457887",
+    "AOD:0000004363",
+    "CCPSS:0009963",
+    "CST:GENSYMPTOMS",
+    "ICD9CM:780-789.99"
+   ]
+  },
+  {
+   "texto": "symptoms",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.98,
+   "offset": 955,
+   "normalizado": "Symptoms",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C1457887",
+    "AOD:0000004363",
+    "CCPSS:0009963",
+    "CST:GENSYMPTOMS",
+    "ICD9CM:780-789.99"
+   ]
+  },
+  {
+   "texto": "steroid",
+   "categoria": "MedicationClass",
+   "subcategoria": null,
+   "confianca": 0.98,
+   "offset": 1060,
+   "normalizado": "Steroids",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0038317",
+    "AOD:0000000870",
+    "CHV:0000011730",
+    "CPM:19",
+    "CSP:2793-9541"
+   ]
+  },
+  {
+   "texto": "cream",
+   "categoria": "MedicationForm",
+   "subcategoria": null,
+   "confianca": 0.98,
+   "offset": 1068,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "pharmacy",
+   "categoria": "CareEnvironment",
+   "subcategoria": null,
+   "confianca": 0.67,
+   "offset": 1081,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "last night",
+   "categoria": "Time",
+   "subcategoria": null,
+   "confianca": 0.97,
+   "offset": 1090,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "eating a lot",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.96,
+   "offset": 1151,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "today",
+   "categoria": "Time",
+   "subcategoria": null,
+   "confianca": 0.89,
+   "offset": 1164,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "steroid",
+   "categoria": "MedicationClass",
+   "subcategoria": null,
+   "confianca": 0.98,
+   "offset": 1181,
+   "normalizado": "Steroids",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0038317",
+    "AOD:0000000870",
+    "CHV:0000011730",
+    "CPM:19",
+    "CSP:2793-9541"
+   ]
+  },
+  {
+   "texto": "cream",
+   "categoria": "MedicationForm",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 1189,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "itchy",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.98,
+   "offset": 1220,
+   "normalizado": "Pruritus",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0033774",
+    "AOD:0000005226",
+    "BI:BI00607",
+    "CCPSS:1014802",
+    "CHV:0000010273"
+   ]
+  },
+  {
+   "texto": "eczema",
+   "categoria": "Diagnosis",
+   "subcategoria": null,
+   "confianca": 0.95,
+   "offset": 1233,
+   "normalizado": "Eczema",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0013595",
+    "AOD:0000005208",
+    "BI:BI00585",
+    "CCPSS:0043411",
+    "CHV:0000004268"
+   ]
+  },
+  {
+   "texto": "arms",
+   "categoria": "BodyStructure",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 1266,
+   "normalizado": "Upper Extremity",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C1140618",
+    "AOD:0000027657",
+    "CHV:0000055073",
+    "CSP:2715-5391",
+    "CST:BODY/UE"
+   ]
+  },
+  {
+   "texto": "chest",
+   "categoria": "BodyStructure",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 1297,
+   "normalizado": "Chest",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0817096",
+    "AOD:0000007432",
+    "CCPSS:1007001",
+    "CHV:0000049411",
+    "CSP:0468-8763"
+   ]
+  },
+  {
+   "texto": "hands",
+   "categoria": "BodyStructure",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 1328,
+   "normalizado": "Hand",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0018563",
+    "AOD:0000002469",
+    "CHV:0000005789",
+    "CSP:2715-5520",
+    "FMA:9712"
+   ]
+  },
+  {
+   "texto": "last weekend",
+   "categoria": "Time",
+   "subcategoria": null,
+   "confianca": 0.97,
+   "offset": 1505,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "painful",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.84,
+   "offset": 1535,
+   "normalizado": "Pain",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0030193",
+    "AOD:0000002779",
+    "BI:BI00754",
+    "CCC:Q63.0",
+    "CCPSS:0035760"
+   ]
+  },
+  {
+   "texto": "showers",
+   "categoria": "TreatmentName",
+   "subcategoria": null,
+   "confianca": 0.77,
+   "offset": 1568,
+   "normalizado": "Safety showers",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C1140655",
+    "CHV:0000055076",
+    "UMD:20336"
+   ]
+  },
+  {
+   "texto": "skin",
+   "categoria": "BodyStructure",
+   "subcategoria": null,
+   "confianca": 0.92,
+   "offset": 1683,
+   "normalizado": "Skin",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C1123023",
+    "AOD:0000002281",
+    "CCPSS:0012516",
+    "CHV:0000054821",
+    "CSP:2716-0373"
+   ]
+  },
+  {
+   "texto": "bit",
+   "categoria": "ConditionQualifier",
+   "subcategoria": null,
+   "confianca": 0.88,
+   "offset": 1693,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "cracked",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 1697,
+   "normalizado": "Crack",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C1706353",
+    "NCI:C52648"
+   ]
+  },
+  {
+   "texto": "cracked",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 1733,
+   "normalizado": "Crack",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C1706353",
+    "NCI:C52648"
+   ]
+  },
+  {
+   "texto": "Four days ago",
+   "categoria": "Time",
+   "subcategoria": null,
+   "confianca": 0.98,
+   "offset": 1780,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "people",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.66,
+   "offset": 1986,
+   "normalizado": "Persons",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0027361",
+    "CHV:0000008474",
+    "HL7V3.0:PSN",
+    "LCH_NW:sh85100163",
+    "LNC:MTHU066373"
+   ]
+  },
+  {
+   "texto": "chest",
+   "categoria": "BodyStructure",
+   "subcategoria": null,
+   "confianca": 0.98,
+   "offset": 2171,
+   "normalizado": "Chest",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0817096",
+    "AOD:0000007432",
+    "CCPSS:1007001",
+    "CHV:0000049411",
+    "CSP:0468-8763"
+   ]
+  },
+  {
+   "texto": "hands",
+   "categoria": "BodyStructure",
+   "subcategoria": null,
+   "confianca": 0.97,
+   "offset": 2178,
+   "normalizado": "Hand",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0018563",
+    "AOD:0000002469",
+    "CHV:0000005789",
+    "CSP:2715-5520",
+    "FMA:9712"
+   ]
+  },
+  {
+   "texto": "elbows",
+   "categoria": "BodyStructure",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 2209,
+   "normalizado": "Elbow",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0013769",
+    "AIR:ELOB",
+    "AOD:0000005138",
+    "CHV:0000004316",
+    "CSP:2715-4832"
+   ]
+  },
+  {
+   "texto": "face",
+   "categoria": "BodyStructure",
+   "subcategoria": null,
+   "confianca": 0.71,
+   "offset": 2245,
+   "normalizado": "Face",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0015450",
+    "AOD:0000013914",
+    "CCPSS:1004843",
+    "CHV:0000004839",
+    "CSP:0468-5015"
+   ]
+  },
+  {
+   "texto": "itching",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.98,
+   "offset": 2264,
+   "normalizado": "Pruritus",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0033774",
+    "AOD:0000005226",
+    "BI:BI00607",
+    "CCPSS:1014802",
+    "CHV:0000010273"
+   ]
+  },
+  {
+   "texto": "eczema",
+   "categoria": "Diagnosis",
+   "subcategoria": null,
+   "confianca": 0.98,
+   "offset": 2330,
+   "normalizado": "Eczema",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0013595",
+    "AOD:0000005208",
+    "BI:BI00585",
+    "CCPSS:0043411",
+    "CHV:0000004268"
+   ]
+  },
+  {
+   "texto": "eczema",
+   "categoria": "Diagnosis",
+   "subcategoria": null,
+   "confianca": 0.98,
+   "offset": 2395,
+   "normalizado": "Eczema",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0013595",
+    "AOD:0000005208",
+    "BI:BI00585",
+    "CCPSS:0043411",
+    "CHV:0000004268"
+   ]
+  },
+  {
+   "texto": "arm",
+   "categoria": "BodyStructure",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 2418,
+   "normalizado": "Upper Extremity",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C1140618",
+    "AOD:0000027657",
+    "CHV:0000055073",
+    "CSP:2715-5391",
+    "CST:BODY/UE"
+   ]
+  },
+  {
+   "texto": "asthma",
+   "categoria": "Diagnosis",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 2489,
+   "normalizado": "Asthma",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0004096",
+    "AOD:0000005951",
+    "BI:BI00009",
+    "CCPSS:1017373",
+    "CCS:8.3"
+   ]
+  },
+  {
+   "texto": "allergies",
+   "categoria": "Diagnosis",
+   "subcategoria": null,
+   "confianca": 0.55,
+   "offset": 2576,
+   "normalizado": "Hypersensitivity",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0020517",
+    "AOD:0000023559",
+    "BI:BI00743",
+    "CCPSS:0026478",
+    "CHV:0000057872"
+   ]
+  },
+  {
+   "texto": "few flatmates",
+   "categoria": "LivingStatus",
+   "subcategoria": null,
+   "confianca": 0.95,
+   "offset": 2608,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "31",
+   "categoria": "Age",
+   "subcategoria": null,
+   "confianca": 0.97,
+   "offset": 2641,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "full time job",
+   "categoria": "Employment",
+   "subcategoria": null,
+   "confianca": 0.88,
+   "offset": 2662,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "few people",
+   "categoria": "LivingStatus",
+   "subcategoria": null,
+   "confianca": 0.82,
+   "offset": 2701,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "a pharmaceutical company",
+   "categoria": "Employment",
+   "subcategoria": null,
+   "confianca": 0.84,
+   "offset": 2737,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "a few years now",
+   "categoria": "Time",
+   "subcategoria": null,
+   "confianca": 0.77,
+   "offset": 2787,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "per week",
+   "categoria": "Frequency",
+   "subcategoria": null,
+   "confianca": 0.89,
+   "offset": 3055,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "drink",
+   "categoria": "SubstanceUse",
+   "subcategoria": null,
+   "confianca": 0.95,
+   "offset": 3120,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "younger",
+   "categoria": "Age",
+   "subcategoria": null,
+   "confianca": 0.56,
+   "offset": 3148,
+   "normalizado": "Youth",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0087178",
+    "AOD:0000010044",
+    "CHV:0000016105",
+    "LCH:U005126",
+    "LCH_NW:sh85149310"
+   ]
+  },
+  {
+   "texto": "antihistamines",
+   "categoria": "MedicationClass",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 3236,
+   "normalizado": "Histamine Antagonists",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0019590",
+    "AOD:0000019291",
+    "CCPSS:0061867",
+    "CHV:0000006158",
+    "CSP:1524-9334"
+   ]
+  },
+  {
+   "texto": "antihistamines",
+   "categoria": "MedicationClass",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 3302,
+   "normalizado": "Histamine Antagonists",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0019590",
+    "AOD:0000019291",
+    "CCPSS:0061867",
+    "CHV:0000006158",
+    "CSP:1524-9334"
+   ]
+  },
+  {
+   "texto": "Right",
+   "categoria": "Direction",
+   "subcategoria": null,
+   "confianca": 0.86,
+   "offset": 3406,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  }
+ ],
+ "relacoes_saude": [
+  {
+   "tipo": "QualifierOfCondition",
+   "papeis": {
+    "Condition": "itching",
+    "Qualifier": "lot"
+   }
+  },
+  {
+   "tipo": "FormOfMedication",
+   "papeis": {
+    "Medication": "steroid",
+    "Form": "cream"
+   }
+  },
+  {
+   "tipo": "TimeOfMedication",
+   "papeis": {
+    "Medication": "steroid",
+    "Time": "last night"
+   }
+  },
+  {
+   "tipo": "TimeOfCondition",
+   "papeis": {
+    "Condition": "eating a lot",
+    "Time": "today"
+   }
+  },
+  {
+   "tipo": "FormOfMedication",
+   "papeis": {
+    "Medication": "steroid",
+    "Form": "cream"
+   }
+  },
+  {
+   "tipo": "BodySiteOfCondition",
+   "papeis": {
+    "Condition": "eczema",
+    "BodyStructure": "arms"
+   }
+  },
+  {
+   "tipo": "TimeOfCondition",
+   "papeis": {
+    "Time": "last weekend",
+    "Condition": "painful"
+   }
+  },
+  {
+   "tipo": "BodySiteOfCondition",
+   "papeis": {
+    "BodyStructure": "skin",
+    "Condition": "cracked"
+   }
+  },
+  {
+   "tipo": "BodySiteOfCondition",
+   "papeis": {
+    "BodyStructure": "skin",
+    "Condition": "cracked"
+   }
+  },
+  {
+   "tipo": "QualifierOfCondition",
+   "papeis": {
+    "Qualifier": "bit",
+    "Condition": "cracked"
+   }
+  },
+  {
+   "tipo": "BodySiteOfCondition",
+   "papeis": {
+    "Condition": "eczema",
+    "BodyStructure": "arm"
+   }
+  }
+ ],
+ "idioma": "en",
+ "provedor": "azure_language"
+}

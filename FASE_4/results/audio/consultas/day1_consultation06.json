@@ -1,0 +1,712 @@
+{
+ "paciente_id": "PRIMOCK-day1_consultation06",
+ "audio": "day1_consultation06_patient.wav",
+ "stt": {
+  "fonte": "azure_cache",
+  "provedor": "azure_speech",
+  "segmentos": 85,
+  "palavras": 598,
+  "texto": "Hello there. Yes, I can hear you. Are you the doctor? I'm contacting you because I've been quite short of breath lately. Well, it seems to have been slowly getting worse over the last couple of weeks. It's become quite troublesome in the last few days. I kind of. Normally I can walk to the shops without a problem, but. Now I'm having to sort of sit down and catch my breath and I'm even starting to get a bit breathless just about the house. And, uh, it's got me kind of worried. I don't really know what's going on. Well. I've I've. I've got. Heart failure. I was told that. A while ago and I got a bit breathless when I was first diagnosed. And put on some. That that helped but I'm a bit worried it's just getting worse. No pain in my chest. I've got a bit of a dry cough, but it's not too troublesome. I'm feeling a little rundown, but otherwise. Otherwise pretty normal. I've noticed my ankles have gotten bigger. Uh, it's just like it's sort of swollen up a bit. Kind of. Yeah, both ankles. Yeah, it's a bit embarrassing. I kind of noticed it the last few days. I think my ankles did swell up a bit last time the heart failure was a problem.  No, not really. Uh, no. Yeah, I'm, I'm. That's fine. Yeah, that. Yeah, I usually pee a lot. The ever since the drugs. Well, I was told I had, like they called it like a small heart attack about five years ago. I, I had, I, I had like some chest pain and they took me to hospital. And. A. But then I just got better. I can't remember it just called it as something like that, a small heart attack. I know they they said they it seemed it was like more than angina. But. I didn't, but I only had to stay in hospital for a few days and. And yeah, I've been OK since then. No, I think I'm otherwise I'm OK. All right, Yeah, I take something called furosemide. Uh, I can't remember. I'm sorry doctor, I have to check. Yeah, I take aspirin. And Zopprolol. Not prolong. Simvastatin. No, no allergies. As my my father died of a of a heart attack. He was early 60s. My mother had osteoporosis. Yeah, she's still living. I live on my own. All right, got 2 cats. They're my family. Uh, they're, they're cold. Umm. They're called Holly and Tim. I work part time as a lorry driver. It's OK. I yeah, like when I'm working. It's pretty exhausting. I guess I'm a bit worried that if I get sick I won't. If I get more sick then I won't be able to work properly. Oh no, I I I only take shifts during the day. I don't like working at night. Not anymore. Yeah. Oh, it's about about a pack a day. Back in the day. Oh, that was oh good, 25 years. I don't drink alcohol. I try and walk to the shops at least once a day. But that's about it. I've. Yeah, I don't. I don't go running like I used to when I was young. That's what's going on. MMM.  OK, if you think that would be best. OK. What design? I always remember now. Yeah, I remember now. But.  I think that sounds like a good plan. OK, I'll see how I get on. I think that's all pretty clear. Thank you very much, Doctor. Kissing.",
+  "wer_vs_manual": 0.232
+ },
+ "linguagem": {
+  "fonte": "azure_cache",
+  "provedor": "azure_language",
+  "sentimento": "mixed",
+  "scores": {
+   "positive": 0.28,
+   "neutral": 0.18,
+   "negative": 0.54
+  },
+  "frases_chave": [
+   "small heart attack",
+   "Heart failure",
+   "dry cough",
+   "little rundown",
+   "early 60s",
+   "lorry driver",
+   "good plan",
+   "last couple",
+   "chest pain",
+   "doctor",
+   "breath",
+   "weeks",
+   "days",
+   "shops",
+   "problem"
+  ],
+  "entidades": [
+   {
+    "texto": "quite",
+    "categoria": "ConditionQualifier",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "short of breath",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Dyspnea"
+   },
+   {
+    "texto": "slowly getting worse",
+    "categoria": "Course",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "last couple of weeks",
+    "categoria": "Time",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "last few days",
+    "categoria": "Time",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "sit down",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Does sit down"
+   },
+   {
+    "texto": "catch my breath",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "CATCH My Breath Vaping Prevention Program"
+   },
+   {
+    "texto": "bit",
+    "categoria": "ConditionQualifier",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "breathless",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Dyspnea"
+   },
+   {
+    "texto": "Heart failure",
+    "categoria": "Diagnosis",
+    "negada": false,
+    "normalizado": "Heart failure"
+   },
+   {
+    "texto": "while ago",
+    "categoria": "Time",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "bit",
+    "categoria": "ConditionQualifier",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "breathless",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Dyspnea"
+   },
+   {
+    "texto": "getting worse",
+    "categoria": "Course",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "pain",
+    "categoria": "SymptomOrSign",
+    "negada": true,
+    "normalizado": "Pain"
+   },
+   {
+    "texto": "chest",
+    "categoria": "BodyStructure",
+    "negada": false,
+    "normalizado": "Chest"
+   },
+   {
+    "texto": "bit",
+    "categoria": "ConditionQualifier",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "dry",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Dry"
+   },
+   {
+    "texto": "cough",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Coughing"
+   },
+   {
+    "texto": "troublesome",
+    "categoria": "ConditionQualifier",
+    "negada": true,
+    "normalizado": null
+   },
+   {
+    "texto": "little",
+    "categoria": "ConditionQualifier",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "rundown",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "rundown"
+   },
+   {
+    "texto": "normal",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Normal"
+   },
+   {
+    "texto": "ankles have gotten bigger",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "swollen up",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "bit",
+    "categoria": "ConditionQualifier",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "both",
+    "categoria": "Direction",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "ankles",
+    "categoria": "BodyStructure",
+    "negada": false,
+    "normalizado": "Ankle"
+   },
+   {
+    "texto": "embarrassing",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Embarrassment"
+   },
+   {
+    "texto": "last few days",
+    "categoria": "Time",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "ankles did swell up",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "heart failure",
+    "categoria": "Diagnosis",
+    "negada": false,
+    "normalizado": "Heart failure"
+   },
+   {
+    "texto": "pee a lot",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "small",
+    "categoria": "ConditionQualifier",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "heart attack",
+    "categoria": "Diagnosis",
+    "negada": false,
+    "normalizado": "Myocardial Infarction"
+   },
+   {
+    "texto": "five years ago",
+    "categoria": "Time",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "chest pain",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Chest Pain"
+   },
+   {
+    "texto": "hospital",
+    "categoria": "CareEnvironment",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "remember",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Mental Recall"
+   },
+   {
+    "texto": "small",
+    "categoria": "ConditionQualifier",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "heart attack",
+    "categoria": "Diagnosis",
+    "negada": false,
+    "normalizado": "Myocardial Infarction"
+   },
+   {
+    "texto": "angina",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Angina Pectoris"
+   },
+   {
+    "texto": "hospital",
+    "categoria": "CareEnvironment",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "few days",
+    "categoria": "Time",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "OK",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Kelvin"
+   },
+   {
+    "texto": "OK",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Kelvin"
+   },
+   {
+    "texto": "furosemide",
+    "categoria": "MedicationName",
+    "negada": false,
+    "normalizado": "furosemide"
+   },
+   {
+    "texto": "remember",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Mental Recall"
+   },
+   {
+    "texto": "doctor",
+    "categoria": "HealthcareProfession",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "aspirin",
+    "categoria": "MedicationName",
+    "negada": false,
+    "normalizado": "aspirin"
+   },
+   {
+    "texto": "Zopprolol",
+    "categoria": "MedicationName",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "Simvastatin",
+    "categoria": "MedicationName",
+    "negada": false,
+    "normalizado": "simvastatin"
+   },
+   {
+    "texto": "allergies",
+    "categoria": "Diagnosis",
+    "negada": true,
+    "normalizado": "Hypersensitivity"
+   },
+   {
+    "texto": "father",
+    "categoria": "FamilyRelation",
+    "negada": false,
+    "normalizado": "Father (person)"
+   },
+   {
+    "texto": "died",
+    "categoria": "Diagnosis",
+    "negada": false,
+    "normalizado": "Death (finding)"
+   },
+   {
+    "texto": "heart attack",
+    "categoria": "Diagnosis",
+    "negada": false,
+    "normalizado": "Myocardial Infarction"
+   },
+   {
+    "texto": "60s",
+    "categoria": "Age",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "mother",
+    "categoria": "FamilyRelation",
+    "negada": false,
+    "normalizado": "Mother (person)"
+   },
+   {
+    "texto": "osteoporosis",
+    "categoria": "Diagnosis",
+    "negada": false,
+    "normalizado": "Osteoporosis"
+   },
+   {
+    "texto": "my own",
+    "categoria": "LivingStatus",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "family",
+    "categoria": "FamilyRelation",
+    "negada": false,
+    "normalizado": "Family"
+   },
+   {
+    "texto": "cold",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Common Cold"
+   },
+   {
+    "texto": "Umm",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "work",
+    "categoria": "Employment",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "a lorry driver",
+    "categoria": "Employment",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "sick",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Illness (finding)"
+   },
+   {
+    "texto": "sick",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Illness (finding)"
+   },
+   {
+    "texto": "a day",
+    "categoria": "Frequency",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "25 years",
+    "categoria": "Time",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "alcohol",
+    "categoria": "SubstanceUse",
+    "negada": true,
+    "normalizado": null
+   },
+   {
+    "texto": "once a day",
+    "categoria": "Frequency",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "running",
+    "categoria": "SymptomOrSign",
+    "negada": true,
+    "normalizado": "running (history)"
+   },
+   {
+    "texto": "young",
+    "categoria": "Age",
+    "negada": false,
+    "normalizado": "Young"
+   },
+   {
+    "texto": "MMM",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Moist mucous membranes"
+   },
+   {
+    "texto": "remember now",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "remember",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Mental Recall"
+   },
+   {
+    "texto": "Kissing",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Kissing"
+   }
+  ],
+  "relacoes": [
+   {
+    "tipo": "QualifierOfCondition",
+    "papeis": {
+     "Qualifier": "quite",
+     "Condition": "short of breath"
+    }
+   },
+   {
+    "tipo": "QualifierOfCondition",
+    "papeis": {
+     "Qualifier": "bit",
+     "Condition": "breathless"
+    }
+   },
+   {
+    "tipo": "TimeOfCondition",
+    "papeis": {
+     "Time": "while ago",
+     "Condition": "breathless"
+    }
+   },
+   {
+    "tipo": "QualifierOfCondition",
+    "papeis": {
+     "Qualifier": "bit",
+     "Condition": "breathless"
+    }
+   },
+   {
+    "tipo": "BodySiteOfCondition",
+    "papeis": {
+     "Condition": "pain",
+     "BodyStructure": "chest"
+    }
+   },
+   {
+    "tipo": "QualifierOfCondition",
+    "papeis": {
+     "Qualifier": "bit",
+     "Condition": "dry"
+    }
+   },
+   {
+    "tipo": "QualifierOfCondition",
+    "papeis": {
+     "Condition": "cough",
+     "Qualifier": "troublesome"
+    }
+   },
+   {
+    "tipo": "QualifierOfCondition",
+    "papeis": {
+     "Qualifier": "little",
+     "Condition": "rundown"
+    }
+   },
+   {
+    "tipo": "QualifierOfCondition",
+    "papeis": {
+     "Condition": "swollen up",
+     "Qualifier": "bit"
+    }
+   },
+   {
+    "tipo": "DirectionOfBodyStructure",
+    "papeis": {
+     "Direction": "both",
+     "BodyStructure": "ankles"
+    }
+   },
+   {
+    "tipo": "QualifierOfCondition",
+    "papeis": {
+     "Qualifier": "small",
+     "Condition": "heart attack"
+    }
+   },
+   {
+    "tipo": "TimeOfCondition",
+    "papeis": {
+     "Condition": "heart attack",
+     "Time": "five years ago"
+    }
+   },
+   {
+    "tipo": "QualifierOfCondition",
+    "papeis": {
+     "Qualifier": "small",
+     "Condition": "heart attack"
+    }
+   }
+  ]
+ },
+ "sinais_alarme": {
+  "dispneia": {
+   "severidade": 2,
+   "mencoes": [
+    "short of breath",
+    "breathless",
+    "breathless"
+   ]
+  },
+  "dor_toracica": {
+   "severidade": 2,
+   "mencoes": [
+    "chest pain",
+    "angina"
+   ]
+  }
+ },
+ "acustica": {
+  "taxa_fala_sil_s": 2.6352,
+  "taxa_articulacao_sil_s": 4.0401,
+  "pausas_por_min": 33.6993,
+  "pausa_media_s": 0.6151,
+  "pausas_longas_por_min": 2.7698,
+  "frase_media_s": 1.1534,
+  "proporcao_fonacao": 0.6523,
+  "f0_media_hz": 118.863,
+  "f0_desvio_st": 4.8031,
+  "f0_amplitude_st": 10.7232,
+  "jitter_local_pct": 2.144,
+  "shimmer_local_pct": 13.1886,
+  "hnr_db": 9.1102,
+  "cpps_db": 5.5912,
+  "intensidade_media_db": -24.9674,
+  "intensidade_tendencia_db_min": 0.8008,
+  "duracao_fala_s": 259.95
+ },
+ "wav2vec2": true,
+ "modelos_voz": {
+  "disartria": {
+   "prob": 0.051,
+   "limiar": 0.568,
+   "calibrado": true
+  },
+  "respiratorio": {
+   "prob": 0.337,
+   "limiar": 0.614,
+   "calibrado": true
+  },
+  "fadiga": {
+   "prob": 0.238,
+   "limiar": 0.622,
+   "calibrado": true
+  }
+ },
+ "eventos": [
+  {
+   "paciente_id": "PRIMOCK-day1_consultation06",
+   "origem": "audio",
+   "tipo": "sintoma_relatado_dispneia",
+   "severidade": 2,
+   "t": 655.95,
+   "descricao": "Paciente relata dispneia: breathless, short of breath",
+   "detector": "azure",
+   "evidencias": {
+    "mencoes": [
+     "short of breath",
+     "breathless",
+     "breathless"
+    ],
+    "fonte_texto": "azure_cache",
+    "fonte_stt": "azure_cache"
+   },
+   "duracao_s": 0.0,
+   "id": "EVT-8680F2F205",
+   "severidade_rotulo": "urgente"
+  },
+  {
+   "paciente_id": "PRIMOCK-day1_consultation06",
+   "origem": "audio",
+   "tipo": "sintoma_relatado_dor_toracica",
+   "severidade": 2,
+   "t": 655.95,
+   "descricao": "Paciente relata dor toracica: angina, chest pain",
+   "detector": "azure",
+   "evidencias": {
+    "mencoes": [
+     "chest pain",
+     "angina"
+    ],
+    "fonte_texto": "azure_cache",
+    "fonte_stt": "azure_cache"
+   },
+   "duracao_s": 0.0,
+   "id": "EVT-EB390828BB",
+   "severidade_rotulo": "urgente"
+  },
+  {
+   "paciente_id": "PRIMOCK-day1_consultation06",
+   "origem": "audio",
+   "tipo": "combinacao_critica_relatada",
+   "severidade": 3,
+   "t": 655.95,
+   "descricao": "Combinação de sinais de alarme relatada: dor torácica com dispneia",
+   "detector": "regra",
+   "evidencias": {
+    "grupos": [
+     "dispneia",
+     "dor_toracica"
+    ]
+   },
+   "duracao_s": 0.0,
+   "id": "EVT-4B52D1E003",
+   "severidade_rotulo": "crítico"
+  }
+ ],
+ "queixa_principal": "hard to breathe"
+}

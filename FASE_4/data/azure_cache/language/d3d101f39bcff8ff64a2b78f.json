@@ -1,0 +1,1222 @@
+{
+ "_meta": {
+  "servico": "language",
+  "obtido_em": "2026-10-21T13:05:11+00:00",
+  "caracteres": 1576,
+  "endpoint": "https://aurora-language-b92b19.cognitiveservices.azure.com/"
+ },
+ "sentimento": {
+  "geral": "mixed",
+  "scores": {
+   "positive": 0.54,
+   "neutral": 0.22,
+   "negative": 0.24
+  },
+  "frases": [
+   {
+    "texto": "Hello. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.99,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Happy to meet you. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 1.0,
+     "neutral": 0.0,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "My name is Tracy Chapman and my date of birth is. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.56,
+     "neutral": 0.44,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I'm 45. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 1.0,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "15 Babylon St. W65FE. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 1.0,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yes. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.21,
+     "neutral": 0.78,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah, yeah. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.06,
+     "neutral": 0.94,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Feeling very sort of breathless recently. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.08,
+     "neutral": 0.49,
+     "negative": 0.44
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Like, I don't know, whenever I like breathe deeply, I sort of catches in the right hand side of my back. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.48,
+     "neutral": 0.48,
+     "negative": 0.04
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Just just a day ready. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.15,
+     "neutral": 0.85,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Well, I've had I've got a bit of a slight fever. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.41,
+     "negative": 0.57
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "And and I, well I, I coughed up a bit of blood on on 2 occasions. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.03,
+     "neutral": 0.72,
+     "negative": 0.25
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I'm pretty sure what that means. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.53,
+     "neutral": 0.46,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah, yeah, kind of. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.08,
+     "neutral": 0.92,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I sort of feel my heart beating, but other than that, no, it's fine. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.2,
+     "neutral": 0.33,
+     "negative": 0.47
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I'd like to know I can just sort of feel it more, you know, but I've, I've also, I've been feeling a bit like a bit tired at work. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.21,
+     "neutral": 0.46,
+     "negative": 0.33
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Haven't really been like exercising has been a bit difficult because I've been feeling tired. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.35,
+     "negative": 0.64
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "And yeah, performing performing daily activities has has been a bit harder than usual. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.08,
+     "neutral": 0.57,
+     "negative": 0.36
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Only after. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.92,
+     "negative": 0.07
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Only for a couple of weeks or so. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.04,
+     "neutral": 0.92,
+     "negative": 0.04
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.04,
+     "neutral": 0.95,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "With the back of my. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.99,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "My hand, yes. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.13,
+     "neutral": 0.85,
+     "negative": 0.02
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "No. I work in an office, just a desk job. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.84,
+     "negative": 0.16
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yes. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.18,
+     "neutral": 0.81,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Track. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.02,
+     "neutral": 0.98,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah, Methotrexate. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.05,
+     "neutral": 0.94,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Methotrexate that's. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.05,
+     "neutral": 0.93,
+     "negative": 0.02
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I've I've got SLE. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.99,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "No. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.77,
+     "negative": 0.22
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "No. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.77,
+     "negative": 0.22
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "No. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.77,
+     "negative": 0.22
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "This morning.  ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 1.0,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I've got it. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.38,
+     "neutral": 0.61,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.04,
+     "neutral": 0.95,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yep. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.34,
+     "neutral": 0.64,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "123. 56789. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 1.0,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "At 7013.  ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 1.0,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "You know, you've got very good circulation. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.95,
+     "neutral": 0.05,
+     "negative": 0.0
+    },
+    "opinioes": [
+     {
+      "alvo": "circulation",
+      "sentimento": "positive",
+      "avaliacoes": [
+       "good"
+      ]
+     }
+    ]
+   },
+   {
+    "texto": "Like that? ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.19,
+     "neutral": 0.68,
+     "negative": 0.13
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "So I did it on my laptop, so I think we're good to go. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.54,
+     "neutral": 0.44,
+     "negative": 0.02
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Good at resting on my laptop, but I can. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.86,
+     "neutral": 0.12,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Lovely. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.95,
+     "neutral": 0.05,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "No, I feel pretty normal to me. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.19,
+     "neutral": 0.72,
+     "negative": 0.09
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I think. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.14,
+     "neutral": 0.85,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Doris.  ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.15,
+     "neutral": 0.84,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "OK.  ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.04,
+     "neutral": 0.95,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "No, no. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.09,
+     "neutral": 0.38,
+     "negative": 0.53
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Not that I know of, no.  ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.04,
+     "neutral": 0.6,
+     "negative": 0.37
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "No.  ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.02,
+     "neutral": 0.76,
+     "negative": 0.22
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "But we don't think I'm dying of lung cancer.  ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.02,
+     "neutral": 0.09,
+     "negative": 0.89
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "OK. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.06,
+     "neutral": 0.93,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Well, you know, you start coughing up blood and you think you're going to die of lung cancer, so. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.04,
+     "neutral": 0.3,
+     "negative": 0.66
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "45. That's good to know. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.95,
+     "neutral": 0.05,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.04,
+     "neutral": 0.95,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Perfect. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.91,
+     "neutral": 0.09,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Thank you very much.",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 1.0,
+     "neutral": 0.0,
+     "negative": 0.0
+    },
+    "opinioes": []
+   }
+  ]
+ },
+ "frases_chave": [
+  "15 Babylon St. W65FE",
+  "right hand side",
+  "Tracy Chapman",
+  "slight fever",
+  "daily activities",
+  "desk job",
+  "good circulation",
+  "lung cancer",
+  "name",
+  "date",
+  "birth",
+  "catches",
+  "back",
+  "bit",
+  "blood",
+  "2 occasions",
+  "heart",
+  "work",
+  "couple",
+  "weeks",
+  "office",
+  "Track",
+  "Methotrexate",
+  "SLE",
+  "No.",
+  "laptop",
+  "Doris"
+ ],
+ "entidades_saude": [
+  {
+   "texto": "45",
+   "categoria": "Age",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 80,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "very sort",
+   "categoria": "ConditionQualifier",
+   "subcategoria": null,
+   "confianca": 0.75,
+   "offset": 131,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "breathless",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 144,
+   "normalizado": "Dyspnea",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0013404",
+    "AOD:0000005442",
+    "BI:BI00182",
+    "CCPSS:1015304",
+    "CHV:0000004216"
+   ]
+  },
+  {
+   "texto": "breathe",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.59,
+   "offset": 201,
+   "normalizado": "outcomes otolaryngology breathing",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C2015926",
+    "MEDCIN:133084"
+   ]
+  },
+  {
+   "texto": "catches",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.8,
+   "offset": 227,
+   "normalizado": "Does catch (finding)",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0596011",
+    "CHV:0000041465",
+    "RCD:Xa29u",
+    "SNOMEDCT_US:282673009"
+   ]
+  },
+  {
+   "texto": "right",
+   "categoria": "Direction",
+   "subcategoria": null,
+   "confianca": 0.97,
+   "offset": 242,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "hand",
+   "categoria": "BodyStructure",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 248,
+   "normalizado": "Hand",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0018563",
+    "AOD:0000002469",
+    "CHV:0000005789",
+    "CSP:2715-5520",
+    "FMA:9712"
+   ]
+  },
+  {
+   "texto": "back",
+   "categoria": "BodyStructure",
+   "subcategoria": null,
+   "confianca": 0.97,
+   "offset": 264,
+   "normalizado": "Back",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0004600",
+    "AOD:0000016999",
+    "CCPSS:1005152",
+    "CHV:0000001660",
+    "CSP:0468-3141"
+   ]
+  },
+  {
+   "texto": "slight",
+   "categoria": "ConditionQualifier",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 328,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "fever",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 335,
+   "normalizado": "Fever",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0015967",
+    "AIR:FEVER",
+    "AOD:0000004396",
+    "BI:BI00751",
+    "CCPSS:1017166"
+   ]
+  },
+  {
+   "texto": "coughed up",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.74,
+   "offset": 363,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "bit of blood",
+   "categoria": "ConditionQualifier",
+   "subcategoria": null,
+   "confianca": 0.62,
+   "offset": 376,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "heart beating",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.98,
+   "offset": 480,
+   "normalizado": "heart process",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C2256369",
+    "GO:GO:0003015",
+    "SNOMEDCT_US:719984002"
+   ]
+  },
+  {
+   "texto": "bit",
+   "categoria": "ConditionQualifier",
+   "subcategoria": null,
+   "confianca": 0.62,
+   "offset": 632,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "bit",
+   "categoria": "ConditionQualifier",
+   "subcategoria": null,
+   "confianca": 0.7,
+   "offset": 643,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "tired",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.87,
+   "offset": 647,
+   "normalizado": "Feeling tired",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0849970",
+    "CCPSS:1017082",
+    "CHV:0000049813",
+    "ICPC2P:A04012",
+    "MEDCIN:115277"
+   ]
+  },
+  {
+   "texto": "tired",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.87,
+   "offset": 749,
+   "normalizado": "Feeling tired",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0849970",
+    "CCPSS:1017082",
+    "CHV:0000049813",
+    "ICPC2P:A04012",
+    "MEDCIN:115277"
+   ]
+  },
+  {
+   "texto": "couple of weeks",
+   "categoria": "Time",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 866,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "back",
+   "categoria": "BodyStructure",
+   "subcategoria": null,
+   "confianca": 0.87,
+   "offset": 904,
+   "normalizado": "Back",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0004600",
+    "AOD:0000016999",
+    "CCPSS:1005152",
+    "CHV:0000001660",
+    "CSP:0468-3141"
+   ]
+  },
+  {
+   "texto": "hand",
+   "categoria": "BodyStructure",
+   "subcategoria": null,
+   "confianca": 0.93,
+   "offset": 919,
+   "normalizado": "Hand",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0018563",
+    "AOD:0000002469",
+    "CHV:0000005789",
+    "CSP:2715-5520",
+    "FMA:9712"
+   ]
+  },
+  {
+   "texto": "work",
+   "categoria": "Employment",
+   "subcategoria": null,
+   "confianca": 0.92,
+   "offset": 936,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "an office",
+   "categoria": "Employment",
+   "subcategoria": null,
+   "confianca": 0.84,
+   "offset": 944,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "desk job",
+   "categoria": "Employment",
+   "subcategoria": null,
+   "confianca": 0.79,
+   "offset": 962,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "Methotrexate",
+   "categoria": "MedicationName",
+   "subcategoria": null,
+   "confianca": 0.98,
+   "offset": 990,
+   "normalizado": "methotrexate",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0025677",
+    "ATC:L04AX03",
+    "CHV:0000008044",
+    "CPM:30698",
+    "CSP:1175-1202"
+   ]
+  },
+  {
+   "texto": "Methotrexate",
+   "categoria": "MedicationName",
+   "subcategoria": null,
+   "confianca": 0.97,
+   "offset": 1004,
+   "normalizado": "methotrexate",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0025677",
+    "ATC:L04AX03",
+    "CHV:0000008044",
+    "CPM:30698",
+    "CSP:1175-1202"
+   ]
+  },
+  {
+   "texto": "SLE",
+   "categoria": "Diagnosis",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 1039,
+   "normalizado": "Lupus Erythematosus, Systemic",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0024141",
+    "AIR:SLE",
+    "AOD:0000005185",
+    "BI:BI00326",
+    "CCPSS:0036348"
+   ]
+  },
+  {
+   "texto": "This morning",
+   "categoria": "Time",
+   "subcategoria": null,
+   "confianca": 0.68,
+   "offset": 1056,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "7013",
+   "categoria": "Time",
+   "subcategoria": null,
+   "confianca": 0.75,
+   "offset": 1110,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "very good circulation",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.78,
+   "offset": 1138,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "pretty normal to me",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.73,
+   "offset": 1287,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "lung cancer",
+   "categoria": "Diagnosis",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 1400,
+   "normalizado": "Malignant neoplasm of lung",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0242379",
+    "AOD:0000004567",
+    "BI:BI00185",
+    "CCPSS:1018238",
+    "CHV:0000024797"
+   ]
+  },
+  {
+   "texto": "coughing up blood",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.97,
+   "offset": 1444,
+   "normalizado": "Hemoptysis",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0019079",
+    "AIR:HEMOP",
+    "BI:BI00183",
+    "CCPSS:1017945",
+    "CHV:0000006007"
+   ]
+  },
+  {
+   "texto": "die",
+   "categoria": "Diagnosis",
+   "subcategoria": null,
+   "confianca": 0.97,
+   "offset": 1492,
+   "normalizado": "Structure of diencephalon",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0012144",
+    "AOD:0000017595",
+    "CHV:0000003904",
+    "CSP:0478-1940",
+    "FMA:62001"
+   ]
+  },
+  {
+   "texto": "lung cancer",
+   "categoria": "Diagnosis",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 1499,
+   "normalizado": "Malignant neoplasm of lung",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0242379",
+    "AOD:0000004567",
+    "BI:BI00185",
+    "CCPSS:1018238",
+    "CHV:0000024797"
+   ]
+  },
+  {
+   "texto": "Perfect",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.77,
+   "offset": 1547,
+   "normalizado": "Perfectionism",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0815110",
+    "AOD:0000022620",
+    "CHV:0000049367",
+    "MEDCIN:1425",
+    "MSH:D000072639"
+   ]
+  }
+ ],
+ "relacoes_saude": [
+  {
+   "tipo": "QualifierOfCondition",
+   "papeis": {
+    "Qualifier": "very sort",
+    "Condition": "breathless"
+   }
+  },
+  {
+   "tipo": "BodySiteOfCondition",
+   "papeis": {
+    "Condition": "catches",
+    "BodyStructure": "hand"
+   }
+  },
+  {
+   "tipo": "BodySiteOfCondition",
+   "papeis": {
+    "Condition": "catches",
+    "BodyStructure": "back"
+   }
+  },
+  {
+   "tipo": "DirectionOfBodyStructure",
+   "papeis": {
+    "Direction": "right",
+    "BodyStructure": "hand"
+   }
+  },
+  {
+   "tipo": "DirectionOfBodyStructure",
+   "papeis": {
+    "Direction": "right",
+    "BodyStructure": "back"
+   }
+  },
+  {
+   "tipo": "QualifierOfCondition",
+   "papeis": {
+    "Qualifier": "slight",
+    "Condition": "fever"
+   }
+  },
+  {
+   "tipo": "QualifierOfCondition",
+   "papeis": {
+    "Condition": "coughed up",
+    "Qualifier": "bit of blood"
+   }
+  },
+  {
+   "tipo": "QualifierOfCondition",
+   "papeis": {
+    "Qualifier": "bit",
+    "Condition": "tired"
+   }
+  },
+  {
+   "tipo": "QualifierOfCondition",
+   "papeis": {
+    "Qualifier": "bit",
+    "Condition": "tired"
+   }
+  }
+ ],
+ "idioma": "en",
+ "provedor": "azure_language"
+}

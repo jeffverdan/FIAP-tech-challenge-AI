@@ -1,0 +1,871 @@
+{
+ "paciente_id": "PRIMOCK-day5_consultation03",
+ "audio": "day5_consultation03_patient.wav",
+ "stt": {
+  "fonte": "azure_cache",
+  "provedor": "azure_speech",
+  "segmentos": 79,
+  "palavras": 1437,
+  "texto": "Hi. My name is Valerie Cole, My date of birth is the 19th of September 1993. My address is uh, 64 Cliveden Place in South Wimbledon. Yes, I am, yeah. I've been feeling really anxious over the past few months. I just get really nervous every morning about leaving house and it started to really worry me and just add up and build up from that anxiety and I just didn't know who to talk to you so I wanted to check with my GP. Uh. I guess so. I think I would say maybe about two months or so I've been feeling like this and that's probably coincides with. Restarting a new job, um. Which I would say it's quite, I mean, every job is stressful when you first start, but it's been really stressful I think over the past two months, definitely. And so I work for a. A fashion retailer in the head office team and it's just a brand new sector. I've never worked in retail before. My boss is not very nice to me and but I also think that it's just been, I just really dread going there. I just hate speaking to her. I hate seeing everyone and really worried about whether I'm doing well or not. And it's really impacting on like on the rest of my life, like my sleep and stuff like that. Right. Yeah, absolutely. So I, I, I, as I say, like, I don't want to go to work in the morning. So I just find no way of I can't get out of bed. But it's also because when I leave, I just when I've left work, I just feel so stressed and so worried about everything that I've done. I can't get to sleep for hours and hours and hours. So I. About 1011 probably. Not for ages. I'm I'm lying awake all night. So I find my heart kind of racing and then I'm just like panicking that I'm going to be late and that that's going to make work even more stressful. So I do have an alarm, but I find myself waking up before that because I'm just, my heart is racing. And actually the other day I was just like, I was lying in bed and I really thought my heart was racing so much. I thought I was going to have a heart attack in the morning. I just I can't even tell because I feel like I'm even when I'm in sleep. It's such a shallow sleep but maybe. 3/4 hours I'm getting now. Probably not significant changes maybe. No, I wouldn't say that. I wouldn't say that I'm eating like much differently. Oh, I'd probably have more chocolate than normal just because I feel so down. Yeah. So. Yeah. So I'm, it's, it's usually kind of like when I realise in the morning that either I feel like I'm going to be late because I've like overslept because I'm so tired, or I wake up in a panic thinking I'm going to be late. So it's just kind of like. Just a constant, like rapid heart beating. It's really, really stressful. I don't know if it's stress or I did think it was like a heart problem initially. Irregular, I think. Oh, it can be anything. I think a couple of minutes or the other day I was actually just sort of lying there for like holding my hand on my chest for like 10 minutes. Yeah, I would say this is only in the past sort of like couple of months as I say that everyone's experiencing this. No. Well, yeah, it's painful to when the heart, when my heart is being fast. But but. Yeah. It's just really, really low. I mean, I'm finding now that I'm just, I find no enjoyment at all. It's kind of day-to-day and anything that I'm doing, it's not just my job, it's, you know, when I leave, I'm just so tired that anything that previously was really fun is just not, it's not enjoyable. And I'm like. Yeah, on edge the whole time. Well, right now I'm working so late, everything is really, really stressful so I don't really get much time for myself. But when I do want to go out or, you know, be friends or just relax. It it seems quite difficult to do that. I avoid them in so much that I feel like I'm. Yeah, so I mean, sometimes it just, I know that I'm not going to have fun because I don't want to go out and. Two things that I would normally have done. Yeah, as I say, like everything that I've had previously been doing has been just difficult to continue with. Like I did used to like to like go running and and to play tennis and stuff, but now it's just not. I'm just not enjoying it. I'm not, I'm not like I'm not going out to do that quite so much. No, because I think that would just add to the tension. But I do pretty much every morning. I think, oh, I should call in sick or like. It's not good.  No, I wouldn't say so, I think. I've always managed to make it to work but I I wonder if it's building up. So This is why I want to call because I'm just worried it's building up that I don't know what to do because I've have feel it get worse and worse over the past couple of months. Yeah, I mean, I find public transport really stressful in a way, especially being on the cheapest because it's quite getting warmer, so it's just really airless. But I think the majority of it, because my life is just so focused around work right now, the majority of it is focused around work as well. Not really I I'm no, I would say. I mean, everybody always has a bit of tension, a bit of anxiety, but I've never felt. Anything that's bad before? Yeah. I mean, yeah, yeah. Because I do, yeah. I'm pretty much down. Like, don't enjoy it. Being in love with my day at all because. I'm just so worried about everything and I find that even when I'm not like even at the weekends and stuff, it's just the kind of like constant feeling of just being a bit down, a bit unhappy. I don't know if that's a good question. I can't really, I can't really put a date on that call. I wouldn't know. I wouldn't say that I've had, I haven't had any suicidal thoughts or any thoughts that have been that extreme like I don't. You know, I have, I have a good support system like I do have a good family and stuff. So I, I have, I don't have worries about actually wanting to not go on. It's just that I don't want to go on like this. Sorry. Yeah, I live with my parents. It's my parents. I don't know, probably quite a lot on the Friday or Saturday, just because that that's kind of normal. Maybe, maybe I do have like a bit during the week that my parents obviously are retired, so they just drink whenever they want. So whenever they're having a glass of wine, they'll offer it to me. And it's like, I guess I don't really keep track of it that much. Probably like probably quite a lot on Friday or Saturday because it's usually going out. So maybe like. I'd probably go over my limit just on those days anyway and then like maybe a glass of wine during the week with dinner. I try not to smoke. But I do occasionally, but I don't take it. I wanna talk to my mum because she also suffers from or she's suffered from like depression in the past. I didn't think that it was that I was suffering from actual depression because it just seems to be manifesting as as total as just stress the whole time. But I did talk to my mum guys, if I haven't thought any, she really recommended that I come to the GP, but I haven't sought any other. Special. Yeah, I think, Yeah, I think so. I've never done that before, but yeah. OK. Yeah.  OK.  OK. OK. That's great, I look forward to reading it. OK, OK. OK, I'll call them up. Thank you so much. Have a good day, bye.",
+  "wer_vs_manual": 0.149
+ },
+ "linguagem": {
+  "fonte": "azure_cache",
+  "provedor": "azure_language",
+  "sentimento": "mixed",
+  "scores": {
+   "positive": 0.205,
+   "neutral": 0.16,
+   "negative": 0.635
+  },
+  "frases_chave": [
+   "head office team",
+   "brand new sector",
+   "rapid heart beating",
+   "past two months",
+   "Valerie Cole",
+   "64 Cliveden Place",
+   "South Wimbledon",
+   "fashion retailer",
+   "significant changes",
+   "past sort",
+   "Two things",
+   "public transport",
+   "new job",
+   "heart attack",
+   "heart problem"
+  ],
+  "entidades": [
+   {
+    "texto": "19th of September 1993",
+    "categoria": "Date",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "really",
+    "categoria": "ConditionQualifier",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "anxious",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Anxiety"
+   },
+   {
+    "texto": "past few months",
+    "categoria": "Time",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "nervous",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Nervousness"
+   },
+   {
+    "texto": "every morning",
+    "categoria": "Frequency",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "worry",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Worried"
+   },
+   {
+    "texto": "anxiety",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Anxiety"
+   },
+   {
+    "texto": "GP",
+    "categoria": "HealthcareProfession",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "two months",
+    "categoria": "Time",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "stressful",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "stressful"
+   },
+   {
+    "texto": "past two months",
+    "categoria": "Time",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "A fashion retailer",
+    "categoria": "Employment",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "head",
+    "categoria": "BodyStructure",
+    "negada": false,
+    "normalizado": "Head"
+   },
+   {
+    "texto": "never worked",
+    "categoria": "Employment",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "retail",
+    "categoria": "Employment",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "doing well",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "Right",
+    "categoria": "Direction",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "stressed",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Stress"
+   },
+   {
+    "texto": "worried",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Worried"
+   },
+   {
+    "texto": "get to sleep",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "hours",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Hour"
+   },
+   {
+    "texto": "hours",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Hour"
+   },
+   {
+    "texto": "hours",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Hour"
+   },
+   {
+    "texto": "lying awake",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "all night",
+    "categoria": "Time",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "heart",
+    "categoria": "BodyStructure",
+    "negada": false,
+    "normalizado": "Heart"
+   },
+   {
+    "texto": "racing",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Race:Type:Pt:^Patient:Nom"
+   },
+   {
+    "texto": "panicking",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Panic"
+   },
+   {
+    "texto": "alarm",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Alarm (not alarm reaction)"
+   },
+   {
+    "texto": "heart is racing",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "day",
+    "categoria": "Time",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "heart was racing so much",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "heart attack",
+    "categoria": "Diagnosis",
+    "negada": false,
+    "normalizado": "Myocardial Infarction"
+   },
+   {
+    "texto": "morning",
+    "categoria": "Time",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "feel like I'm even",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "shallow sleep",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "3/4 hours",
+    "categoria": "Time",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "significant",
+    "categoria": "ConditionQualifier",
+    "negada": true,
+    "normalizado": null
+   },
+   {
+    "texto": "eating",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Eating"
+   },
+   {
+    "texto": "much differently",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "down",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Down Syndrome"
+   },
+   {
+    "texto": "morning",
+    "categoria": "Time",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "overslept",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Oversleeps"
+   },
+   {
+    "texto": "tired",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Feeling tired"
+   },
+   {
+    "texto": "panic",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Panic"
+   },
+   {
+    "texto": "constant",
+    "categoria": "Course",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "rapid",
+    "categoria": "ConditionQualifier",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "heart beating",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "heart process"
+   },
+   {
+    "texto": "stressful",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "stressful"
+   },
+   {
+    "texto": "stress",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Stress"
+   },
+   {
+    "texto": "heart problem",
+    "categoria": "Diagnosis",
+    "negada": false,
+    "normalizado": "HEART PROBLEM"
+   },
+   {
+    "texto": "couple of minutes",
+    "categoria": "Time",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "day",
+    "categoria": "Time",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "holding my hand on my chest",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "10 minutes",
+    "categoria": "Time",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "couple of months",
+    "categoria": "Time",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "painful",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Pain"
+   },
+   {
+    "texto": "heart",
+    "categoria": "BodyStructure",
+    "negada": false,
+    "normalizado": "Heart"
+   },
+   {
+    "texto": "heart",
+    "categoria": "BodyStructure",
+    "negada": false,
+    "normalizado": "Heart"
+   },
+   {
+    "texto": "fast",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Fasting"
+   },
+   {
+    "texto": "enjoyment",
+    "categoria": "SymptomOrSign",
+    "negada": true,
+    "normalizado": "Enjoyment"
+   },
+   {
+    "texto": "tired",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Feeling tired"
+   },
+   {
+    "texto": "stressful",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "stressful"
+   },
+   {
+    "texto": "friends",
+    "categoria": "FamilyRelation",
+    "negada": false,
+    "normalizado": "friend"
+   },
+   {
+    "texto": "running",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "running (history)"
+   },
+   {
+    "texto": "tension",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Tension"
+   },
+   {
+    "texto": "every morning",
+    "categoria": "Frequency",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "sick",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Illness (finding)"
+   },
+   {
+    "texto": "good",
+    "categoria": "SymptomOrSign",
+    "negada": true,
+    "normalizado": "Good"
+   },
+   {
+    "texto": "worse",
+    "categoria": "Course",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "worse",
+    "categoria": "Course",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "past couple of months",
+    "categoria": "Time",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "tension",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Tension"
+   },
+   {
+    "texto": "bit",
+    "categoria": "ConditionQualifier",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "anxiety",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Anxiety"
+   },
+   {
+    "texto": "bad",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Bad"
+   },
+   {
+    "texto": "down",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Down Syndrome"
+   },
+   {
+    "texto": "worried",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Worried"
+   },
+   {
+    "texto": "down",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Down Syndrome"
+   },
+   {
+    "texto": "unhappy",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Feeling unhappy"
+   },
+   {
+    "texto": "suicidal thoughts",
+    "categoria": "SymptomOrSign",
+    "negada": true,
+    "normalizado": "Feeling suicidal (finding)"
+   },
+   {
+    "texto": "thoughts that have",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "extreme",
+    "categoria": "ConditionQualifier",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "family",
+    "categoria": "FamilyRelation",
+    "negada": false,
+    "normalizado": "Family"
+   },
+   {
+    "texto": "my parents",
+    "categoria": "LivingStatus",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "parents",
+    "categoria": "FamilyRelation",
+    "negada": false,
+    "normalizado": "parent"
+   },
+   {
+    "texto": "week",
+    "categoria": "Time",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "parents",
+    "categoria": "FamilyRelation",
+    "negada": false,
+    "normalizado": "parent"
+   },
+   {
+    "texto": "retired",
+    "categoria": "Employment",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "glass",
+    "categoria": "SubstanceUseAmount",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "wine",
+    "categoria": "SubstanceUse",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "during the week with dinner",
+    "categoria": "Frequency",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "mum",
+    "categoria": "FamilyRelation",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "depression",
+    "categoria": "Diagnosis",
+    "negada": false,
+    "normalizado": "Mental Depression"
+   },
+   {
+    "texto": "depression",
+    "categoria": "Diagnosis",
+    "negada": false,
+    "normalizado": "Mental Depression"
+   },
+   {
+    "texto": "stress",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Stress"
+   },
+   {
+    "texto": "mum",
+    "categoria": "FamilyRelation",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "GP",
+    "categoria": "HealthcareProfession",
+    "negada": false,
+    "normalizado": null
+   }
+  ],
+  "relacoes": [
+   {
+    "tipo": "QualifierOfCondition",
+    "papeis": {
+     "Qualifier": "really",
+     "Condition": "anxious"
+    }
+   },
+   {
+    "tipo": "TimeOfCondition",
+    "papeis": {
+     "Condition": "anxious",
+     "Time": "past few months"
+    }
+   },
+   {
+    "tipo": "FrequencyOfCondition",
+    "papeis": {
+     "Condition": "nervous",
+     "Frequency": "every morning"
+    }
+   },
+   {
+    "tipo": "TimeOfCondition",
+    "papeis": {
+     "Condition": "stressful",
+     "Time": "past two months"
+    }
+   },
+   {
+    "tipo": "TimeOfCondition",
+    "papeis": {
+     "Condition": "lying awake",
+     "Time": "all night"
+    }
+   },
+   {
+    "tipo": "BodySiteOfCondition",
+    "papeis": {
+     "BodyStructure": "heart",
+     "Condition": "racing"
+    }
+   },
+   {
+    "tipo": "TimeOfCondition",
+    "papeis": {
+     "Time": "day",
+     "Condition": "heart was racing so much"
+    }
+   },
+   {
+    "tipo": "TimeOfCondition",
+    "papeis": {
+     "Condition": "heart attack",
+     "Time": "morning"
+    }
+   },
+   {
+    "tipo": "TimeOfCondition",
+    "papeis": {
+     "Time": "morning",
+     "Condition": "overslept"
+    }
+   },
+   {
+    "tipo": "TimeOfCondition",
+    "papeis": {
+     "Time": "morning",
+     "Condition": "tired"
+    }
+   },
+   {
+    "tipo": "CourseOfCondition",
+    "papeis": {
+     "Course": "constant",
+     "Condition": "heart beating"
+    }
+   },
+   {
+    "tipo": "QualifierOfCondition",
+    "papeis": {
+     "Qualifier": "rapid",
+     "Condition": "heart beating"
+    }
+   },
+   {
+    "tipo": "TimeOfCondition",
+    "papeis": {
+     "Time": "couple of minutes",
+     "Condition": "holding my hand on my chest"
+    }
+   },
+   {
+    "tipo": "TimeOfCondition",
+    "papeis": {
+     "Time": "day",
+     "Condition": "holding my hand on my chest"
+    }
+   },
+   {
+    "tipo": "TimeOfCondition",
+    "papeis": {
+     "Condition": "holding my hand on my chest",
+     "Time": "10 minutes"
+    }
+   },
+   {
+    "tipo": "BodySiteOfCondition",
+    "papeis": {
+     "BodyStructure": "heart",
+     "Condition": "fast"
+    }
+   },
+   {
+    "tipo": "BodySiteOfCondition",
+    "papeis": {
+     "BodyStructure": "heart",
+     "Condition": "fast"
+    }
+   },
+   {
+    "tipo": "QualifierOfCondition",
+    "papeis": {
+     "Qualifier": "bit",
+     "Condition": "anxiety"
+    }
+   },
+   {
+    "tipo": "QualifierOfCondition",
+    "papeis": {
+     "Condition": "thoughts that have",
+     "Qualifier": "extreme"
+    }
+   },
+   {
+    "tipo": "TimeOfEvent",
+    "papeis": {
+     "Time": "week",
+     "Event": "retired"
+    }
+   }
+  ]
+ },
+ "sinais_alarme": {
+  "palpitacao": {
+   "severidade": 1,
+   "mencoes": [
+    "heart is racing"
+   ]
+  },
+  "fadiga": {
+   "severidade": 1,
+   "mencoes": [
+    "tired",
+    "tired"
+   ]
+  }
+ },
+ "acustica": {
+  "taxa_fala_sil_s": 3.3324,
+  "taxa_articulacao_sil_s": 4.8408,
+  "pausas_por_min": 31.7922,
+  "pausa_media_s": 0.5857,
+  "pausas_longas_por_min": 1.6144,
+  "frase_media_s": 1.2941,
+  "proporcao_fonacao": 0.6884,
+  "f0_media_hz": 214.3499,
+  "f0_desvio_st": 3.9533,
+  "f0_amplitude_st": 9.8776,
+  "jitter_local_pct": 1.6111,
+  "shimmer_local_pct": 12.9751,
+  "hnr_db": 12.3523,
+  "cpps_db": 4.628,
+  "intensidade_media_db": -24.7033,
+  "intensidade_tendencia_db_min": -0.018,
+  "duracao_fala_s": 483.14
+ },
+ "wav2vec2": true,
+ "modelos_voz": {
+  "disartria": {
+   "prob": 0.108,
+   "limiar": 0.568,
+   "calibrado": true
+  },
+  "respiratorio": {
+   "prob": 0.212,
+   "limiar": 0.614,
+   "calibrado": true
+  },
+  "fadiga": {
+   "prob": 0.369,
+   "limiar": 0.622,
+   "calibrado": true
+  }
+ },
+ "eventos": [
+  {
+   "paciente_id": "PRIMOCK-day5_consultation03",
+   "origem": "audio",
+   "tipo": "sintoma_relatado_palpitacao",
+   "severidade": 1,
+   "t": 773.93,
+   "descricao": "Paciente relata palpitacao: heart is racing",
+   "detector": "azure",
+   "evidencias": {
+    "mencoes": [
+     "heart is racing"
+    ],
+    "fonte_texto": "azure_cache",
+    "fonte_stt": "azure_cache"
+   },
+   "duracao_s": 0.0,
+   "id": "EVT-670644B8EE",
+   "severidade_rotulo": "atenção"
+  },
+  {
+   "paciente_id": "PRIMOCK-day5_consultation03",
+   "origem": "audio",
+   "tipo": "sintoma_relatado_fadiga",
+   "severidade": 1,
+   "t": 773.93,
+   "descricao": "Paciente relata fadiga: tired",
+   "detector": "azure",
+   "evidencias": {
+    "mencoes": [
+     "tired",
+     "tired"
+    ],
+    "fonte_texto": "azure_cache",
+    "fonte_stt": "azure_cache"
+   },
+   "duracao_s": 0.0,
+   "id": "EVT-58F0886949",
+   "severidade_rotulo": "atenção"
+  }
+ ],
+ "queixa_principal": "I'm feeling very anxious"
+}

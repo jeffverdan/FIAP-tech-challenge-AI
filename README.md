@@ -29,7 +29,7 @@ O fio condutor das 4 fases é um problema real de saúde da mulher: **diagnósti
 | **Fase 1** | [`FASE_1/`](./FASE_1) | ✅ Concluída | EDA, pré-processamento e modelos de classificação (ML clássico) |
 | **Fase 2** | [`FASE_2/`](./FASE_2) | ✅ Concluída | Otimização de hiperparâmetros com Algoritmos Genéticos + interpretação via LLM |
 | **Fase 3** | [`FASE_3/`](./FASE_3) | ✅ Concluída | Fine-tuning de LLM (LoRA) + assistente médico com LangChain/LangGraph |
-| **Fase 4** | _a definir_ | ⏳ Planejada | — |
+| **Fase 4** | [`FASE_4/`](./FASE_4) | 🚧 Em entrega | Monitoramento multimodal (vídeo, áudio, sinais vitais, prescrições) + Azure Speech/Language + detecção de anomalias |
 | **Projeto Final** | _a definir_ | ⏳ Planejada | Integração das 4 fases em uma solução completa |
 
 ### Fase 1 — Diagnóstico via Machine Learning
@@ -62,6 +62,26 @@ eletrônico, emite alertas por severidade e exige validação humana para toda c
 - **Destaques:** anonimização com pseudonimização HMAC e portão de qualidade anti-PII; guardrails determinísticos que impedem prescrição, fechamento de diagnóstico e alteração de prontuário; trilha de auditoria append-only com um evento por nó do grafo; explicabilidade por citação de protocolo, versão e seção; 107 testes automatizados; modo fallback que roda tudo sem GPU
 - 📄 [README da Fase 3](./FASE_3/README.md) · [Relatório técnico](./FASE_3/docs/relatorio_tecnico.md) · [Arquitetura](./FASE_3/docs/arquitetura.md)
 
+### Fase 4 — Monitoramento Multimodal com Detecção de Anomalias
+
+O hospital passa a **monitorar o paciente continuamente**. Os dados vêm de quatro fontes: sinais
+vitais, prescrições, áudio de consultas e vídeo do quarto e da fisioterapia. Cada detector emite
+eventos padronizados, e um **motor de fusão determinístico** cruza as modalidades: por exemplo,
+SpO₂ caindo no monitor **e** o paciente dizendo que está sem ar resultam em *insuficiência
+respiratória provável*. Esse motor dispara alertas com justificativa, destinatários e prazo.
+
+- **Stack:** Python, Azure AI Speech (STT), Azure AI Language (Text Analytics for Health + sentimento), YOLOv8-pose/YOLOv8, OpenPose, wav2vec 2.0, Praat/librosa, scikit-learn (Isolation Forest, Gradient Boosting), Streamlit, pytest
+- **Dados públicos:** VitalDB, MIMIC-IV demo, PriMock57, TORGO, Coswara, REHAB24-6, UR Fall
+- **Destaques:**
+  - preditor de hipotensão em 10 min com AUROC de 0,79;
+  - 82% dos episódios graves antecipados, em mediana 6 min antes do alarme;
+  - detecção de queda com latência de 0,97 s;
+  - YOLOv8-pose × OpenPose comparados contra *motion capture*;
+  - armadilhas metodológicas tratadas (vazamento de falante, confusão por lote, mudança de domínio);
+  - conta Azure trocável em 1 comando, com cache de respostas para *replay*;
+  - dashboard em tempo real.
+- 📄 [README da Fase 4](./FASE_4/README.md) · [Relatório técnico](./FASE_4/docs/relatorio_tecnico.md) · [Roteiro do vídeo](./FASE_4/docs/roteiro_video.md)
+
 ---
 
 ## Como navegar
@@ -73,7 +93,7 @@ tech-challenge-group-62/
 ├── FASE_1/    # ML clássico — diagnóstico de PCOS
 ├── FASE_2/    # Otimização genética + LLM
 ├── FASE_3/    # Assistente médico: fine-tuning LoRA + LangChain/LangGraph
-├── FASE_4/    # (em breve)
+├── FASE_4/    # Monitoramento multimodal: vídeo, áudio, sinais vitais + Azure
 └── PROJETO_FINAL/  # (em breve)
 ```
 

@@ -1,0 +1,396 @@
+{
+ "paciente_id": "PRIMOCK-day2_consultation09",
+ "audio": "day2_consultation09_patient.wav",
+ "stt": {
+  "fonte": "azure_cache",
+  "provedor": "azure_speech",
+  "segmentos": 51,
+  "palavras": 328,
+  "texto": "Hello there. Good afternoon. This is Jack. Hi there. Yes, I my name is Jack Armani. And my date of birth is. 12 August 1958. Yes, I am. I am so I woke up this morning. And um. Hello. Yeah, so I'm a bit worried because I woke up this morning about an hour ago and I couldn't move my left arm anymore. Well like I feel no pain but just can't move it. Yes. No, no, it's it's really the first time. Uh, no. Uh, everything as usual. No. MMM not really, the the arm feels fine apart from me not be able to move it. No, but I feel a bit of tingling on the left side of my face. Since I woke up since I started to feel the since the the arm really stopped moving. So an hour ago.  Not really. It's just. Having like a bit of issues like I was trying to drink earlier and I drew both a bit and and tingling. On on the left side. Yeah. Yeah, it feels a bit harder. It's more complicated, maybe, maybe a bit more slow. I need to think more about it. No. Is this something I should be worried about? Uh, would, should I call, Would you be able to call the ambulance for me? OK. OK. OK. Thank you. Sure. I have type 2 diabetes and high blood pressure. I'm I'm taking metformin, Losartan and amlodipine. Only penicillin I believe. My dad has got heart disease. But don't I don't know more detail. Not really. Yes. Uh, I used to. I will have a few drinks over the weekend. Maybe. A couple more during the week. A beers like pints. Yes, yes, the the arm still can't move and I think the speech is getting a bit harder.  OK. OK, is there anything I should be doing now? OK. OK, I'm gonna go to the door. Thank you. But.",
+  "wer_vs_manual": 0.207
+ },
+ "linguagem": {
+  "fonte": "azure_cache",
+  "provedor": "azure_language",
+  "sentimento": "mixed",
+  "scores": {
+   "positive": 0.2,
+   "neutral": 0.18,
+   "negative": 0.63
+  },
+  "frases_chave": [
+   "high blood pressure",
+   "first time",
+   "left side",
+   "type 2 diabetes",
+   "heart disease",
+   "Jack Armani",
+   "No. MMM",
+   "left arm",
+   "afternoon",
+   "name",
+   "date",
+   "birth",
+   "pain",
+   "everything",
+   "bit"
+  ],
+  "entidades": [
+   {
+    "texto": "12 August 1958",
+    "categoria": "Date",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "morning",
+    "categoria": "Time",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "up",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Up"
+   },
+   {
+    "texto": "morning",
+    "categoria": "Time",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "an hour ago",
+    "categoria": "Time",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "move my left",
+    "categoria": "SymptomOrSign",
+    "negada": true,
+    "normalizado": null
+   },
+   {
+    "texto": "arm",
+    "categoria": "BodyStructure",
+    "negada": false,
+    "normalizado": "Upper Extremity"
+   },
+   {
+    "texto": "pain",
+    "categoria": "SymptomOrSign",
+    "negada": true,
+    "normalizado": "Pain"
+   },
+   {
+    "texto": "move",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Does move"
+   },
+   {
+    "texto": "arm",
+    "categoria": "BodyStructure",
+    "negada": false,
+    "normalizado": "Upper Extremity"
+   },
+   {
+    "texto": "feels fine",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "feeling fine"
+   },
+   {
+    "texto": "able to move",
+    "categoria": "SymptomOrSign",
+    "negada": true,
+    "normalizado": "Able to move"
+   },
+   {
+    "texto": "bit",
+    "categoria": "ConditionQualifier",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "tingling",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Has tingling sensation"
+   },
+   {
+    "texto": "left side",
+    "categoria": "Direction",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "face",
+    "categoria": "BodyStructure",
+    "negada": false,
+    "normalizado": "Face"
+   },
+   {
+    "texto": "arm",
+    "categoria": "BodyStructure",
+    "negada": false,
+    "normalizado": "Upper Extremity"
+   },
+   {
+    "texto": "stopped moving",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "an hour ago",
+    "categoria": "Time",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "tingling",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Has tingling sensation"
+   },
+   {
+    "texto": "left side",
+    "categoria": "Direction",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "ambulance",
+    "categoria": "CareEnvironment",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "type 2 diabetes",
+    "categoria": "Diagnosis",
+    "negada": false,
+    "normalizado": "Diabetes Mellitus, Non-Insulin-Dependent"
+   },
+   {
+    "texto": "high blood pressure",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Hypertensive disease"
+   },
+   {
+    "texto": "metformin",
+    "categoria": "MedicationName",
+    "negada": false,
+    "normalizado": "metformin"
+   },
+   {
+    "texto": "Losartan",
+    "categoria": "MedicationName",
+    "negada": false,
+    "normalizado": "losartan"
+   },
+   {
+    "texto": "amlodipine",
+    "categoria": "MedicationName",
+    "negada": false,
+    "normalizado": "amlodipine"
+   },
+   {
+    "texto": "penicillin",
+    "categoria": "Allergen",
+    "negada": false,
+    "normalizado": "penicillins"
+   },
+   {
+    "texto": "dad",
+    "categoria": "FamilyRelation",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "heart disease",
+    "categoria": "Diagnosis",
+    "negada": false,
+    "normalizado": "Heart Diseases"
+   },
+   {
+    "texto": "over",
+    "categoria": "Frequency",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "weekend",
+    "categoria": "Time",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "week",
+    "categoria": "Time",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "arm",
+    "categoria": "BodyStructure",
+    "negada": false,
+    "normalizado": "Upper Extremity"
+   },
+   {
+    "texto": "can't move",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "speech is getting a bit harder",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": null
+   }
+  ],
+  "relacoes": [
+   {
+    "tipo": "TimeOfCondition",
+    "papeis": {
+     "Condition": "up",
+     "Time": "morning"
+    }
+   },
+   {
+    "tipo": "TimeOfCondition",
+    "papeis": {
+     "Condition": "up",
+     "Time": "an hour ago"
+    }
+   },
+   {
+    "tipo": "BodySiteOfCondition",
+    "papeis": {
+     "Condition": "move my left",
+     "BodyStructure": "arm"
+    }
+   },
+   {
+    "tipo": "BodySiteOfCondition",
+    "papeis": {
+     "BodyStructure": "arm",
+     "Condition": "feels fine"
+    }
+   },
+   {
+    "tipo": "BodySiteOfCondition",
+    "papeis": {
+     "BodyStructure": "arm",
+     "Condition": "able to move"
+    }
+   },
+   {
+    "tipo": "QualifierOfCondition",
+    "papeis": {
+     "Qualifier": "bit",
+     "Condition": "tingling"
+    }
+   },
+   {
+    "tipo": "BodySiteOfCondition",
+    "papeis": {
+     "Condition": "tingling",
+     "BodyStructure": "face"
+    }
+   },
+   {
+    "tipo": "DirectionOfBodyStructure",
+    "papeis": {
+     "Direction": "left side",
+     "BodyStructure": "face"
+    }
+   },
+   {
+    "tipo": "BodySiteOfCondition",
+    "papeis": {
+     "BodyStructure": "arm",
+     "Condition": "stopped moving"
+    }
+   },
+   {
+    "tipo": "BodySiteOfCondition",
+    "papeis": {
+     "BodyStructure": "arm",
+     "Condition": "can't move"
+    }
+   }
+  ]
+ },
+ "sinais_alarme": {
+  "deficit_neurologico": {
+   "severidade": 3,
+   "mencoes": [
+    "can't move"
+   ]
+  }
+ },
+ "acustica": {
+  "taxa_fala_sil_s": 2.6659,
+  "taxa_articulacao_sil_s": 3.8762,
+  "pausas_por_min": 31.0657,
+  "pausa_media_s": 0.5966,
+  "pausas_longas_por_min": 1.3219,
+  "frase_media_s": 1.3144,
+  "proporcao_fonacao": 0.6878,
+  "f0_media_hz": 144.441,
+  "f0_desvio_st": 4.1436,
+  "f0_amplitude_st": 10.2954,
+  "jitter_local_pct": 1.8943,
+  "shimmer_local_pct": 10.6241,
+  "hnr_db": 11.3041,
+  "cpps_db": 6.8592,
+  "intensidade_media_db": -21.0714,
+  "intensidade_tendencia_db_min": 0.2854,
+  "duracao_fala_s": 181.55
+ },
+ "wav2vec2": true,
+ "modelos_voz": {
+  "disartria": {
+   "prob": 0.096,
+   "limiar": 0.568,
+   "calibrado": true
+  },
+  "respiratorio": {
+   "prob": 0.228,
+   "limiar": 0.614,
+   "calibrado": true
+  },
+  "fadiga": {
+   "prob": 0.258,
+   "limiar": 0.622,
+   "calibrado": true
+  }
+ },
+ "eventos": [
+  {
+   "paciente_id": "PRIMOCK-day2_consultation09",
+   "origem": "audio",
+   "tipo": "sintoma_relatado_deficit_neurologico",
+   "severidade": 3,
+   "t": 431.14,
+   "descricao": "Paciente relata deficit neurologico: can't move",
+   "detector": "azure",
+   "evidencias": {
+    "mencoes": [
+     "can't move"
+    ],
+    "fonte_texto": "azure_cache",
+    "fonte_stt": "azure_cache"
+   },
+   "duracao_s": 0.0,
+   "id": "EVT-7B1CAB3D4C",
+   "severidade_rotulo": "crítico"
+  }
+ ],
+ "queixa_principal": "I can't move my left arm"
+}

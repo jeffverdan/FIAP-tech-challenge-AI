@@ -1,0 +1,9 @@
+# Dados brutos dos datasets públicos (baixados por scripts/download_data.py)
+data/raw/
+# Áudios de demonstração gerados a partir de datasets (redistribuição não autorizada)
+data/processed/audio_demos/
+# Logs de execução (o dashboard recria)
+logs/
+# Pesos baixados automaticamente pelo Ultralytics
+*.pt
+.env

@@ -1,0 +1,1819 @@
+{
+ "_meta": {
+  "servico": "language",
+  "obtido_em": "2026-10-21T13:14:02+00:00",
+  "caracteres": 2354,
+  "endpoint": "https://aurora-language-b92b19.cognitiveservices.azure.com/"
+ },
+ "sentimento": {
+  "geral": "mixed",
+  "scores": {
+   "positive": 0.28,
+   "neutral": 0.22,
+   "negative": 0.51
+  },
+  "frases": [
+   {
+    "texto": "Hi, good morning. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.24,
+     "neutral": 0.76,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Nice to see you. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 1.0,
+     "neutral": 0.0,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah, sure. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.35,
+     "neutral": 0.65,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "My name is Tim Gowers and I was born in 1958 on the 8th of August. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 1.0,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah, yeah. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.06,
+     "neutral": 0.93,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Around that, yeah, about 60, yeah. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.99,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.04,
+     "neutral": 0.96,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yes, I am, yeah. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.09,
+     "neutral": 0.9,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah, I was. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.14,
+     "neutral": 0.73,
+     "negative": 0.13
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I was having a bit of chest discomfort. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.04,
+     "negative": 0.96
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "So I was doing some gardening a couple of hours ago and I felt not exactly a pain, but like a pressure on my chest. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.1,
+     "neutral": 0.44,
+     "negative": 0.46
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Feels like someone's sitting on my chest. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.05,
+     "neutral": 0.36,
+     "negative": 0.59
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "And I've noticed a bit of nausea, not no vomiting, but I'm pretty sweaty, short of breath, and it kind of feels like someone's sitting on my chest. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.03,
+     "neutral": 0.2,
+     "negative": 0.77
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "No, they're still present. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.07,
+     "neutral": 0.84,
+     "negative": 0.09
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yes. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.15,
+     "neutral": 0.84,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "OK. Sure. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.51,
+     "neutral": 0.48,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Sure. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.35,
+     "neutral": 0.64,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "It's in the middle of my chest over Yeah, my my pack. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.07,
+     "neutral": 0.89,
+     "negative": 0.04
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "So yeah, but not not necessarily to one side. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.96,
+     "negative": 0.03
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "And it's quite a diffuse pain. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.01,
+     "negative": 0.99
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah, it's, it's mainly my left arm. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.08,
+     "neutral": 0.78,
+     "negative": 0.14
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "It's feeling a little bit painful and, and in my shoulder as well. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.0,
+     "negative": 1.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Uh, yes. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.05,
+     "neutral": 0.93,
+     "negative": 0.02
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "So it started just when I was gardening. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.04,
+     "neutral": 0.94,
+     "negative": 0.02
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "So nothing that was too strenuous. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.03,
+     "neutral": 0.26,
+     "negative": 0.71
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I was just kneeling down and. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.02,
+     "neutral": 0.78,
+     "negative": 0.2
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah, wasn't running or anything. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.04,
+     "neutral": 0.27,
+     "negative": 0.69
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "It wasn't during any physical exercise. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.61,
+     "negative": 0.38
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "No, I don't. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.15,
+     "neutral": 0.75,
+     "negative": 0.1
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I I generally don't do much activity at all. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.59,
+     "negative": 0.4
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.05,
+     "neutral": 0.94,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "No, this is the first time actually. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.02,
+     "neutral": 0.89,
+     "negative": 0.09
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.05,
+     "neutral": 0.94,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Umm, yeah, it's, it's beating a bit faster now. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.1,
+     "neutral": 0.39,
+     "negative": 0.51
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I think that's because I'm a little bit stressed about the situation, but I haven't noticed it beating faster than usual. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.04,
+     "neutral": 0.69,
+     "negative": 0.27
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Today. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.99,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.06,
+     "neutral": 0.94,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "OK. Thank you. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.91,
+     "neutral": 0.09,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "No, no one's in the house at the moment. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.03,
+     "neutral": 0.41,
+     "negative": 0.57
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yes, it's open. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.27,
+     "neutral": 0.72,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah, yeah. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.05,
+     "neutral": 0.94,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Uh, yeah, I smoke a fair bit, so I smoke about 10 cigarettes a day. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.05,
+     "neutral": 0.93,
+     "negative": 0.02
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.04,
+     "neutral": 0.96,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Uh, for the past 15 years. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.99,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.05,
+     "neutral": 0.95,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah, I have high blood, blood pressure but not diabetes. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.11,
+     "neutral": 0.69,
+     "negative": 0.19
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "No. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.02,
+     "neutral": 0.83,
+     "negative": 0.15
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yes. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.2,
+     "neutral": 0.78,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yes. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.18,
+     "neutral": 0.81,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "So my father died of a heart attack and my mother had some heart problems. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.01,
+     "negative": 0.99
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "He was about my age. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.03,
+     "neutral": 0.84,
+     "negative": 0.13
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah, it's around 60, yes. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.99,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah, I drink about per week, probably about 7 or 8 pints a week. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 1.0,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Of yeah, yes. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.17,
+     "neutral": 0.82,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yes, I'm overweight, Yeah. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.08,
+     "neutral": 0.28,
+     "negative": 0.64
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.03,
+     "neutral": 0.96,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah, I live alone at the moment. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.05,
+     "neutral": 0.19,
+     "negative": 0.76
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah, it's just me in the house. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.05,
+     "neutral": 0.57,
+     "negative": 0.38
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah, yeah, I I work, yeah. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.02,
+     "neutral": 0.87,
+     "negative": 0.11
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I work as a restaurant owner, so I own a sushi shop. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.99,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.04,
+     "neutral": 0.96,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "OK. OK, Yeah. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.18,
+     "neutral": 0.79,
+     "negative": 0.02
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "OK. Yeah. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.21,
+     "neutral": 0.78,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Thank you. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.72,
+     "neutral": 0.27,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "OK. OK, no. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.22,
+     "neutral": 0.62,
+     "negative": 0.16
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yes, actually I have an allergy to aspirin. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.03,
+     "neutral": 0.03,
+     "negative": 0.94
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah, and no other allergies. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.31,
+     "neutral": 0.67,
+     "negative": 0.02
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah, it's an allergic reaction. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.03,
+     "neutral": 0.34,
+     "negative": 0.63
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "So I swallow a bit, but nothing life threatening. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.23,
+     "neutral": 0.34,
+     "negative": 0.43
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I've I sometimes even have it and it's it's a, it's a mild reaction to it. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.98,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.04,
+     "neutral": 0.95,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "OK. Oh, OK. Uh-huh. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.09,
+     "neutral": 0.89,
+     "negative": 0.02
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "OK. OK. OK, OK, sure. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.21,
+     "neutral": 0.75,
+     "negative": 0.04
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.04,
+     "neutral": 0.96,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Thank you. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.74,
+     "neutral": 0.25,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah, that's OK. OK. Thank you very much. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.98,
+     "neutral": 0.02,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Thank you.",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.73,
+     "neutral": 0.26,
+     "negative": 0.01
+    },
+    "opinioes": []
+   }
+  ]
+ },
+ "frases_chave": [
+  "good morning",
+  "Tim Gowers",
+  "left arm",
+  "physical exercise",
+  "first time",
+  "past 15 years",
+  "high blood",
+  "heart attack",
+  "heart problems",
+  "restaurant owner",
+  "sushi shop",
+  "other allergies",
+  "allergic reaction",
+  "mild reaction",
+  "one side",
+  "diffuse pain",
+  "blood pressure",
+  "chest discomfort",
+  "name",
+  "8th",
+  "August",
+  "bit",
+  "gardening",
+  "someone",
+  "nausea",
+  "vomiting",
+  "breath",
+  "middle",
+  "pack",
+  "shoulder",
+  "activity",
+  "situation",
+  "house",
+  "moment",
+  "10 cigarettes",
+  "diabetes",
+  "No.",
+  "father",
+  "mother",
+  "age",
+  "week",
+  "8 pints",
+  "allergy",
+  "aspirin",
+  "7"
+ ],
+ "entidades_saude": [
+  {
+   "texto": "born",
+   "categoria": "Diagnosis",
+   "subcategoria": null,
+   "confianca": 0.69,
+   "offset": 79,
+   "normalizado": "Childbirth",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C1148523",
+    "AOD:0000002049",
+    "CHV:0000055253",
+    "CSP:2401-7479",
+    "LCH:U005715"
+   ]
+  },
+  {
+   "texto": "1958",
+   "categoria": "Time",
+   "subcategoria": null,
+   "confianca": 0.72,
+   "offset": 87,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "bit",
+   "categoria": "ConditionQualifier",
+   "subcategoria": null,
+   "confianca": 0.59,
+   "offset": 212,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "chest discomfort",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 219,
+   "normalizado": "Chest discomfort",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0235710",
+    "CCPSS:1015284",
+    "CHV:0000023589",
+    "CST:PAIN CHEST",
+    "HPO:HP:0100749"
+   ]
+  },
+  {
+   "texto": "couple of hours ago",
+   "categoria": "Time",
+   "subcategoria": null,
+   "confianca": 0.88,
+   "offset": 269,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "pain",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 314,
+   "normalizado": "Pain",
+   "negada": true,
+   "certeza": "negativePossible",
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0030193",
+    "AOD:0000002779",
+    "BI:BI00754",
+    "CCC:Q63.0",
+    "CCPSS:0035760"
+   ]
+  },
+  {
+   "texto": "pressure on my chest",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.84,
+   "offset": 331,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "chest",
+   "categoria": "BodyStructure",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 388,
+   "normalizado": "Chest",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0817096",
+    "AOD:0000007432",
+    "CCPSS:1007001",
+    "CHV:0000049411",
+    "CSP:0468-8763"
+   ]
+  },
+  {
+   "texto": "bit",
+   "categoria": "ConditionQualifier",
+   "subcategoria": null,
+   "confianca": 0.67,
+   "offset": 414,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "nausea",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 421,
+   "normalizado": "Nausea",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0027497",
+    "AOD:0000005505",
+    "BI:BI00280",
+    "CCC:B04.1",
+    "CCPSS:1014479"
+   ]
+  },
+  {
+   "texto": "vomiting",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 436,
+   "normalizado": "Vomiting",
+   "negada": true,
+   "certeza": "negative",
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0042963",
+    "AOD:0000005506",
+    "BI:BI00287",
+    "CCC:B04.2",
+    "CCPSS:1014480"
+   ]
+  },
+  {
+   "texto": "sweaty",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 461,
+   "normalizado": "Sweaty",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0232427",
+    "CHV:0000022936",
+    "MDR:10042670",
+    "SNMI:F-42200"
+   ]
+  },
+  {
+   "texto": "short of breath",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 469,
+   "normalizado": "Dyspnea",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0013404",
+    "AOD:0000005442",
+    "BI:BI00182",
+    "CCPSS:1015304",
+    "CHV:0000004216"
+   ]
+  },
+  {
+   "texto": "feels",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.64,
+   "offset": 501,
+   "normalizado": "Feelings",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C1527305",
+    "AOD:0000006327",
+    "CHV:0000004396",
+    "CSP:2483-2589",
+    "LNC:MTHU021518"
+   ]
+  },
+  {
+   "texto": "chest",
+   "categoria": "BodyStructure",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 536,
+   "normalizado": "Chest",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0817096",
+    "AOD:0000007432",
+    "CCPSS:1007001",
+    "CHV:0000049411",
+    "CSP:0468-8763"
+   ]
+  },
+  {
+   "texto": "chest",
+   "categoria": "BodyStructure",
+   "subcategoria": null,
+   "confianca": 0.77,
+   "offset": 616,
+   "normalizado": "Chest",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0817096",
+    "AOD:0000007432",
+    "CCPSS:1007001",
+    "CHV:0000049411",
+    "CSP:0468-8763"
+   ]
+  },
+  {
+   "texto": "diffuse",
+   "categoria": "ConditionQualifier",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 708,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "pain",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 716,
+   "normalizado": "Pain",
+   "negada": false,
+   "certeza": "positivePossible",
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0030193",
+    "AOD:0000002779",
+    "BI:BI00754",
+    "CCC:Q63.0",
+    "CCPSS:0035760"
+   ]
+  },
+  {
+   "texto": "left",
+   "categoria": "Direction",
+   "subcategoria": null,
+   "confianca": 0.97,
+   "offset": 749,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "arm",
+   "categoria": "BodyStructure",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 754,
+   "normalizado": "Upper Extremity",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C1140618",
+    "AOD:0000027657",
+    "CHV:0000055073",
+    "CSP:2715-5391",
+    "CST:BODY/UE"
+   ]
+  },
+  {
+   "texto": "little bit",
+   "categoria": "ConditionQualifier",
+   "subcategoria": null,
+   "confianca": 0.83,
+   "offset": 774,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "painful",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 785,
+   "normalizado": "Pain",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0030193",
+    "AOD:0000002779",
+    "BI:BI00754",
+    "CCC:Q63.0",
+    "CCPSS:0035760"
+   ]
+  },
+  {
+   "texto": "shoulder",
+   "categoria": "BodyStructure",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 808,
+   "normalizado": "Shoulder",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0037004",
+    "AOD:0000017005",
+    "CCPSS:1017312",
+    "CHV:0000011311",
+    "CSP:4008-0088"
+   ]
+  },
+  {
+   "texto": "kneeling",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.65,
+   "offset": 922,
+   "normalizado": "Kneeling (finding)",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C1260920",
+    "CHV:0000056355",
+    "LNC:MTHU021510",
+    "MEDCIN:390566",
+    "NCI:C86563"
+   ]
+  },
+  {
+   "texto": "running",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 954,
+   "normalizado": "running (history)",
+   "negada": true,
+   "certeza": "negative",
+   "associacao": null,
+   "codigos": [
+    "UMLS:C2346414",
+    "MEDCIN:122465"
+   ]
+  },
+  {
+   "texto": "little bit",
+   "categoria": "ConditionQualifier",
+   "subcategoria": null,
+   "confianca": 0.82,
+   "offset": 1199,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "stressed",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.97,
+   "offset": 1210,
+   "normalizado": "Stress",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0038435",
+    "AOD:0000000351",
+    "BI:BI00693",
+    "CCPSS:1015101",
+    "CHV:0000011770"
+   ]
+  },
+  {
+   "texto": "Today",
+   "categoria": "Time",
+   "subcategoria": null,
+   "confianca": 0.98,
+   "offset": 1292,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "10 cigarettes",
+   "categoria": "SubstanceUseAmount",
+   "subcategoria": null,
+   "confianca": 0.89,
+   "offset": 1436,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "a day",
+   "categoria": "Frequency",
+   "subcategoria": null,
+   "confianca": 0.98,
+   "offset": 1450,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "past 15 years",
+   "categoria": "Time",
+   "subcategoria": null,
+   "confianca": 0.98,
+   "offset": 1475,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "high",
+   "categoria": "MeasurementValue",
+   "subcategoria": null,
+   "confianca": 0.94,
+   "offset": 1509,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "blood",
+   "categoria": "ExaminationName",
+   "subcategoria": null,
+   "confianca": 0.83,
+   "offset": 1514,
+   "normalizado": "Hematologic Tests",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0018941",
+    "AOD:0000007241",
+    "CHV:0000005951",
+    "CSP:0455-1241",
+    "ICPC2P:A34001"
+   ]
+  },
+  {
+   "texto": "blood pressure",
+   "categoria": "ExaminationName",
+   "subcategoria": null,
+   "confianca": 0.71,
+   "offset": 1521,
+   "normalizado": "Blood pressure determination",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0005824",
+    "AOD:0000007392",
+    "CCC:K33.1",
+    "CHV:0000002009",
+    "ICNP:46973005"
+   ]
+  },
+  {
+   "texto": "diabetes",
+   "categoria": "Diagnosis",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 1544,
+   "normalizado": "Diabetes Mellitus",
+   "negada": true,
+   "certeza": "negative",
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0011849",
+    "AIR:DIABT",
+    "AOD:0000005999",
+    "BI:BI00008",
+    "CCPSS:1018264"
+   ]
+  },
+  {
+   "texto": "father",
+   "categoria": "FamilyRelation",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 1574,
+   "normalizado": "Father (person)",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0015671",
+    "AOD:0000007055",
+    "CCPSS:0056872",
+    "CHV:0000004913",
+    "CSP:1124-5492"
+   ]
+  },
+  {
+   "texto": "died",
+   "categoria": "Diagnosis",
+   "subcategoria": null,
+   "confianca": 0.87,
+   "offset": 1581,
+   "normalizado": "Death (finding)",
+   "negada": false,
+   "certeza": null,
+   "associacao": "other",
+   "codigos": [
+    "UMLS:C1306577",
+    "CHV:0000057892",
+    "ICPC2ICD10ENG:MTHU023756",
+    "LNC:LA7424-0",
+    "MDR:10011906"
+   ]
+  },
+  {
+   "texto": "heart attack",
+   "categoria": "Diagnosis",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 1591,
+   "normalizado": "Myocardial Infarction",
+   "negada": false,
+   "certeza": null,
+   "associacao": "other",
+   "codigos": [
+    "UMLS:C0027051",
+    "AIR:MYCNF",
+    "AOD:0000005332",
+    "BI:BI00102",
+    "CCPSS:1018028"
+   ]
+  },
+  {
+   "texto": "mother",
+   "categoria": "FamilyRelation",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 1611,
+   "normalizado": "Mother (person)",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0026591",
+    "AOD:0000027173",
+    "CCPSS:U000286",
+    "CHV:0000008266",
+    "CSP:1124-5492"
+   ]
+  },
+  {
+   "texto": "heart problems",
+   "categoria": "Diagnosis",
+   "subcategoria": null,
+   "confianca": 0.92,
+   "offset": 1627,
+   "normalizado": "HEART PROBLEM",
+   "negada": false,
+   "certeza": null,
+   "associacao": "other",
+   "codigos": [
+    "UMLS:C0795691",
+    "CCPSS:0037066",
+    "CHV:0000048907",
+    "ICPC2P:K29007"
+   ]
+  },
+  {
+   "texto": "60",
+   "categoria": "MeasurementValue",
+   "subcategoria": null,
+   "confianca": 0.64,
+   "offset": 1682,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "drink",
+   "categoria": "SubstanceUse",
+   "subcategoria": null,
+   "confianca": 0.93,
+   "offset": 1699,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "about per week",
+   "categoria": "Frequency",
+   "subcategoria": null,
+   "confianca": 0.79,
+   "offset": 1705,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "7 or 8 pints",
+   "categoria": "SubstanceUseAmount",
+   "subcategoria": null,
+   "confianca": 0.88,
+   "offset": 1736,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "a week",
+   "categoria": "Frequency",
+   "subcategoria": null,
+   "confianca": 0.92,
+   "offset": 1749,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "overweight",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.7,
+   "offset": 1780,
+   "normalizado": "Overweight",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0497406",
+    "AOD:0000022957",
+    "BI:BI00002",
+    "CHV:0000037453",
+    "COSTAR:545"
+   ]
+  },
+  {
+   "texto": "alone",
+   "categoria": "LivingStatus",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 1817,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "work",
+   "categoria": "Employment",
+   "subcategoria": null,
+   "confianca": 0.84,
+   "offset": 1901,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "a restaurant owner",
+   "categoria": "Employment",
+   "subcategoria": null,
+   "confianca": 0.93,
+   "offset": 1909,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "aspirin",
+   "categoria": "Allergen",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 2040,
+   "normalizado": "aspirin",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0004057",
+    "AOD:0000028840",
+    "ATC:B01AC06",
+    "CCPSS:0061721",
+    "CHV:0000001530"
+   ]
+  },
+  {
+   "texto": "allergies",
+   "categoria": "Diagnosis",
+   "subcategoria": null,
+   "confianca": 0.88,
+   "offset": 2068,
+   "normalizado": "Hypersensitivity",
+   "negada": true,
+   "certeza": "negative",
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0020517",
+    "AOD:0000023559",
+    "BI:BI00743",
+    "CCPSS:0026478",
+    "CHV:0000057872"
+   ]
+  },
+  {
+   "texto": "allergic reaction",
+   "categoria": "Diagnosis",
+   "subcategoria": null,
+   "confianca": 0.8,
+   "offset": 2093,
+   "normalizado": "Allergic Reaction",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C1527304",
+    "CCPSS:1003235",
+    "CCS:253",
+    "CCSR_ICD10CM:INJ031",
+    "ICD10CM:T78.40"
+   ]
+  },
+  {
+   "texto": "swallow",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 2117,
+   "normalizado": "Ability to swallow",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0566355",
+    "CHV:0000039992",
+    "NOC:230310",
+    "RCD:Xa4JU",
+    "SNOMEDCT_US:288935001"
+   ]
+  },
+  {
+   "texto": "threatening",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.64,
+   "offset": 2149,
+   "normalizado": null,
+   "negada": true,
+   "certeza": "negative",
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "mild",
+   "categoria": "ConditionQualifier",
+   "subcategoria": null,
+   "confianca": 0.82,
+   "offset": 2216,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "reaction",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.56,
+   "offset": 2221,
+   "normalizado": "Reaction",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0443286",
+    "CCPSS:0019926",
+    "CHV:0000035297",
+    "LNC:LP73228-6",
+    "NCI:C25637"
+   ]
+  }
+ ],
+ "relacoes_saude": [
+  {
+   "tipo": "TimeOfCondition",
+   "papeis": {
+    "Condition": "born",
+    "Time": "1958"
+   }
+  },
+  {
+   "tipo": "QualifierOfCondition",
+   "papeis": {
+    "Qualifier": "bit",
+    "Condition": "chest discomfort"
+   }
+  },
+  {
+   "tipo": "TimeOfCondition",
+   "papeis": {
+    "Time": "couple of hours ago",
+    "Condition": "pain"
+   }
+  },
+  {
+   "tipo": "TimeOfCondition",
+   "papeis": {
+    "Time": "couple of hours ago",
+    "Condition": "pressure on my chest"
+   }
+  },
+  {
+   "tipo": "QualifierOfCondition",
+   "papeis": {
+    "Qualifier": "bit",
+    "Condition": "nausea"
+   }
+  },
+  {
+   "tipo": "BodySiteOfCondition",
+   "papeis": {
+    "Condition": "feels",
+    "BodyStructure": "chest"
+   }
+  },
+  {
+   "tipo": "QualifierOfCondition",
+   "papeis": {
+    "Qualifier": "diffuse",
+    "Condition": "pain"
+   }
+  },
+  {
+   "tipo": "DirectionOfBodyStructure",
+   "papeis": {
+    "Direction": "left",
+    "BodyStructure": "arm"
+   }
+  },
+  {
+   "tipo": "QualifierOfCondition",
+   "papeis": {
+    "Qualifier": "little bit",
+    "Condition": "painful"
+   }
+  },
+  {
+   "tipo": "BodySiteOfCondition",
+   "papeis": {
+    "Condition": "painful",
+    "BodyStructure": "shoulder"
+   }
+  },
+  {
+   "tipo": "QualifierOfCondition",
+   "papeis": {
+    "Qualifier": "little bit",
+    "Condition": "stressed"
+   }
+  },
+  {
+   "tipo": "ValueOfExamination",
+   "papeis": {
+    "Value": "high",
+    "Examination": "blood"
+   }
+  },
+  {
+   "tipo": "ValueOfExamination",
+   "papeis": {
+    "Value": "high",
+    "Examination": "blood pressure"
+   }
+  },
+  {
+   "tipo": "FrequencyOfSubstanceUse",
+   "papeis": {
+    "SubstanceUse": "drink",
+    "Frequency": "about per week"
+   }
+  },
+  {
+   "tipo": "AmountOfSubstanceUse",
+   "papeis": {
+    "Use": "drink",
+    "AmountUse": "7 or 8 pints"
+   }
+  },
+  {
+   "tipo": "FrequencyOfSubstanceUse",
+   "papeis": {
+    "SubstanceUse": "drink",
+    "Frequency": "a week"
+   }
+  },
+  {
+   "tipo": "QualifierOfCondition",
+   "papeis": {
+    "Qualifier": "mild",
+    "Condition": "reaction"
+   }
+  }
+ ],
+ "idioma": "en",
+ "provedor": "azure_language"
+}

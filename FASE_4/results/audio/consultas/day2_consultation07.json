@@ -1,0 +1,608 @@
+{
+ "paciente_id": "PRIMOCK-day2_consultation07",
+ "audio": "day2_consultation07_patient.wav",
+ "stt": {
+  "fonte": "azure_cache",
+  "provedor": "azure_speech",
+  "segmentos": 63,
+  "palavras": 464,
+  "texto": "Hi, good morning. Nice to see you. Yeah, sure. My name is Tim Gowers and I was born in 1958 on the 8th of August. Yeah, yeah. Around that, yeah, about 60, yeah. Yeah. Yes, I am, yeah. Yeah, I was. I was having a bit of chest discomfort. So I was doing some gardening a couple of hours ago and I felt not exactly a pain, but like a pressure on my chest. Feels like someone's sitting on my chest. And I've noticed a bit of nausea, not no vomiting, but I'm pretty sweaty, short of breath, and it kind of feels like someone's sitting on my chest. No, they're still present. Yes. OK. Sure. Sure. It's in the middle of my chest over Yeah, my my pack. So yeah, but not not necessarily to one side. And it's quite a diffuse pain. Yeah, it's, it's mainly my left arm. It's feeling a little bit painful and, and in my shoulder as well. Uh, yes. So it started just when I was gardening. So nothing that was too strenuous. I was just kneeling down and. Yeah, wasn't running or anything. It wasn't during any physical exercise. No, I don't. I I generally don't do much activity at all. Yeah. No, this is the first time actually. Yeah. Umm, yeah, it's, it's beating a bit faster now. I think that's because I'm a little bit stressed about the situation, but I haven't noticed it beating faster than usual. Today. Yeah. OK. Thank you. No, no one's in the house at the moment. Yes, it's open. Yeah, yeah. Uh, yeah, I smoke a fair bit, so I smoke about 10 cigarettes a day. Yeah. Uh, for the past 15 years. Yeah. Yeah, I have high blood, blood pressure but not diabetes. No. Yes. Yes. So my father died of a heart attack and my mother had some heart problems. He was about my age. Yeah, it's around 60, yes. Yeah, I drink about per week, probably about 7 or 8 pints a week. Of yeah, yes. Yes, I'm overweight, Yeah. Yeah. Yeah, I live alone at the moment. Yeah, it's just me in the house. Yeah, yeah, I I work, yeah. I work as a restaurant owner, so I own a sushi shop. Yeah. OK. OK, Yeah. OK. Yeah. Thank you. OK. OK, no. Yes, actually I have an allergy to aspirin. Yeah, and no other allergies. Yeah, it's an allergic reaction. So I swallow a bit, but nothing life threatening. I've I sometimes even have it and it's it's a, it's a mild reaction to it. Yeah. OK. Oh, OK. Uh-huh. OK. OK. OK, OK, sure. Yeah. Thank you. Yeah, that's OK. OK. Thank you very much. Thank you.",
+  "wer_vs_manual": 0.198
+ },
+ "linguagem": {
+  "fonte": "azure_cache",
+  "provedor": "azure_language",
+  "sentimento": "mixed",
+  "scores": {
+   "positive": 0.28,
+   "neutral": 0.22,
+   "negative": 0.51
+  },
+  "frases_chave": [
+   "good morning",
+   "Tim Gowers",
+   "left arm",
+   "physical exercise",
+   "first time",
+   "past 15 years",
+   "high blood",
+   "heart attack",
+   "heart problems",
+   "restaurant owner",
+   "sushi shop",
+   "other allergies",
+   "allergic reaction",
+   "mild reaction",
+   "one side"
+  ],
+  "entidades": [
+   {
+    "texto": "born",
+    "categoria": "Diagnosis",
+    "negada": false,
+    "normalizado": "Childbirth"
+   },
+   {
+    "texto": "1958",
+    "categoria": "Time",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "bit",
+    "categoria": "ConditionQualifier",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "chest discomfort",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Chest discomfort"
+   },
+   {
+    "texto": "couple of hours ago",
+    "categoria": "Time",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "pain",
+    "categoria": "SymptomOrSign",
+    "negada": true,
+    "normalizado": "Pain"
+   },
+   {
+    "texto": "pressure on my chest",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "chest",
+    "categoria": "BodyStructure",
+    "negada": false,
+    "normalizado": "Chest"
+   },
+   {
+    "texto": "bit",
+    "categoria": "ConditionQualifier",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "nausea",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Nausea"
+   },
+   {
+    "texto": "vomiting",
+    "categoria": "SymptomOrSign",
+    "negada": true,
+    "normalizado": "Vomiting"
+   },
+   {
+    "texto": "sweaty",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Sweaty"
+   },
+   {
+    "texto": "short of breath",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Dyspnea"
+   },
+   {
+    "texto": "feels",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Feelings"
+   },
+   {
+    "texto": "chest",
+    "categoria": "BodyStructure",
+    "negada": false,
+    "normalizado": "Chest"
+   },
+   {
+    "texto": "chest",
+    "categoria": "BodyStructure",
+    "negada": false,
+    "normalizado": "Chest"
+   },
+   {
+    "texto": "diffuse",
+    "categoria": "ConditionQualifier",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "pain",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Pain"
+   },
+   {
+    "texto": "left",
+    "categoria": "Direction",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "arm",
+    "categoria": "BodyStructure",
+    "negada": false,
+    "normalizado": "Upper Extremity"
+   },
+   {
+    "texto": "little bit",
+    "categoria": "ConditionQualifier",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "painful",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Pain"
+   },
+   {
+    "texto": "shoulder",
+    "categoria": "BodyStructure",
+    "negada": false,
+    "normalizado": "Shoulder"
+   },
+   {
+    "texto": "kneeling",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Kneeling (finding)"
+   },
+   {
+    "texto": "running",
+    "categoria": "SymptomOrSign",
+    "negada": true,
+    "normalizado": "running (history)"
+   },
+   {
+    "texto": "little bit",
+    "categoria": "ConditionQualifier",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "stressed",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Stress"
+   },
+   {
+    "texto": "Today",
+    "categoria": "Time",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "10 cigarettes",
+    "categoria": "SubstanceUseAmount",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "a day",
+    "categoria": "Frequency",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "past 15 years",
+    "categoria": "Time",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "high",
+    "categoria": "MeasurementValue",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "blood",
+    "categoria": "ExaminationName",
+    "negada": false,
+    "normalizado": "Hematologic Tests"
+   },
+   {
+    "texto": "blood pressure",
+    "categoria": "ExaminationName",
+    "negada": false,
+    "normalizado": "Blood pressure determination"
+   },
+   {
+    "texto": "diabetes",
+    "categoria": "Diagnosis",
+    "negada": true,
+    "normalizado": "Diabetes Mellitus"
+   },
+   {
+    "texto": "father",
+    "categoria": "FamilyRelation",
+    "negada": false,
+    "normalizado": "Father (person)"
+   },
+   {
+    "texto": "died",
+    "categoria": "Diagnosis",
+    "negada": false,
+    "normalizado": "Death (finding)"
+   },
+   {
+    "texto": "heart attack",
+    "categoria": "Diagnosis",
+    "negada": false,
+    "normalizado": "Myocardial Infarction"
+   },
+   {
+    "texto": "mother",
+    "categoria": "FamilyRelation",
+    "negada": false,
+    "normalizado": "Mother (person)"
+   },
+   {
+    "texto": "heart problems",
+    "categoria": "Diagnosis",
+    "negada": false,
+    "normalizado": "HEART PROBLEM"
+   },
+   {
+    "texto": "60",
+    "categoria": "MeasurementValue",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "drink",
+    "categoria": "SubstanceUse",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "about per week",
+    "categoria": "Frequency",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "7 or 8 pints",
+    "categoria": "SubstanceUseAmount",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "a week",
+    "categoria": "Frequency",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "overweight",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Overweight"
+   },
+   {
+    "texto": "alone",
+    "categoria": "LivingStatus",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "work",
+    "categoria": "Employment",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "a restaurant owner",
+    "categoria": "Employment",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "aspirin",
+    "categoria": "Allergen",
+    "negada": false,
+    "normalizado": "aspirin"
+   },
+   {
+    "texto": "allergies",
+    "categoria": "Diagnosis",
+    "negada": true,
+    "normalizado": "Hypersensitivity"
+   },
+   {
+    "texto": "allergic reaction",
+    "categoria": "Diagnosis",
+    "negada": false,
+    "normalizado": "Allergic Reaction"
+   },
+   {
+    "texto": "swallow",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Ability to swallow"
+   },
+   {
+    "texto": "threatening",
+    "categoria": "SymptomOrSign",
+    "negada": true,
+    "normalizado": null
+   },
+   {
+    "texto": "mild",
+    "categoria": "ConditionQualifier",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "reaction",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Reaction"
+   }
+  ],
+  "relacoes": [
+   {
+    "tipo": "TimeOfCondition",
+    "papeis": {
+     "Condition": "born",
+     "Time": "1958"
+    }
+   },
+   {
+    "tipo": "QualifierOfCondition",
+    "papeis": {
+     "Qualifier": "bit",
+     "Condition": "chest discomfort"
+    }
+   },
+   {
+    "tipo": "TimeOfCondition",
+    "papeis": {
+     "Time": "couple of hours ago",
+     "Condition": "pain"
+    }
+   },
+   {
+    "tipo": "TimeOfCondition",
+    "papeis": {
+     "Time": "couple of hours ago",
+     "Condition": "pressure on my chest"
+    }
+   },
+   {
+    "tipo": "QualifierOfCondition",
+    "papeis": {
+     "Qualifier": "bit",
+     "Condition": "nausea"
+    }
+   },
+   {
+    "tipo": "BodySiteOfCondition",
+    "papeis": {
+     "Condition": "feels",
+     "BodyStructure": "chest"
+    }
+   },
+   {
+    "tipo": "QualifierOfCondition",
+    "papeis": {
+     "Qualifier": "diffuse",
+     "Condition": "pain"
+    }
+   },
+   {
+    "tipo": "DirectionOfBodyStructure",
+    "papeis": {
+     "Direction": "left",
+     "BodyStructure": "arm"
+    }
+   },
+   {
+    "tipo": "QualifierOfCondition",
+    "papeis": {
+     "Qualifier": "little bit",
+     "Condition": "painful"
+    }
+   },
+   {
+    "tipo": "BodySiteOfCondition",
+    "papeis": {
+     "Condition": "painful",
+     "BodyStructure": "shoulder"
+    }
+   },
+   {
+    "tipo": "QualifierOfCondition",
+    "papeis": {
+     "Qualifier": "little bit",
+     "Condition": "stressed"
+    }
+   },
+   {
+    "tipo": "ValueOfExamination",
+    "papeis": {
+     "Value": "high",
+     "Examination": "blood"
+    }
+   },
+   {
+    "tipo": "ValueOfExamination",
+    "papeis": {
+     "Value": "high",
+     "Examination": "blood pressure"
+    }
+   },
+   {
+    "tipo": "FrequencyOfSubstanceUse",
+    "papeis": {
+     "SubstanceUse": "drink",
+     "Frequency": "about per week"
+    }
+   },
+   {
+    "tipo": "AmountOfSubstanceUse",
+    "papeis": {
+     "Use": "drink",
+     "AmountUse": "7 or 8 pints"
+    }
+   },
+   {
+    "tipo": "FrequencyOfSubstanceUse",
+    "papeis": {
+     "SubstanceUse": "drink",
+     "Frequency": "a week"
+    }
+   },
+   {
+    "tipo": "QualifierOfCondition",
+    "papeis": {
+     "Qualifier": "mild",
+     "Condition": "reaction"
+    }
+   }
+  ]
+ },
+ "sinais_alarme": {
+  "dor_toracica": {
+   "severidade": 2,
+   "mencoes": [
+    "chest discomfort"
+   ]
+  },
+  "dispneia": {
+   "severidade": 2,
+   "mencoes": [
+    "short of breath"
+   ]
+  }
+ },
+ "acustica": {
+  "taxa_fala_sil_s": 3.018,
+  "taxa_articulacao_sil_s": 3.9219,
+  "pausas_por_min": 28.3995,
+  "pausa_media_s": 0.4794,
+  "pausas_longas_por_min": 0.2812,
+  "frase_media_s": 1.6099,
+  "proporcao_fonacao": 0.7695,
+  "f0_media_hz": 121.8904,
+  "f0_desvio_st": 4.9637,
+  "f0_amplitude_st": 13.7081,
+  "jitter_local_pct": 2.1595,
+  "shimmer_local_pct": 14.6203,
+  "hnr_db": 8.7963,
+  "cpps_db": 6.1513,
+  "intensidade_media_db": -22.5367,
+  "intensidade_tendencia_db_min": -0.5835,
+  "duracao_fala_s": 213.38
+ },
+ "wav2vec2": true,
+ "modelos_voz": {
+  "disartria": {
+   "prob": 0.022,
+   "limiar": 0.568,
+   "calibrado": true
+  },
+  "respiratorio": {
+   "prob": 0.268,
+   "limiar": 0.614,
+   "calibrado": true
+  },
+  "fadiga": {
+   "prob": 0.156,
+   "limiar": 0.622,
+   "calibrado": true
+  }
+ },
+ "eventos": [
+  {
+   "paciente_id": "PRIMOCK-day2_consultation07",
+   "origem": "audio",
+   "tipo": "sintoma_relatado_dor_toracica",
+   "severidade": 2,
+   "t": 456.95,
+   "descricao": "Paciente relata dor toracica: chest discomfort",
+   "detector": "azure",
+   "evidencias": {
+    "mencoes": [
+     "chest discomfort"
+    ],
+    "fonte_texto": "azure_cache",
+    "fonte_stt": "azure_cache"
+   },
+   "duracao_s": 0.0,
+   "id": "EVT-1D150C880F",
+   "severidade_rotulo": "urgente"
+  },
+  {
+   "paciente_id": "PRIMOCK-day2_consultation07",
+   "origem": "audio",
+   "tipo": "sintoma_relatado_dispneia",
+   "severidade": 2,
+   "t": 456.95,
+   "descricao": "Paciente relata dispneia: short of breath",
+   "detector": "azure",
+   "evidencias": {
+    "mencoes": [
+     "short of breath"
+    ],
+    "fonte_texto": "azure_cache",
+    "fonte_stt": "azure_cache"
+   },
+   "duracao_s": 0.0,
+   "id": "EVT-0236CE4766",
+   "severidade_rotulo": "urgente"
+  },
+  {
+   "paciente_id": "PRIMOCK-day2_consultation07",
+   "origem": "audio",
+   "tipo": "combinacao_critica_relatada",
+   "severidade": 3,
+   "t": 456.95,
+   "descricao": "Combinação de sinais de alarme relatada: dor torácica com dispneia",
+   "detector": "regra",
+   "evidencias": {
+    "grupos": [
+     "dispneia",
+     "dor_toracica"
+    ]
+   },
+   "duracao_s": 0.0,
+   "id": "EVT-EC0F9C53B7",
+   "severidade_rotulo": "crítico"
+  }
+ ],
+ "queixa_principal": "I'm having chest discomfort"
+}

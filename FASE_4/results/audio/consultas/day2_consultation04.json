@@ -1,0 +1,435 @@
+{
+ "paciente_id": "PRIMOCK-day2_consultation04",
+ "audio": "day2_consultation04_patient.wav",
+ "stt": {
+  "fonte": "azure_cache",
+  "provedor": "azure_speech",
+  "segmentos": 62,
+  "palavras": 325,
+  "texto": "Hello. Happy to meet you. My name is Tracy Chapman and my date of birth is. I'm 45. 15 Babylon St. W65FE. Yes. Yeah, yeah. Feeling very sort of breathless recently. Like, I don't know, whenever I like breathe deeply, I sort of catches in the right hand side of my back. Just just a day ready. Well, I've had I've got a bit of a slight fever. And and I, well I, I coughed up a bit of blood on on 2 occasions. I'm pretty sure what that means. Yeah, yeah, kind of. I sort of feel my heart beating, but other than that, no, it's fine. I'd like to know I can just sort of feel it more, you know, but I've, I've also, I've been feeling a bit like a bit tired at work. Haven't really been like exercising has been a bit difficult because I've been feeling tired. And yeah, performing performing daily activities has has been a bit harder than usual. Only after. Only for a couple of weeks or so. Yeah. With the back of my. My hand, yes. No. I work in an office, just a desk job. Yes. Track. Yeah, Methotrexate. Methotrexate that's. I've I've got SLE. No. No. No. This morning.  I've got it. Yeah. Yep. 123. 56789. At 7013.  You know, you've got very good circulation. Like that? So I did it on my laptop, so I think we're good to go. Good at resting on my laptop, but I can. Lovely. No, I feel pretty normal to me. I think. Doris.  OK.  No, no. Not that I know of, no.  No.  But we don't think I'm dying of lung cancer.  OK. Well, you know, you start coughing up blood and you think you're going to die of lung cancer, so. 45. That's good to know. Yeah. Perfect. Thank you very much.",
+  "wer_vs_manual": 0.321
+ },
+ "linguagem": {
+  "fonte": "azure_cache",
+  "provedor": "azure_language",
+  "sentimento": "mixed",
+  "scores": {
+   "positive": 0.54,
+   "neutral": 0.22,
+   "negative": 0.24
+  },
+  "frases_chave": [
+   "15 Babylon St. W65FE",
+   "right hand side",
+   "Tracy Chapman",
+   "slight fever",
+   "daily activities",
+   "desk job",
+   "good circulation",
+   "lung cancer",
+   "name",
+   "date",
+   "birth",
+   "catches",
+   "back",
+   "bit",
+   "blood"
+  ],
+  "entidades": [
+   {
+    "texto": "45",
+    "categoria": "Age",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "very sort",
+    "categoria": "ConditionQualifier",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "breathless",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Dyspnea"
+   },
+   {
+    "texto": "breathe",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "outcomes otolaryngology breathing"
+   },
+   {
+    "texto": "catches",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Does catch (finding)"
+   },
+   {
+    "texto": "right",
+    "categoria": "Direction",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "hand",
+    "categoria": "BodyStructure",
+    "negada": false,
+    "normalizado": "Hand"
+   },
+   {
+    "texto": "back",
+    "categoria": "BodyStructure",
+    "negada": false,
+    "normalizado": "Back"
+   },
+   {
+    "texto": "slight",
+    "categoria": "ConditionQualifier",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "fever",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Fever"
+   },
+   {
+    "texto": "coughed up",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "bit of blood",
+    "categoria": "ConditionQualifier",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "heart beating",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "heart process"
+   },
+   {
+    "texto": "bit",
+    "categoria": "ConditionQualifier",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "bit",
+    "categoria": "ConditionQualifier",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "tired",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Feeling tired"
+   },
+   {
+    "texto": "tired",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Feeling tired"
+   },
+   {
+    "texto": "couple of weeks",
+    "categoria": "Time",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "back",
+    "categoria": "BodyStructure",
+    "negada": false,
+    "normalizado": "Back"
+   },
+   {
+    "texto": "hand",
+    "categoria": "BodyStructure",
+    "negada": false,
+    "normalizado": "Hand"
+   },
+   {
+    "texto": "work",
+    "categoria": "Employment",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "an office",
+    "categoria": "Employment",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "desk job",
+    "categoria": "Employment",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "Methotrexate",
+    "categoria": "MedicationName",
+    "negada": false,
+    "normalizado": "methotrexate"
+   },
+   {
+    "texto": "Methotrexate",
+    "categoria": "MedicationName",
+    "negada": false,
+    "normalizado": "methotrexate"
+   },
+   {
+    "texto": "SLE",
+    "categoria": "Diagnosis",
+    "negada": false,
+    "normalizado": "Lupus Erythematosus, Systemic"
+   },
+   {
+    "texto": "This morning",
+    "categoria": "Time",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "7013",
+    "categoria": "Time",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "very good circulation",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "pretty normal to me",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "lung cancer",
+    "categoria": "Diagnosis",
+    "negada": false,
+    "normalizado": "Malignant neoplasm of lung"
+   },
+   {
+    "texto": "coughing up blood",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Hemoptysis"
+   },
+   {
+    "texto": "die",
+    "categoria": "Diagnosis",
+    "negada": false,
+    "normalizado": "Structure of diencephalon"
+   },
+   {
+    "texto": "lung cancer",
+    "categoria": "Diagnosis",
+    "negada": false,
+    "normalizado": "Malignant neoplasm of lung"
+   },
+   {
+    "texto": "Perfect",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Perfectionism"
+   }
+  ],
+  "relacoes": [
+   {
+    "tipo": "QualifierOfCondition",
+    "papeis": {
+     "Qualifier": "very sort",
+     "Condition": "breathless"
+    }
+   },
+   {
+    "tipo": "BodySiteOfCondition",
+    "papeis": {
+     "Condition": "catches",
+     "BodyStructure": "hand"
+    }
+   },
+   {
+    "tipo": "BodySiteOfCondition",
+    "papeis": {
+     "Condition": "catches",
+     "BodyStructure": "back"
+    }
+   },
+   {
+    "tipo": "DirectionOfBodyStructure",
+    "papeis": {
+     "Direction": "right",
+     "BodyStructure": "hand"
+    }
+   },
+   {
+    "tipo": "DirectionOfBodyStructure",
+    "papeis": {
+     "Direction": "right",
+     "BodyStructure": "back"
+    }
+   },
+   {
+    "tipo": "QualifierOfCondition",
+    "papeis": {
+     "Qualifier": "slight",
+     "Condition": "fever"
+    }
+   },
+   {
+    "tipo": "QualifierOfCondition",
+    "papeis": {
+     "Condition": "coughed up",
+     "Qualifier": "bit of blood"
+    }
+   },
+   {
+    "tipo": "QualifierOfCondition",
+    "papeis": {
+     "Qualifier": "bit",
+     "Condition": "tired"
+    }
+   },
+   {
+    "tipo": "QualifierOfCondition",
+    "papeis": {
+     "Qualifier": "bit",
+     "Condition": "tired"
+    }
+   }
+  ]
+ },
+ "sinais_alarme": {
+  "dispneia": {
+   "severidade": 2,
+   "mencoes": [
+    "breathless"
+   ]
+  },
+  "fadiga": {
+   "severidade": 1,
+   "mencoes": [
+    "tired",
+    "tired"
+   ]
+  },
+  "hemoptise": {
+   "severidade": 2,
+   "mencoes": [
+    "coughing up blood"
+   ]
+  }
+ },
+ "acustica": {
+  "taxa_fala_sil_s": 2.6586,
+  "taxa_articulacao_sil_s": 4.5429,
+  "pausas_por_min": 40.5483,
+  "pausa_media_s": 0.6088,
+  "pausas_longas_por_min": 1.5301,
+  "frase_media_s": 0.8579,
+  "proporcao_fonacao": 0.5852,
+  "f0_media_hz": 222.3516,
+  "f0_desvio_st": 3.8429,
+  "f0_amplitude_st": 10.335,
+  "jitter_local_pct": 1.7981,
+  "shimmer_local_pct": 13.4294,
+  "hnr_db": 9.0301,
+  "cpps_db": 4.4801,
+  "intensidade_media_db": -25.824,
+  "intensidade_tendencia_db_min": 0.0622,
+  "duracao_fala_s": 156.85
+ },
+ "wav2vec2": true,
+ "modelos_voz": {
+  "disartria": {
+   "prob": 0.052,
+   "limiar": 0.568,
+   "calibrado": true
+  },
+  "respiratorio": {
+   "prob": 0.18,
+   "limiar": 0.614,
+   "calibrado": true
+  },
+  "fadiga": {
+   "prob": 0.242,
+   "limiar": 0.622,
+   "calibrado": true
+  }
+ },
+ "eventos": [
+  {
+   "paciente_id": "PRIMOCK-day2_consultation04",
+   "origem": "audio",
+   "tipo": "sintoma_relatado_dispneia",
+   "severidade": 2,
+   "t": 573.27,
+   "descricao": "Paciente relata dispneia: breathless",
+   "detector": "azure",
+   "evidencias": {
+    "mencoes": [
+     "breathless"
+    ],
+    "fonte_texto": "azure_cache",
+    "fonte_stt": "azure_cache"
+   },
+   "duracao_s": 0.0,
+   "id": "EVT-DD39AC69EE",
+   "severidade_rotulo": "urgente"
+  },
+  {
+   "paciente_id": "PRIMOCK-day2_consultation04",
+   "origem": "audio",
+   "tipo": "sintoma_relatado_fadiga",
+   "severidade": 1,
+   "t": 573.27,
+   "descricao": "Paciente relata fadiga: tired",
+   "detector": "azure",
+   "evidencias": {
+    "mencoes": [
+     "tired",
+     "tired"
+    ],
+    "fonte_texto": "azure_cache",
+    "fonte_stt": "azure_cache"
+   },
+   "duracao_s": 0.0,
+   "id": "EVT-6BB957523C",
+   "severidade_rotulo": "atenção"
+  },
+  {
+   "paciente_id": "PRIMOCK-day2_consultation04",
+   "origem": "audio",
+   "tipo": "sintoma_relatado_hemoptise",
+   "severidade": 2,
+   "t": 573.27,
+   "descricao": "Paciente relata hemoptise: coughing up blood",
+   "detector": "azure",
+   "evidencias": {
+    "mencoes": [
+     "coughing up blood"
+    ],
+    "fonte_texto": "azure_cache",
+    "fonte_stt": "azure_cache"
+   },
+   "duracao_s": 0.0,
+   "id": "EVT-64B74AE0A2",
+   "severidade_rotulo": "urgente"
+  }
+ ],
+ "queixa_principal": "I feel breathless"
+}

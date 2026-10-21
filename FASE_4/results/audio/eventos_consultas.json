@@ -1,0 +1,349 @@
+[
+ {
+  "paciente_id": "PRIMOCK-day1_consultation06",
+  "origem": "audio",
+  "tipo": "sintoma_relatado_dispneia",
+  "severidade": 2,
+  "t": 655.95,
+  "descricao": "Paciente relata dispneia: breathless, short of breath",
+  "detector": "azure",
+  "evidencias": {
+   "mencoes": [
+    "short of breath",
+    "breathless",
+    "breathless"
+   ],
+   "fonte_texto": "azure_cache",
+   "fonte_stt": "azure_cache"
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-8680F2F205",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "PRIMOCK-day1_consultation06",
+  "origem": "audio",
+  "tipo": "sintoma_relatado_dor_toracica",
+  "severidade": 2,
+  "t": 655.95,
+  "descricao": "Paciente relata dor toracica: angina, chest pain",
+  "detector": "azure",
+  "evidencias": {
+   "mencoes": [
+    "chest pain",
+    "angina"
+   ],
+   "fonte_texto": "azure_cache",
+   "fonte_stt": "azure_cache"
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-EB390828BB",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "PRIMOCK-day1_consultation06",
+  "origem": "audio",
+  "tipo": "combinacao_critica_relatada",
+  "severidade": 3,
+  "t": 655.95,
+  "descricao": "Combinação de sinais de alarme relatada: dor torácica com dispneia",
+  "detector": "regra",
+  "evidencias": {
+   "grupos": [
+    "dispneia",
+    "dor_toracica"
+   ]
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-4B52D1E003",
+  "severidade_rotulo": "crítico"
+ },
+ {
+  "paciente_id": "PRIMOCK-day2_consultation04",
+  "origem": "audio",
+  "tipo": "sintoma_relatado_dispneia",
+  "severidade": 2,
+  "t": 573.27,
+  "descricao": "Paciente relata dispneia: breathless",
+  "detector": "azure",
+  "evidencias": {
+   "mencoes": [
+    "breathless"
+   ],
+   "fonte_texto": "azure_cache",
+   "fonte_stt": "azure_cache"
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-DD39AC69EE",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "PRIMOCK-day2_consultation04",
+  "origem": "audio",
+  "tipo": "sintoma_relatado_fadiga",
+  "severidade": 1,
+  "t": 573.27,
+  "descricao": "Paciente relata fadiga: tired",
+  "detector": "azure",
+  "evidencias": {
+   "mencoes": [
+    "tired",
+    "tired"
+   ],
+   "fonte_texto": "azure_cache",
+   "fonte_stt": "azure_cache"
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-6BB957523C",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "PRIMOCK-day2_consultation04",
+  "origem": "audio",
+  "tipo": "sintoma_relatado_hemoptise",
+  "severidade": 2,
+  "t": 573.27,
+  "descricao": "Paciente relata hemoptise: coughing up blood",
+  "detector": "azure",
+  "evidencias": {
+   "mencoes": [
+    "coughing up blood"
+   ],
+   "fonte_texto": "azure_cache",
+   "fonte_stt": "azure_cache"
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-64B74AE0A2",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "PRIMOCK-day2_consultation06",
+  "origem": "audio",
+  "tipo": "sintoma_relatado_dispneia",
+  "severidade": 2,
+  "t": 596.95,
+  "descricao": "Paciente relata dispneia: difficulty breathing",
+  "detector": "azure",
+  "evidencias": {
+   "mencoes": [
+    "difficulty breathing"
+   ],
+   "fonte_texto": "azure_cache",
+   "fonte_stt": "azure_cache"
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-40D9F4B071",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "PRIMOCK-day2_consultation07",
+  "origem": "audio",
+  "tipo": "sintoma_relatado_dor_toracica",
+  "severidade": 2,
+  "t": 456.95,
+  "descricao": "Paciente relata dor toracica: chest discomfort",
+  "detector": "azure",
+  "evidencias": {
+   "mencoes": [
+    "chest discomfort"
+   ],
+   "fonte_texto": "azure_cache",
+   "fonte_stt": "azure_cache"
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-1D150C880F",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "PRIMOCK-day2_consultation07",
+  "origem": "audio",
+  "tipo": "sintoma_relatado_dispneia",
+  "severidade": 2,
+  "t": 456.95,
+  "descricao": "Paciente relata dispneia: short of breath",
+  "detector": "azure",
+  "evidencias": {
+   "mencoes": [
+    "short of breath"
+   ],
+   "fonte_texto": "azure_cache",
+   "fonte_stt": "azure_cache"
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-0236CE4766",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "PRIMOCK-day2_consultation07",
+  "origem": "audio",
+  "tipo": "combinacao_critica_relatada",
+  "severidade": 3,
+  "t": 456.95,
+  "descricao": "Combinação de sinais de alarme relatada: dor torácica com dispneia",
+  "detector": "regra",
+  "evidencias": {
+   "grupos": [
+    "dispneia",
+    "dor_toracica"
+   ]
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-EC0F9C53B7",
+  "severidade_rotulo": "crítico"
+ },
+ {
+  "paciente_id": "PRIMOCK-day2_consultation09",
+  "origem": "audio",
+  "tipo": "sintoma_relatado_deficit_neurologico",
+  "severidade": 3,
+  "t": 431.14,
+  "descricao": "Paciente relata deficit neurologico: can't move",
+  "detector": "azure",
+  "evidencias": {
+   "mencoes": [
+    "can't move"
+   ],
+   "fonte_texto": "azure_cache",
+   "fonte_stt": "azure_cache"
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-7B1CAB3D4C",
+  "severidade_rotulo": "crítico"
+ },
+ {
+  "paciente_id": "PRIMOCK-day3_consultation03",
+  "origem": "audio",
+  "tipo": "sintoma_relatado_dispneia",
+  "severidade": 2,
+  "t": 694.24,
+  "descricao": "Paciente relata dispneia: can't breathe, short of breath, shortness of breath",
+  "detector": "azure",
+  "evidencias": {
+   "mencoes": [
+    "short of breath",
+    "can't breathe",
+    "shortness of breath"
+   ],
+   "fonte_texto": "azure_cache",
+   "fonte_stt": "azure_cache"
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-6F9CAF8B2D",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "PRIMOCK-day3_consultation03",
+  "origem": "audio",
+  "tipo": "sintoma_relatado_fadiga",
+  "severidade": 1,
+  "t": 694.24,
+  "descricao": "Paciente relata fadiga: feeling unwell",
+  "detector": "azure",
+  "evidencias": {
+   "mencoes": [
+    "feeling unwell"
+   ],
+   "fonte_texto": "azure_cache",
+   "fonte_stt": "azure_cache"
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-6BD624317C",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "PRIMOCK-day3_consultation03",
+  "origem": "audio",
+  "tipo": "sintoma_relatado_dor_toracica",
+  "severidade": 2,
+  "t": 694.24,
+  "descricao": "Paciente relata dor toracica: Cold chest pain",
+  "detector": "azure",
+  "evidencias": {
+   "mencoes": [
+    "Cold chest pain"
+   ],
+   "fonte_texto": "azure_cache",
+   "fonte_stt": "azure_cache"
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-AFD4592713",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "PRIMOCK-day3_consultation03",
+  "origem": "audio",
+  "tipo": "combinacao_critica_relatada",
+  "severidade": 3,
+  "t": 694.24,
+  "descricao": "Combinação de sinais de alarme relatada: dor torácica com dispneia",
+  "detector": "regra",
+  "evidencias": {
+   "grupos": [
+    "dispneia",
+    "dor_toracica"
+   ]
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-FEA4102A60",
+  "severidade_rotulo": "crítico"
+ },
+ {
+  "paciente_id": "PRIMOCK-day5_consultation03",
+  "origem": "audio",
+  "tipo": "sintoma_relatado_palpitacao",
+  "severidade": 1,
+  "t": 773.93,
+  "descricao": "Paciente relata palpitacao: heart is racing",
+  "detector": "azure",
+  "evidencias": {
+   "mencoes": [
+    "heart is racing"
+   ],
+   "fonte_texto": "azure_cache",
+   "fonte_stt": "azure_cache"
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-670644B8EE",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "PRIMOCK-day5_consultation03",
+  "origem": "audio",
+  "tipo": "sintoma_relatado_fadiga",
+  "severidade": 1,
+  "t": 773.93,
+  "descricao": "Paciente relata fadiga: tired",
+  "detector": "azure",
+  "evidencias": {
+   "mencoes": [
+    "tired",
+    "tired"
+   ],
+   "fonte_texto": "azure_cache",
+   "fonte_stt": "azure_cache"
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-58F0886949",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "PRIMOCK-day5_consultation09",
+  "origem": "audio",
+  "tipo": "sintoma_relatado_fadiga",
+  "severidade": 1,
+  "t": 577.12,
+  "descricao": "Paciente relata fadiga: tired",
+  "detector": "azure",
+  "evidencias": {
+   "mencoes": [
+    "tired",
+    "tired"
+   ],
+   "fonte_texto": "azure_cache",
+   "fonte_stt": "azure_cache"
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-061F5C751B",
+  "severidade_rotulo": "atenção"
+ }
+]

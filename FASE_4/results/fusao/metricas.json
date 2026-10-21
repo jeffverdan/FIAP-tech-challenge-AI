@@ -1,0 +1,129 @@
+{
+  "mimic": {
+    "internacoes_com_vitais_e_prescricao": 107,
+    "pacientes_dia": 1175.5,
+    "eventos": {
+      "vitais": 5815,
+      "prescricao": 840
+    },
+    "alertas_total": 6621,
+    "alertas_por_severidade": {
+      "atenção": 2625,
+      "urgente": 3304,
+      "crítico": 692
+    },
+    "alertas_por_paciente_dia": 5.63,
+    "eventos_suprimidos_por_repeticao": 105,
+    "alertas_fusao_por_regra": {
+      "hemodinamica_medicamentosa": 47,
+      "depressao_respiratoria_medicamentosa": 24
+    },
+    "internacoes_com_alerta_de_fusao": 44,
+    "exemplos": [
+      {
+        "regra": "hemodinamica_medicamentosa",
+        "paciente": "MIMIC-H28166872",
+        "t_h": 0.9,
+        "severidade": "urgente",
+        "titulo": "Hipotensão/bradicardia após mudança de prescrição",
+        "justificativa": [
+          "[prescricao/estatistico] Dose diária de HydrALAzine (80 mg/dia) é 8.0× a mediana hospitalar (10) — possível erro de dose",
+          "[vitais/regra] PA média < 65 mmHg (atual 62 mmHg)"
+        ]
+      },
+      {
+        "regra": "depressao_respiratoria_medicamentosa",
+        "paciente": "MIMIC-H28710730",
+        "t_h": 4.9,
+        "severidade": "crítico",
+        "titulo": "Depressão respiratória possivelmente medicamentosa",
+        "justificativa": [
+          "[prescricao/regra] Opioide + benzodiazepínico ativos: HYDROmorphone + Lorazepam — risco de depressão respiratória",
+          "[vitais/regra] SpO₂ < 92% (atual 90 %)"
+        ]
+      }
+    ]
+  },
+  "cenario": {
+    "eventos": 55,
+    "eventos_por_modalidade": {
+      "vitais": 37,
+      "prescricao": 1,
+      "audio": 3,
+      "video": 13,
+      "movimentacao": 1
+    },
+    "alertas": 40,
+    "alertas_por_severidade": {
+      "atenção": 27,
+      "urgente": 7,
+      "crítico": 6
+    },
+    "alertas_fusao": [
+      {
+        "t_min": 38.2,
+        "severidade": "crítico",
+        "titulo": "Insuficiência respiratória provável",
+        "modalidades": [
+          "audio",
+          "vitais"
+        ],
+        "justificativa": [
+          "[vitais/estatistico] Queda abrupta de frequência respiratória: 3 irpm vs. linha de base 12 (z=-4.5)",
+          "[audio/azure] Paciente relata dispneia: breathless"
+        ]
+      },
+      {
+        "t_min": 38.2,
+        "severidade": "atenção",
+        "titulo": "Fadiga com piora da execução na fisioterapia",
+        "modalidades": [
+          "audio",
+          "video"
+        ],
+        "justificativa": [
+          "[audio/azure] Paciente relata fadiga: tired",
+          "[video/pose] Repetição 22 fora do padrão esperado (8 seguidas): extensão do cotovelo no topo: 80.23° (abaixo do esperado 137.09°); altura do punho acima do ombro (× tronco): 0.04 (abaixo do esperado 0.75); amplitude de abdução do ombro: 94.28° (abaixo do esperado 143.55°)"
+        ]
+      },
+      {
+        "t_min": 48.2,
+        "severidade": "crítico",
+        "titulo": "Depressão respiratória possivelmente medicamentosa",
+        "modalidades": [
+          "prescricao",
+          "vitais"
+        ],
+        "justificativa": [
+          "[prescricao/regra] Opioide + benzodiazepínico ativos: ClonazePAM + OxyCODONE (Immediate Release) — risco de depressão respiratória",
+          "[vitais/regra] SpO₂ < 92% por ≥ 30 s (atual 85 %)"
+        ]
+      },
+      {
+        "t_min": 54.9,
+        "severidade": "crítico",
+        "titulo": "Queda com instabilidade hemodinâmica (síncope?)",
+        "modalidades": [
+          "movimentacao",
+          "vitais"
+        ],
+        "justificativa": [
+          "[movimentacao/pose] Queda detectada: descida rápida do quadril seguida de postura deitada fora do leito (tronco 81° da vertical)",
+          "[vitais/regra] PA média < 55 mmHg por ≥ 1 min (atual 50 mmHg)"
+        ]
+      }
+    ],
+    "escore_maximo": {
+      "t_min": 65.0,
+      "escore": 84.21,
+      "nivel": "vermelho",
+      "modalidades_ativas": [
+        "audio",
+        "movimentacao",
+        "prescricao",
+        "video",
+        "vitais"
+      ]
+    }
+  }
+}

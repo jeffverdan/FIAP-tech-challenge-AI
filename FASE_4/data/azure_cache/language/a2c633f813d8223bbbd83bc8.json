@@ -1,0 +1,2043 @@
+{
+ "_meta": {
+  "servico": "language",
+  "obtido_em": "2026-10-21T13:40:57+00:00",
+  "caracteres": 3612,
+  "endpoint": "https://aurora-language-b92b19.cognitiveservices.azure.com/"
+ },
+ "sentimento": {
+  "geral": "mixed",
+  "scores": {
+   "positive": 0.37,
+   "neutral": 0.13,
+   "negative": 0.49
+  },
+  "frases": [
+   {
+    "texto": "Hello. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.99,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Hi there. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.99,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah, it's Matt. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.36,
+     "neutral": 0.62,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Carter and it's 14th of August 1989. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.02,
+     "neutral": 0.98,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "And was it was the last bit. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.94,
+     "negative": 0.05
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "It's one Babylon Ave. Yes. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.06,
+     "neutral": 0.93,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "And coming I I don't really know what's been going on, but it's just aching all over for. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.03,
+     "negative": 0.96
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Definitely the last six weeks, it might have been slightly longer than that, but it's just sort of that feeling really tired, rundown. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.07,
+     "negative": 0.93
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Where are we now? ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.98,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "We just started April. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.05,
+     "neutral": 0.94,
+     "negative": 0.02
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Definitely Christmas, New Year, I felt. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.42,
+     "neutral": 0.56,
+     "negative": 0.03
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Relatively. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.03,
+     "neutral": 0.97,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Well, I think. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.11,
+     "neutral": 0.86,
+     "negative": 0.03
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "So since then, actually, yeah, I, I was on holiday in. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.11,
+     "neutral": 0.74,
+     "negative": 0.15
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Umm, in the states? ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.96,
+     "negative": 0.03
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "And yeah, it probably coincided with sometime around then end of January, start of Feb. Uh, probably a couple of weeks after I got back. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.02,
+     "neutral": 0.98,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah, had a, had a great time, very active. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.94,
+     "neutral": 0.05,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "No, not that I recall. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.75,
+     "negative": 0.23
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah, not. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.06,
+     "neutral": 0.74,
+     "negative": 0.19
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "No, the symptoms sort of all started afterwards. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.77,
+     "negative": 0.22
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Uh, no. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.04,
+     "neutral": 0.7,
+     "negative": 0.27
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "And I don't think so. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.15,
+     "neutral": 0.54,
+     "negative": 0.31
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I'm probably less hungry. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.19,
+     "negative": 0.8
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "But no, no weight change, just a bit. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.99,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah, probably slightly smaller portions or yeah, more of an effort to actually eat everything that's in front of me. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.1,
+     "neutral": 0.89,
+     "negative": 0.01
+    },
+    "opinioes": [
+     {
+      "alvo": "portions",
+      "sentimento": "negative",
+      "avaliacoes": [
+       "smaller"
+      ]
+     }
+    ]
+   },
+   {
+    "texto": "No. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.02,
+     "neutral": 0.79,
+     "negative": 0.19
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "No. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.02,
+     "neutral": 0.79,
+     "negative": 0.19
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "No, that's all fine. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.55,
+     "neutral": 0.4,
+     "negative": 0.05
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I don't have any rashes now. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.28,
+     "neutral": 0.37,
+     "negative": 0.35
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "There was, in fact, I've got a photo on my phone and if, if that's helpful, I can try and show you hang on. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.15,
+     "neutral": 0.81,
+     "negative": 0.04
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Because this, yeah, this was weird. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.06,
+     "neutral": 0.11,
+     "negative": 0.83
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "This sort of came up and then. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.05,
+     "neutral": 0.91,
+     "negative": 0.03
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Disappeared after a couple of weeks. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.0,
+     "negative": 1.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "That was the light. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.04,
+     "neutral": 0.9,
+     "negative": 0.05
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I don't know that. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.29,
+     "neutral": 0.44,
+     "negative": 0.27
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Can you see that? ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.09,
+     "neutral": 0.9,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I think sort of calf back of my car because I didn't notice it. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.94,
+     "negative": 0.05
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "My wife noticed it actually. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.05,
+     "neutral": 0.94,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Probably. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.02,
+     "neutral": 0.98,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Around. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.99,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "The end of February, the middle to end of Feb, and then it like it didn't actually cause too much itching or anything at the time and I. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.21,
+     "neutral": 0.12,
+     "negative": 0.67
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "It faded over a couple of weeks I guess. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.4,
+     "negative": 0.6
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "To be honest, that actually coincided with a bit of a sore throat I had, so possibly a little bit feverish, but I I sort of put it down to that. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.04,
+     "neutral": 0.08,
+     "negative": 0.88
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I definitely like, I do quite a lot of walking and we did quite a lot while we were out in the on holiday as well, but definitely. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.83,
+     "neutral": 0.16,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah, I mean, I don't recall anybody. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.11,
+     "neutral": 0.63,
+     "negative": 0.26
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I don't remember seeing anything bitten. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.02,
+     "neutral": 0.1,
+     "negative": 0.88
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "But you often like, yeah, as you're walking through. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.19,
+     "neutral": 0.67,
+     "negative": 0.14
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I was in shorts and boots, but you feel the other bit. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.97,
+     "negative": 0.02
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Just sort of near Yosemite. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.02,
+     "neutral": 0.98,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "No, the sort of headache may be in just generally feeling a bit crappy. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.16,
+     "negative": 0.82
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Oh, we've done that. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.24,
+     "neutral": 0.68,
+     "negative": 0.08
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I've been going to work. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.41,
+     "negative": 0.59
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I don't know how effective it's been, but yeah, I've been been. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.18,
+     "neutral": 0.54,
+     "negative": 0.28
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "And I work for a health technology company actually. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 1.0,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah, definitely sort of tired and. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.09,
+     "neutral": 0.44,
+     "negative": 0.46
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah, less energy, sort of. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.07,
+     "neutral": 0.69,
+     "negative": 0.25
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "It probably less engaged than I I would normally be. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.89,
+     "negative": 0.11
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Not as much I I don't know if it's I haven't been able to or I've just been a bit lazy with it. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.08,
+     "negative": 0.92
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I'm not exercising as much as I would normally. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.95,
+     "negative": 0.05
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Hey, I look pretty good at the moment actually. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.97,
+     "neutral": 0.03,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Like previously that has been an issue, but. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.09,
+     "neutral": 0.18,
+     "negative": 0.73
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Other than sort of physically feeling a bit. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.9,
+     "negative": 0.1
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Crappy I. Yeah, in a pretty good place. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.85,
+     "neutral": 0.06,
+     "negative": 0.09
+    },
+    "opinioes": [
+     {
+      "alvo": "place",
+      "sentimento": "positive",
+      "avaliacoes": [
+       "good"
+      ]
+     }
+    ]
+   },
+   {
+    "texto": "Yeah, sort of aching. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.03,
+     "neutral": 0.13,
+     "negative": 0.84
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Shoulders, back, hips, knees. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 1.0,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "But sort of, yeah, not any. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.02,
+     "neutral": 0.91,
+     "negative": 0.07
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "No. I mean. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.11,
+     "neutral": 0.61,
+     "negative": 0.28
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "8 GB count. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 1.0,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Asthma and hay fever if they help. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.65,
+     "neutral": 0.03,
+     "negative": 0.32
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "It's done pretty well controlled I think. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.98,
+     "neutral": 0.02,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah, I've got one of those. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.22,
+     "neutral": 0.78,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Preventative. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.26,
+     "neutral": 0.45,
+     "negative": 0.28
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "OK, yeah. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.17,
+     "neutral": 0.82,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Twice a day, but I've not used myself. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 1.0,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I I have I've been using the every day for the morning and night but not the WS or not. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 1.0,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "And identity I think. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.05,
+     "neutral": 0.94,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "One of the. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.03,
+     "neutral": 0.96,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "It might be very. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.02,
+     "neutral": 0.96,
+     "negative": 0.02
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Gerizine, can I get that from just from the pharmacy? ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.99,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Next. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.02,
+     "neutral": 0.98,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Uh. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.02,
+     "neutral": 0.89,
+     "negative": 0.09
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Sorry, occasionally that was. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.02,
+     "negative": 0.98
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Just my wife.   ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.06,
+     "neutral": 0.86,
+     "negative": 0.08
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I yeah, I'm in general happy with what? ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.88,
+     "neutral": 0.1,
+     "negative": 0.02
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "What's the infection? ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.99,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "OK. OK. OK. OK, so do the test 1st and then and that follow up we can just do over the phone again? ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.16,
+     "neutral": 0.76,
+     "negative": 0.08
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.04,
+     "neutral": 0.95,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Excellent. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.93,
+     "neutral": 0.07,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "That that's really helpful. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.98,
+     "neutral": 0.02,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Thank you very much. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 1.0,
+     "neutral": 0.0,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Oh, sorry, he broke up a bit then. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.06,
+     "neutral": 0.08,
+     "negative": 0.86
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Oh no, not no. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.15,
+     "neutral": 0.27,
+     "negative": 0.58
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "OK. Thank you. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.89,
+     "neutral": 0.11,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Bye.",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.06,
+     "neutral": 0.94,
+     "negative": 0.0
+    },
+    "opinioes": []
+   }
+  ]
+ },
+ "frases_chave": [
+  "one Babylon Ave",
+  "health technology company",
+  "last six weeks",
+  "last bit",
+  "New Year",
+  "weight change",
+  "smaller portions",
+  "sore throat",
+  "less energy",
+  "good place",
+  "8 GB count",
+  "hay fever",
+  "other bit",
+  "great time",
+  "Matt",
+  "Carter",
+  "August",
+  "April",
+  "holiday",
+  "states",
+  "sometime",
+  "end",
+  "January",
+  "Feb.",
+  "symptoms",
+  "effort",
+  "everything",
+  "front",
+  "No.",
+  "rashes",
+  "fact",
+  "photo",
+  "phone",
+  "sort",
+  "couple",
+  "light",
+  "calf",
+  "wife",
+  "February",
+  "itching",
+  "lot",
+  "shorts",
+  "boots",
+  "Yosemite",
+  "headache",
+  "moment",
+  "issue",
+  "Crappy",
+  "Shoulders",
+  "hips",
+  "knees",
+  "Asthma",
+  "morning",
+  "night",
+  "WS",
+  "identity",
+  "Gerizine",
+  "pharmacy",
+  "infection",
+  "test",
+  "Bye"
+ ],
+ "entidades_saude": [
+  {
+   "texto": "14th of August 1989",
+   "categoria": "Date",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 50,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "aching",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 196,
+   "normalizado": "Ache",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0234238",
+    "CHV:0000023290",
+    "CST:PAIN",
+    "MDR:10000424",
+    "MEDCIN:283284"
+   ]
+  },
+  {
+   "texto": "last six weeks",
+   "categoria": "Time",
+   "subcategoria": null,
+   "confianca": 0.98,
+   "offset": 232,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "tired",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 336,
+   "normalizado": "Feeling tired",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0849970",
+    "CCPSS:1017082",
+    "CHV:0000049813",
+    "ICPC2P:A04012",
+    "MEDCIN:115277"
+   ]
+  },
+  {
+   "texto": "rundown",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.87,
+   "offset": 343,
+   "normalizado": "rundown",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0848283",
+    "CHV:0000049641",
+    "ICPC2P:A04018"
+   ]
+  },
+  {
+   "texto": "April",
+   "categoria": "Time",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 386,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "of January",
+   "categoria": "Time",
+   "subcategoria": null,
+   "confianca": 0.83,
+   "offset": 597,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "Feb",
+   "categoria": "Time",
+   "subcategoria": null,
+   "confianca": 0.97,
+   "offset": 618,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "couple of weeks",
+   "categoria": "Time",
+   "subcategoria": null,
+   "confianca": 0.95,
+   "offset": 638,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "symptoms",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.98,
+   "offset": 758,
+   "normalizado": "Symptoms",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C1457887",
+    "AOD:0000004363",
+    "CCPSS:0009963",
+    "CST:GENSYMPTOMS",
+    "ICD9CM:780-789.99"
+   ]
+  },
+  {
+   "texto": "less hungry",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.82,
+   "offset": 842,
+   "normalizado": null,
+   "negada": false,
+   "certeza": "positivePossible",
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "weight change",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 866,
+   "normalizado": "Body Weight Changes",
+   "negada": true,
+   "certeza": "negative",
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0005911",
+    "CHV:0000002055",
+    "LNC:MTHU021183",
+    "MSH:D001836",
+    "NANDA-I:01778"
+   ]
+  },
+  {
+   "texto": "rashes",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 1057,
+   "normalizado": "Exanthema",
+   "negada": true,
+   "certeza": "negative",
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0015230",
+    "AOD:0000022958",
+    "CHV:0000004754",
+    "CST:RASH",
+    "HPO:HP:4000054"
+   ]
+  },
+  {
+   "texto": "Disappeared",
+   "categoria": "Course",
+   "subcategoria": null,
+   "confianca": 0.73,
+   "offset": 1244,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "couple of weeks",
+   "categoria": "Time",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 1264,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "calf",
+   "categoria": "BodyStructure",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 1354,
+   "normalizado": "Structure of calf of leg",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0230445",
+    "AOD:0000027663",
+    "CHV:0000022548",
+    "FMA:24984",
+    "HL7V2.5:CALF"
+   ]
+  },
+  {
+   "texto": "wife",
+   "categoria": "FamilyRelation",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 1405,
+   "normalizado": "wife",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0242665",
+    "AOD:0000009855",
+    "CHV:0000024911",
+    "CSP:4003-0056",
+    "HL7V3.0:WIFE"
+   ]
+  },
+  {
+   "texto": "end of February",
+   "categoria": "Time",
+   "subcategoria": null,
+   "confianca": 0.82,
+   "offset": 1453,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "middle",
+   "categoria": "Time",
+   "subcategoria": null,
+   "confianca": 0.91,
+   "offset": 1474,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "end of Feb",
+   "categoria": "Time",
+   "subcategoria": null,
+   "confianca": 0.83,
+   "offset": 1484,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "too much",
+   "categoria": "ConditionQualifier",
+   "subcategoria": null,
+   "confianca": 0.8,
+   "offset": 1538,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "itching",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 1547,
+   "normalizado": "Pruritus",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0033774",
+    "AOD:0000005226",
+    "BI:BI00607",
+    "CCPSS:1014802",
+    "CHV:0000010273"
+   ]
+  },
+  {
+   "texto": "faded",
+   "categoria": "Course",
+   "subcategoria": null,
+   "confianca": 0.93,
+   "offset": 1589,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "couple of weeks",
+   "categoria": "Time",
+   "subcategoria": null,
+   "confianca": 0.98,
+   "offset": 1602,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "sore throat",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 1681,
+   "normalizado": "Sore Throat",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0242429",
+    "BI:BI00661",
+    "CCPSS:0036874",
+    "CHV:0000024822",
+    "COSTAR:695"
+   ]
+  },
+  {
+   "texto": "little bit",
+   "categoria": "ConditionQualifier",
+   "subcategoria": null,
+   "confianca": 0.83,
+   "offset": 1714,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "feverish",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 1725,
+   "normalizado": "Fever",
+   "negada": false,
+   "certeza": "neutralPossible",
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0015967",
+    "AIR:FEVER",
+    "AOD:0000004396",
+    "BI:BI00751",
+    "CCPSS:1017166"
+   ]
+  },
+  {
+   "texto": "remember seeing anything bitten",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.65,
+   "offset": 1949,
+   "normalizado": null,
+   "negada": true,
+   "certeza": "negative",
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "shorts",
+   "categoria": "TreatmentName",
+   "subcategoria": null,
+   "confianca": 0.87,
+   "offset": 2044,
+   "normalizado": "Shorts (physical object)",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0453933",
+    "CHV:0000036340",
+    "RCD:Ub0k9",
+    "SNOMEDCT_US:228211007"
+   ]
+  },
+  {
+   "texto": "boots",
+   "categoria": "TreatmentName",
+   "subcategoria": null,
+   "confianca": 0.95,
+   "offset": 2055,
+   "normalizado": "Boots",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0331794",
+    "CHV:0000029201",
+    "MTH:U000316",
+    "RCD:Ub0kh",
+    "SNMI:A-60520"
+   ]
+  },
+  {
+   "texto": "headache",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 2134,
+   "normalizado": "Headache",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0018681",
+    "AOD:0000006115",
+    "BI:BI00020",
+    "CCPSS:1014497",
+    "CHV:0000005820"
+   ]
+  },
+  {
+   "texto": "feeling",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.67,
+   "offset": 2168,
+   "normalizado": "Feelings",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C1527305",
+    "AOD:0000006327",
+    "CHV:0000004396",
+    "CSP:2483-2589",
+    "LNC:MTHU021518"
+   ]
+  },
+  {
+   "texto": "bit",
+   "categoria": "ConditionQualifier",
+   "subcategoria": null,
+   "confianca": 0.75,
+   "offset": 2178,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "crappy",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.78,
+   "offset": 2182,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "I've been going to work",
+   "categoria": "Employment",
+   "subcategoria": null,
+   "confianca": 0.94,
+   "offset": 2211,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "work",
+   "categoria": "Employment",
+   "subcategoria": null,
+   "confianca": 0.93,
+   "offset": 2306,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "tired",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 2378,
+   "normalizado": "Feeling tired",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0849970",
+    "CCPSS:1017082",
+    "CHV:0000049813",
+    "ICPC2P:A04012",
+    "MEDCIN:115277"
+   ]
+  },
+  {
+   "texto": "less energy",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.61,
+   "offset": 2395,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "look pretty good",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.9,
+   "offset": 2621,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "physically feeling a bit",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.73,
+   "offset": 2726,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "Crappy I.",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.74,
+   "offset": 2752,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "aching",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 2806,
+   "normalizado": "Ache",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0234238",
+    "CHV:0000023290",
+    "CST:PAIN",
+    "MDR:10000424",
+    "MEDCIN:283284"
+   ]
+  },
+  {
+   "texto": "Shoulders",
+   "categoria": "BodyStructure",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 2814,
+   "normalizado": "Shoulder",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0037004",
+    "AOD:0000017005",
+    "CCPSS:1017312",
+    "CHV:0000011311",
+    "CSP:4008-0088"
+   ]
+  },
+  {
+   "texto": "back",
+   "categoria": "BodyStructure",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 2825,
+   "normalizado": "Back",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0004600",
+    "AOD:0000016999",
+    "CCPSS:1005152",
+    "CHV:0000001660",
+    "CSP:0468-3141"
+   ]
+  },
+  {
+   "texto": "hips",
+   "categoria": "BodyStructure",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 2831,
+   "normalizado": "Hip structure",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0019552",
+    "AOD:0000004701",
+    "CCPSS:1017313",
+    "CHV:0000006140",
+    "CSP:2715-4488"
+   ]
+  },
+  {
+   "texto": "knees",
+   "categoria": "BodyStructure",
+   "subcategoria": null,
+   "confianca": 0.98,
+   "offset": 2837,
+   "normalizado": "Knee",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0022742",
+    "AOD:0000008182",
+    "CCPSS:1005647",
+    "CHV:0000007124",
+    "CSP:2715-4875"
+   ]
+  },
+  {
+   "texto": "8",
+   "categoria": "MeasurementValue",
+   "subcategoria": null,
+   "confianca": 0.96,
+   "offset": 2884,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "GB",
+   "categoria": "MeasurementUnit",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 2886,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "count",
+   "categoria": "ExaminationName",
+   "subcategoria": null,
+   "confianca": 0.9,
+   "offset": 2889,
+   "normalizado": "Count",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0750480",
+    "CCPSS:U000062",
+    "HL7V3.0:COUNT",
+    "NCI:C25463"
+   ]
+  },
+  {
+   "texto": "Asthma",
+   "categoria": "Diagnosis",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 2896,
+   "normalizado": "Asthma",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0004096",
+    "AOD:0000005951",
+    "BI:BI00009",
+    "CCPSS:1017373",
+    "CCS:8.3"
+   ]
+  },
+  {
+   "texto": "hay fever",
+   "categoria": "Diagnosis",
+   "subcategoria": null,
+   "confianca": 0.79,
+   "offset": 2907,
+   "normalizado": "Hay fever",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0018621",
+    "AOD:0000005953",
+    "BI:BI00663",
+    "CCPSS:0062580",
+    "CHV:0000043959"
+   ]
+  },
+  {
+   "texto": "Preventative",
+   "categoria": "MedicationName",
+   "subcategoria": null,
+   "confianca": 0.83,
+   "offset": 3002,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "Twice a day",
+   "categoria": "Frequency",
+   "subcategoria": null,
+   "confianca": 0.92,
+   "offset": 3026,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "every day",
+   "categoria": "Frequency",
+   "subcategoria": null,
+   "confianca": 0.97,
+   "offset": 3094,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "morning and night",
+   "categoria": "Frequency",
+   "subcategoria": null,
+   "confianca": 0.67,
+   "offset": 3112,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "WS",
+   "categoria": "Diagnosis",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 3142,
+   "normalizado": "Williams Syndrome",
+   "negada": true,
+   "certeza": "negative",
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0175702",
+    "CHV:0000018179",
+    "CSP:4006-0100",
+    "DXP:U000870",
+    "ICD10CM:Q93.82"
+   ]
+  },
+  {
+   "texto": "Gerizine",
+   "categoria": "MedicationName",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 3205,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "wife",
+   "categoria": "FamilyRelation",
+   "subcategoria": null,
+   "confianca": 0.94,
+   "offset": 3307,
+   "normalizado": "wife",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0242665",
+    "AOD:0000009855",
+    "CHV:0000024911",
+    "CSP:4003-0056",
+    "HL7V3.0:WIFE"
+   ]
+  },
+  {
+   "texto": "infection",
+   "categoria": "Diagnosis",
+   "subcategoria": null,
+   "confianca": 0.97,
+   "offset": 3366,
+   "normalizado": "Infection",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C3714514",
+    "AOD:0000004491",
+    "CCC:K25.6",
+    "CCPSS:1018029",
+    "CHV:0000006691"
+   ]
+  },
+  {
+   "texto": "test",
+   "categoria": "ExaminationName",
+   "subcategoria": null,
+   "confianca": 0.82,
+   "offset": 3403,
+   "normalizado": "Laboratory Procedures",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0022885",
+    "AOD:0000026780",
+    "CHV:0000007165",
+    "CPM:92",
+    "ICPC2ICD10ENG:MTHU073828"
+   ]
+  },
+  {
+   "texto": "1st",
+   "categoria": "Time",
+   "subcategoria": null,
+   "confianca": 0.77,
+   "offset": 3408,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "follow up",
+   "categoria": "AdministrativeEvent",
+   "subcategoria": null,
+   "confianca": 0.93,
+   "offset": 3430,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "broke",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 3557,
+   "normalizado": "Broken",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C5547829",
+    "SNOMEDCT_US:1156075003"
+   ]
+  }
+ ],
+ "relacoes_saude": [
+  {
+   "tipo": "TimeOfCondition",
+   "papeis": {
+    "Time": "last six weeks",
+    "Condition": "tired"
+   }
+  },
+  {
+   "tipo": "TimeOfCondition",
+   "papeis": {
+    "Time": "last six weeks",
+    "Condition": "rundown"
+   }
+  },
+  {
+   "tipo": "TimeOfCondition",
+   "papeis": {
+    "Time": "end of February",
+    "Condition": "itching"
+   }
+  },
+  {
+   "tipo": "TimeOfCondition",
+   "papeis": {
+    "Time": "middle",
+    "Condition": "itching"
+   }
+  },
+  {
+   "tipo": "TimeOfCondition",
+   "papeis": {
+    "Time": "end of Feb",
+    "Condition": "itching"
+   }
+  },
+  {
+   "tipo": "QualifierOfCondition",
+   "papeis": {
+    "Qualifier": "too much",
+    "Condition": "itching"
+   }
+  },
+  {
+   "tipo": "QualifierOfCondition",
+   "papeis": {
+    "Qualifier": "little bit",
+    "Condition": "feverish"
+   }
+  },
+  {
+   "tipo": "QualifierOfCondition",
+   "papeis": {
+    "Qualifier": "bit",
+    "Condition": "crappy"
+   }
+  },
+  {
+   "tipo": "ValueOfExamination",
+   "papeis": {
+    "Value": "8",
+    "Examination": "count"
+   }
+  },
+  {
+   "tipo": "UnitOfExamination",
+   "papeis": {
+    "Unit": "GB",
+    "Examination": "count"
+   }
+  },
+  {
+   "tipo": "TimeOfExamination",
+   "papeis": {
+    "Examination": "test",
+    "Time": "1st"
+   }
+  }
+ ],
+ "idioma": "en",
+ "provedor": "azure_language"
+}

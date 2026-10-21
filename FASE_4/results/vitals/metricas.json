@@ -1,0 +1,183 @@
+{
+  "n_casos_treino": 70,
+  "n_casos_teste": 30,
+  "casos_teste": [
+    128,
+    130,
+    132,
+    135,
+    136,
+    137,
+    138,
+    140,
+    142,
+    143,
+    144,
+    145,
+    146,
+    148,
+    149,
+    152,
+    153,
+    156,
+    157,
+    160,
+    161,
+    164,
+    166,
+    167,
+    175,
+    177,
+    178,
+    180,
+    181,
+    184
+  ],
+  "preditor_hipotensao": {
+    "amostras_treino": 28591,
+    "positivos_treino": 3033,
+    "amostras_teste": 11107,
+    "positivos_teste": 929,
+    "prevalencia_teste": 0.0836,
+    "auroc": 0.788,
+    "auprc": 0.258,
+    "auroc_baseline_pam_atual": 0.753,
+    "auprc_baseline_pam_atual": 0.274,
+    "limiar": 0.094,
+    "sensibilidade": 0.729,
+    "especificidade": 0.741,
+    "vpp": 0.204,
+    "importancia_permutacao": {
+      "MAP_min_5min": 0.0278,
+      "MAP_atual": 0.0235,
+      "frac_abaixo_70_10min": 0.0192,
+      "DBP_atual": 0.0163,
+      "MAP_delta_1min": 0.0074,
+      "indice_choque": 0.0013,
+      "HR_atual": 0.0012,
+      "MAP_desvio_5min": 0.0012
+    }
+  },
+  "antecipacao_dados_reais": {
+    "horas": 116.3,
+    "episodios_indice": 44,
+    "episodios_indice_hipotensao": 32,
+    "alertas_por_camada": {
+      "iforest": 51,
+      "zscore": 367,
+      "preditor": 220,
+      "regra": 198
+    },
+    "zscore": {
+      "antecipados": 25,
+      "de": 44,
+      "taxa": 0.568,
+      "antecedencia_mediana_min": 5.5,
+      "alertas_por_hora": 3.16,
+      "sem_desfecho_por_hora": 2.44
+    },
+    "iforest": {
+      "antecipados": 6,
+      "de": 44,
+      "taxa": 0.136,
+      "antecedencia_mediana_min": 1.0,
+      "alertas_por_hora": 0.44,
+      "sem_desfecho_por_hora": 0.31
+    },
+    "preditor": {
+      "antecipados": 22,
+      "de": 32,
+      "taxa": 0.688,
+      "antecedencia_mediana_min": 4.0,
+      "alertas_por_hora": 1.89,
+      "sem_desfecho_por_hora": 1.32
+    },
+    "qualquer": {
+      "antecipados": 36,
+      "de": 44,
+      "taxa": 0.818,
+      "antecedencia_mediana_min": 6.0,
+      "alertas_por_hora": 5.49,
+      "sem_desfecho_por_hora": 4.08
+    }
+  },
+  "injecao": {
+    "choque_compensado": {
+      "n": 28,
+      "regra_taxa": 0.25,
+      "regra_atraso_mediano_s": 294,
+      "zscore_taxa": 0.89,
+      "zscore_atraso_mediano_s": 182,
+      "iforest_taxa": 0.04,
+      "iforest_atraso_mediano_s": 480,
+      "preditor_taxa": 0.32,
+      "preditor_atraso_mediano_s": 150,
+      "qualquer_taxa": 1.0,
+      "qualquer_atraso_mediano_s": 162
+    },
+    "controle": {
+      "n": 28,
+      "regra_taxa": 0.0,
+      "regra_atraso_mediano_s": null,
+      "zscore_taxa": 0.29,
+      "zscore_atraso_mediano_s": 372,
+      "iforest_taxa": 0.0,
+      "iforest_atraso_mediano_s": null,
+      "preditor_taxa": 0.18,
+      "preditor_atraso_mediano_s": 150,
+      "qualquer_taxa": 0.43,
+      "qualquer_atraso_mediano_s": 282
+    },
+    "dessaturacao_progressiva": {
+      "n": 28,
+      "regra_taxa": 1.0,
+      "regra_atraso_mediano_s": 232,
+      "zscore_taxa": 1.0,
+      "zscore_atraso_mediano_s": 132,
+      "iforest_taxa": 0.11,
+      "iforest_atraso_mediano_s": 240,
+      "preditor_taxa": 0.25,
+      "preditor_atraso_mediano_s": 210,
+      "qualquer_taxa": 1.0,
+      "qualquer_atraso_mediano_s": 132
+    },
+    "hipotensao_progressiva": {
+      "n": 28,
+      "regra_taxa": 0.79,
+      "regra_atraso_mediano_s": 320,
+      "zscore_taxa": 0.5,
+      "zscore_atraso_mediano_s": 277,
+      "iforest_taxa": 0.07,
+      "iforest_atraso_mediano_s": 390,
+      "preditor_taxa": 0.61,
+      "preditor_atraso_mediano_s": 240,
+      "qualquer_taxa": 1.0,
+      "qualquer_atraso_mediano_s": 221
+    },
+    "taquicardia_subita": {
+      "n": 28,
+      "regra_taxa": 0.07,
+      "regra_atraso_mediano_s": 55,
+      "zscore_taxa": 0.79,
+      "zscore_atraso_mediano_s": 42,
+      "iforest_taxa": 0.04,
+      "iforest_atraso_mediano_s": 570,
+      "preditor_taxa": 0.25,
+      "preditor_atraso_mediano_s": 180,
+      "qualquer_taxa": 0.86,
+      "qualquer_atraso_mediano_s": 42
+    }
+  },
+  "mimic_news2": {
+    "internacoes": 140,
+    "pacientes_dia": 515.1,
+    "obitos": 20,
+    "auroc_news2_max_24h_mortalidade": 0.703,
+    "alertas_total": 2329,
+    "alertas_por_paciente_dia": 4.52,
+    "alertas_criticos": 299,
+    "news2_max_24h_mediana_obitos": 11.0,
+    "news2_max_24h_mediana_sobreviventes": 9.0
+  },
+  "nota_versao": "modelos re-serializados com scikit-learn 1.7.2; antecipação e injeção medidas com a serialização anterior (diferença de AUROC do preditor ≤ 0,001)"
+}

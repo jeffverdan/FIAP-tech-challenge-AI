@@ -1,0 +1,993 @@
+[
+ {
+  "paciente_id": "AURORA-LEITO-12",
+  "severidade": 1,
+  "t": 369.3,
+  "titulo": "Repetição 7 fora do padrão esperado: altura do punho acima do ombro (× tronco): -0.08 (abaixo do esperado 0.62)",
+  "justificativa": [
+   "[video/pose] Repetição 7 fora do padrão esperado: altura do punho acima do ombro (× tronco): -0.08 (abaixo do esperado 0.62)"
+  ],
+  "modalidades": [
+   "video"
+  ],
+  "eventos": [
+   "EVT-4DFF08DA1F"
+  ],
+  "regra": "direto:execucao_fora_do_padrao",
+  "acao_sugerida": "Revisar a execução com a fisioterapia",
+  "destinatarios": [
+   "enfermagem do leito"
+  ],
+  "prazo": "avaliar em até 60 min",
+  "repeticoes": 7,
+  "id": "ALR-B1514467",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "AURORA-LEITO-12",
+  "severidade": 2,
+  "t": 439.2,
+  "titulo": "Repetição 17 fora do padrão esperado (3 seguidas): extensão do cotovelo no topo: 15.18° (abaixo do esperado 137.09°); altura do punho acima do ombro (× tronco): -0.04 (abaixo do esperado 0.75); amplitude de abdução do ombro: 98.06° (abaixo do esperado 143.55°)",
+  "justificativa": [
+   "[video/pose] Repetição 17 fora do padrão esperado (3 seguidas): extensão do cotovelo no topo: 15.18° (abaixo do esperado 137.09°); altura do punho acima do ombro (× tronco): -0.04 (abaixo do esperado 0.75); amplitude de abdução do ombro: 98.06° (abaixo do esperado 143.55°)"
+  ],
+  "modalidades": [
+   "video"
+  ],
+  "eventos": [
+   "EVT-EEB045AE93"
+  ],
+  "regra": "direto:padrao_incorreto_persistente",
+  "acao_sugerida": "Revisar a execução com a fisioterapia",
+  "destinatarios": [
+   "enfermagem do leito",
+   "médico plantonista"
+  ],
+  "prazo": "avaliar em até 15 min",
+  "repeticoes": 6,
+  "id": "ALR-6A05F78E",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "AURORA-LEITO-12",
+  "severidade": 1,
+  "t": 762.0,
+  "titulo": "Subida abrupta de frequência cardíaca: 112 bpm vs. linha de base 57 (z=+6.2)",
+  "justificativa": [
+   "[vitais/estatistico] Subida abrupta de frequência cardíaca: 112 bpm vs. linha de base 57 (z=+6.2)"
+  ],
+  "modalidades": [
+   "vitais"
+  ],
+  "eventos": [
+   "EVT-50770632DD"
+  ],
+  "regra": "direto:desvio_hr",
+  "acao_sugerida": "Conferir paciente e sensor; reavaliar sinais vitais",
+  "destinatarios": [
+   "enfermagem do leito"
+  ],
+  "prazo": "avaliar em até 60 min",
+  "repeticoes": 1,
+  "id": "ALR-2BE713C1",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "AURORA-LEITO-12",
+  "severidade": 1,
+  "t": 1140.0,
+  "titulo": "Risco de hipotensão nos próximos 10 min: p=9% (PAM atual 77 mmHg, tendência -3.9 mmHg/min)",
+  "justificativa": [
+   "[vitais/ml] Risco de hipotensão nos próximos 10 min: p=9% (PAM atual 77 mmHg, tendência -3.9 mmHg/min)"
+  ],
+  "modalidades": [
+   "vitais"
+  ],
+  "eventos": [
+   "EVT-1F69A88751"
+  ],
+  "regra": "direto:risco_hipotensao_10min",
+  "acao_sugerida": "Conferir paciente e sensor; reavaliar sinais vitais",
+  "destinatarios": [
+   "enfermagem do leito"
+  ],
+  "prazo": "avaliar em até 60 min",
+  "repeticoes": 1,
+  "id": "ALR-F47A998A",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "AURORA-LEITO-12",
+  "severidade": 1,
+  "t": 1394.0,
+  "titulo": "Opioide + benzodiazepínico ativos: ClonazePAM + OxyCODONE (Immediate Release) — risco de depressão respiratória",
+  "justificativa": [
+   "[prescricao/regra] Opioide + benzodiazepínico ativos: ClonazePAM + OxyCODONE (Immediate Release) — risco de depressão respiratória"
+  ],
+  "modalidades": [
+   "prescricao"
+  ],
+  "eventos": [
+   "EVT-784EB779B2"
+  ],
+  "regra": "direto:opioide_benzodiazepinico",
+  "acao_sugerida": "Conferir a prescrição com farmácia clínica e prescritor",
+  "destinatarios": [
+   "enfermagem do leito"
+  ],
+  "prazo": "avaliar em até 60 min",
+  "repeticoes": 1,
+  "id": "ALR-B358B100",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "AURORA-LEITO-12",
+  "severidade": 1,
+  "t": 1452.0,
+  "titulo": "Subida abrupta de PA média: 98 mmHg vs. linha de base 79 (z=+4.2)",
+  "justificativa": [
+   "[vitais/estatistico] Subida abrupta de PA média: 98 mmHg vs. linha de base 79 (z=+4.2)"
+  ],
+  "modalidades": [
+   "vitais"
+  ],
+  "eventos": [
+   "EVT-9C17E3BF9C"
+  ],
+  "regra": "direto:desvio_map",
+  "acao_sugerida": "Conferir paciente e sensor; reavaliar sinais vitais",
+  "destinatarios": [
+   "enfermagem do leito"
+  ],
+  "prazo": "avaliar em até 60 min",
+  "repeticoes": 1,
+  "id": "ALR-8D634638",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "AURORA-LEITO-12",
+  "severidade": 1,
+  "t": 2032.0,
+  "titulo": "Queda abrupta de frequência respiratória: 3 irpm vs. linha de base 12 (z=-4.5)",
+  "justificativa": [
+   "[vitais/estatistico] Queda abrupta de frequência respiratória: 3 irpm vs. linha de base 12 (z=-4.5)"
+  ],
+  "modalidades": [
+   "vitais"
+  ],
+  "eventos": [
+   "EVT-58A7AFAC89"
+  ],
+  "regra": "direto:desvio_rr",
+  "acao_sugerida": "Conferir paciente e sensor; reavaliar sinais vitais",
+  "destinatarios": [
+   "enfermagem do leito"
+  ],
+  "prazo": "avaliar em até 60 min",
+  "repeticoes": 1,
+  "id": "ALR-6FBBEA85",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "AURORA-LEITO-12",
+  "severidade": 2,
+  "t": 2294.0,
+  "titulo": "Paciente relata dispneia: breathless",
+  "justificativa": [
+   "[audio/azure] Paciente relata dispneia: breathless"
+  ],
+  "modalidades": [
+   "audio"
+  ],
+  "eventos": [
+   "EVT-CF9D429BAF"
+  ],
+  "regra": "direto:sintoma_relatado_dispneia",
+  "acao_sugerida": "Revisar a gravação/transcrição da consulta e reavaliar o paciente",
+  "destinatarios": [
+   "enfermagem do leito",
+   "médico plantonista"
+  ],
+  "prazo": "avaliar em até 15 min",
+  "repeticoes": 1,
+  "id": "ALR-E243FFE5",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "AURORA-LEITO-12",
+  "severidade": 3,
+  "t": 2294.0,
+  "titulo": "Insuficiência respiratória provável",
+  "justificativa": [
+   "[vitais/estatistico] Queda abrupta de frequência respiratória: 3 irpm vs. linha de base 12 (z=-4.5)",
+   "[audio/azure] Paciente relata dispneia: breathless"
+  ],
+  "modalidades": [
+   "audio",
+   "vitais"
+  ],
+  "eventos": [
+   "EVT-58A7AFAC89",
+   "EVT-CF9D429BAF"
+  ],
+  "regra": "fusao:respiratoria_multifonte",
+  "acao_sugerida": "Avaliar via aérea e oxigenação; gasometria; considerar O₂ suplementar e raio-X de tórax",
+  "destinatarios": [
+   "enfermagem do leito",
+   "médico plantonista",
+   "time de resposta rápida"
+  ],
+  "prazo": "beira-leito imediato",
+  "repeticoes": 12,
+  "id": "ALR-7BA3BC46",
+  "severidade_rotulo": "crítico"
+ },
+ {
+  "paciente_id": "AURORA-LEITO-12",
+  "severidade": 1,
+  "t": 2294.0,
+  "titulo": "Paciente relata fadiga: tired",
+  "justificativa": [
+   "[audio/azure] Paciente relata fadiga: tired"
+  ],
+  "modalidades": [
+   "audio"
+  ],
+  "eventos": [
+   "EVT-5664BF56D7"
+  ],
+  "regra": "direto:sintoma_relatado_fadiga",
+  "acao_sugerida": "Revisar a gravação/transcrição da consulta e reavaliar o paciente",
+  "destinatarios": [
+   "enfermagem do leito"
+  ],
+  "prazo": "avaliar em até 60 min",
+  "repeticoes": 1,
+  "id": "ALR-62FF646B",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "AURORA-LEITO-12",
+  "severidade": 1,
+  "t": 2294.0,
+  "titulo": "Fadiga com piora da execução na fisioterapia",
+  "justificativa": [
+   "[audio/azure] Paciente relata fadiga: tired",
+   "[video/pose] Repetição 22 fora do padrão esperado (8 seguidas): extensão do cotovelo no topo: 80.23° (abaixo do esperado 137.09°); altura do punho acima do ombro (× tronco): 0.04 (abaixo do esperado 0.75); amplitude de abdução do ombro: 94.28° (abaixo do esperado 143.55°)"
+  ],
+  "modalidades": [
+   "audio",
+   "video"
+  ],
+  "eventos": [
+   "EVT-5664BF56D7",
+   "EVT-CEBE583EBC"
+  ],
+  "regra": "fusao:fadiga_fisioterapia",
+  "acao_sugerida": "Reduzir carga/repetições da sessão e reavaliar tolerância ao esforço",
+  "destinatarios": [
+   "enfermagem do leito"
+  ],
+  "prazo": "avaliar em até 60 min",
+  "repeticoes": 1,
+  "id": "ALR-DAF886AC",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "AURORA-LEITO-12",
+  "severidade": 2,
+  "t": 2294.0,
+  "titulo": "Paciente relata hemoptise: coughing up blood",
+  "justificativa": [
+   "[audio/azure] Paciente relata hemoptise: coughing up blood"
+  ],
+  "modalidades": [
+   "audio"
+  ],
+  "eventos": [
+   "EVT-EBFEFDA72E"
+  ],
+  "regra": "direto:sintoma_relatado_hemoptise",
+  "acao_sugerida": "Revisar a gravação/transcrição da consulta e reavaliar o paciente",
+  "destinatarios": [
+   "enfermagem do leito",
+   "médico plantonista"
+  ],
+  "prazo": "avaliar em até 15 min",
+  "repeticoes": 1,
+  "id": "ALR-91463473",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "AURORA-LEITO-12",
+  "severidade": 1,
+  "t": 2872.0,
+  "titulo": "Queda abrupta de saturação de O₂: 94 % vs. linha de base 100 (z=-6.5)",
+  "justificativa": [
+   "[vitais/estatistico] Queda abrupta de saturação de O₂: 94 % vs. linha de base 100 (z=-6.5)"
+  ],
+  "modalidades": [
+   "vitais"
+  ],
+  "eventos": [
+   "EVT-141F09FC0C"
+  ],
+  "regra": "direto:desvio_spo2",
+  "acao_sugerida": "Conferir paciente e sensor; reavaliar sinais vitais",
+  "destinatarios": [
+   "enfermagem do leito"
+  ],
+  "prazo": "avaliar em até 60 min",
+  "repeticoes": 2,
+  "id": "ALR-A1F3E5E2",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "AURORA-LEITO-12",
+  "severidade": 1,
+  "t": 2872.0,
+  "titulo": "Subida abrupta de PA média: 164 mmHg vs. linha de base 88 (z=+19.0)",
+  "justificativa": [
+   "[vitais/estatistico] Subida abrupta de PA média: 164 mmHg vs. linha de base 88 (z=+19.0)"
+  ],
+  "modalidades": [
+   "vitais"
+  ],
+  "eventos": [
+   "EVT-44990CA441"
+  ],
+  "regra": "direto:desvio_map",
+  "acao_sugerida": "Conferir paciente e sensor; reavaliar sinais vitais",
+  "destinatarios": [
+   "enfermagem do leito"
+  ],
+  "prazo": "avaliar em até 60 min",
+  "repeticoes": 1,
+  "id": "ALR-0AF74EAA",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "AURORA-LEITO-12",
+  "severidade": 1,
+  "t": 2882.0,
+  "titulo": "Subida abrupta de frequência cardíaca: 67 bpm vs. linha de base 54 (z=+4.3)",
+  "justificativa": [
+   "[vitais/estatistico] Subida abrupta de frequência cardíaca: 67 bpm vs. linha de base 54 (z=+4.3)"
+  ],
+  "modalidades": [
+   "vitais"
+  ],
+  "eventos": [
+   "EVT-37285D6D90"
+  ],
+  "regra": "direto:desvio_hr",
+  "acao_sugerida": "Conferir paciente e sensor; reavaliar sinais vitais",
+  "destinatarios": [
+   "enfermagem do leito"
+  ],
+  "prazo": "avaliar em até 60 min",
+  "repeticoes": 1,
+  "id": "ALR-D855A680",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "AURORA-LEITO-12",
+  "severidade": 2,
+  "t": 2894.0,
+  "titulo": "SpO₂ < 92% por ≥ 30 s (atual 85 %)",
+  "justificativa": [
+   "[vitais/regra] SpO₂ < 92% por ≥ 30 s (atual 85 %)"
+  ],
+  "modalidades": [
+   "vitais"
+  ],
+  "eventos": [
+   "EVT-E2CF2A04C3"
+  ],
+  "regra": "direto:dessaturacao",
+  "acao_sugerida": "Conferir paciente e sensor; reavaliar sinais vitais",
+  "destinatarios": [
+   "enfermagem do leito",
+   "médico plantonista"
+  ],
+  "prazo": "avaliar em até 15 min",
+  "repeticoes": 2,
+  "id": "ALR-E5A60F4D",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "AURORA-LEITO-12",
+  "severidade": 3,
+  "t": 2894.0,
+  "titulo": "Depressão respiratória possivelmente medicamentosa",
+  "justificativa": [
+   "[prescricao/regra] Opioide + benzodiazepínico ativos: ClonazePAM + OxyCODONE (Immediate Release) — risco de depressão respiratória",
+   "[vitais/regra] SpO₂ < 92% por ≥ 30 s (atual 85 %)"
+  ],
+  "modalidades": [
+   "prescricao",
+   "vitais"
+  ],
+  "eventos": [
+   "EVT-784EB779B2",
+   "EVT-E2CF2A04C3"
+  ],
+  "regra": "fusao:depressao_respiratoria_medicamentosa",
+  "acao_sugerida": "Revisar opioides/sedativos; avaliar nível de consciência e FR; considerar naloxona",
+  "destinatarios": [
+   "enfermagem do leito",
+   "médico plantonista",
+   "time de resposta rápida"
+  ],
+  "prazo": "beira-leito imediato",
+  "repeticoes": 1,
+  "id": "ALR-3DE40893",
+  "severidade_rotulo": "crítico"
+ },
+ {
+  "paciente_id": "AURORA-LEITO-12",
+  "severidade": 3,
+  "t": 2904.0,
+  "titulo": "SpO₂ < 88% por ≥ 30 s (atual 84 %)",
+  "justificativa": [
+   "[vitais/regra] SpO₂ < 88% por ≥ 30 s (atual 84 %)"
+  ],
+  "modalidades": [
+   "vitais"
+  ],
+  "eventos": [
+   "EVT-FC7F16D23E"
+  ],
+  "regra": "direto:dessaturacao_grave",
+  "acao_sugerida": "Conferir paciente e sensor; reavaliar sinais vitais",
+  "destinatarios": [
+   "enfermagem do leito",
+   "médico plantonista",
+   "time de resposta rápida"
+  ],
+  "prazo": "beira-leito imediato",
+  "repeticoes": 3,
+  "id": "ALR-F4E521A2",
+  "severidade_rotulo": "crítico"
+ },
+ {
+  "paciente_id": "AURORA-LEITO-12",
+  "severidade": 1,
+  "t": 2910.0,
+  "titulo": "Combinação atípica de sinais vitais — principais desvios: SPO2_z (z=-26.4), SPO2_tend (z=-14.1), MAP_tend (z=-10.2)",
+  "justificativa": [
+   "[vitais/ml] Combinação atípica de sinais vitais — principais desvios: SPO2_z (z=-26.4), SPO2_tend (z=-14.1), MAP_tend (z=-10.2)"
+  ],
+  "modalidades": [
+   "vitais"
+  ],
+  "eventos": [
+   "EVT-E53A6A5E5F"
+  ],
+  "regra": "direto:padrao_multivariado_atipico",
+  "acao_sugerida": "Conferir paciente e sensor; reavaliar sinais vitais",
+  "destinatarios": [
+   "enfermagem do leito"
+  ],
+  "prazo": "avaliar em até 60 min",
+  "repeticoes": 2,
+  "id": "ALR-73101209",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "AURORA-LEITO-12",
+  "severidade": 1,
+  "t": 2910.0,
+  "titulo": "Risco de hipotensão nos próximos 10 min: p=30% (PAM atual 71 mmHg, tendência +3.7 mmHg/min)",
+  "justificativa": [
+   "[vitais/ml] Risco de hipotensão nos próximos 10 min: p=30% (PAM atual 71 mmHg, tendência +3.7 mmHg/min)"
+  ],
+  "modalidades": [
+   "vitais"
+  ],
+  "eventos": [
+   "EVT-ACFAA1073D"
+  ],
+  "regra": "direto:risco_hipotensao_10min",
+  "acao_sugerida": "Conferir paciente e sensor; reavaliar sinais vitais",
+  "destinatarios": [
+   "enfermagem do leito"
+  ],
+  "prazo": "avaliar em até 60 min",
+  "repeticoes": 1,
+  "id": "ALR-D86B9DD9",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "AURORA-LEITO-12",
+  "severidade": 1,
+  "t": 2942.0,
+  "titulo": "Subida abrupta de frequência respiratória: 32 irpm vs. linha de base 12 (z=+6.7)",
+  "justificativa": [
+   "[vitais/estatistico] Subida abrupta de frequência respiratória: 32 irpm vs. linha de base 12 (z=+6.7)"
+  ],
+  "modalidades": [
+   "vitais"
+  ],
+  "eventos": [
+   "EVT-0C1729DCC4"
+  ],
+  "regra": "direto:desvio_rr",
+  "acao_sugerida": "Conferir paciente e sensor; reavaliar sinais vitais",
+  "destinatarios": [
+   "enfermagem do leito"
+  ],
+  "prazo": "avaliar em até 60 min",
+  "repeticoes": 2,
+  "id": "ALR-EE1462B7",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "AURORA-LEITO-12",
+  "severidade": 2,
+  "t": 2996.0,
+  "titulo": "PA média < 65 mmHg por ≥ 1 min (atual 57 mmHg)",
+  "justificativa": [
+   "[vitais/regra] PA média < 65 mmHg por ≥ 1 min (atual 57 mmHg)"
+  ],
+  "modalidades": [
+   "vitais"
+  ],
+  "eventos": [
+   "EVT-52E4471B1D"
+  ],
+  "regra": "direto:hipotensao",
+  "acao_sugerida": "Conferir paciente e sensor; reavaliar sinais vitais",
+  "destinatarios": [
+   "enfermagem do leito",
+   "médico plantonista"
+  ],
+  "prazo": "avaliar em até 15 min",
+  "repeticoes": 1,
+  "id": "ALR-AE87EDD0",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "AURORA-LEITO-12",
+  "severidade": 3,
+  "t": 3080.0,
+  "titulo": "PA média < 55 mmHg por ≥ 1 min (atual 50 mmHg)",
+  "justificativa": [
+   "[vitais/regra] PA média < 55 mmHg por ≥ 1 min (atual 50 mmHg)"
+  ],
+  "modalidades": [
+   "vitais"
+  ],
+  "eventos": [
+   "EVT-642D2F1222"
+  ],
+  "regra": "direto:hipotensao_grave",
+  "acao_sugerida": "Conferir paciente e sensor; reavaliar sinais vitais",
+  "destinatarios": [
+   "enfermagem do leito",
+   "médico plantonista",
+   "time de resposta rápida"
+  ],
+  "prazo": "beira-leito imediato",
+  "repeticoes": 1,
+  "id": "ALR-B665C056",
+  "severidade_rotulo": "crítico"
+ },
+ {
+  "paciente_id": "AURORA-LEITO-12",
+  "severidade": 2,
+  "t": 3296.0,
+  "titulo": "Queda detectada: descida rápida do quadril seguida de postura deitada fora do leito (tronco 81° da vertical)",
+  "justificativa": [
+   "[movimentacao/pose] Queda detectada: descida rápida do quadril seguida de postura deitada fora do leito (tronco 81° da vertical)"
+  ],
+  "modalidades": [
+   "movimentacao"
+  ],
+  "eventos": [
+   "EVT-F5022C9A12"
+  ],
+  "regra": "direto:queda",
+  "acao_sugerida": "Ir ao quarto do paciente",
+  "destinatarios": [
+   "enfermagem do leito",
+   "médico plantonista"
+  ],
+  "prazo": "avaliar em até 15 min",
+  "repeticoes": 1,
+  "id": "ALR-3DB236A3",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "AURORA-LEITO-12",
+  "severidade": 3,
+  "t": 3296.0,
+  "titulo": "Queda com instabilidade hemodinâmica (síncope?)",
+  "justificativa": [
+   "[movimentacao/pose] Queda detectada: descida rápida do quadril seguida de postura deitada fora do leito (tronco 81° da vertical)",
+   "[vitais/regra] PA média < 55 mmHg por ≥ 1 min (atual 50 mmHg)"
+  ],
+  "modalidades": [
+   "movimentacao",
+   "vitais"
+  ],
+  "eventos": [
+   "EVT-F5022C9A12",
+   "EVT-642D2F1222"
+  ],
+  "regra": "fusao:queda_instabilidade",
+  "acao_sugerida": "Avaliar trauma (cabeça/quadril), glicemia capilar, ECG e PA em ortostase",
+  "destinatarios": [
+   "enfermagem do leito",
+   "médico plantonista",
+   "time de resposta rápida"
+  ],
+  "prazo": "beira-leito imediato",
+  "repeticoes": 4,
+  "id": "ALR-AA81D20B",
+  "severidade_rotulo": "crítico"
+ },
+ {
+  "paciente_id": "AURORA-LEITO-12",
+  "severidade": 1,
+  "t": 3930.0,
+  "titulo": "Risco de hipotensão nos próximos 10 min: p=11% (PAM atual 79 mmHg, tendência -3.1 mmHg/min)",
+  "justificativa": [
+   "[vitais/ml] Risco de hipotensão nos próximos 10 min: p=11% (PAM atual 79 mmHg, tendência -3.1 mmHg/min)"
+  ],
+  "modalidades": [
+   "vitais"
+  ],
+  "eventos": [
+   "EVT-41B8E19C88"
+  ],
+  "regra": "direto:risco_hipotensao_10min",
+  "acao_sugerida": "Conferir paciente e sensor; reavaliar sinais vitais",
+  "destinatarios": [
+   "enfermagem do leito"
+  ],
+  "prazo": "avaliar em até 60 min",
+  "repeticoes": 1,
+  "id": "ALR-4224DE00",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "AURORA-LEITO-12",
+  "severidade": 1,
+  "t": 4338.0,
+  "titulo": "Temperatura < 35,5 °C por ≥ 10 min (atual 35 °C)",
+  "justificativa": [
+   "[vitais/regra] Temperatura < 35,5 °C por ≥ 10 min (atual 35 °C)"
+  ],
+  "modalidades": [
+   "vitais"
+  ],
+  "eventos": [
+   "EVT-85BC3BA1AC"
+  ],
+  "regra": "direto:hipotermia",
+  "acao_sugerida": "Conferir paciente e sensor; reavaliar sinais vitais",
+  "destinatarios": [
+   "enfermagem do leito"
+  ],
+  "prazo": "avaliar em até 60 min",
+  "repeticoes": 1,
+  "id": "ALR-F1A87A96",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "AURORA-LEITO-12",
+  "severidade": 1,
+  "t": 4422.0,
+  "titulo": "Queda abrupta de frequência respiratória: 4 irpm vs. linha de base 14 (z=-4.8)",
+  "justificativa": [
+   "[vitais/estatistico] Queda abrupta de frequência respiratória: 4 irpm vs. linha de base 14 (z=-4.8)"
+  ],
+  "modalidades": [
+   "vitais"
+  ],
+  "eventos": [
+   "EVT-A02E2C8C44"
+  ],
+  "regra": "direto:desvio_rr",
+  "acao_sugerida": "Conferir paciente e sensor; reavaliar sinais vitais",
+  "destinatarios": [
+   "enfermagem do leito"
+  ],
+  "prazo": "avaliar em até 60 min",
+  "repeticoes": 1,
+  "id": "ALR-E5A1CEAD",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "AURORA-LEITO-12",
+  "severidade": 1,
+  "t": 4492.0,
+  "titulo": "Subida abrupta de saturação de O₂: 96 % vs. linha de base 87 (z=+6.1)",
+  "justificativa": [
+   "[vitais/estatistico] Subida abrupta de saturação de O₂: 96 % vs. linha de base 87 (z=+6.1)"
+  ],
+  "modalidades": [
+   "vitais"
+  ],
+  "eventos": [
+   "EVT-DF529DA5E0"
+  ],
+  "regra": "direto:desvio_spo2",
+  "acao_sugerida": "Conferir paciente e sensor; reavaliar sinais vitais",
+  "destinatarios": [
+   "enfermagem do leito"
+  ],
+  "prazo": "avaliar em até 60 min",
+  "repeticoes": 1,
+  "id": "ALR-1FC332CC",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "AURORA-LEITO-12",
+  "severidade": 1,
+  "t": 4792.0,
+  "titulo": "Subida abrupta de PA média: 104 mmHg vs. linha de base 81 (z=+5.8)",
+  "justificativa": [
+   "[vitais/estatistico] Subida abrupta de PA média: 104 mmHg vs. linha de base 81 (z=+5.8)"
+  ],
+  "modalidades": [
+   "vitais"
+  ],
+  "eventos": [
+   "EVT-F8B6650D1F"
+  ],
+  "regra": "direto:desvio_map",
+  "acao_sugerida": "Conferir paciente e sensor; reavaliar sinais vitais",
+  "destinatarios": [
+   "enfermagem do leito"
+  ],
+  "prazo": "avaliar em até 60 min",
+  "repeticoes": 1,
+  "id": "ALR-D223CCF1",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "AURORA-LEITO-12",
+  "severidade": 1,
+  "t": 4860.0,
+  "titulo": "Risco de hipotensão nos próximos 10 min: p=12% (PAM atual 78 mmHg, tendência +2.2 mmHg/min)",
+  "justificativa": [
+   "[vitais/ml] Risco de hipotensão nos próximos 10 min: p=12% (PAM atual 78 mmHg, tendência +2.2 mmHg/min)"
+  ],
+  "modalidades": [
+   "vitais"
+  ],
+  "eventos": [
+   "EVT-38CC1A3D82"
+  ],
+  "regra": "direto:risco_hipotensao_10min",
+  "acao_sugerida": "Conferir paciente e sensor; reavaliar sinais vitais",
+  "destinatarios": [
+   "enfermagem do leito"
+  ],
+  "prazo": "avaliar em até 60 min",
+  "repeticoes": 1,
+  "id": "ALR-F353C72E",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "AURORA-LEITO-12",
+  "severidade": 1,
+  "t": 6512.0,
+  "titulo": "Subida abrupta de frequência cardíaca: 80 bpm vs. linha de base 60 (z=+6.7)",
+  "justificativa": [
+   "[vitais/estatistico] Subida abrupta de frequência cardíaca: 80 bpm vs. linha de base 60 (z=+6.7)"
+  ],
+  "modalidades": [
+   "vitais"
+  ],
+  "eventos": [
+   "EVT-46A5804FD6"
+  ],
+  "regra": "direto:desvio_hr",
+  "acao_sugerida": "Conferir paciente e sensor; reavaliar sinais vitais",
+  "destinatarios": [
+   "enfermagem do leito"
+  ],
+  "prazo": "avaliar em até 60 min",
+  "repeticoes": 1,
+  "id": "ALR-9C480644",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "AURORA-LEITO-12",
+  "severidade": 1,
+  "t": 8672.0,
+  "titulo": "Subida abrupta de frequência cardíaca: 110 bpm vs. linha de base 65 (z=+15.2)",
+  "justificativa": [
+   "[vitais/estatistico] Subida abrupta de frequência cardíaca: 110 bpm vs. linha de base 65 (z=+15.2)"
+  ],
+  "modalidades": [
+   "vitais"
+  ],
+  "eventos": [
+   "EVT-28028C286F"
+  ],
+  "regra": "direto:desvio_hr",
+  "acao_sugerida": "Conferir paciente e sensor; reavaliar sinais vitais",
+  "destinatarios": [
+   "enfermagem do leito"
+  ],
+  "prazo": "avaliar em até 60 min",
+  "repeticoes": 1,
+  "id": "ALR-CB54164A",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "AURORA-LEITO-12",
+  "severidade": 1,
+  "t": 8692.0,
+  "titulo": "Queda abrupta de PA média: 65 mmHg vs. linha de base 88 (z=-5.8)",
+  "justificativa": [
+   "[vitais/estatistico] Queda abrupta de PA média: 65 mmHg vs. linha de base 88 (z=-5.8)"
+  ],
+  "modalidades": [
+   "vitais"
+  ],
+  "eventos": [
+   "EVT-981D38F2C0"
+  ],
+  "regra": "direto:desvio_map",
+  "acao_sugerida": "Conferir paciente e sensor; reavaliar sinais vitais",
+  "destinatarios": [
+   "enfermagem do leito"
+  ],
+  "prazo": "avaliar em até 60 min",
+  "repeticoes": 1,
+  "id": "ALR-50FF2FF3",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "AURORA-LEITO-12",
+  "severidade": 1,
+  "t": 8700.0,
+  "titulo": "Combinação atípica de sinais vitais — principais desvios: HR_z (z=+16.6), HR_var (z=+10.2), DBP_var (z=+7.2)",
+  "justificativa": [
+   "[vitais/ml] Combinação atípica de sinais vitais — principais desvios: HR_z (z=+16.6), HR_var (z=+10.2), DBP_var (z=+7.2)"
+  ],
+  "modalidades": [
+   "vitais"
+  ],
+  "eventos": [
+   "EVT-6CDA6D3787"
+  ],
+  "regra": "direto:padrao_multivariado_atipico",
+  "acao_sugerida": "Conferir paciente e sensor; reavaliar sinais vitais",
+  "destinatarios": [
+   "enfermagem do leito"
+  ],
+  "prazo": "avaliar em até 60 min",
+  "repeticoes": 2,
+  "id": "ALR-69BD4B35",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "AURORA-LEITO-12",
+  "severidade": 1,
+  "t": 8700.0,
+  "titulo": "Risco de hipotensão nos próximos 10 min: p=52% (PAM atual 70 mmHg, tendência -3.0 mmHg/min)",
+  "justificativa": [
+   "[vitais/ml] Risco de hipotensão nos próximos 10 min: p=52% (PAM atual 70 mmHg, tendência -3.0 mmHg/min)"
+  ],
+  "modalidades": [
+   "vitais"
+  ],
+  "eventos": [
+   "EVT-F4427BE3C9"
+  ],
+  "regra": "direto:risco_hipotensao_10min",
+  "acao_sugerida": "Conferir paciente e sensor; reavaliar sinais vitais",
+  "destinatarios": [
+   "enfermagem do leito"
+  ],
+  "prazo": "avaliar em até 60 min",
+  "repeticoes": 1,
+  "id": "ALR-97CBDC1F",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "AURORA-LEITO-12",
+  "severidade": 1,
+  "t": 8892.0,
+  "titulo": "Queda abrupta de frequência respiratória: 6 irpm vs. linha de base 15 (z=-4.5)",
+  "justificativa": [
+   "[vitais/estatistico] Queda abrupta de frequência respiratória: 6 irpm vs. linha de base 15 (z=-4.5)"
+  ],
+  "modalidades": [
+   "vitais"
+  ],
+  "eventos": [
+   "EVT-F02E8FD84C"
+  ],
+  "regra": "direto:desvio_rr",
+  "acao_sugerida": "Conferir paciente e sensor; reavaliar sinais vitais",
+  "destinatarios": [
+   "enfermagem do leito"
+  ],
+  "prazo": "avaliar em até 60 min",
+  "repeticoes": 1,
+  "id": "ALR-27EAF3F9",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "AURORA-LEITO-12",
+  "severidade": 1,
+  "t": 9002.0,
+  "titulo": "Queda abrupta de saturação de O₂: 92 % vs. linha de base 98 (z=-6.5)",
+  "justificativa": [
+   "[vitais/estatistico] Queda abrupta de saturação de O₂: 92 % vs. linha de base 98 (z=-6.5)"
+  ],
+  "modalidades": [
+   "vitais"
+  ],
+  "eventos": [
+   "EVT-0EC612FD48"
+  ],
+  "regra": "direto:desvio_spo2",
+  "acao_sugerida": "Conferir paciente e sensor; reavaliar sinais vitais",
+  "destinatarios": [
+   "enfermagem do leito"
+  ],
+  "prazo": "avaliar em até 60 min",
+  "repeticoes": 1,
+  "id": "ALR-0CD651C7",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "AURORA-LEITO-12",
+  "severidade": 2,
+  "t": 9022.0,
+  "titulo": "SpO₂ < 92% por ≥ 30 s (atual 84 %)",
+  "justificativa": [
+   "[vitais/regra] SpO₂ < 92% por ≥ 30 s (atual 84 %)"
+  ],
+  "modalidades": [
+   "vitais"
+  ],
+  "eventos": [
+   "EVT-43720AEAA5"
+  ],
+  "regra": "direto:dessaturacao",
+  "acao_sugerida": "Conferir paciente e sensor; reavaliar sinais vitais",
+  "destinatarios": [
+   "enfermagem do leito",
+   "médico plantonista"
+  ],
+  "prazo": "avaliar em até 15 min",
+  "repeticoes": 2,
+  "id": "ALR-78F6D42F",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "AURORA-LEITO-12",
+  "severidade": 3,
+  "t": 9040.0,
+  "titulo": "SpO₂ < 88% por ≥ 30 s (atual 82 %)",
+  "justificativa": [
+   "[vitais/regra] SpO₂ < 88% por ≥ 30 s (atual 82 %)"
+  ],
+  "modalidades": [
+   "vitais"
+  ],
+  "eventos": [
+   "EVT-BD69962FA6"
+  ],
+  "regra": "direto:dessaturacao_grave",
+  "acao_sugerida": "Conferir paciente e sensor; reavaliar sinais vitais",
+  "destinatarios": [
+   "enfermagem do leito",
+   "médico plantonista",
+   "time de resposta rápida"
+  ],
+  "prazo": "beira-leito imediato",
+  "repeticoes": 1,
+  "id": "ALR-46830CAC",
+  "severidade_rotulo": "crítico"
+ }
+]

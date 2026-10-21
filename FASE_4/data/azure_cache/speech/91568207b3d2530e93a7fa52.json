@@ -1,0 +1,3177 @@
+{
+ "_meta": {
+  "servico": "speech",
+  "obtido_em": "2026-10-21T13:13:54+00:00",
+  "arquivo": "day2_consultation07_patient.wav",
+  "regiao": "brazilsouth"
+ },
+ "texto": "Hi, good morning. Nice to see you. Yeah, sure. My name is Tim Gowers and I was born in 1958 on the 8th of August. Yeah, yeah. Around that, yeah, about 60, yeah. Yeah. Yes, I am, yeah. Yeah, I was. I was having a bit of chest discomfort. So I was doing some gardening a couple of hours ago and I felt not exactly a pain, but like a pressure on my chest. Feels like someone's sitting on my chest. And I've noticed a bit of nausea, not no vomiting, but I'm pretty sweaty, short of breath, and it kind of feels like someone's sitting on my chest. No, they're still present. Yes. OK. Sure. Sure. It's in the middle of my chest over Yeah, my my pack. So yeah, but not not necessarily to one side. And it's quite a diffuse pain. Yeah, it's, it's mainly my left arm. It's feeling a little bit painful and, and in my shoulder as well. Uh, yes. So it started just when I was gardening. So nothing that was too strenuous. I was just kneeling down and. Yeah, wasn't running or anything. It wasn't during any physical exercise. No, I don't. I I generally don't do much activity at all. Yeah. No, this is the first time actually. Yeah. Umm, yeah, it's, it's beating a bit faster now. I think that's because I'm a little bit stressed about the situation, but I haven't noticed it beating faster than usual. Today. Yeah. OK. Thank you. No, no one's in the house at the moment. Yes, it's open. Yeah, yeah. Uh, yeah, I smoke a fair bit, so I smoke about 10 cigarettes a day. Yeah. Uh, for the past 15 years. Yeah. Yeah, I have high blood, blood pressure but not diabetes. No. Yes. Yes. So my father died of a heart attack and my mother had some heart problems. He was about my age. Yeah, it's around 60, yes. Yeah, I drink about per week, probably about 7 or 8 pints a week. Of yeah, yes. Yes, I'm overweight, Yeah. Yeah. Yeah, I live alone at the moment. Yeah, it's just me in the house. Yeah, yeah, I I work, yeah. I work as a restaurant owner, so I own a sushi shop. Yeah. OK. OK, Yeah. OK. Yeah. Thank you. OK. OK, no. Yes, actually I have an allergy to aspirin. Yeah, and no other allergies. Yeah, it's an allergic reaction. So I swallow a bit, but nothing life threatening. I've I sometimes even have it and it's it's a, it's a mild reaction to it. Yeah. OK. Oh, OK. Uh-huh. OK. OK. OK, OK, sure. Yeah. Thank you. Yeah, that's OK. OK. Thank you very much. Thank you.",
+ "segmentos": [
+  {
+   "inicio": 4.14,
+   "fim": 5.22,
+   "texto": "Hi, good morning.",
+   "confianca": 0.885
+  },
+  {
+   "inicio": 9.01,
+   "fim": 9.97,
+   "texto": "Nice to see you.",
+   "confianca": 0.873
+  },
+  {
+   "inicio": 15.39,
+   "fim": 24.31,
+   "texto": "Yeah, sure. My name is Tim Gowers and I was born in 1958 on the 8th of August.",
+   "confianca": 0.77
+  },
+  {
+   "inicio": 36.42,
+   "fim": 38.9,
+   "texto": "Yeah, yeah. Around that, yeah, about 60, yeah.",
+   "confianca": 0.645
+  },
+  {
+   "inicio": 40.43,
+   "fim": 40.75,
+   "texto": "Yeah.",
+   "confianca": 0.125
+  },
+  {
+   "inicio": 46.39,
+   "fim": 47.63,
+   "texto": "Yes, I am, yeah.",
+   "confianca": 0.685
+  },
+  {
+   "inicio": 51.68,
+   "fim": 68.28,
+   "texto": "Yeah, I was. I was having a bit of chest discomfort. So I was doing some gardening a couple of hours ago and I felt not exactly a pain, but like a pressure on my chest. Feels like someone's sitting on my chest.",
+   "confianca": 0.856
+  },
+  {
+   "inicio": 69.72,
+   "fim": 81.16,
+   "texto": "And I've noticed a bit of nausea, not no vomiting, but I'm pretty sweaty, short of breath, and it kind of feels like someone's sitting on my chest.",
+   "confianca": 0.772
+  },
+  {
+   "inicio": 88.29,
+   "fim": 89.97,
+   "texto": "No, they're still present.",
+   "confianca": 0.873
+  },
+  {
+   "inicio": 93.01,
+   "fim": 93.69,
+   "texto": "Yes.",
+   "confianca": 0.731
+  },
+  {
+   "inicio": 102.18,
+   "fim": 102.7,
+   "texto": "OK.",
+   "confianca": 0.124
+  },
+  {
+   "inicio": 110.78,
+   "fim": 111.26,
+   "texto": "Sure.",
+   "confianca": 0.7
+  },
+  {
+   "inicio": 115.53,
+   "fim": 116.05,
+   "texto": "Sure.",
+   "confianca": 0.686
+  },
+  {
+   "inicio": 121.35,
+   "fim": 133.75,
+   "texto": "It's in the middle of my chest over Yeah, my my pack. So yeah, but not not necessarily to one side. And it's quite a diffuse pain.",
+   "confianca": 0.734
+  },
+  {
+   "inicio": 138.94,
+   "fim": 147.94,
+   "texto": "Yeah, it's, it's mainly my left arm. It's feeling a little bit painful and, and in my shoulder as well.",
+   "confianca": 0.785
+  },
+  {
+   "inicio": 152.73,
+   "fim": 159.97,
+   "texto": "Uh, yes. So it started just when I was gardening. So nothing that was too strenuous. I was just kneeling down and.",
+   "confianca": 0.799
+  },
+  {
+   "inicio": 161.43,
+   "fim": 165.07,
+   "texto": "Yeah, wasn't running or anything. It wasn't during any physical exercise.",
+   "confianca": 0.666
+  },
+  {
+   "inicio": 170.87,
+   "fim": 176.19,
+   "texto": "No, I don't. I I generally don't do much activity at all. Yeah.",
+   "confianca": 0.822
+  },
+  {
+   "inicio": 178.72,
+   "fim": 180.68,
+   "texto": "No, this is the first time actually.",
+   "confianca": 0.916
+  },
+  {
+   "inicio": 182.36,
+   "fim": 182.84,
+   "texto": "Yeah.",
+   "confianca": 0.09
+  },
+  {
+   "inicio": 188.3,
+   "fim": 197.86,
+   "texto": "Umm, yeah, it's, it's beating a bit faster now. I think that's because I'm a little bit stressed about the situation, but I haven't noticed it beating faster than usual.",
+   "confianca": 0.737
+  },
+  {
+   "inicio": 199.68,
+   "fim": 199.92,
+   "texto": "Today.",
+   "confianca": 0.711
+  },
+  {
+   "inicio": 204.5,
+   "fim": 205.02,
+   "texto": "Yeah.",
+   "confianca": 0.024
+  },
+  {
+   "inicio": 207.45,
+   "fim": 208.45,
+   "texto": "OK. Thank you.",
+   "confianca": 0.67
+  },
+  {
+   "inicio": 210.04,
+   "fim": 212.04,
+   "texto": "No, no one's in the house at the moment.",
+   "confianca": 0.809
+  },
+  {
+   "inicio": 217.27,
+   "fim": 218.47,
+   "texto": "Yes, it's open.",
+   "confianca": 0.895
+  },
+  {
+   "inicio": 226.01,
+   "fim": 227.41,
+   "texto": "Yeah, yeah.",
+   "confianca": 0.4
+  },
+  {
+   "inicio": 231.68,
+   "fim": 237.64,
+   "texto": "Uh, yeah, I smoke a fair bit, so I smoke about 10 cigarettes a day.",
+   "confianca": 0.659
+  },
+  {
+   "inicio": 239.52,
+   "fim": 239.68,
+   "texto": "Yeah.",
+   "confianca": 0.796
+  },
+  {
+   "inicio": 242.11,
+   "fim": 244.55,
+   "texto": "Uh, for the past 15 years.",
+   "confianca": 0.706
+  },
+  {
+   "inicio": 246.3,
+   "fim": 246.78,
+   "texto": "Yeah.",
+   "confianca": 0.395
+  },
+  {
+   "inicio": 251.73,
+   "fim": 255.65,
+   "texto": "Yeah, I have high blood, blood pressure but not diabetes.",
+   "confianca": 0.797
+  },
+  {
+   "inicio": 258.53,
+   "fim": 259.21,
+   "texto": "No.",
+   "confianca": 0.852
+  },
+  {
+   "inicio": 265.31,
+   "fim": 265.95,
+   "texto": "Yes.",
+   "confianca": 0.841
+  },
+  {
+   "inicio": 269.13,
+   "fim": 276.93,
+   "texto": "Yes. So my father died of a heart attack and my mother had some heart problems.",
+   "confianca": 0.856
+  },
+  {
+   "inicio": 283.7,
+   "fim": 285.3,
+   "texto": "He was about my age.",
+   "confianca": 0.938
+  },
+  {
+   "inicio": 288.53,
+   "fim": 290.09,
+   "texto": "Yeah, it's around 60, yes.",
+   "confianca": 0.504
+  },
+  {
+   "inicio": 294.03,
+   "fim": 299.79,
+   "texto": "Yeah, I drink about per week, probably about 7 or 8 pints a week.",
+   "confianca": 0.823
+  },
+  {
+   "inicio": 302.3,
+   "fim": 303.54,
+   "texto": "Of yeah, yes.",
+   "confianca": 0.334
+  },
+  {
+   "inicio": 308.62,
+   "fim": 310.3,
+   "texto": "Yes, I'm overweight, Yeah.",
+   "confianca": 0.816
+  },
+  {
+   "inicio": 310.99,
+   "fim": 311.35,
+   "texto": "Yeah.",
+   "confianca": 0.615
+  },
+  {
+   "inicio": 318.58,
+   "fim": 323.1,
+   "texto": "Yeah, I live alone at the moment. Yeah, it's just me in the house.",
+   "confianca": 0.861
+  },
+  {
+   "inicio": 326.33,
+   "fim": 328.29,
+   "texto": "Yeah, yeah, I I work, yeah.",
+   "confianca": 0.778
+  },
+  {
+   "inicio": 331.15,
+   "fim": 334.95,
+   "texto": "I work as a restaurant owner, so I own a sushi shop.",
+   "confianca": 0.908
+  },
+  {
+   "inicio": 336.46,
+   "fim": 336.9,
+   "texto": "Yeah.",
+   "confianca": 0.456
+  },
+  {
+   "inicio": 348.48,
+   "fim": 349.04,
+   "texto": "OK.",
+   "confianca": 0.191
+  },
+  {
+   "inicio": 355.24,
+   "fim": 356.24,
+   "texto": "OK, Yeah.",
+   "confianca": 0.292
+  },
+  {
+   "inicio": 360.68,
+   "fim": 362.28,
+   "texto": "OK. Yeah. Thank you.",
+   "confianca": 0.615
+  },
+  {
+   "inicio": 367.14,
+   "fim": 367.62,
+   "texto": "OK.",
+   "confianca": 0.213
+  },
+  {
+   "inicio": 370.61,
+   "fim": 371.25,
+   "texto": "OK, no.",
+   "confianca": 0.408
+  },
+  {
+   "inicio": 378.15,
+   "fim": 381.11,
+   "texto": "Yes, actually I have an allergy to aspirin.",
+   "confianca": 0.86
+  },
+  {
+   "inicio": 383.08,
+   "fim": 384.88,
+   "texto": "Yeah, and no other allergies.",
+   "confianca": 0.808
+  },
+  {
+   "inicio": 392.82,
+   "fim": 405.02,
+   "texto": "Yeah, it's an allergic reaction. So I swallow a bit, but nothing life threatening. I've I sometimes even have it and it's it's a, it's a mild reaction to it.",
+   "confianca": 0.844
+  },
+  {
+   "inicio": 406.29,
+   "fim": 406.77,
+   "texto": "Yeah.",
+   "confianca": 0.185
+  },
+  {
+   "inicio": 410.43,
+   "fim": 410.95,
+   "texto": "OK.",
+   "confianca": 0.151
+  },
+  {
+   "inicio": 415.4,
+   "fim": 416.2,
+   "texto": "Oh, OK.",
+   "confianca": 0.458
+  },
+  {
+   "inicio": 422.26,
+   "fim": 422.62,
+   "texto": "Uh-huh.",
+   "confianca": 0.193
+  },
+  {
+   "inicio": 433.65,
+   "fim": 434.21,
+   "texto": "OK.",
+   "confianca": 0.193
+  },
+  {
+   "inicio": 437.27,
+   "fim": 437.83,
+   "texto": "OK.",
+   "confianca": 0.159
+  },
+  {
+   "inicio": 443.51,
+   "fim": 445.19,
+   "texto": "OK, OK, sure.",
+   "confianca": 0.548
+  },
+  {
+   "inicio": 445.99,
+   "fim": 446.87,
+   "texto": "Yeah. Thank you.",
+   "confianca": 0.631
+  },
+  {
+   "inicio": 452.0,
+   "fim": 455.24,
+   "texto": "Yeah, that's OK. OK. Thank you very much.",
+   "confianca": 0.733
+  },
+  {
+   "inicio": 456.47,
+   "fim": 456.95,
+   "texto": "Thank you.",
+   "confianca": 0.951
+  }
+ ],
+ "palavras": [
+  {
+   "palavra": "hi",
+   "inicio": 4.14,
+   "fim": 4.5,
+   "confianca": 0.767
+  },
+  {
+   "palavra": "good",
+   "inicio": 4.5,
+   "fim": 4.66,
+   "confianca": 0.938
+  },
+  {
+   "palavra": "morning",
+   "inicio": 4.66,
+   "fim": 5.22,
+   "confianca": 0.948
+  },
+  {
+   "palavra": "nice",
+   "inicio": 9.01,
+   "fim": 9.17,
+   "confianca": 0.865
+  },
+  {
+   "palavra": "to",
+   "inicio": 9.17,
+   "fim": 9.25,
+   "confianca": 0.936
+  },
+  {
+   "palavra": "see",
+   "inicio": 9.25,
+   "fim": 9.85,
+   "confianca": 0.86
+  },
+  {
+   "palavra": "you",
+   "inicio": 9.85,
+   "fim": 9.97,
+   "confianca": 0.829
+  },
+  {
+   "palavra": "yeah",
+   "inicio": 15.39,
+   "fim": 15.67,
+   "confianca": 0.708
+  },
+  {
+   "palavra": "sure",
+   "inicio": 15.67,
+   "fim": 16.15,
+   "confianca": 0.803
+  },
+  {
+   "palavra": "my",
+   "inicio": 16.15,
+   "fim": 16.71,
+   "confianca": 0.939
+  },
+  {
+   "palavra": "name",
+   "inicio": 16.71,
+   "fim": 17.03,
+   "confianca": 0.941
+  },
+  {
+   "palavra": "is",
+   "inicio": 17.03,
+   "fim": 17.19,
+   "confianca": 0.936
+  },
+  {
+   "palavra": "tim",
+   "inicio": 17.19,
+   "fim": 17.43,
+   "confianca": 0.077
+  },
+  {
+   "palavra": "gowers",
+   "inicio": 17.43,
+   "fim": 18.19,
+   "confianca": 0.389
+  },
+  {
+   "palavra": "and",
+   "inicio": 18.59,
+   "fim": 19.03,
+   "confianca": 0.904
+  },
+  {
+   "palavra": "i",
+   "inicio": 19.03,
+   "fim": 19.07,
+   "confianca": 0.92
+  },
+  {
+   "palavra": "was",
+   "inicio": 19.07,
+   "fim": 19.35,
+   "confianca": 0.923
+  },
+  {
+   "palavra": "born",
+   "inicio": 19.35,
+   "fim": 19.79,
+   "confianca": 0.924
+  },
+  {
+   "palavra": "in",
+   "inicio": 19.79,
+   "fim": 19.91,
+   "confianca": 0.733
+  },
+  {
+   "palavra": "nineteen",
+   "inicio": 19.91,
+   "fim": 20.55,
+   "confianca": 0.681
+  },
+  {
+   "palavra": "fifty",
+   "inicio": 20.55,
+   "fim": 21.19,
+   "confianca": 0.73
+  },
+  {
+   "palavra": "eight",
+   "inicio": 21.27,
+   "fim": 21.59,
+   "confianca": 0.782
+  },
+  {
+   "palavra": "on",
+   "inicio": 22.75,
+   "fim": 23.15,
+   "confianca": 0.824
+  },
+  {
+   "palavra": "the",
+   "inicio": 23.15,
+   "fim": 23.27,
+   "confianca": 0.782
+  },
+  {
+   "palavra": "eighth",
+   "inicio": 23.27,
+   "fim": 23.55,
+   "confianca": 0.753
+  },
+  {
+   "palavra": "of",
+   "inicio": 23.55,
+   "fim": 23.63,
+   "confianca": 0.744
+  },
+  {
+   "palavra": "august",
+   "inicio": 23.63,
+   "fim": 24.31,
+   "confianca": 0.907
+  },
+  {
+   "palavra": "yeah",
+   "inicio": 36.42,
+   "fim": 36.82,
+   "confianca": 0.852
+  },
+  {
+   "palavra": "yeah",
+   "inicio": 36.82,
+   "fim": 37.18,
+   "confianca": 0.725
+  },
+  {
+   "palavra": "around",
+   "inicio": 37.18,
+   "fim": 37.46,
+   "confianca": 0.158
+  },
+  {
+   "palavra": "that",
+   "inicio": 37.46,
+   "fim": 37.7,
+   "confianca": 0.896
+  },
+  {
+   "palavra": "yeah",
+   "inicio": 37.7,
+   "fim": 37.98,
+   "confianca": 0.777
+  },
+  {
+   "palavra": "about",
+   "inicio": 37.98,
+   "fim": 38.18,
+   "confianca": 0.259
+  },
+  {
+   "palavra": "sixty",
+   "inicio": 38.18,
+   "fim": 38.58,
+   "confianca": 0.759
+  },
+  {
+   "palavra": "yeah",
+   "inicio": 38.58,
+   "fim": 38.9,
+   "confianca": 0.731
+  },
+  {
+   "palavra": "yeah",
+   "inicio": 40.43,
+   "fim": 40.75,
+   "confianca": 0.125
+  },
+  {
+   "palavra": "yes",
+   "inicio": 46.39,
+   "fim": 46.83,
+   "confianca": 0.898
+  },
+  {
+   "palavra": "i",
+   "inicio": 46.83,
+   "fim": 46.87,
+   "confianca": 0.867
+  },
+  {
+   "palavra": "am",
+   "inicio": 46.87,
+   "fim": 47.23,
+   "confianca": 0.839
+  },
+  {
+   "palavra": "yeah",
+   "inicio": 47.27,
+   "fim": 47.63,
+   "confianca": 0.136
+  },
+  {
+   "palavra": "yeah",
+   "inicio": 51.68,
+   "fim": 52.12,
+   "confianca": 0.875
+  },
+  {
+   "palavra": "i",
+   "inicio": 52.12,
+   "fim": 52.16,
+   "confianca": 0.85
+  },
+  {
+   "palavra": "was",
+   "inicio": 52.16,
+   "fim": 52.6,
+   "confianca": 0.817
+  },
+  {
+   "palavra": "i",
+   "inicio": 52.68,
+   "fim": 52.72,
+   "confianca": 0.868
+  },
+  {
+   "palavra": "was",
+   "inicio": 52.72,
+   "fim": 52.96,
+   "confianca": 0.799
+  },
+  {
+   "palavra": "having",
+   "inicio": 52.96,
+   "fim": 53.6,
+   "confianca": 0.906
+  },
+  {
+   "palavra": "a",
+   "inicio": 53.96,
+   "fim": 54.0,
+   "confianca": 0.749
+  },
+  {
+   "palavra": "bit",
+   "inicio": 54.0,
+   "fim": 54.2,
+   "confianca": 0.927
+  },
+  {
+   "palavra": "of",
+   "inicio": 54.2,
+   "fim": 54.48,
+   "confianca": 0.915
+  },
+  {
+   "palavra": "chest",
+   "inicio": 54.48,
+   "fim": 54.92,
+   "confianca": 0.922
+  },
+  {
+   "palavra": "discomfort",
+   "inicio": 54.92,
+   "fim": 55.64,
+   "confianca": 0.783
+  },
+  {
+   "palavra": "so",
+   "inicio": 55.64,
+   "fim": 55.96,
+   "confianca": 0.896
+  },
+  {
+   "palavra": "i",
+   "inicio": 55.96,
+   "fim": 56.0,
+   "confianca": 0.844
+  },
+  {
+   "palavra": "was",
+   "inicio": 56.0,
+   "fim": 56.28,
+   "confianca": 0.763
+  },
+  {
+   "palavra": "doing",
+   "inicio": 56.28,
+   "fim": 56.56,
+   "confianca": 0.786
+  },
+  {
+   "palavra": "some",
+   "inicio": 56.56,
+   "fim": 56.8,
+   "confianca": 0.916
+  },
+  {
+   "palavra": "gardening",
+   "inicio": 56.8,
+   "fim": 57.6,
+   "confianca": 0.919
+  },
+  {
+   "palavra": "a",
+   "inicio": 58.28,
+   "fim": 58.32,
+   "confianca": 0.848
+  },
+  {
+   "palavra": "couple",
+   "inicio": 58.32,
+   "fim": 58.68,
+   "confianca": 0.932
+  },
+  {
+   "palavra": "of",
+   "inicio": 58.68,
+   "fim": 58.76,
+   "confianca": 0.919
+  },
+  {
+   "palavra": "hours",
+   "inicio": 58.76,
+   "fim": 59.16,
+   "confianca": 0.776
+  },
+  {
+   "palavra": "ago",
+   "inicio": 59.16,
+   "fim": 59.68,
+   "confianca": 0.929
+  },
+  {
+   "palavra": "and",
+   "inicio": 60.04,
+   "fim": 60.76,
+   "confianca": 0.914
+  },
+  {
+   "palavra": "i",
+   "inicio": 60.84,
+   "fim": 60.88,
+   "confianca": 0.935
+  },
+  {
+   "palavra": "felt",
+   "inicio": 60.88,
+   "fim": 61.36,
+   "confianca": 0.817
+  },
+  {
+   "palavra": "not",
+   "inicio": 61.6,
+   "fim": 61.84,
+   "confianca": 0.93
+  },
+  {
+   "palavra": "exactly",
+   "inicio": 61.84,
+   "fim": 62.24,
+   "confianca": 0.937
+  },
+  {
+   "palavra": "a",
+   "inicio": 62.24,
+   "fim": 62.28,
+   "confianca": 0.881
+  },
+  {
+   "palavra": "pain",
+   "inicio": 62.28,
+   "fim": 62.8,
+   "confianca": 0.936
+  },
+  {
+   "palavra": "but",
+   "inicio": 62.8,
+   "fim": 63.12,
+   "confianca": 0.889
+  },
+  {
+   "palavra": "like",
+   "inicio": 63.4,
+   "fim": 63.76,
+   "confianca": 0.859
+  },
+  {
+   "palavra": "a",
+   "inicio": 63.76,
+   "fim": 63.8,
+   "confianca": 0.784
+  },
+  {
+   "palavra": "pressure",
+   "inicio": 63.8,
+   "fim": 64.44,
+   "confianca": 0.935
+  },
+  {
+   "palavra": "on",
+   "inicio": 64.44,
+   "fim": 64.52,
+   "confianca": 0.931
+  },
+  {
+   "palavra": "my",
+   "inicio": 64.52,
+   "fim": 64.76,
+   "confianca": 0.864
+  },
+  {
+   "palavra": "chest",
+   "inicio": 64.76,
+   "fim": 65.44,
+   "confianca": 0.794
+  },
+  {
+   "palavra": "feels",
+   "inicio": 66.28,
+   "fim": 66.64,
+   "confianca": 0.923
+  },
+  {
+   "palavra": "like",
+   "inicio": 66.64,
+   "fim": 66.8,
+   "confianca": 0.933
+  },
+  {
+   "palavra": "someone",
+   "inicio": 66.8,
+   "fim": 67.08,
+   "confianca": 0.893
+  },
+  {
+   "palavra": "'s",
+   "inicio": 67.08,
+   "fim": 67.12,
+   "confianca": 0.055
+  },
+  {
+   "palavra": "sitting",
+   "inicio": 67.12,
+   "fim": 67.4,
+   "confianca": 0.925
+  },
+  {
+   "palavra": "on",
+   "inicio": 67.4,
+   "fim": 67.48,
+   "confianca": 0.823
+  },
+  {
+   "palavra": "my",
+   "inicio": 67.48,
+   "fim": 67.64,
+   "confianca": 0.933
+  },
+  {
+   "palavra": "chest",
+   "inicio": 67.64,
+   "fim": 68.28,
+   "confianca": 0.836
+  },
+  {
+   "palavra": "and",
+   "inicio": 69.72,
+   "fim": 69.92,
+   "confianca": 0.764
+  },
+  {
+   "palavra": "i've",
+   "inicio": 69.92,
+   "fim": 70.08,
+   "confianca": 0.611
+  },
+  {
+   "palavra": "noticed",
+   "inicio": 70.08,
+   "fim": 70.64,
+   "confianca": 0.71
+  },
+  {
+   "palavra": "a",
+   "inicio": 70.64,
+   "fim": 70.68,
+   "confianca": 0.728
+  },
+  {
+   "palavra": "bit",
+   "inicio": 71.64,
+   "fim": 71.92,
+   "confianca": 0.917
+  },
+  {
+   "palavra": "of",
+   "inicio": 71.92,
+   "fim": 72.0,
+   "confianca": 0.903
+  },
+  {
+   "palavra": "nausea",
+   "inicio": 72.0,
+   "fim": 72.56,
+   "confianca": 0.832
+  },
+  {
+   "palavra": "not",
+   "inicio": 72.56,
+   "fim": 73.08,
+   "confianca": 0.642
+  },
+  {
+   "palavra": "no",
+   "inicio": 73.28,
+   "fim": 73.72,
+   "confianca": 0.352
+  },
+  {
+   "palavra": "vomiting",
+   "inicio": 73.72,
+   "fim": 74.36,
+   "confianca": 0.898
+  },
+  {
+   "palavra": "but",
+   "inicio": 74.36,
+   "fim": 74.68,
+   "confianca": 0.876
+  },
+  {
+   "palavra": "i'm",
+   "inicio": 75.48,
+   "fim": 75.6,
+   "confianca": 0.208
+  },
+  {
+   "palavra": "pretty",
+   "inicio": 75.76,
+   "fim": 76.08,
+   "confianca": 0.92
+  },
+  {
+   "palavra": "sweaty",
+   "inicio": 76.08,
+   "fim": 76.88,
+   "confianca": 0.771
+  },
+  {
+   "palavra": "short",
+   "inicio": 77.72,
+   "fim": 78.2,
+   "confianca": 0.811
+  },
+  {
+   "palavra": "of",
+   "inicio": 78.2,
+   "fim": 78.36,
+   "confianca": 0.8
+  },
+  {
+   "palavra": "breath",
+   "inicio": 78.36,
+   "fim": 79.04,
+   "confianca": 0.805
+  },
+  {
+   "palavra": "and",
+   "inicio": 79.04,
+   "fim": 79.24,
+   "confianca": 0.897
+  },
+  {
+   "palavra": "it",
+   "inicio": 79.24,
+   "fim": 79.32,
+   "confianca": 0.891
+  },
+  {
+   "palavra": "kind",
+   "inicio": 79.32,
+   "fim": 79.48,
+   "confianca": 0.901
+  },
+  {
+   "palavra": "of",
+   "inicio": 79.48,
+   "fim": 79.56,
+   "confianca": 0.733
+  },
+  {
+   "palavra": "feels",
+   "inicio": 79.56,
+   "fim": 79.76,
+   "confianca": 0.93
+  },
+  {
+   "palavra": "like",
+   "inicio": 79.76,
+   "fim": 79.92,
+   "confianca": 0.888
+  },
+  {
+   "palavra": "someone",
+   "inicio": 79.92,
+   "fim": 80.2,
+   "confianca": 0.709
+  },
+  {
+   "palavra": "'s",
+   "inicio": 80.2,
+   "fim": 80.24,
+   "confianca": 0.196
+  },
+  {
+   "palavra": "sitting",
+   "inicio": 80.24,
+   "fim": 80.56,
+   "confianca": 0.925
+  },
+  {
+   "palavra": "on",
+   "inicio": 80.56,
+   "fim": 80.64,
+   "confianca": 0.933
+  },
+  {
+   "palavra": "my",
+   "inicio": 80.64,
+   "fim": 80.8,
+   "confianca": 0.932
+  },
+  {
+   "palavra": "chest",
+   "inicio": 80.8,
+   "fim": 81.16,
+   "confianca": 0.915
+  },
+  {
+   "palavra": "no",
+   "inicio": 88.29,
+   "fim": 88.53,
+   "confianca": 0.706
+  },
+  {
+   "palavra": "they're",
+   "inicio": 88.61,
+   "fim": 89.05,
+   "confianca": 0.884
+  },
+  {
+   "palavra": "still",
+   "inicio": 89.05,
+   "fim": 89.33,
+   "confianca": 0.953
+  },
+  {
+   "palavra": "present",
+   "inicio": 89.33,
+   "fim": 89.97,
+   "confianca": 0.949
+  },
+  {
+   "palavra": "yes",
+   "inicio": 93.01,
+   "fim": 93.69,
+   "confianca": 0.731
+  },
+  {
+   "palavra": "OK",
+   "inicio": 102.18,
+   "fim": 102.7,
+   "confianca": 0.124
+  },
+  {
+   "palavra": "sure",
+   "inicio": 110.78,
+   "fim": 111.26,
+   "confianca": 0.7
+  },
+  {
+   "palavra": "sure",
+   "inicio": 115.53,
+   "fim": 116.05,
+   "confianca": 0.686
+  },
+  {
+   "palavra": "it's",
+   "inicio": 121.35,
+   "fim": 122.03,
+   "confianca": 0.91
+  },
+  {
+   "palavra": "in",
+   "inicio": 122.03,
+   "fim": 122.23,
+   "confianca": 0.857
+  },
+  {
+   "palavra": "the",
+   "inicio": 122.23,
+   "fim": 122.75,
+   "confianca": 0.795
+  },
+  {
+   "palavra": "middle",
+   "inicio": 122.95,
+   "fim": 123.35,
+   "confianca": 0.932
+  },
+  {
+   "palavra": "of",
+   "inicio": 123.35,
+   "fim": 123.47,
+   "confianca": 0.775
+  },
+  {
+   "palavra": "my",
+   "inicio": 123.47,
+   "fim": 123.67,
+   "confianca": 0.937
+  },
+  {
+   "palavra": "chest",
+   "inicio": 123.67,
+   "fim": 124.31,
+   "confianca": 0.93
+  },
+  {
+   "palavra": "over",
+   "inicio": 125.15,
+   "fim": 126.11,
+   "confianca": 0.851
+  },
+  {
+   "palavra": "yeah",
+   "inicio": 126.43,
+   "fim": 126.83,
+   "confianca": 0.469
+  },
+  {
+   "palavra": "my",
+   "inicio": 126.83,
+   "fim": 127.15,
+   "confianca": 0.784
+  },
+  {
+   "palavra": "my",
+   "inicio": 127.15,
+   "fim": 127.67,
+   "confianca": 0.776
+  },
+  {
+   "palavra": "pack",
+   "inicio": 127.75,
+   "fim": 128.03,
+   "confianca": 0.048
+  },
+  {
+   "palavra": "so",
+   "inicio": 128.03,
+   "fim": 128.67,
+   "confianca": 0.729
+  },
+  {
+   "palavra": "yeah",
+   "inicio": 129.63,
+   "fim": 129.99,
+   "confianca": 0.892
+  },
+  {
+   "palavra": "but",
+   "inicio": 129.99,
+   "fim": 130.11,
+   "confianca": 0.761
+  },
+  {
+   "palavra": "not",
+   "inicio": 130.11,
+   "fim": 130.35,
+   "confianca": 0.677
+  },
+  {
+   "palavra": "not",
+   "inicio": 130.35,
+   "fim": 130.63,
+   "confianca": 0.737
+  },
+  {
+   "palavra": "necessarily",
+   "inicio": 130.63,
+   "fim": 131.19,
+   "confianca": 0.809
+  },
+  {
+   "palavra": "to",
+   "inicio": 131.19,
+   "fim": 131.31,
+   "confianca": 0.679
+  },
+  {
+   "palavra": "one",
+   "inicio": 131.31,
+   "fim": 131.63,
+   "confianca": 0.911
+  },
+  {
+   "palavra": "side",
+   "inicio": 131.63,
+   "fim": 132.27,
+   "confianca": 0.921
+  },
+  {
+   "palavra": "and",
+   "inicio": 132.31,
+   "fim": 132.55,
+   "confianca": 0.116
+  },
+  {
+   "palavra": "it's",
+   "inicio": 132.55,
+   "fim": 132.75,
+   "confianca": 0.858
+  },
+  {
+   "palavra": "quite",
+   "inicio": 132.75,
+   "fim": 132.95,
+   "confianca": 0.678
+  },
+  {
+   "palavra": "a",
+   "inicio": 132.95,
+   "fim": 132.99,
+   "confianca": 0.742
+  },
+  {
+   "palavra": "diffuse",
+   "inicio": 132.99,
+   "fim": 133.43,
+   "confianca": 0.587
+  },
+  {
+   "palavra": "pain",
+   "inicio": 133.43,
+   "fim": 133.75,
+   "confianca": 0.653
+  },
+  {
+   "palavra": "yeah",
+   "inicio": 138.94,
+   "fim": 139.42,
+   "confianca": 0.801
+  },
+  {
+   "palavra": "it's",
+   "inicio": 139.42,
+   "fim": 139.62,
+   "confianca": 0.765
+  },
+  {
+   "palavra": "it's",
+   "inicio": 139.62,
+   "fim": 140.18,
+   "confianca": 0.739
+  },
+  {
+   "palavra": "mainly",
+   "inicio": 140.66,
+   "fim": 141.18,
+   "confianca": 0.779
+  },
+  {
+   "palavra": "my",
+   "inicio": 141.18,
+   "fim": 141.38,
+   "confianca": 0.583
+  },
+  {
+   "palavra": "left",
+   "inicio": 141.38,
+   "fim": 141.74,
+   "confianca": 0.933
+  },
+  {
+   "palavra": "arm",
+   "inicio": 141.74,
+   "fim": 142.26,
+   "confianca": 0.748
+  },
+  {
+   "palavra": "it's",
+   "inicio": 143.06,
+   "fim": 143.26,
+   "confianca": 0.837
+  },
+  {
+   "palavra": "feeling",
+   "inicio": 143.26,
+   "fim": 143.58,
+   "confianca": 0.798
+  },
+  {
+   "palavra": "a",
+   "inicio": 143.58,
+   "fim": 143.62,
+   "confianca": 0.92
+  },
+  {
+   "palavra": "little",
+   "inicio": 143.62,
+   "fim": 143.86,
+   "confianca": 0.78
+  },
+  {
+   "palavra": "bit",
+   "inicio": 143.86,
+   "fim": 144.14,
+   "confianca": 0.928
+  },
+  {
+   "palavra": "painful",
+   "inicio": 145.58,
+   "fim": 146.22,
+   "confianca": 0.796
+  },
+  {
+   "palavra": "and",
+   "inicio": 146.26,
+   "fim": 146.58,
+   "confianca": 0.358
+  },
+  {
+   "palavra": "and",
+   "inicio": 146.58,
+   "fim": 146.7,
+   "confianca": 0.457
+  },
+  {
+   "palavra": "in",
+   "inicio": 146.7,
+   "fim": 146.9,
+   "confianca": 0.89
+  },
+  {
+   "palavra": "my",
+   "inicio": 146.9,
+   "fim": 147.02,
+   "confianca": 0.903
+  },
+  {
+   "palavra": "shoulder",
+   "inicio": 147.02,
+   "fim": 147.46,
+   "confianca": 0.827
+  },
+  {
+   "palavra": "as",
+   "inicio": 147.46,
+   "fim": 147.58,
+   "confianca": 0.929
+  },
+  {
+   "palavra": "well",
+   "inicio": 147.58,
+   "fim": 147.94,
+   "confianca": 0.92
+  },
+  {
+   "palavra": "uh",
+   "inicio": 152.73,
+   "fim": 152.89,
+   "confianca": 0.175
+  },
+  {
+   "palavra": "yes",
+   "inicio": 152.89,
+   "fim": 153.25,
+   "confianca": 0.264
+  },
+  {
+   "palavra": "so",
+   "inicio": 153.25,
+   "fim": 153.53,
+   "confianca": 0.773
+  },
+  {
+   "palavra": "it",
+   "inicio": 153.53,
+   "fim": 153.69,
+   "confianca": 0.746
+  },
+  {
+   "palavra": "started",
+   "inicio": 153.69,
+   "fim": 154.17,
+   "confianca": 0.787
+  },
+  {
+   "palavra": "just",
+   "inicio": 154.37,
+   "fim": 154.65,
+   "confianca": 0.918
+  },
+  {
+   "palavra": "when",
+   "inicio": 154.65,
+   "fim": 154.85,
+   "confianca": 0.913
+  },
+  {
+   "palavra": "i",
+   "inicio": 154.85,
+   "fim": 154.89,
+   "confianca": 0.92
+  },
+  {
+   "palavra": "was",
+   "inicio": 154.89,
+   "fim": 155.09,
+   "confianca": 0.844
+  },
+  {
+   "palavra": "gardening",
+   "inicio": 155.09,
+   "fim": 155.69,
+   "confianca": 0.911
+  },
+  {
+   "palavra": "so",
+   "inicio": 155.69,
+   "fim": 156.09,
+   "confianca": 0.799
+  },
+  {
+   "palavra": "nothing",
+   "inicio": 156.09,
+   "fim": 156.61,
+   "confianca": 0.93
+  },
+  {
+   "palavra": "that",
+   "inicio": 156.61,
+   "fim": 156.77,
+   "confianca": 0.934
+  },
+  {
+   "palavra": "was",
+   "inicio": 156.77,
+   "fim": 156.97,
+   "confianca": 0.849
+  },
+  {
+   "palavra": "too",
+   "inicio": 156.97,
+   "fim": 157.13,
+   "confianca": 0.913
+  },
+  {
+   "palavra": "strenuous",
+   "inicio": 157.13,
+   "fim": 158.09,
+   "confianca": 0.885
+  },
+  {
+   "palavra": "i",
+   "inicio": 158.53,
+   "fim": 158.57,
+   "confianca": 0.902
+  },
+  {
+   "palavra": "was",
+   "inicio": 158.57,
+   "fim": 158.73,
+   "confianca": 0.846
+  },
+  {
+   "palavra": "just",
+   "inicio": 158.73,
+   "fim": 158.93,
+   "confianca": 0.937
+  },
+  {
+   "palavra": "kneeling",
+   "inicio": 158.93,
+   "fim": 159.33,
+   "confianca": 0.754
+  },
+  {
+   "palavra": "down",
+   "inicio": 159.33,
+   "fim": 159.69,
+   "confianca": 0.929
+  },
+  {
+   "palavra": "and",
+   "inicio": 159.69,
+   "fim": 159.97,
+   "confianca": 0.651
+  },
+  {
+   "palavra": "yeah",
+   "inicio": 161.43,
+   "fim": 161.95,
+   "confianca": 0.387
+  },
+  {
+   "palavra": "wasn't",
+   "inicio": 161.95,
+   "fim": 162.31,
+   "confianca": 0.665
+  },
+  {
+   "palavra": "running",
+   "inicio": 162.31,
+   "fim": 162.63,
+   "confianca": 0.861
+  },
+  {
+   "palavra": "or",
+   "inicio": 162.63,
+   "fim": 162.75,
+   "confianca": 0.893
+  },
+  {
+   "palavra": "anything",
+   "inicio": 162.75,
+   "fim": 163.11,
+   "confianca": 0.903
+  },
+  {
+   "palavra": "it",
+   "inicio": 163.11,
+   "fim": 163.19,
+   "confianca": 0.346
+  },
+  {
+   "palavra": "wasn't",
+   "inicio": 163.19,
+   "fim": 163.43,
+   "confianca": 0.476
+  },
+  {
+   "palavra": "during",
+   "inicio": 163.43,
+   "fim": 163.71,
+   "confianca": 0.438
+  },
+  {
+   "palavra": "any",
+   "inicio": 163.71,
+   "fim": 163.87,
+   "confianca": 0.822
+  },
+  {
+   "palavra": "physical",
+   "inicio": 163.87,
+   "fim": 164.27,
+   "confianca": 0.776
+  },
+  {
+   "palavra": "exercise",
+   "inicio": 164.27,
+   "fim": 165.07,
+   "confianca": 0.757
+  },
+  {
+   "palavra": "no",
+   "inicio": 170.87,
+   "fim": 171.39,
+   "confianca": 0.847
+  },
+  {
+   "palavra": "i",
+   "inicio": 171.47,
+   "fim": 171.51,
+   "confianca": 0.946
+  },
+  {
+   "palavra": "don't",
+   "inicio": 171.51,
+   "fim": 171.83,
+   "confianca": 0.854
+  },
+  {
+   "palavra": "i",
+   "inicio": 171.87,
+   "fim": 171.91,
+   "confianca": 0.503
+  },
+  {
+   "palavra": "i",
+   "inicio": 172.19,
+   "fim": 172.23,
+   "confianca": 0.814
+  },
+  {
+   "palavra": "generally",
+   "inicio": 172.31,
+   "fim": 172.79,
+   "confianca": 0.899
+  },
+  {
+   "palavra": "don't",
+   "inicio": 172.79,
+   "fim": 173.07,
+   "confianca": 0.877
+  },
+  {
+   "palavra": "do",
+   "inicio": 173.07,
+   "fim": 173.35,
+   "confianca": 0.86
+  },
+  {
+   "palavra": "much",
+   "inicio": 173.35,
+   "fim": 173.63,
+   "confianca": 0.944
+  },
+  {
+   "palavra": "activity",
+   "inicio": 173.63,
+   "fim": 174.11,
+   "confianca": 0.846
+  },
+  {
+   "palavra": "at",
+   "inicio": 174.11,
+   "fim": 174.23,
+   "confianca": 0.81
+  },
+  {
+   "palavra": "all",
+   "inicio": 174.23,
+   "fim": 174.59,
+   "confianca": 0.802
+  },
+  {
+   "palavra": "yeah",
+   "inicio": 175.67,
+   "fim": 176.19,
+   "confianca": 0.684
+  },
+  {
+   "palavra": "no",
+   "inicio": 178.72,
+   "fim": 179.04,
+   "confianca": 0.875
+  },
+  {
+   "palavra": "this",
+   "inicio": 179.04,
+   "fim": 179.28,
+   "confianca": 0.96
+  },
+  {
+   "palavra": "is",
+   "inicio": 179.28,
+   "fim": 179.4,
+   "confianca": 0.956
+  },
+  {
+   "palavra": "the",
+   "inicio": 179.4,
+   "fim": 179.52,
+   "confianca": 0.955
+  },
+  {
+   "palavra": "first",
+   "inicio": 179.52,
+   "fim": 179.84,
+   "confianca": 0.961
+  },
+  {
+   "palavra": "time",
+   "inicio": 179.84,
+   "fim": 180.08,
+   "confianca": 0.854
+  },
+  {
+   "palavra": "actually",
+   "inicio": 180.08,
+   "fim": 180.68,
+   "confianca": 0.849
+  },
+  {
+   "palavra": "yeah",
+   "inicio": 182.36,
+   "fim": 182.84,
+   "confianca": 0.09
+  },
+  {
+   "palavra": "umm",
+   "inicio": 188.3,
+   "fim": 188.58,
+   "confianca": 0.179
+  },
+  {
+   "palavra": "yeah",
+   "inicio": 188.58,
+   "fim": 188.82,
+   "confianca": 0.698
+  },
+  {
+   "palavra": "it's",
+   "inicio": 188.82,
+   "fim": 188.98,
+   "confianca": 0.772
+  },
+  {
+   "palavra": "it's",
+   "inicio": 188.98,
+   "fim": 189.22,
+   "confianca": 0.666
+  },
+  {
+   "palavra": "beating",
+   "inicio": 189.22,
+   "fim": 189.58,
+   "confianca": 0.445
+  },
+  {
+   "palavra": "a",
+   "inicio": 189.58,
+   "fim": 189.62,
+   "confianca": 0.884
+  },
+  {
+   "palavra": "bit",
+   "inicio": 189.62,
+   "fim": 189.82,
+   "confianca": 0.904
+  },
+  {
+   "palavra": "faster",
+   "inicio": 189.82,
+   "fim": 190.3,
+   "confianca": 0.695
+  },
+  {
+   "palavra": "now",
+   "inicio": 190.3,
+   "fim": 190.54,
+   "confianca": 0.923
+  },
+  {
+   "palavra": "i",
+   "inicio": 190.54,
+   "fim": 190.58,
+   "confianca": 0.884
+  },
+  {
+   "palavra": "think",
+   "inicio": 190.58,
+   "fim": 190.82,
+   "confianca": 0.831
+  },
+  {
+   "palavra": "that's",
+   "inicio": 190.82,
+   "fim": 191.06,
+   "confianca": 0.759
+  },
+  {
+   "palavra": "because",
+   "inicio": 191.06,
+   "fim": 191.34,
+   "confianca": 0.064
+  },
+  {
+   "palavra": "i'm",
+   "inicio": 191.34,
+   "fim": 191.46,
+   "confianca": 0.664
+  },
+  {
+   "palavra": "a",
+   "inicio": 191.46,
+   "fim": 191.5,
+   "confianca": 0.838
+  },
+  {
+   "palavra": "little",
+   "inicio": 191.5,
+   "fim": 191.74,
+   "confianca": 0.741
+  },
+  {
+   "palavra": "bit",
+   "inicio": 191.74,
+   "fim": 191.9,
+   "confianca": 0.843
+  },
+  {
+   "palavra": "stressed",
+   "inicio": 191.9,
+   "fim": 192.5,
+   "confianca": 0.764
+  },
+  {
+   "palavra": "about",
+   "inicio": 193.06,
+   "fim": 193.3,
+   "confianca": 0.847
+  },
+  {
+   "palavra": "the",
+   "inicio": 193.3,
+   "fim": 193.42,
+   "confianca": 0.721
+  },
+  {
+   "palavra": "situation",
+   "inicio": 193.42,
+   "fim": 194.02,
+   "confianca": 0.803
+  },
+  {
+   "palavra": "but",
+   "inicio": 194.02,
+   "fim": 194.22,
+   "confianca": 0.908
+  },
+  {
+   "palavra": "i",
+   "inicio": 194.22,
+   "fim": 194.26,
+   "confianca": 0.868
+  },
+  {
+   "palavra": "haven't",
+   "inicio": 194.26,
+   "fim": 194.58,
+   "confianca": 0.903
+  },
+  {
+   "palavra": "noticed",
+   "inicio": 194.58,
+   "fim": 195.02,
+   "confianca": 0.865
+  },
+  {
+   "palavra": "it",
+   "inicio": 195.02,
+   "fim": 195.34,
+   "confianca": 0.524
+  },
+  {
+   "palavra": "beating",
+   "inicio": 195.98,
+   "fim": 196.82,
+   "confianca": 0.661
+  },
+  {
+   "palavra": "faster",
+   "inicio": 196.94,
+   "fim": 197.38,
+   "confianca": 0.889
+  },
+  {
+   "palavra": "than",
+   "inicio": 197.38,
+   "fim": 197.58,
+   "confianca": 0.813
+  },
+  {
+   "palavra": "usual",
+   "inicio": 197.58,
+   "fim": 197.86,
+   "confianca": 0.767
+  },
+  {
+   "palavra": "today",
+   "inicio": 199.68,
+   "fim": 199.92,
+   "confianca": 0.711
+  },
+  {
+   "palavra": "yeah",
+   "inicio": 204.5,
+   "fim": 205.02,
+   "confianca": 0.024
+  },
+  {
+   "palavra": "OK",
+   "inicio": 207.45,
+   "fim": 207.85,
+   "confianca": 0.155
+  },
+  {
+   "palavra": "thank",
+   "inicio": 207.85,
+   "fim": 208.09,
+   "confianca": 0.927
+  },
+  {
+   "palavra": "you",
+   "inicio": 208.09,
+   "fim": 208.45,
+   "confianca": 0.926
+  },
+  {
+   "palavra": "no",
+   "inicio": 210.04,
+   "fim": 210.2,
+   "confianca": 0.691
+  },
+  {
+   "palavra": "no",
+   "inicio": 210.2,
+   "fim": 210.44,
+   "confianca": 0.804
+  },
+  {
+   "palavra": "one",
+   "inicio": 210.44,
+   "fim": 210.84,
+   "confianca": 0.721
+  },
+  {
+   "palavra": "'s",
+   "inicio": 210.84,
+   "fim": 210.88,
+   "confianca": 0.485
+  },
+  {
+   "palavra": "in",
+   "inicio": 210.88,
+   "fim": 210.96,
+   "confianca": 0.879
+  },
+  {
+   "palavra": "the",
+   "inicio": 210.96,
+   "fim": 211.08,
+   "confianca": 0.883
+  },
+  {
+   "palavra": "house",
+   "inicio": 211.08,
+   "fim": 211.36,
+   "confianca": 0.899
+  },
+  {
+   "palavra": "at",
+   "inicio": 211.36,
+   "fim": 211.44,
+   "confianca": 0.905
+  },
+  {
+   "palavra": "the",
+   "inicio": 211.44,
+   "fim": 211.56,
+   "confianca": 0.911
+  },
+  {
+   "palavra": "moment",
+   "inicio": 211.56,
+   "fim": 212.04,
+   "confianca": 0.915
+  },
+  {
+   "palavra": "yes",
+   "inicio": 217.27,
+   "fim": 217.79,
+   "confianca": 0.938
+  },
+  {
+   "palavra": "it's",
+   "inicio": 217.79,
+   "fim": 217.99,
+   "confianca": 0.814
+  },
+  {
+   "palavra": "open",
+   "inicio": 217.99,
+   "fim": 218.47,
+   "confianca": 0.933
+  },
+  {
+   "palavra": "yeah",
+   "inicio": 226.01,
+   "fim": 226.49,
+   "confianca": 0.713
+  },
+  {
+   "palavra": "yeah",
+   "inicio": 226.97,
+   "fim": 227.41,
+   "confianca": 0.087
+  },
+  {
+   "palavra": "uh",
+   "inicio": 231.68,
+   "fim": 231.76,
+   "confianca": 0.19
+  },
+  {
+   "palavra": "yeah",
+   "inicio": 231.92,
+   "fim": 232.36,
+   "confianca": 0.894
+  },
+  {
+   "palavra": "i",
+   "inicio": 232.36,
+   "fim": 232.4,
+   "confianca": 0.8
+  },
+  {
+   "palavra": "smoke",
+   "inicio": 232.4,
+   "fim": 233.12,
+   "confianca": 0.737
+  },
+  {
+   "palavra": "a",
+   "inicio": 233.96,
+   "fim": 234.0,
+   "confianca": 0.667
+  },
+  {
+   "palavra": "fair",
+   "inicio": 234.0,
+   "fim": 234.36,
+   "confianca": 0.663
+  },
+  {
+   "palavra": "bit",
+   "inicio": 234.36,
+   "fim": 234.6,
+   "confianca": 0.286
+  },
+  {
+   "palavra": "so",
+   "inicio": 234.6,
+   "fim": 234.8,
+   "confianca": 0.094
+  },
+  {
+   "palavra": "i",
+   "inicio": 234.8,
+   "fim": 234.84,
+   "confianca": 0.852
+  },
+  {
+   "palavra": "smoke",
+   "inicio": 234.84,
+   "fim": 235.44,
+   "confianca": 0.703
+  },
+  {
+   "palavra": "about",
+   "inicio": 235.44,
+   "fim": 235.68,
+   "confianca": 0.883
+  },
+  {
+   "palavra": "ten",
+   "inicio": 235.68,
+   "fim": 235.92,
+   "confianca": 0.864
+  },
+  {
+   "palavra": "cigarettes",
+   "inicio": 235.92,
+   "fim": 236.64,
+   "confianca": 0.61
+  },
+  {
+   "palavra": "a",
+   "inicio": 237.16,
+   "fim": 237.2,
+   "confianca": 0.759
+  },
+  {
+   "palavra": "day",
+   "inicio": 237.2,
+   "fim": 237.64,
+   "confianca": 0.885
+  },
+  {
+   "palavra": "yeah",
+   "inicio": 239.52,
+   "fim": 239.68,
+   "confianca": 0.796
+  },
+  {
+   "palavra": "uh",
+   "inicio": 242.11,
+   "fim": 242.19,
+   "confianca": 0.178
+  },
+  {
+   "palavra": "for",
+   "inicio": 242.51,
+   "fim": 242.99,
+   "confianca": 0.655
+  },
+  {
+   "palavra": "the",
+   "inicio": 242.99,
+   "fim": 243.19,
+   "confianca": 0.854
+  },
+  {
+   "palavra": "past",
+   "inicio": 243.19,
+   "fim": 243.55,
+   "confianca": 0.727
+  },
+  {
+   "palavra": "fifteen",
+   "inicio": 243.55,
+   "fim": 243.95,
+   "confianca": 0.888
+  },
+  {
+   "palavra": "years",
+   "inicio": 243.95,
+   "fim": 244.55,
+   "confianca": 0.931
+  },
+  {
+   "palavra": "yeah",
+   "inicio": 246.3,
+   "fim": 246.78,
+   "confianca": 0.395
+  },
+  {
+   "palavra": "yeah",
+   "inicio": 251.73,
+   "fim": 252.25,
+   "confianca": 0.845
+  },
+  {
+   "palavra": "i",
+   "inicio": 252.25,
+   "fim": 252.29,
+   "confianca": 0.867
+  },
+  {
+   "palavra": "have",
+   "inicio": 252.29,
+   "fim": 252.53,
+   "confianca": 0.858
+  },
+  {
+   "palavra": "high",
+   "inicio": 252.53,
+   "fim": 252.73,
+   "confianca": 0.813
+  },
+  {
+   "palavra": "blood",
+   "inicio": 252.73,
+   "fim": 253.01,
+   "confianca": 0.454
+  },
+  {
+   "palavra": "blood",
+   "inicio": 253.17,
+   "fim": 253.57,
+   "confianca": 0.744
+  },
+  {
+   "palavra": "pressure",
+   "inicio": 253.57,
+   "fim": 253.97,
+   "confianca": 0.922
+  },
+  {
+   "palavra": "but",
+   "inicio": 253.97,
+   "fim": 254.29,
+   "confianca": 0.831
+  },
+  {
+   "palavra": "not",
+   "inicio": 254.41,
+   "fim": 254.81,
+   "confianca": 0.902
+  },
+  {
+   "palavra": "diabetes",
+   "inicio": 254.81,
+   "fim": 255.65,
+   "confianca": 0.734
+  },
+  {
+   "palavra": "no",
+   "inicio": 258.53,
+   "fim": 259.21,
+   "confianca": 0.852
+  },
+  {
+   "palavra": "yes",
+   "inicio": 265.31,
+   "fim": 265.95,
+   "confianca": 0.841
+  },
+  {
+   "palavra": "yes",
+   "inicio": 269.13,
+   "fim": 269.61,
+   "confianca": 0.341
+  },
+  {
+   "palavra": "so",
+   "inicio": 269.61,
+   "fim": 270.17,
+   "confianca": 0.769
+  },
+  {
+   "palavra": "my",
+   "inicio": 270.21,
+   "fim": 270.85,
+   "confianca": 0.795
+  },
+  {
+   "palavra": "father",
+   "inicio": 271.25,
+   "fim": 271.69,
+   "confianca": 0.912
+  },
+  {
+   "palavra": "died",
+   "inicio": 271.69,
+   "fim": 272.05,
+   "confianca": 0.94
+  },
+  {
+   "palavra": "of",
+   "inicio": 272.05,
+   "fim": 272.13,
+   "confianca": 0.933
+  },
+  {
+   "palavra": "a",
+   "inicio": 272.13,
+   "fim": 272.17,
+   "confianca": 0.863
+  },
+  {
+   "palavra": "heart",
+   "inicio": 272.17,
+   "fim": 272.37,
+   "confianca": 0.941
+  },
+  {
+   "palavra": "attack",
+   "inicio": 272.37,
+   "fim": 273.13,
+   "confianca": 0.943
+  },
+  {
+   "palavra": "and",
+   "inicio": 273.85,
+   "fim": 274.25,
+   "confianca": 0.817
+  },
+  {
+   "palavra": "my",
+   "inicio": 274.25,
+   "fim": 274.45,
+   "confianca": 0.949
+  },
+  {
+   "palavra": "mother",
+   "inicio": 274.45,
+   "fim": 274.89,
+   "confianca": 0.868
+  },
+  {
+   "palavra": "had",
+   "inicio": 274.89,
+   "fim": 275.25,
+   "confianca": 0.948
+  },
+  {
+   "palavra": "some",
+   "inicio": 275.25,
+   "fim": 275.81,
+   "confianca": 0.791
+  },
+  {
+   "palavra": "heart",
+   "inicio": 275.81,
+   "fim": 276.13,
+   "confianca": 0.946
+  },
+  {
+   "palavra": "problems",
+   "inicio": 276.13,
+   "fim": 276.93,
+   "confianca": 0.947
+  },
+  {
+   "palavra": "he",
+   "inicio": 283.7,
+   "fim": 283.98,
+   "confianca": 0.962
+  },
+  {
+   "palavra": "was",
+   "inicio": 283.98,
+   "fim": 284.1,
+   "confianca": 0.965
+  },
+  {
+   "palavra": "about",
+   "inicio": 284.1,
+   "fim": 284.42,
+   "confianca": 0.903
+  },
+  {
+   "palavra": "my",
+   "inicio": 284.42,
+   "fim": 284.78,
+   "confianca": 0.895
+  },
+  {
+   "palavra": "age",
+   "inicio": 284.78,
+   "fim": 285.3,
+   "confianca": 0.965
+  },
+  {
+   "palavra": "yeah",
+   "inicio": 288.53,
+   "fim": 288.73,
+   "confianca": 0.073
+  },
+  {
+   "palavra": "it's",
+   "inicio": 288.73,
+   "fim": 288.89,
+   "confianca": 0.212
+  },
+  {
+   "palavra": "around",
+   "inicio": 288.89,
+   "fim": 289.17,
+   "confianca": 0.743
+  },
+  {
+   "palavra": "sixty",
+   "inicio": 289.17,
+   "fim": 289.57,
+   "confianca": 0.754
+  },
+  {
+   "palavra": "yes",
+   "inicio": 289.57,
+   "fim": 290.09,
+   "confianca": 0.74
+  },
+  {
+   "palavra": "yeah",
+   "inicio": 294.03,
+   "fim": 294.35,
+   "confianca": 0.824
+  },
+  {
+   "palavra": "i",
+   "inicio": 294.35,
+   "fim": 294.39,
+   "confianca": 0.827
+  },
+  {
+   "palavra": "drink",
+   "inicio": 294.39,
+   "fim": 294.95,
+   "confianca": 0.789
+  },
+  {
+   "palavra": "about",
+   "inicio": 295.87,
+   "fim": 296.31,
+   "confianca": 0.184
+  },
+  {
+   "palavra": "per",
+   "inicio": 296.31,
+   "fim": 296.51,
+   "confianca": 0.741
+  },
+  {
+   "palavra": "week",
+   "inicio": 296.51,
+   "fim": 296.91,
+   "confianca": 0.932
+  },
+  {
+   "palavra": "probably",
+   "inicio": 296.91,
+   "fim": 297.23,
+   "confianca": 0.933
+  },
+  {
+   "palavra": "about",
+   "inicio": 297.23,
+   "fim": 297.47,
+   "confianca": 0.863
+  },
+  {
+   "palavra": "seven",
+   "inicio": 297.47,
+   "fim": 298.19,
+   "confianca": 0.94
+  },
+  {
+   "palavra": "or",
+   "inicio": 298.19,
+   "fim": 298.27,
+   "confianca": 0.922
+  },
+  {
+   "palavra": "eight",
+   "inicio": 298.27,
+   "fim": 298.55,
+   "confianca": 0.934
+  },
+  {
+   "palavra": "pints",
+   "inicio": 298.55,
+   "fim": 299.07,
+   "confianca": 0.767
+  },
+  {
+   "palavra": "a",
+   "inicio": 299.07,
+   "fim": 299.11,
+   "confianca": 0.917
+  },
+  {
+   "palavra": "week",
+   "inicio": 299.11,
+   "fim": 299.79,
+   "confianca": 0.942
+  },
+  {
+   "palavra": "of",
+   "inicio": 302.3,
+   "fim": 302.58,
+   "confianca": 0.061
+  },
+  {
+   "palavra": "yeah",
+   "inicio": 302.58,
+   "fim": 302.86,
+   "confianca": 0.172
+  },
+  {
+   "palavra": "yes",
+   "inicio": 302.9,
+   "fim": 303.54,
+   "confianca": 0.77
+  },
+  {
+   "palavra": "yes",
+   "inicio": 308.62,
+   "fim": 309.18,
+   "confianca": 0.939
+  },
+  {
+   "palavra": "i'm",
+   "inicio": 309.18,
+   "fim": 309.34,
+   "confianca": 0.771
+  },
+  {
+   "palavra": "overweight",
+   "inicio": 309.34,
+   "fim": 309.82,
+   "confianca": 0.786
+  },
+  {
+   "palavra": "yeah",
+   "inicio": 309.86,
+   "fim": 310.3,
+   "confianca": 0.768
+  },
+  {
+   "palavra": "yeah",
+   "inicio": 310.99,
+   "fim": 311.35,
+   "confianca": 0.615
+  },
+  {
+   "palavra": "yeah",
+   "inicio": 318.58,
+   "fim": 319.1,
+   "confianca": 0.926
+  },
+  {
+   "palavra": "i",
+   "inicio": 319.1,
+   "fim": 319.14,
+   "confianca": 0.908
+  },
+  {
+   "palavra": "live",
+   "inicio": 319.14,
+   "fim": 319.42,
+   "confianca": 0.958
+  },
+  {
+   "palavra": "alone",
+   "inicio": 319.42,
+   "fim": 319.94,
+   "confianca": 0.906
+  },
+  {
+   "palavra": "at",
+   "inicio": 320.02,
+   "fim": 320.34,
+   "confianca": 0.961
+  },
+  {
+   "palavra": "the",
+   "inicio": 320.34,
+   "fim": 320.5,
+   "confianca": 0.96
+  },
+  {
+   "palavra": "moment",
+   "inicio": 320.5,
+   "fim": 320.94,
+   "confianca": 0.961
+  },
+  {
+   "palavra": "yeah",
+   "inicio": 320.94,
+   "fim": 321.46,
+   "confianca": 0.796
+  },
+  {
+   "palavra": "it's",
+   "inicio": 321.62,
+   "fim": 321.94,
+   "confianca": 0.465
+  },
+  {
+   "palavra": "just",
+   "inicio": 321.94,
+   "fim": 322.18,
+   "confianca": 0.824
+  },
+  {
+   "palavra": "me",
+   "inicio": 322.18,
+   "fim": 322.26,
+   "confianca": 0.832
+  },
+  {
+   "palavra": "in",
+   "inicio": 322.26,
+   "fim": 322.34,
+   "confianca": 0.811
+  },
+  {
+   "palavra": "the",
+   "inicio": 322.34,
+   "fim": 322.46,
+   "confianca": 0.937
+  },
+  {
+   "palavra": "house",
+   "inicio": 322.46,
+   "fim": 323.1,
+   "confianca": 0.815
+  },
+  {
+   "palavra": "yeah",
+   "inicio": 326.33,
+   "fim": 326.69,
+   "confianca": 0.764
+  },
+  {
+   "palavra": "yeah",
+   "inicio": 326.69,
+   "fim": 327.05,
+   "confianca": 0.799
+  },
+  {
+   "palavra": "i",
+   "inicio": 327.21,
+   "fim": 327.25,
+   "confianca": 0.544
+  },
+  {
+   "palavra": "i",
+   "inicio": 327.29,
+   "fim": 327.33,
+   "confianca": 0.88
+  },
+  {
+   "palavra": "work",
+   "inicio": 327.33,
+   "fim": 327.89,
+   "confianca": 0.894
+  },
+  {
+   "palavra": "yeah",
+   "inicio": 327.89,
+   "fim": 328.29,
+   "confianca": 0.789
+  },
+  {
+   "palavra": "i",
+   "inicio": 331.15,
+   "fim": 331.19,
+   "confianca": 0.937
+  },
+  {
+   "palavra": "work",
+   "inicio": 331.19,
+   "fim": 331.59,
+   "confianca": 0.941
+  },
+  {
+   "palavra": "as",
+   "inicio": 331.59,
+   "fim": 331.75,
+   "confianca": 0.948
+  },
+  {
+   "palavra": "a",
+   "inicio": 331.75,
+   "fim": 331.79,
+   "confianca": 0.943
+  },
+  {
+   "palavra": "restaurant",
+   "inicio": 331.79,
+   "fim": 332.31,
+   "confianca": 0.94
+  },
+  {
+   "palavra": "owner",
+   "inicio": 332.31,
+   "fim": 332.71,
+   "confianca": 0.813
+  },
+  {
+   "palavra": "so",
+   "inicio": 333.07,
+   "fim": 333.55,
+   "confianca": 0.923
+  },
+  {
+   "palavra": "i",
+   "inicio": 333.63,
+   "fim": 333.67,
+   "confianca": 0.851
+  },
+  {
+   "palavra": "own",
+   "inicio": 333.71,
+   "fim": 333.95,
+   "confianca": 0.939
+  },
+  {
+   "palavra": "a",
+   "inicio": 333.95,
+   "fim": 333.99,
+   "confianca": 0.916
+  },
+  {
+   "palavra": "sushi",
+   "inicio": 334.03,
+   "fim": 334.51,
+   "confianca": 0.795
+  },
+  {
+   "palavra": "shop",
+   "inicio": 334.51,
+   "fim": 334.95,
+   "confianca": 0.945
+  },
+  {
+   "palavra": "yeah",
+   "inicio": 336.46,
+   "fim": 336.9,
+   "confianca": 0.456
+  },
+  {
+   "palavra": "OK",
+   "inicio": 348.48,
+   "fim": 349.04,
+   "confianca": 0.191
+  },
+  {
+   "palavra": "OK",
+   "inicio": 355.24,
+   "fim": 355.8,
+   "confianca": 0.221
+  },
+  {
+   "palavra": "yeah",
+   "inicio": 355.88,
+   "fim": 356.24,
+   "confianca": 0.362
+  },
+  {
+   "palavra": "OK",
+   "inicio": 360.68,
+   "fim": 361.2,
+   "confianca": 0.21
+  },
+  {
+   "palavra": "yeah",
+   "inicio": 361.36,
+   "fim": 361.68,
+   "confianca": 0.577
+  },
+  {
+   "palavra": "thank",
+   "inicio": 361.68,
+   "fim": 361.92,
+   "confianca": 0.784
+  },
+  {
+   "palavra": "you",
+   "inicio": 361.92,
+   "fim": 362.28,
+   "confianca": 0.888
+  },
+  {
+   "palavra": "OK",
+   "inicio": 367.14,
+   "fim": 367.62,
+   "confianca": 0.213
+  },
+  {
+   "palavra": "OK",
+   "inicio": 370.61,
+   "fim": 371.17,
+   "confianca": 0.661
+  },
+  {
+   "palavra": "no",
+   "inicio": 371.17,
+   "fim": 371.25,
+   "confianca": 0.155
+  },
+  {
+   "palavra": "yes",
+   "inicio": 378.15,
+   "fim": 378.59,
+   "confianca": 0.912
+  },
+  {
+   "palavra": "actually",
+   "inicio": 378.59,
+   "fim": 378.95,
+   "confianca": 0.873
+  },
+  {
+   "palavra": "i",
+   "inicio": 378.95,
+   "fim": 378.99,
+   "confianca": 0.871
+  },
+  {
+   "palavra": "have",
+   "inicio": 378.99,
+   "fim": 379.27,
+   "confianca": 0.783
+  },
+  {
+   "palavra": "an",
+   "inicio": 379.27,
+   "fim": 379.51,
+   "confianca": 0.928
+  },
+  {
+   "palavra": "allergy",
+   "inicio": 379.75,
+   "fim": 380.39,
+   "confianca": 0.921
+  },
+  {
+   "palavra": "to",
+   "inicio": 380.39,
+   "fim": 380.51,
+   "confianca": 0.816
+  },
+  {
+   "palavra": "aspirin",
+   "inicio": 380.51,
+   "fim": 381.11,
+   "confianca": 0.777
+  },
+  {
+   "palavra": "yeah",
+   "inicio": 383.08,
+   "fim": 383.44,
+   "confianca": 0.834
+  },
+  {
+   "palavra": "and",
+   "inicio": 383.44,
+   "fim": 383.68,
+   "confianca": 0.75
+  },
+  {
+   "palavra": "no",
+   "inicio": 383.68,
+   "fim": 383.88,
+   "confianca": 0.915
+  },
+  {
+   "palavra": "other",
+   "inicio": 383.88,
+   "fim": 384.2,
+   "confianca": 0.764
+  },
+  {
+   "palavra": "allergies",
+   "inicio": 384.2,
+   "fim": 384.88,
+   "confianca": 0.775
+  },
+  {
+   "palavra": "yeah",
+   "inicio": 392.82,
+   "fim": 393.34,
+   "confianca": 0.881
+  },
+  {
+   "palavra": "it's",
+   "inicio": 393.34,
+   "fim": 393.78,
+   "confianca": 0.904
+  },
+  {
+   "palavra": "an",
+   "inicio": 393.78,
+   "fim": 393.86,
+   "confianca": 0.885
+  },
+  {
+   "palavra": "allergic",
+   "inicio": 393.86,
+   "fim": 394.34,
+   "confianca": 0.88
+  },
+  {
+   "palavra": "reaction",
+   "inicio": 394.34,
+   "fim": 394.82,
+   "confianca": 0.953
+  },
+  {
+   "palavra": "so",
+   "inicio": 394.82,
+   "fim": 395.06,
+   "confianca": 0.857
+  },
+  {
+   "palavra": "i",
+   "inicio": 395.06,
+   "fim": 395.1,
+   "confianca": 0.902
+  },
+  {
+   "palavra": "swallow",
+   "inicio": 395.1,
+   "fim": 395.62,
+   "confianca": 0.816
+  },
+  {
+   "palavra": "a",
+   "inicio": 396.62,
+   "fim": 396.66,
+   "confianca": 0.929
+  },
+  {
+   "palavra": "bit",
+   "inicio": 396.66,
+   "fim": 397.1,
+   "confianca": 0.958
+  },
+  {
+   "palavra": "but",
+   "inicio": 397.1,
+   "fim": 397.5,
+   "confianca": 0.891
+  },
+  {
+   "palavra": "nothing",
+   "inicio": 398.3,
+   "fim": 399.02,
+   "confianca": 0.951
+  },
+  {
+   "palavra": "life",
+   "inicio": 399.02,
+   "fim": 399.38,
+   "confianca": 0.937
+  },
+  {
+   "palavra": "threatening",
+   "inicio": 399.38,
+   "fim": 400.02,
+   "confianca": 0.845
+  },
+  {
+   "palavra": "i've",
+   "inicio": 400.7,
+   "fim": 401.18,
+   "confianca": 0.415
+  },
+  {
+   "palavra": "i",
+   "inicio": 401.18,
+   "fim": 401.22,
+   "confianca": 0.83
+  },
+  {
+   "palavra": "sometimes",
+   "inicio": 401.38,
+   "fim": 402.02,
+   "confianca": 0.952
+  },
+  {
+   "palavra": "even",
+   "inicio": 402.02,
+   "fim": 402.26,
+   "confianca": 0.793
+  },
+  {
+   "palavra": "have",
+   "inicio": 402.26,
+   "fim": 402.5,
+   "confianca": 0.834
+  },
+  {
+   "palavra": "it",
+   "inicio": 402.5,
+   "fim": 402.66,
+   "confianca": 0.924
+  },
+  {
+   "palavra": "and",
+   "inicio": 402.66,
+   "fim": 402.78,
+   "confianca": 0.865
+  },
+  {
+   "palavra": "it's",
+   "inicio": 402.78,
+   "fim": 403.1,
+   "confianca": 0.797
+  },
+  {
+   "palavra": "it's",
+   "inicio": 403.1,
+   "fim": 403.46,
+   "confianca": 0.807
+  },
+  {
+   "palavra": "a",
+   "inicio": 403.46,
+   "fim": 403.5,
+   "confianca": 0.105
+  },
+  {
+   "palavra": "it's",
+   "inicio": 403.5,
+   "fim": 403.7,
+   "confianca": 0.849
+  },
+  {
+   "palavra": "a",
+   "inicio": 403.7,
+   "fim": 403.74,
+   "confianca": 0.93
+  },
+  {
+   "palavra": "mild",
+   "inicio": 403.74,
+   "fim": 404.1,
+   "confianca": 0.926
+  },
+  {
+   "palavra": "reaction",
+   "inicio": 404.1,
+   "fim": 404.58,
+   "confianca": 0.935
+  },
+  {
+   "palavra": "to",
+   "inicio": 404.58,
+   "fim": 404.74,
+   "confianca": 0.839
+  },
+  {
+   "palavra": "it",
+   "inicio": 404.74,
+   "fim": 405.02,
+   "confianca": 0.917
+  },
+  {
+   "palavra": "yeah",
+   "inicio": 406.29,
+   "fim": 406.77,
+   "confianca": 0.185
+  },
+  {
+   "palavra": "OK",
+   "inicio": 410.43,
+   "fim": 410.95,
+   "confianca": 0.151
+  },
+  {
+   "palavra": "oh",
+   "inicio": 415.4,
+   "fim": 415.72,
+   "confianca": 0.716
+  },
+  {
+   "palavra": "OK",
+   "inicio": 415.72,
+   "fim": 416.2,
+   "confianca": 0.2
+  },
+  {
+   "palavra": "uh-huh",
+   "inicio": 422.26,
+   "fim": 422.62,
+   "confianca": 0.193
+  },
+  {
+   "palavra": "OK",
+   "inicio": 433.65,
+   "fim": 434.21,
+   "confianca": 0.193
+  },
+  {
+   "palavra": "OK",
+   "inicio": 437.27,
+   "fim": 437.83,
+   "confianca": 0.159
+  },
+  {
+   "palavra": "OK",
+   "inicio": 443.51,
+   "fim": 444.07,
+   "confianca": 0.293
+  },
+  {
+   "palavra": "OK",
+   "inicio": 444.39,
+   "fim": 444.67,
+   "confianca": 0.435
+  },
+  {
+   "palavra": "sure",
+   "inicio": 444.67,
+   "fim": 445.19,
+   "confianca": 0.917
+  },
+  {
+   "palavra": "yeah",
+   "inicio": 445.99,
+   "fim": 446.23,
+   "confianca": 0.13
+  },
+  {
+   "palavra": "thank",
+   "inicio": 446.23,
+   "fim": 446.55,
+   "confianca": 0.865
+  },
+  {
+   "palavra": "you",
+   "inicio": 446.55,
+   "fim": 446.87,
+   "confianca": 0.897
+  },
+  {
+   "palavra": "yeah",
+   "inicio": 452.0,
+   "fim": 452.48,
+   "confianca": 0.811
+  },
+  {
+   "palavra": "that's",
+   "inicio": 452.68,
+   "fim": 453.28,
+   "confianca": 0.68
+  },
+  {
+   "palavra": "OK",
+   "inicio": 453.32,
+   "fim": 453.72,
+   "confianca": 0.554
+  },
+  {
+   "palavra": "OK",
+   "inicio": 453.92,
+   "fim": 454.24,
+   "confianca": 0.391
+  },
+  {
+   "palavra": "thank",
+   "inicio": 454.24,
+   "fim": 454.44,
+   "confianca": 0.885
+  },
+  {
+   "palavra": "you",
+   "inicio": 454.44,
+   "fim": 454.56,
+   "confianca": 0.743
+  },
+  {
+   "palavra": "very",
+   "inicio": 454.56,
+   "fim": 454.72,
+   "confianca": 0.9
+  },
+  {
+   "palavra": "much",
+   "inicio": 454.72,
+   "fim": 455.24,
+   "confianca": 0.902
+  },
+  {
+   "palavra": "thank",
+   "inicio": 456.47,
+   "fim": 456.71,
+   "confianca": 0.948
+  },
+  {
+   "palavra": "you",
+   "inicio": 456.71,
+   "fim": 456.95,
+   "confianca": 0.954
+  }
+ ],
+ "idioma": "en-GB",
+ "provedor": "azure_speech"
+}

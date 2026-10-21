@@ -1,0 +1,2951 @@
+{
+ "_meta": {
+  "servico": "language",
+  "obtido_em": "2026-10-21T13:35:49+00:00",
+  "caracteres": 7212,
+  "endpoint": "https://aurora-language-b92b19.cognitiveservices.azure.com/"
+ },
+ "sentimento": {
+  "geral": "mixed",
+  "scores": {
+   "positive": 0.205,
+   "neutral": 0.16,
+   "negative": 0.635
+  },
+  "frases": [
+   {
+    "texto": "Hi. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.99,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "My name is Valerie Cole, My date of birth is the 19th of September 1993. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.15,
+     "neutral": 0.85,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "My address is uh, 64 Cliveden Place in South Wimbledon. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 1.0,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yes, I am, yeah. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.09,
+     "neutral": 0.9,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I've been feeling really anxious over the past few months. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.82,
+     "negative": 0.18
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I just get really nervous every morning about leaving house and it started to really worry me and just add up and build up from that anxiety and I just didn't know who to talk to you so I wanted to check with my GP. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.07,
+     "negative": 0.92
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Uh. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.02,
+     "neutral": 0.9,
+     "negative": 0.08
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I guess so. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.12,
+     "neutral": 0.87,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I think I would say maybe about two months or so I've been feeling like this and that's probably coincides with. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.23,
+     "neutral": 0.7,
+     "negative": 0.07
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Restarting a new job, um. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.98,
+     "negative": 0.02
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Which I would say it's quite, I mean, every job is stressful when you first start, but it's been really stressful I think over the past two months, definitely. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.04,
+     "neutral": 0.72,
+     "negative": 0.24
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "And so I work for a. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.05,
+     "neutral": 0.94,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "A fashion retailer in the head office team and it's just a brand new sector. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.03,
+     "neutral": 0.96,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I've never worked in retail before. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.06,
+     "negative": 0.94
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "My boss is not very nice to me and but I also think that it's just been, I just really dread going there. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.16,
+     "negative": 0.83
+    },
+    "opinioes": [
+     {
+      "alvo": "boss",
+      "sentimento": "negative",
+      "avaliacoes": [
+       "nice"
+      ]
+     }
+    ]
+   },
+   {
+    "texto": "I just hate speaking to her. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.0,
+     "negative": 0.99
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I hate seeing everyone and really worried about whether I'm doing well or not. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.08,
+     "negative": 0.92
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "And it's really impacting on like on the rest of my life, like my sleep and stuff like that. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.24,
+     "neutral": 0.74,
+     "negative": 0.02
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Right. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.07,
+     "neutral": 0.91,
+     "negative": 0.02
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah, absolutely. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.65,
+     "neutral": 0.34,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "So I, I, I, as I say, like, I don't want to go to work in the morning. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.03,
+     "neutral": 0.17,
+     "negative": 0.8
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "So I just find no way of I can't get out of bed. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.03,
+     "neutral": 0.37,
+     "negative": 0.6
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "But it's also because when I leave, I just when I've left work, I just feel so stressed and so worried about everything that I've done. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.03,
+     "negative": 0.97
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I can't get to sleep for hours and hours and hours. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.0,
+     "negative": 1.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "So I. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.16,
+     "neutral": 0.78,
+     "negative": 0.06
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "About 1011 probably. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 1.0,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Not for ages. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.1,
+     "neutral": 0.77,
+     "negative": 0.13
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I'm I'm lying awake all night. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.1,
+     "negative": 0.89
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "So I find my heart kind of racing and then I'm just like panicking that I'm going to be late and that that's going to make work even more stressful. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.05,
+     "negative": 0.95
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "So I do have an alarm, but I find myself waking up before that because I'm just, my heart is racing. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.1,
+     "negative": 0.88
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "And actually the other day I was just like, I was lying in bed and I really thought my heart was racing so much. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.13,
+     "neutral": 0.23,
+     "negative": 0.64
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I thought I was going to have a heart attack in the morning. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.03,
+     "negative": 0.97
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I just I can't even tell because I feel like I'm even when I'm in sleep. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.06,
+     "neutral": 0.36,
+     "negative": 0.58
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "It's such a shallow sleep but maybe. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.94,
+     "negative": 0.06
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "3/4 hours I'm getting now. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.97,
+     "negative": 0.03
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Probably not significant changes maybe. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.95,
+     "negative": 0.05
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "No, I wouldn't say that. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.06,
+     "neutral": 0.28,
+     "negative": 0.66
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I wouldn't say that I'm eating like much differently. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.04,
+     "neutral": 0.5,
+     "negative": 0.45
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Oh, I'd probably have more chocolate than normal just because I feel so down. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.07,
+     "neutral": 0.69,
+     "negative": 0.24
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.05,
+     "neutral": 0.95,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "So. Yeah. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.06,
+     "neutral": 0.93,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "So I'm, it's, it's usually kind of like when I realise in the morning that either I feel like I'm going to be late because I've like overslept because I'm so tired, or I wake up in a panic thinking I'm going to be late. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.11,
+     "negative": 0.89
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "So it's just kind of like. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.12,
+     "neutral": 0.86,
+     "negative": 0.02
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Just a constant, like rapid heart beating. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.05,
+     "neutral": 0.64,
+     "negative": 0.31
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "It's really, really stressful. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.02,
+     "negative": 0.98
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I don't know if it's stress or I did think it was like a heart problem initially. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.06,
+     "neutral": 0.3,
+     "negative": 0.65
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Irregular, I think. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.09,
+     "neutral": 0.62,
+     "negative": 0.29
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Oh, it can be anything. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.33,
+     "neutral": 0.65,
+     "negative": 0.03
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I think a couple of minutes or the other day I was actually just sort of lying there for like holding my hand on my chest for like 10 minutes. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.03,
+     "neutral": 0.95,
+     "negative": 0.03
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah, I would say this is only in the past sort of like couple of months as I say that everyone's experiencing this. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.4,
+     "neutral": 0.56,
+     "negative": 0.04
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "No. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.79,
+     "negative": 0.19
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Well, yeah, it's painful to when the heart, when my heart is being fast. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.12,
+     "neutral": 0.11,
+     "negative": 0.77
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "But but. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.57,
+     "negative": 0.41
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.04,
+     "neutral": 0.95,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "It's just really, really low. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.09,
+     "neutral": 0.62,
+     "negative": 0.29
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I mean, I'm finding now that I'm just, I find no enjoyment at all. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.05,
+     "negative": 0.94
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "It's kind of day-to-day and anything that I'm doing, it's not just my job, it's, you know, when I leave, I'm just so tired that anything that previously was really fun is just not, it's not enjoyable. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.15,
+     "negative": 0.85
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "And I'm like. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.38,
+     "neutral": 0.59,
+     "negative": 0.03
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah, on edge the whole time. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.13,
+     "neutral": 0.8,
+     "negative": 0.07
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Well, right now I'm working so late, everything is really, really stressful so I don't really get much time for myself. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.03,
+     "neutral": 0.14,
+     "negative": 0.83
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "But when I do want to go out or, you know, be friends or just relax. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.15,
+     "neutral": 0.67,
+     "negative": 0.17
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "It it seems quite difficult to do that. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.03,
+     "negative": 0.96
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I avoid them in so much that I feel like I'm. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.08,
+     "neutral": 0.18,
+     "negative": 0.74
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah, so I mean, sometimes it just, I know that I'm not going to have fun because I don't want to go out and. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.14,
+     "neutral": 0.13,
+     "negative": 0.73
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Two things that I would normally have done. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.99,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah, as I say, like everything that I've had previously been doing has been just difficult to continue with. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.22,
+     "neutral": 0.21,
+     "negative": 0.57
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Like I did used to like to like go running and and to play tennis and stuff, but now it's just not. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.12,
+     "neutral": 0.25,
+     "negative": 0.63
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I'm just not enjoying it. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.01,
+     "negative": 0.99
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I'm not, I'm not like I'm not going out to do that quite so much. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.03,
+     "neutral": 0.23,
+     "negative": 0.74
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "No, because I think that would just add to the tension. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.07,
+     "neutral": 0.28,
+     "negative": 0.65
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "But I do pretty much every morning. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.76,
+     "negative": 0.23
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I think, oh, I should call in sick or like. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.08,
+     "neutral": 0.8,
+     "negative": 0.12
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "It's not good.  ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.0,
+     "negative": 1.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "No, I wouldn't say so, I think. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.1,
+     "neutral": 0.57,
+     "negative": 0.32
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I've always managed to make it to work but I I wonder if it's building up. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.99,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "So This is why I want to call because I'm just worried it's building up that I don't know what to do because I've have feel it get worse and worse over the past couple of months. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.01,
+     "negative": 0.99
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah, I mean, I find public transport really stressful in a way, especially being on the cheapest because it's quite getting warmer, so it's just really airless. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.2,
+     "neutral": 0.22,
+     "negative": 0.58
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "But I think the majority of it, because my life is just so focused around work right now, the majority of it is focused around work as well.",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.97,
+     "negative": 0.02
+    },
+    "opinioes": []
+   },
+   {
+    "texto": " Not really I I'm no, I would say. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.06,
+     "neutral": 0.54,
+     "negative": 0.4
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I mean, everybody always has a bit of tension, a bit of anxiety, but I've never felt. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.4,
+     "neutral": 0.34,
+     "negative": 0.25
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Anything that's bad before? ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.62,
+     "negative": 0.37
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.04,
+     "neutral": 0.95,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I mean, yeah, yeah. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.11,
+     "neutral": 0.85,
+     "negative": 0.04
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Because I do, yeah. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.3,
+     "neutral": 0.66,
+     "negative": 0.04
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I'm pretty much down. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.03,
+     "neutral": 0.18,
+     "negative": 0.79
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Like, don't enjoy it. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.06,
+     "negative": 0.93
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Being in love with my day at all because. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.93,
+     "neutral": 0.06,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I'm just so worried about everything and I find that even when I'm not like even at the weekends and stuff, it's just the kind of like constant feeling of just being a bit down, a bit unhappy. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.01,
+     "negative": 0.99
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I don't know if that's a good question. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.47,
+     "neutral": 0.47,
+     "negative": 0.07
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I can't really, I can't really put a date on that call. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.06,
+     "negative": 0.94
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I wouldn't know. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.43,
+     "negative": 0.56
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I wouldn't say that I've had, I haven't had any suicidal thoughts or any thoughts that have been that extreme like I don't. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.19,
+     "neutral": 0.73,
+     "negative": 0.08
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "You know, I have, I have a good support system like I do have a good family and stuff. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.83,
+     "neutral": 0.16,
+     "negative": 0.0
+    },
+    "opinioes": [
+     {
+      "alvo": "support system",
+      "sentimento": "positive",
+      "avaliacoes": [
+       "good"
+      ]
+     }
+    ]
+   },
+   {
+    "texto": "So I, I have, I don't have worries about actually wanting to not go on. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.59,
+     "neutral": 0.32,
+     "negative": 0.09
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "It's just that I don't want to go on like this. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.06,
+     "neutral": 0.24,
+     "negative": 0.7
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Sorry. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.02,
+     "neutral": 0.09,
+     "negative": 0.88
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah, I live with my parents. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.82,
+     "negative": 0.16
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "It's my parents. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.36,
+     "negative": 0.63
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I don't know, probably quite a lot on the Friday or Saturday, just because that that's kind of normal. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.16,
+     "neutral": 0.81,
+     "negative": 0.03
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Maybe, maybe I do have like a bit during the week that my parents obviously are retired, so they just drink whenever they want. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.05,
+     "neutral": 0.92,
+     "negative": 0.02
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "So whenever they're having a glass of wine, they'll offer it to me. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.27,
+     "neutral": 0.71,
+     "negative": 0.02
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "And it's like, I guess I don't really keep track of it that much. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.06,
+     "neutral": 0.83,
+     "negative": 0.11
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Probably like probably quite a lot on Friday or Saturday because it's usually going out. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.02,
+     "neutral": 0.97,
+     "negative": 0.02
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "So maybe like. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.02,
+     "neutral": 0.98,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I'd probably go over my limit just on those days anyway and then like maybe a glass of wine during the week with dinner. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.04,
+     "neutral": 0.95,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I try not to smoke. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.06,
+     "neutral": 0.68,
+     "negative": 0.26
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "But I do occasionally, but I don't take it. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.04,
+     "neutral": 0.69,
+     "negative": 0.27
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I wanna talk to my mum because she also suffers from or she's suffered from like depression in the past. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.53,
+     "negative": 0.46
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I didn't think that it was that I was suffering from actual depression because it just seems to be manifesting as as total as just stress the whole time. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.27,
+     "negative": 0.73
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "But I did talk to my mum guys, if I haven't thought any, she really recommended that I come to the GP, but I haven't sought any other. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.03,
+     "neutral": 0.67,
+     "negative": 0.3
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Special. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.03,
+     "neutral": 0.97,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah, I think, Yeah, I think so. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.17,
+     "neutral": 0.81,
+     "negative": 0.02
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I've never done that before, but yeah. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.11,
+     "neutral": 0.78,
+     "negative": 0.11
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "OK. Yeah.  ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.22,
+     "neutral": 0.77,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "OK.  ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.04,
+     "neutral": 0.95,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "OK. OK. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.32,
+     "neutral": 0.67,
+     "negative": 0.02
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "That's great, I look forward to reading it. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 1.0,
+     "neutral": 0.0,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "OK, OK. OK, I'll call them up. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.45,
+     "neutral": 0.55,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Thank you so much. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 1.0,
+     "neutral": 0.0,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Have a good day, bye.",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.73,
+     "neutral": 0.27,
+     "negative": 0.0
+    },
+    "opinioes": []
+   }
+  ]
+ },
+ "frases_chave": [
+  "head office team",
+  "brand new sector",
+  "rapid heart beating",
+  "past two months",
+  "Valerie Cole",
+  "64 Cliveden Place",
+  "South Wimbledon",
+  "fashion retailer",
+  "significant changes",
+  "past sort",
+  "Two things",
+  "public transport",
+  "new job",
+  "heart attack",
+  "heart problem",
+  "shallow sleep",
+  "past couple",
+  "3/4 hours",
+  "name",
+  "date",
+  "birth",
+  "19th",
+  "September",
+  "address",
+  "house",
+  "anxiety",
+  "GP",
+  "boss",
+  "everyone",
+  "rest",
+  "life",
+  "stuff",
+  "morning",
+  "way",
+  "bed",
+  "work",
+  "everything",
+  "ages",
+  "alarm",
+  "chocolate",
+  "panic",
+  "stress",
+  "minutes",
+  "hand",
+  "chest",
+  "No.",
+  "enjoyment",
+  "day",
+  "edge",
+  "time",
+  "friends",
+  "fun",
+  "tennis",
+  "tension",
+  "majority",
+  "good support system",
+  "good question",
+  "good family",
+  "constant feeling",
+  "good day",
+  "suicidal thoughts",
+  "actual depression",
+  "mum guys",
+  "everybody",
+  "bit",
+  "Anything",
+  "love",
+  "weekends",
+  "call",
+  "worries",
+  "parents",
+  "lot",
+  "Friday",
+  "Saturday",
+  "glass",
+  "wine",
+  "track",
+  "limit",
+  "days",
+  "dinner",
+  "past",
+  "total"
+ ],
+ "entidades_saude": [
+  {
+   "texto": "19th of September 1993",
+   "categoria": "Date",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 53,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "really",
+   "categoria": "ConditionQualifier",
+   "subcategoria": null,
+   "confianca": 0.56,
+   "offset": 168,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "anxious",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 175,
+   "normalizado": "Anxiety",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0003467",
+    "AIR:ANXIE",
+    "AOD:0000003779",
+    "BI:BI00024",
+    "CCC:P40.0"
+   ]
+  },
+  {
+   "texto": "past few months",
+   "categoria": "Time",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 192,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "nervous",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 227,
+   "normalizado": "Nervousness",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0027769",
+    "AOD:0000003354",
+    "CHV:0000008609",
+    "COSTAR:U000473",
+    "CST:NERVOUSNESS"
+   ]
+  },
+  {
+   "texto": "every morning",
+   "categoria": "Frequency",
+   "subcategoria": null,
+   "confianca": 0.95,
+   "offset": 235,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "worry",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.57,
+   "offset": 294,
+   "normalizado": "Worried",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0233481",
+    "AOD:0000022498",
+    "CHV:0000045028",
+    "ICD10CM:R45.82",
+    "ICPC2ICD10ENG:MTHU010690"
+   ]
+  },
+  {
+   "texto": "anxiety",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.88,
+   "offset": 342,
+   "normalizado": "Anxiety",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0003467",
+    "AIR:ANXIE",
+    "AOD:0000003779",
+    "BI:BI00024",
+    "CCC:P40.0"
+   ]
+  },
+  {
+   "texto": "GP",
+   "categoria": "HealthcareProfession",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 421,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "two months",
+   "categoria": "Time",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 473,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "stressful",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.77,
+   "offset": 684,
+   "normalizado": "stressful",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0231297",
+    "CHV:0000022660",
+    "SNMI:F-06300"
+   ]
+  },
+  {
+   "texto": "past two months",
+   "categoria": "Time",
+   "subcategoria": null,
+   "confianca": 0.98,
+   "offset": 711,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "A fashion retailer",
+   "categoria": "Employment",
+   "subcategoria": null,
+   "confianca": 0.83,
+   "offset": 761,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "head",
+   "categoria": "BodyStructure",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 787,
+   "normalizado": "Head",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0018670",
+    "AOD:0000004570",
+    "CHV:0000005814",
+    "CSP:0468-4078",
+    "CST:BODY/HEAD"
+   ]
+  },
+  {
+   "texto": "never worked",
+   "categoria": "Employment",
+   "subcategoria": null,
+   "confianca": 0.87,
+   "offset": 843,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "retail",
+   "categoria": "Employment",
+   "subcategoria": null,
+   "confianca": 0.78,
+   "offset": 859,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "doing well",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.89,
+   "offset": 1069,
+   "normalizado": null,
+   "negada": false,
+   "certeza": "neutralPossible",
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "Right",
+   "categoria": "Direction",
+   "subcategoria": null,
+   "confianca": 0.88,
+   "offset": 1181,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "stressed",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.91,
+   "offset": 1405,
+   "normalizado": "Stress",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0038435",
+    "AOD:0000000351",
+    "BI:BI00693",
+    "CCPSS:1015101",
+    "CHV:0000011770"
+   ]
+  },
+  {
+   "texto": "worried",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.77,
+   "offset": 1421,
+   "normalizado": "Worried",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0233481",
+    "AOD:0000022498",
+    "CHV:0000045028",
+    "ICD10CM:R45.82",
+    "ICPC2ICD10ENG:MTHU010690"
+   ]
+  },
+  {
+   "texto": "get to sleep",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.8,
+   "offset": 1470,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "hours",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.75,
+   "offset": 1487,
+   "normalizado": "Hour",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0439227",
+    "CHV:0000034453",
+    "HL7V2.5:H",
+    "MTH:U000825",
+    "NCI:C25529"
+   ]
+  },
+  {
+   "texto": "hours",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.75,
+   "offset": 1497,
+   "normalizado": "Hour",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0439227",
+    "CHV:0000034453",
+    "HL7V2.5:H",
+    "MTH:U000825",
+    "NCI:C25529"
+   ]
+  },
+  {
+   "texto": "hours",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.75,
+   "offset": 1507,
+   "normalizado": "Hour",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0439227",
+    "CHV:0000034453",
+    "HL7V2.5:H",
+    "MTH:U000825",
+    "NCI:C25529"
+   ]
+  },
+  {
+   "texto": "lying awake",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.9,
+   "offset": 1563,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "all night",
+   "categoria": "Time",
+   "subcategoria": null,
+   "confianca": 0.96,
+   "offset": 1575,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "heart",
+   "categoria": "BodyStructure",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 1599,
+   "normalizado": "Heart",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0018787",
+    "AIR:MFHRT",
+    "AOD:0000002498",
+    "BI:BI00027",
+    "CCPSS:0029042"
+   ]
+  },
+  {
+   "texto": "racing",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.96,
+   "offset": 1613,
+   "normalizado": "Race:Type:Pt:^Patient:Nom",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C1315098",
+    "LNC:32624-9"
+   ]
+  },
+  {
+   "texto": "panicking",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.9,
+   "offset": 1643,
+   "normalizado": "Panic",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0030318",
+    "AOD:0000023911",
+    "CHV:0000009234",
+    "CST:AGITATION",
+    "ICD10CM:F41.0"
+   ]
+  },
+  {
+   "texto": "alarm",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.83,
+   "offset": 1751,
+   "normalizado": "Alarm (not alarm reaction)",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C2945761",
+    "CHV:0000023453",
+    "WHO:0166"
+   ]
+  },
+  {
+   "texto": "heart is racing",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.95,
+   "offset": 1819,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "day",
+   "categoria": "Time",
+   "subcategoria": null,
+   "confianca": 0.82,
+   "offset": 1859,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "heart was racing so much",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.78,
+   "offset": 1923,
+   "normalizado": null,
+   "negada": false,
+   "certeza": "positivePossible",
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "heart attack",
+   "categoria": "Diagnosis",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 1981,
+   "normalizado": "Myocardial Infarction",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0027051",
+    "AIR:MYCNF",
+    "AOD:0000005332",
+    "BI:BI00102",
+    "CCPSS:1018028"
+   ]
+  },
+  {
+   "texto": "morning",
+   "categoria": "Time",
+   "subcategoria": null,
+   "confianca": 0.98,
+   "offset": 2001,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "feel like I'm even",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.61,
+   "offset": 2045,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "shallow sleep",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.9,
+   "offset": 2095,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "3/4 hours",
+   "categoria": "Time",
+   "subcategoria": null,
+   "confianca": 0.76,
+   "offset": 2120,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "significant",
+   "categoria": "ConditionQualifier",
+   "subcategoria": null,
+   "confianca": 0.56,
+   "offset": 2160,
+   "normalizado": null,
+   "negada": true,
+   "certeza": "negative",
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "eating",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.73,
+   "offset": 2236,
+   "normalizado": "Eating",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0013470",
+    "AOD:0000001798",
+    "CHV:0000004236",
+    "CSP:2116-2402",
+    "GO:GO:0007631"
+   ]
+  },
+  {
+   "texto": "much differently",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.58,
+   "offset": 2248,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "down",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.91,
+   "offset": 2338,
+   "normalizado": "Down Syndrome",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0013080",
+    "AOD:0000005004",
+    "CCPSS:0037265",
+    "CHV:0000004101",
+    "COSTAR:U000198"
+   ]
+  },
+  {
+   "texto": "morning",
+   "categoria": "Time",
+   "subcategoria": null,
+   "confianca": 0.96,
+   "offset": 2422,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "overslept",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.9,
+   "offset": 2493,
+   "normalizado": "Oversleeps",
+   "negada": false,
+   "certeza": "positivePossible",
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0424572",
+    "CHV:0000033348",
+    "RCD:X76AQ",
+    "SNOMEDCT_US:248261008"
+   ]
+  },
+  {
+   "texto": "tired",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.95,
+   "offset": 2518,
+   "normalizado": "Feeling tired",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0849970",
+    "CCPSS:1017082",
+    "CHV:0000049813",
+    "ICPC2P:A04012",
+    "MEDCIN:115277"
+   ]
+  },
+  {
+   "texto": "panic",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.74,
+   "offset": 2543,
+   "normalizado": "Panic",
+   "negada": false,
+   "certeza": "positivePossible",
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0030318",
+    "AOD:0000023911",
+    "CHV:0000009234",
+    "CST:AGITATION",
+    "ICD10CM:F41.0"
+   ]
+  },
+  {
+   "texto": "constant",
+   "categoria": "Course",
+   "subcategoria": null,
+   "confianca": 0.83,
+   "offset": 2614,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "rapid",
+   "categoria": "ConditionQualifier",
+   "subcategoria": null,
+   "confianca": 0.75,
+   "offset": 2629,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "heart beating",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.98,
+   "offset": 2635,
+   "normalizado": "heart process",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C2256369",
+    "GO:GO:0003015",
+    "SNOMEDCT_US:719984002"
+   ]
+  },
+  {
+   "texto": "stressful",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.77,
+   "offset": 2670,
+   "normalizado": "stressful",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0231297",
+    "CHV:0000022660",
+    "SNMI:F-06300"
+   ]
+  },
+  {
+   "texto": "stress",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 2702,
+   "normalizado": "Stress",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0038435",
+    "AOD:0000000351",
+    "BI:BI00693",
+    "CCPSS:1015101",
+    "CHV:0000011770"
+   ]
+  },
+  {
+   "texto": "heart problem",
+   "categoria": "Diagnosis",
+   "subcategoria": null,
+   "confianca": 0.9,
+   "offset": 2738,
+   "normalizado": "HEART PROBLEM",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0795691",
+    "CCPSS:0037066",
+    "CHV:0000048907",
+    "ICPC2P:K29007"
+   ]
+  },
+  {
+   "texto": "couple of minutes",
+   "categoria": "Time",
+   "subcategoria": null,
+   "confianca": 0.92,
+   "offset": 2817,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "day",
+   "categoria": "Time",
+   "subcategoria": null,
+   "confianca": 0.81,
+   "offset": 2848,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "holding my hand on my chest",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.87,
+   "offset": 2901,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "10 minutes",
+   "categoria": "Time",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 2938,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "couple of months",
+   "categoria": "Time",
+   "subcategoria": null,
+   "confianca": 0.97,
+   "offset": 3006,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "painful",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 3088,
+   "normalizado": "Pain",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0030193",
+    "AOD:0000002779",
+    "BI:BI00754",
+    "CCC:Q63.0",
+    "CCPSS:0035760"
+   ]
+  },
+  {
+   "texto": "heart",
+   "categoria": "BodyStructure",
+   "subcategoria": null,
+   "confianca": 0.95,
+   "offset": 3108,
+   "normalizado": "Heart",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0018787",
+    "AIR:MFHRT",
+    "AOD:0000002498",
+    "BI:BI00027",
+    "CCPSS:0029042"
+   ]
+  },
+  {
+   "texto": "heart",
+   "categoria": "BodyStructure",
+   "subcategoria": null,
+   "confianca": 0.58,
+   "offset": 3123,
+   "normalizado": "Heart",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0018787",
+    "AIR:MFHRT",
+    "AOD:0000002498",
+    "BI:BI00027",
+    "CCPSS:0029042"
+   ]
+  },
+  {
+   "texto": "fast",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.74,
+   "offset": 3138,
+   "normalizado": "Fasting",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0015663",
+    "AOD:0000001808",
+    "CCPSS:0011109",
+    "CHV:0000027874",
+    "CSP:2116-5104"
+   ]
+  },
+  {
+   "texto": "enjoyment",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.67,
+   "offset": 3238,
+   "normalizado": "Enjoyment",
+   "negada": true,
+   "certeza": "negative",
+   "associacao": null,
+   "codigos": [
+    "UMLS:C5241387",
+    "MSH:D057181"
+   ]
+  },
+  {
+   "texto": "tired",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.95,
+   "offset": 3373,
+   "normalizado": "Feeling tired",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0849970",
+    "CCPSS:1017082",
+    "CHV:0000049813",
+    "ICPC2P:A04012",
+    "MEDCIN:115277"
+   ]
+  },
+  {
+   "texto": "stressful",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.77,
+   "offset": 3567,
+   "normalizado": "stressful",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0231297",
+    "CHV:0000022660",
+    "SNMI:F-06300"
+   ]
+  },
+  {
+   "texto": "friends",
+   "categoria": "FamilyRelation",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 3667,
+   "normalizado": "friend",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0079382",
+    "AOD:0000006313",
+    "CHV:0000015164",
+    "ICF:e320",
+    "ICF-CY:e320"
+   ]
+  },
+  {
+   "texto": "running",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 4075,
+   "normalizado": "running (history)",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C2346414",
+    "MEDCIN:122465"
+   ]
+  },
+  {
+   "texto": "tension",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.92,
+   "offset": 4279,
+   "normalizado": "Tension",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0233494",
+    "CCPSS:0036202",
+    "CHV:0000023121",
+    "ICPC2ICD10ENG:MTHU068415",
+    "MDR:10043268"
+   ]
+  },
+  {
+   "texto": "every morning",
+   "categoria": "Frequency",
+   "subcategoria": null,
+   "confianca": 0.6,
+   "offset": 4309,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "sick",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 4354,
+   "normalizado": "Illness (finding)",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0221423",
+    "AOD:0000003858",
+    "CHV:0000021421",
+    "ICD10CM:R69",
+    "MDR:10080284"
+   ]
+  },
+  {
+   "texto": "good",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.64,
+   "offset": 4377,
+   "normalizado": "Good",
+   "negada": true,
+   "certeza": "negative",
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0205170",
+    "CCPSS:U003268",
+    "CHV:0000020369",
+    "LNC:LA8967-7",
+    "NCI:C64975"
+   ]
+  },
+  {
+   "texto": "worse",
+   "categoria": "Course",
+   "subcategoria": null,
+   "confianca": 0.86,
+   "offset": 4622,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "worse",
+   "categoria": "Course",
+   "subcategoria": null,
+   "confianca": 0.86,
+   "offset": 4632,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "past couple of months",
+   "categoria": "Time",
+   "subcategoria": null,
+   "confianca": 0.95,
+   "offset": 4647,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "tension",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.98,
+   "offset": 5045,
+   "normalizado": "Tension",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0233494",
+    "CCPSS:0036202",
+    "CHV:0000023121",
+    "ICPC2ICD10ENG:MTHU068415",
+    "MDR:10043268"
+   ]
+  },
+  {
+   "texto": "bit",
+   "categoria": "ConditionQualifier",
+   "subcategoria": null,
+   "confianca": 0.65,
+   "offset": 5056,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "anxiety",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.96,
+   "offset": 5063,
+   "normalizado": "Anxiety",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0003467",
+    "AIR:ANXIE",
+    "AOD:0000003779",
+    "BI:BI00024",
+    "CCC:P40.0"
+   ]
+  },
+  {
+   "texto": "bad",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.76,
+   "offset": 5109,
+   "normalizado": "Bad",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0205169",
+    "CHV:0000020368",
+    "LNC:LA31734-9",
+    "NCI:C80228",
+    "SNMI:G-A222"
+   ]
+  },
+  {
+   "texto": "down",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.89,
+   "offset": 5183,
+   "normalizado": "Down Syndrome",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0013080",
+    "AOD:0000005004",
+    "CCPSS:0037265",
+    "CHV:0000004101",
+    "COSTAR:U000198"
+   ]
+  },
+  {
+   "texto": "worried",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.73,
+   "offset": 5265,
+   "normalizado": "Worried",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0233481",
+    "AOD:0000022498",
+    "CHV:0000045028",
+    "ICD10CM:R45.82",
+    "ICPC2ICD10ENG:MTHU010690"
+   ]
+  },
+  {
+   "texto": "down",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.89,
+   "offset": 5425,
+   "normalizado": "Down Syndrome",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0013080",
+    "AOD:0000005004",
+    "CCPSS:0037265",
+    "CHV:0000004101",
+    "COSTAR:U000198"
+   ]
+  },
+  {
+   "texto": "unhappy",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.65,
+   "offset": 5437,
+   "normalizado": "Feeling unhappy",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C1688635",
+    "CHV:0000049567",
+    "HPO:HP:5200273",
+    "ICNP:420038007",
+    "ICPC2P:P03011"
+   ]
+  },
+  {
+   "texto": "suicidal thoughts",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.94,
+   "offset": 5607,
+   "normalizado": "Feeling suicidal (finding)",
+   "negada": true,
+   "certeza": "negative",
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0424000",
+    "AOD:0000006401",
+    "CCPSS:1017287",
+    "CHV:0000033261",
+    "HPO:HP:0031589"
+   ]
+  },
+  {
+   "texto": "thoughts that have",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.67,
+   "offset": 5632,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "extreme",
+   "categoria": "ConditionQualifier",
+   "subcategoria": null,
+   "confianca": 0.9,
+   "offset": 5661,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "family",
+   "categoria": "FamilyRelation",
+   "subcategoria": null,
+   "confianca": 0.96,
+   "offset": 5752,
+   "normalizado": "Family",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0015576",
+    "AOD:0000006914",
+    "CCPSS:0030810",
+    "CHV:0000004879",
+    "CSP:1123-4254"
+   ]
+  },
+  {
+   "texto": "my parents",
+   "categoria": "LivingStatus",
+   "subcategoria": null,
+   "confianca": 0.98,
+   "offset": 5915,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "parents",
+   "categoria": "FamilyRelation",
+   "subcategoria": null,
+   "confianca": 0.98,
+   "offset": 5935,
+   "normalizado": "parent",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0030551",
+    "AOD:0000008868",
+    "CHV:0000009311",
+    "CSP:1124-5492",
+    "HL7V3.0:PRN"
+   ]
+  },
+  {
+   "texto": "week",
+   "categoria": "Time",
+   "subcategoria": null,
+   "confianca": 0.64,
+   "offset": 6092,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "parents",
+   "categoria": "FamilyRelation",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 6105,
+   "normalizado": "parent",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0030551",
+    "AOD:0000008868",
+    "CHV:0000009311",
+    "CSP:1124-5492",
+    "HL7V3.0:PRN"
+   ]
+  },
+  {
+   "texto": "retired",
+   "categoria": "Employment",
+   "subcategoria": null,
+   "confianca": 0.92,
+   "offset": 6127,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": "other",
+   "codigos": []
+  },
+  {
+   "texto": "glass",
+   "categoria": "SubstanceUseAmount",
+   "subcategoria": null,
+   "confianca": 0.79,
+   "offset": 6491,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "wine",
+   "categoria": "SubstanceUse",
+   "subcategoria": null,
+   "confianca": 0.95,
+   "offset": 6500,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "during the week with dinner",
+   "categoria": "Frequency",
+   "subcategoria": null,
+   "confianca": 0.83,
+   "offset": 6505,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "mum",
+   "categoria": "FamilyRelation",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 6617,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "depression",
+   "categoria": "Diagnosis",
+   "subcategoria": null,
+   "confianca": 0.96,
+   "offset": 6679,
+   "normalizado": "Mental Depression",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0011570",
+    "AIR:DEPRS",
+    "AOD:0000022482",
+    "BI:BI00003",
+    "CCPSS:1017889"
+   ]
+  },
+  {
+   "texto": "depression",
+   "categoria": "Diagnosis",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 6763,
+   "normalizado": "Mental Depression",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0011570",
+    "AIR:DEPRS",
+    "AOD:0000022482",
+    "BI:BI00003",
+    "CCPSS:1017889"
+   ]
+  },
+  {
+   "texto": "stress",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.88,
+   "offset": 6834,
+   "normalizado": "Stress",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0038435",
+    "AOD:0000000351",
+    "BI:BI00693",
+    "CCPSS:1015101",
+    "CHV:0000011770"
+   ]
+  },
+  {
+   "texto": "mum",
+   "categoria": "FamilyRelation",
+   "subcategoria": null,
+   "confianca": 0.97,
+   "offset": 6878,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "GP",
+   "categoria": "HealthcareProfession",
+   "subcategoria": null,
+   "confianca": 0.96,
+   "offset": 6956,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  }
+ ],
+ "relacoes_saude": [
+  {
+   "tipo": "QualifierOfCondition",
+   "papeis": {
+    "Qualifier": "really",
+    "Condition": "anxious"
+   }
+  },
+  {
+   "tipo": "TimeOfCondition",
+   "papeis": {
+    "Condition": "anxious",
+    "Time": "past few months"
+   }
+  },
+  {
+   "tipo": "FrequencyOfCondition",
+   "papeis": {
+    "Condition": "nervous",
+    "Frequency": "every morning"
+   }
+  },
+  {
+   "tipo": "TimeOfCondition",
+   "papeis": {
+    "Condition": "stressful",
+    "Time": "past two months"
+   }
+  },
+  {
+   "tipo": "TimeOfCondition",
+   "papeis": {
+    "Condition": "lying awake",
+    "Time": "all night"
+   }
+  },
+  {
+   "tipo": "BodySiteOfCondition",
+   "papeis": {
+    "BodyStructure": "heart",
+    "Condition": "racing"
+   }
+  },
+  {
+   "tipo": "TimeOfCondition",
+   "papeis": {
+    "Time": "day",
+    "Condition": "heart was racing so much"
+   }
+  },
+  {
+   "tipo": "TimeOfCondition",
+   "papeis": {
+    "Condition": "heart attack",
+    "Time": "morning"
+   }
+  },
+  {
+   "tipo": "TimeOfCondition",
+   "papeis": {
+    "Time": "morning",
+    "Condition": "overslept"
+   }
+  },
+  {
+   "tipo": "TimeOfCondition",
+   "papeis": {
+    "Time": "morning",
+    "Condition": "tired"
+   }
+  },
+  {
+   "tipo": "CourseOfCondition",
+   "papeis": {
+    "Course": "constant",
+    "Condition": "heart beating"
+   }
+  },
+  {
+   "tipo": "QualifierOfCondition",
+   "papeis": {
+    "Qualifier": "rapid",
+    "Condition": "heart beating"
+   }
+  },
+  {
+   "tipo": "TimeOfCondition",
+   "papeis": {
+    "Time": "couple of minutes",
+    "Condition": "holding my hand on my chest"
+   }
+  },
+  {
+   "tipo": "TimeOfCondition",
+   "papeis": {
+    "Time": "day",
+    "Condition": "holding my hand on my chest"
+   }
+  },
+  {
+   "tipo": "TimeOfCondition",
+   "papeis": {
+    "Condition": "holding my hand on my chest",
+    "Time": "10 minutes"
+   }
+  },
+  {
+   "tipo": "BodySiteOfCondition",
+   "papeis": {
+    "BodyStructure": "heart",
+    "Condition": "fast"
+   }
+  },
+  {
+   "tipo": "BodySiteOfCondition",
+   "papeis": {
+    "BodyStructure": "heart",
+    "Condition": "fast"
+   }
+  },
+  {
+   "tipo": "QualifierOfCondition",
+   "papeis": {
+    "Qualifier": "bit",
+    "Condition": "anxiety"
+   }
+  },
+  {
+   "tipo": "QualifierOfCondition",
+   "papeis": {
+    "Condition": "thoughts that have",
+    "Qualifier": "extreme"
+   }
+  },
+  {
+   "tipo": "TimeOfEvent",
+   "papeis": {
+    "Time": "week",
+    "Event": "retired"
+   }
+  },
+  {
+   "tipo": "AmountOfSubstanceUse",
+   "papeis": {
+    "AmountUse": "glass",
+    "Use": "wine"
+   }
+  },
+  {
+   "tipo": "FrequencyOfSubstanceUse",
+   "papeis": {
+    "SubstanceUse": "wine",
+    "Frequency": "during the week with dinner"
+   }
+  }
+ ],
+ "idioma": "en",
+ "provedor": "azure_language"
+}

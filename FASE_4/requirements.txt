@@ -1,0 +1,49 @@
+# --- Núcleo ---
+python-dotenv
+pyyaml
+requests
+numpy
+pandas
+pyarrow
+scipy
+# versão fixa: os modelos .joblib foram salvos com ela (pickle não é portátil entre versões)
+scikit-learn==1.7.2
+joblib
+matplotlib
+
+# --- Azure (Speech to Text + Language/Text Analytics for Health) ---
+azure-cognitiveservices-speech>=1.38
+azure-ai-textanalytics>=5.3
+
+# --- Áudio ---
+librosa>=0.10
+soundfile
+praat-parselmouth>=0.4.3
+# embeddings wav2vec 2.0 (pesos de ~360 MB baixados na 1ª execução). Sem ele, os modelos de voz
+# usam a versão só com marcadores acústicos (pior, mas funciona).
+# torch e torchaudio PRECISAM ter a mesma versão (no Windows, versões diferentes = erro de DLL).
+# A última torchaudio publicada é a 2.11, então o torch fica fixo nela.
+torchaudio==2.11.*
+
+# --- Vídeo ---
+# CPU basta. Para GPU NVIDIA, instale antes o torch com CUDA (https://pytorch.org).
+torch==2.11.*
+torchvision
+ultralytics>=8.1
+opencv-python
+
+# --- Dados públicos ---
+vitaldb
+remotezip
+huggingface_hub
+
+# --- Interface ---
+streamlit>=1.50
+plotly
+
+# --- Testes ---
+pytest
+
+# --- Opcionais (instale à parte se quiser) ---
+# controlnet-aux     → backend OpenPose (comparação de pose; ~1 quadro/s em CPU)
+# faster-whisper     → transcrição local quando não há Azure nem transcrição de referência

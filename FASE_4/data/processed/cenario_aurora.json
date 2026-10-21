@@ -1,0 +1,610 @@
+{
+ "paciente_id": "AURORA-LEITO-12",
+ "descricao": "Paciente composto do Hospital Aurora (modalidades de datasets públicos distintos)",
+ "vitais": {
+  "fonte": "VitalDB caso 49",
+  "arquivo": "data/processed/demo/vitaldb_case_0049.csv.gz",
+  "modelos": [
+   "data/processed/models/iforest_vitais.joblib",
+   "data/processed/models/preditor_hipotensao.joblib"
+  ]
+ },
+ "blocos": [
+  {
+   "modalidade": "prescricao",
+   "fonte": "MIMIC-IV demo (MIMIC-H20199380)",
+   "t_inicio": 1394.0,
+   "eventos": [
+    {
+     "paciente_id": "AURORA-LEITO-12",
+     "origem": "prescricao",
+     "tipo": "opioide_benzodiazepinico",
+     "severidade": 1,
+     "t": 1394.0,
+     "descricao": "Opioide + benzodiazepínico ativos: ClonazePAM + OxyCODONE (Immediate Release) — risco de depressão respiratória",
+     "detector": "regra",
+     "evidencias": {
+      "drogas": [
+       "ClonazePAM",
+       "OxyCODONE (Immediate Release)"
+      ],
+      "classes": [
+       "benzodiazepinico",
+       "opioide"
+      ],
+      "fonte_dataset": "MIMIC-IV demo"
+     },
+     "duracao_s": 0.0,
+     "id": "EVT-784EB779B2",
+     "severidade_rotulo": "atenção"
+    }
+   ]
+  },
+  {
+   "modalidade": "audio",
+   "fonte": "PriMock57 day2_consultation04 (\"I feel breathless\")",
+   "t_inicio": 1720.73,
+   "midia": "results/audio/consultas/day2_consultation04.json",
+   "eventos": [
+    {
+     "paciente_id": "AURORA-LEITO-12",
+     "origem": "audio",
+     "tipo": "sintoma_relatado_dispneia",
+     "severidade": 2,
+     "t": 2294.0,
+     "descricao": "Paciente relata dispneia: breathless",
+     "detector": "azure",
+     "evidencias": {
+      "mencoes": [
+       "breathless"
+      ],
+      "fonte_texto": "azure_cache",
+      "fonte_stt": "azure_cache",
+      "fonte_dataset": "PriMock57"
+     },
+     "duracao_s": 0.0,
+     "id": "EVT-CF9D429BAF",
+     "severidade_rotulo": "urgente"
+    },
+    {
+     "paciente_id": "AURORA-LEITO-12",
+     "origem": "audio",
+     "tipo": "sintoma_relatado_fadiga",
+     "severidade": 1,
+     "t": 2294.0,
+     "descricao": "Paciente relata fadiga: tired",
+     "detector": "azure",
+     "evidencias": {
+      "mencoes": [
+       "tired",
+       "tired"
+      ],
+      "fonte_texto": "azure_cache",
+      "fonte_stt": "azure_cache",
+      "fonte_dataset": "PriMock57"
+     },
+     "duracao_s": 0.0,
+     "id": "EVT-5664BF56D7",
+     "severidade_rotulo": "atenção"
+    },
+    {
+     "paciente_id": "AURORA-LEITO-12",
+     "origem": "audio",
+     "tipo": "sintoma_relatado_hemoptise",
+     "severidade": 2,
+     "t": 2294.0,
+     "descricao": "Paciente relata hemoptise: coughing up blood",
+     "detector": "azure",
+     "evidencias": {
+      "mencoes": [
+       "coughing up blood"
+      ],
+      "fonte_texto": "azure_cache",
+      "fonte_stt": "azure_cache",
+      "fonte_dataset": "PriMock57"
+     },
+     "duracao_s": 0.0,
+     "id": "EVT-EBFEFDA72E",
+     "severidade_rotulo": "urgente"
+    }
+   ]
+  },
+  {
+   "modalidade": "video",
+   "fonte": "REHAB24-6 PM_114 (abdução do braço)",
+   "t_inicio": 300.0,
+   "midia": "results/video/demo/fisioterapia_PM_114.mp4",
+   "eventos": [
+    {
+     "paciente_id": "AURORA-LEITO-12",
+     "origem": "video",
+     "tipo": "execucao_fora_do_padrao",
+     "severidade": 1,
+     "t": 369.3,
+     "descricao": "Repetição 7 fora do padrão esperado: altura do punho acima do ombro (× tronco): -0.08 (abaixo do esperado 0.62)",
+     "detector": "pose",
+     "evidencias": {
+      "repeticao": 7,
+      "escore": 3.0,
+      "desvios": [
+       {
+        "feature": "punho_altura_max",
+        "descricao": "altura do punho acima do ombro (× tronco)",
+        "valor": -0.08,
+        "esperado": 0.62,
+        "z": -3.0,
+        "unidade": ""
+       }
+      ],
+      "fonte_dataset": "REHAB24-6"
+     },
+     "duracao_s": 5.999999999999993,
+     "id": "EVT-4DFF08DA1F",
+     "severidade_rotulo": "atenção"
+    },
+    {
+     "paciente_id": "AURORA-LEITO-12",
+     "origem": "video",
+     "tipo": "execucao_fora_do_padrao",
+     "severidade": 1,
+     "t": 375.7,
+     "descricao": "Repetição 8 fora do padrão esperado (2 seguidas): altura do punho acima do ombro (× tronco): 0.03 (abaixo do esperado 0.62)",
+     "detector": "pose",
+     "evidencias": {
+      "repeticao": 8,
+      "escore": 2.54,
+      "desvios": [
+       {
+        "feature": "punho_altura_max",
+        "descricao": "altura do punho acima do ombro (× tronco)",
+        "valor": 0.03,
+        "esperado": 0.62,
+        "z": -2.54,
+        "unidade": ""
+       }
+      ],
+      "fonte_dataset": "REHAB24-6"
+     },
+     "duracao_s": 5.333333333333343,
+     "id": "EVT-4C2BE4D2A9",
+     "severidade_rotulo": "atenção"
+    },
+    {
+     "paciente_id": "AURORA-LEITO-12",
+     "origem": "video",
+     "tipo": "execucao_fora_do_padrao",
+     "severidade": 1,
+     "t": 386.3,
+     "descricao": "Repetição 10 fora do padrão esperado: altura do punho acima do ombro (× tronco): -0.37 (abaixo do esperado 0.62); amplitude de abdução do ombro: 81.3° (abaixo do esperado 124.59°)",
+     "detector": "pose",
+     "evidencias": {
+      "repeticao": 10,
+      "escore": 4.23,
+      "desvios": [
+       {
+        "feature": "punho_altura_max",
+        "descricao": "altura do punho acima do ombro (× tronco)",
+        "valor": -0.37,
+        "esperado": 0.62,
+        "z": -4.23,
+        "unidade": ""
+       },
+       {
+        "feature": "amplitude_abducao",
+        "descricao": "amplitude de abdução do ombro",
+        "valor": 81.3,
+        "esperado": 124.59,
+        "z": -3.27,
+        "unidade": "°"
+       }
+      ],
+      "fonte_dataset": "REHAB24-6"
+     },
+     "duracao_s": 4.966666666666669,
+     "id": "EVT-F19A50A54D",
+     "severidade_rotulo": "atenção"
+    },
+    {
+     "paciente_id": "AURORA-LEITO-12",
+     "origem": "video",
+     "tipo": "execucao_fora_do_padrao",
+     "severidade": 1,
+     "t": 391.0,
+     "descricao": "Repetição 11 fora do padrão esperado (2 seguidas): altura do punho acima do ombro (× tronco): -0.25 (abaixo do esperado 0.62); amplitude de abdução do ombro: 83.26° (abaixo do esperado 124.59°)",
+     "detector": "pose",
+     "evidencias": {
+      "repeticao": 11,
+      "escore": 3.69,
+      "desvios": [
+       {
+        "feature": "punho_altura_max",
+        "descricao": "altura do punho acima do ombro (× tronco)",
+        "valor": -0.25,
+        "esperado": 0.62,
+        "z": -3.69,
+        "unidade": ""
+       },
+       {
+        "feature": "amplitude_abducao",
+        "descricao": "amplitude de abdução do ombro",
+        "valor": 83.26,
+        "esperado": 124.59,
+        "z": -3.12,
+        "unidade": "°"
+       }
+      ],
+      "fonte_dataset": "REHAB24-6"
+     },
+     "duracao_s": 4.0,
+     "id": "EVT-819AE1D7D9",
+     "severidade_rotulo": "atenção"
+    },
+    {
+     "paciente_id": "AURORA-LEITO-12",
+     "origem": "video",
+     "tipo": "execucao_fora_do_padrao",
+     "severidade": 1,
+     "t": 419.7,
+     "descricao": "Repetição 13 fora do padrão esperado: elevação/inclinação dos ombros: 39.3° (acima do esperado 18.91°)",
+     "detector": "pose",
+     "evidencias": {
+      "repeticao": 13,
+      "escore": 4.39,
+      "desvios": [
+       {
+        "feature": "ombros_desvio",
+        "descricao": "elevação/inclinação dos ombros",
+        "valor": 39.3,
+        "esperado": 18.91,
+        "z": 4.39,
+        "unidade": "°"
+       }
+      ],
+      "fonte_dataset": "REHAB24-6"
+     },
+     "duracao_s": 5.300000000000011,
+     "id": "EVT-DEEA14DEE6",
+     "severidade_rotulo": "atenção"
+    },
+    {
+     "paciente_id": "AURORA-LEITO-12",
+     "origem": "video",
+     "tipo": "execucao_fora_do_padrao",
+     "severidade": 1,
+     "t": 428.0,
+     "descricao": "Repetição 15 fora do padrão esperado: elevação/inclinação dos ombros: 36.01° (acima do esperado 18.91°)",
+     "detector": "pose",
+     "evidencias": {
+      "repeticao": 15,
+      "escore": 3.68,
+      "desvios": [
+       {
+        "feature": "ombros_desvio",
+        "descricao": "elevação/inclinação dos ombros",
+        "valor": 36.01,
+        "esperado": 18.91,
+        "z": 3.68,
+        "unidade": "°"
+       }
+      ],
+      "fonte_dataset": "REHAB24-6"
+     },
+     "duracao_s": 4.033333333333331,
+     "id": "EVT-1885BC1E1D",
+     "severidade_rotulo": "atenção"
+    },
+    {
+     "paciente_id": "AURORA-LEITO-12",
+     "origem": "video",
+     "tipo": "execucao_fora_do_padrao",
+     "severidade": 1,
+     "t": 432.2,
+     "descricao": "Repetição 16 fora do padrão esperado (2 seguidas): elevação/inclinação dos ombros: 35.44° (acima do esperado 18.91°)",
+     "detector": "pose",
+     "evidencias": {
+      "repeticao": 16,
+      "escore": 3.56,
+      "desvios": [
+       {
+        "feature": "ombros_desvio",
+        "descricao": "elevação/inclinação dos ombros",
+        "valor": 35.44,
+        "esperado": 18.91,
+        "z": 3.56,
+        "unidade": "°"
+       }
+      ],
+      "fonte_dataset": "REHAB24-6"
+     },
+     "duracao_s": 4.133333333333326,
+     "id": "EVT-C626BFA1B5",
+     "severidade_rotulo": "atenção"
+    },
+    {
+     "paciente_id": "AURORA-LEITO-12",
+     "origem": "video",
+     "tipo": "padrao_incorreto_persistente",
+     "severidade": 2,
+     "t": 439.2,
+     "descricao": "Repetição 17 fora do padrão esperado (3 seguidas): extensão do cotovelo no topo: 15.18° (abaixo do esperado 137.09°); altura do punho acima do ombro (× tronco): -0.04 (abaixo do esperado 0.75); amplitude de abdução do ombro: 98.06° (abaixo do esperado 143.55°)",
+     "detector": "pose",
+     "evidencias": {
+      "repeticao": 17,
+      "escore": 16.86,
+      "desvios": [
+       {
+        "feature": "cotovelo_min",
+        "descricao": "extensão do cotovelo no topo",
+        "valor": 15.18,
+        "esperado": 137.09,
+        "z": -16.86,
+        "unidade": "°"
+       },
+       {
+        "feature": "punho_altura_max",
+        "descricao": "altura do punho acima do ombro (× tronco)",
+        "valor": -0.04,
+        "esperado": 0.75,
+        "z": -7.88,
+        "unidade": ""
+       },
+       {
+        "feature": "amplitude_abducao",
+        "descricao": "amplitude de abdução do ombro",
+        "valor": 98.06,
+        "esperado": 143.55,
+        "z": -3.61,
+        "unidade": "°"
+       }
+      ],
+      "fonte_dataset": "REHAB24-6"
+     },
+     "duracao_s": 3.666666666666657,
+     "id": "EVT-EEB045AE93",
+     "severidade_rotulo": "urgente"
+    },
+    {
+     "paciente_id": "AURORA-LEITO-12",
+     "origem": "video",
+     "tipo": "padrao_incorreto_persistente",
+     "severidade": 2,
+     "t": 446.3,
+     "descricao": "Repetição 18 fora do padrão esperado (4 seguidas): extensão do cotovelo no topo: 39.83° (abaixo do esperado 137.09°); altura do punho acima do ombro (× tronco): -0.18 (abaixo do esperado 0.75); amplitude de abdução do ombro: 87.8° (abaixo do esperado 143.55°)",
+     "detector": "pose",
+     "evidencias": {
+      "repeticao": 18,
+      "escore": 13.45,
+      "desvios": [
+       {
+        "feature": "cotovelo_min",
+        "descricao": "extensão do cotovelo no topo",
+        "valor": 39.83,
+        "esperado": 137.09,
+        "z": -13.45,
+        "unidade": "°"
+       },
+       {
+        "feature": "punho_altura_max",
+        "descricao": "altura do punho acima do ombro (× tronco)",
+        "valor": -0.18,
+        "esperado": 0.75,
+        "z": -9.3,
+        "unidade": ""
+       },
+       {
+        "feature": "amplitude_abducao",
+        "descricao": "amplitude de abdução do ombro",
+        "valor": 87.8,
+        "esperado": 143.55,
+        "z": -4.43,
+        "unidade": "°"
+       }
+      ],
+      "fonte_dataset": "REHAB24-6"
+     },
+     "duracao_s": 4.333333333333343,
+     "id": "EVT-4F1F369662",
+     "severidade_rotulo": "urgente"
+    },
+    {
+     "paciente_id": "AURORA-LEITO-12",
+     "origem": "video",
+     "tipo": "padrao_incorreto_persistente",
+     "severidade": 2,
+     "t": 452.3,
+     "descricao": "Repetição 19 fora do padrão esperado (5 seguidas): extensão do cotovelo no topo: 70.15° (abaixo do esperado 137.09°); altura do punho acima do ombro (× tronco): 0.07 (abaixo do esperado 0.75); amplitude de abdução do ombro: 103.23° (abaixo do esperado 143.55°)",
+     "detector": "pose",
+     "evidencias": {
+      "repeticao": 19,
+      "escore": 9.26,
+      "desvios": [
+       {
+        "feature": "cotovelo_min",
+        "descricao": "extensão do cotovelo no topo",
+        "valor": 70.15,
+        "esperado": 137.09,
+        "z": -9.26,
+        "unidade": "°"
+       },
+       {
+        "feature": "punho_altura_max",
+        "descricao": "altura do punho acima do ombro (× tronco)",
+        "valor": 0.07,
+        "esperado": 0.75,
+        "z": -6.84,
+        "unidade": ""
+       },
+       {
+        "feature": "amplitude_abducao",
+        "descricao": "amplitude de abdução do ombro",
+        "valor": 103.23,
+        "esperado": 143.55,
+        "z": -3.2,
+        "unidade": "°"
+       }
+      ],
+      "fonte_dataset": "REHAB24-6"
+     },
+     "duracao_s": 5.166666666666686,
+     "id": "EVT-C43F700B18",
+     "severidade_rotulo": "urgente"
+    },
+    {
+     "paciente_id": "AURORA-LEITO-12",
+     "origem": "video",
+     "tipo": "padrao_incorreto_persistente",
+     "severidade": 2,
+     "t": 457.7,
+     "descricao": "Repetição 20 fora do padrão esperado (6 seguidas): altura do punho acima do ombro (× tronco): -0.04 (abaixo do esperado 0.75); extensão do cotovelo no topo: 104.11° (abaixo do esperado 137.09°); amplitude de abdução do ombro: 93.63° (abaixo do esperado 143.55°)",
+     "detector": "pose",
+     "evidencias": {
+      "repeticao": 20,
+      "escore": 7.9,
+      "desvios": [
+       {
+        "feature": "punho_altura_max",
+        "descricao": "altura do punho acima do ombro (× tronco)",
+        "valor": -0.04,
+        "esperado": 0.75,
+        "z": -7.9,
+        "unidade": ""
+       },
+       {
+        "feature": "cotovelo_min",
+        "descricao": "extensão do cotovelo no topo",
+        "valor": 104.11,
+        "esperado": 137.09,
+        "z": -4.56,
+        "unidade": "°"
+       },
+       {
+        "feature": "amplitude_abducao",
+        "descricao": "amplitude de abdução do ombro",
+        "valor": 93.63,
+        "esperado": 143.55,
+        "z": -3.97,
+        "unidade": "°"
+       }
+      ],
+      "fonte_dataset": "REHAB24-6"
+     },
+     "duracao_s": 4.333333333333314,
+     "id": "EVT-6F17ECF727",
+     "severidade_rotulo": "urgente"
+    },
+    {
+     "paciente_id": "AURORA-LEITO-12",
+     "origem": "video",
+     "tipo": "padrao_incorreto_persistente",
+     "severidade": 2,
+     "t": 463.3,
+     "descricao": "Repetição 21 fora do padrão esperado (7 seguidas): extensão do cotovelo no topo: 48.73° (abaixo do esperado 137.09°); altura do punho acima do ombro (× tronco): 0.11 (abaixo do esperado 0.75); amplitude de abdução do ombro: 102.92° (abaixo do esperado 143.55°)",
+     "detector": "pose",
+     "evidencias": {
+      "repeticao": 21,
+      "escore": 12.22,
+      "desvios": [
+       {
+        "feature": "cotovelo_min",
+        "descricao": "extensão do cotovelo no topo",
+        "valor": 48.73,
+        "esperado": 137.09,
+        "z": -12.22,
+        "unidade": "°"
+       },
+       {
+        "feature": "punho_altura_max",
+        "descricao": "altura do punho acima do ombro (× tronco)",
+        "valor": 0.11,
+        "esperado": 0.75,
+        "z": -6.39,
+        "unidade": ""
+       },
+       {
+        "feature": "amplitude_abducao",
+        "descricao": "amplitude de abdução do ombro",
+        "valor": 102.92,
+        "esperado": 143.55,
+        "z": -3.23,
+        "unidade": "°"
+       }
+      ],
+      "fonte_dataset": "REHAB24-6"
+     },
+     "duracao_s": 5.0,
+     "id": "EVT-F1B9DA0466",
+     "severidade_rotulo": "urgente"
+    },
+    {
+     "paciente_id": "AURORA-LEITO-12",
+     "origem": "video",
+     "tipo": "padrao_incorreto_persistente",
+     "severidade": 2,
+     "t": 467.3,
+     "descricao": "Repetição 22 fora do padrão esperado (8 seguidas): extensão do cotovelo no topo: 80.23° (abaixo do esperado 137.09°); altura do punho acima do ombro (× tronco): 0.04 (abaixo do esperado 0.75); amplitude de abdução do ombro: 94.28° (abaixo do esperado 143.55°)",
+     "detector": "pose",
+     "evidencias": {
+      "repeticao": 22,
+      "escore": 7.87,
+      "desvios": [
+       {
+        "feature": "cotovelo_min",
+        "descricao": "extensão do cotovelo no topo",
+        "valor": 80.23,
+        "esperado": 137.09,
+        "z": -7.87,
+        "unidade": "°"
+       },
+       {
+        "feature": "punho_altura_max",
+        "descricao": "altura do punho acima do ombro (× tronco)",
+        "valor": 0.04,
+        "esperado": 0.75,
+        "z": -7.07,
+        "unidade": ""
+       },
+       {
+        "feature": "amplitude_abducao",
+        "descricao": "amplitude de abdução do ombro",
+        "valor": 94.28,
+        "esperado": 143.55,
+        "z": -3.91,
+        "unidade": "°"
+       }
+      ],
+      "fonte_dataset": "REHAB24-6"
+     },
+     "duracao_s": 3.9666666666666686,
+     "id": "EVT-CEBE583EBC",
+     "severidade_rotulo": "urgente"
+    }
+   ]
+  },
+  {
+   "modalidade": "movimentacao",
+   "fonte": "UR Fall fall-10",
+   "t_inicio": 3293.9333333333334,
+   "midia": "results/video/demo/queda_fall-10.mp4",
+   "eventos": [
+    {
+     "paciente_id": "AURORA-LEITO-12",
+     "origem": "movimentacao",
+     "tipo": "queda",
+     "severidade": 2,
+     "t": 3296.0,
+     "descricao": "Queda detectada: descida rápida do quadril seguida de postura deitada fora do leito (tronco 81° da vertical)",
+     "detector": "pose",
+     "evidencias": {
+      "angulo_tronco": 81.07093048095703,
+      "razao_caixa": 1.4794576168060303,
+      "descida_t": 2.066666666666667,
+      "fonte_dataset": "UR Fall"
+     },
+     "duracao_s": 0.0,
+     "id": "EVT-F5022C9A12",
+     "severidade_rotulo": "urgente"
+    }
+   ]
+  }
+ ]
+}

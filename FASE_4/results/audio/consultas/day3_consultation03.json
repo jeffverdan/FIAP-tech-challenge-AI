@@ -1,0 +1,474 @@
+{
+ "paciente_id": "PRIMOCK-day3_consultation03",
+ "audio": "day3_consultation03_patient.wav",
+ "stt": {
+  "fonte": "azure_cache",
+  "provedor": "azure_speech",
+  "segmentos": 80,
+  "palavras": 700,
+  "texto": "I can hear you. Can you hear me? Hello, I'm Peter. I'm I'm. I'm doing OK I guess. That's Peter Peterson. I'm I'm I'm 35 years old, but it's going to be difficult now and. My e-mail address is peter.peterson@lawyers.co.uk. I am. That's right. Thank you very much. That's right. Started long, long ago now that I've been feeling down and, and I didn't really have yeah, energy My, my, my wife was starting to complain as well in in nightly activities and I just felt like I I needed to call you guys and needed to get some, some more information about what could be going on. It's just that yeah, nothing is like feeling right. I feel out of place and and it's. Yeah, just just down overall. Yeah, I feel like I'm feeling short of breath. Breath. It's like always, Yeah, out of energy. I would say yes, definitely does fit. You you never want to say that, do you? I mean, I mean work is OK. I have trouble at work sometimes having had a feeling nauseous. But I can do my work, that's that's OK. Again. Who likes to be a lawyer? Sorry, that was me. Umm. Yes, of course, I like. I like. It is OK sometimes because I'm having a loss of appetite. I'm yeah, I'm not eating very much and complaints other than that it's it's OK, yeah. I have a little bit, yes, uh, but uh, that's, that's. Over over a long period now. That must have started when I. When I changed over to the new law firm, uh, I would say months ago. Three months ago, 3 1/2 months ago, that was. Yeah, it stopped me than that, yeah. It started a little bit earlier than that I I I'm not sure though how it is connected. Something like that, yeah. Oh gosh, I would say less than a stone. I feel nauseous every now and again. It's it's coming up. Yeah. Just every now and again, not feeling very good. Trying to eat something but don't really want to. That's OK, I would say I don't really have problems when going to the toilet, it's to spend less. Yes, yes. No, no diarrhoea. No, no well set. No, no, no. No, actually not. Yeah, I'm feeling unwell. In the in the. In the power region, yeah. Motion. No, not. I do not, no. Yes, it's fine. No, not really. Just the assurance of breath. It's like when, when, when I go into the lift it, it happens to be that I like, you know, my heart starts beating and I can't really breathe. No, it happens every time. It happens very significantly in in the lift or when I'm when I'm. Walk or run. No, actually, no, I would. That's right, yes. Yeah, my heart starts beating. I I feel like I can't breathe. And and it's, it's, it's very difficult to. Uh, yeah, two times. Fine. Uh, it's going. Yeah, just just that you, you know when when you just feel unwell and yeah, your heart starts meeting. Yeah, accept. That. Not really, no. It's just. Yeah. Cold chest pain out of pain. Yes, I had two activity of my thyroid. Uh. Thyroid too little activity? Yes. Yeah, yeah, yeah. And in, in. And so with that, I took thyroxine. Uh, not anymore. I have. I have not been taking it in the last actually since I changed law firm I would say. Oh, it might be coinciding, I'm not sure about that. Uh, haven't taken one in a long time.  OK. Yes.  OK.  OK, I have. Thing lately at home I have. Yes. I haven't been walking lately at all. So it's like really hard for me to identify when I feel the shortness of breath. I just wanted to add that into because I haven't been walking, I haven't been feeling good enough for good at all. So yeah. Thank you. I will, yes.  OK, can I? Well, how? How do I call support? OK. I will find it, thank you. Thank you. Ciao.",
+  "wer_vs_manual": 0.264
+ },
+ "linguagem": {
+  "fonte": "azure_cache",
+  "provedor": "azure_language",
+  "sentimento": "mixed",
+  "scores": {
+   "positive": 0.28,
+   "neutral": 0.21,
+   "negative": 0.51
+  },
+  "frases_chave": [
+   "new law firm",
+   "Cold chest pain",
+   "mail address",
+   "nightly activities",
+   "little bit",
+   "long period",
+   "power region",
+   "two activity",
+   "little activity",
+   "long time",
+   "Peter Peterson",
+   "lawyers",
+   "energy",
+   "wife",
+   "information"
+  ],
+  "entidades": [
+   {
+    "texto": "OK",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Kelvin"
+   },
+   {
+    "texto": "35 years old",
+    "categoria": "Age",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "ago",
+    "categoria": "Time",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "feeling down",
+    "categoria": "Diagnosis",
+    "negada": false,
+    "normalizado": "Depressed mood"
+   },
+   {
+    "texto": "wife",
+    "categoria": "FamilyRelation",
+    "negada": false,
+    "normalizado": "wife"
+   },
+   {
+    "texto": "like feeling right",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "feel out of place",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "down",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Down Syndrome"
+   },
+   {
+    "texto": "short of breath",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Dyspnea"
+   },
+   {
+    "texto": "nauseous",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Nausea"
+   },
+   {
+    "texto": "Umm",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "loss of appetite",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Loss of appetite (finding)"
+   },
+   {
+    "texto": "eating very much",
+    "categoria": "SymptomOrSign",
+    "negada": true,
+    "normalizado": null
+   },
+   {
+    "texto": "months",
+    "categoria": "Time",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "Three months ago",
+    "categoria": "Time",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "3 1/2 months ago",
+    "categoria": "Time",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "less than",
+    "categoria": "RelationalOperator",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "stone",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Calculi"
+   },
+   {
+    "texto": "nauseous",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Nausea"
+   },
+   {
+    "texto": "every now and again",
+    "categoria": "Course",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "feeling very good",
+    "categoria": "SymptomOrSign",
+    "negada": true,
+    "normalizado": null
+   },
+   {
+    "texto": "problems",
+    "categoria": "SymptomOrSign",
+    "negada": true,
+    "normalizado": "Problems - What subject filter"
+   },
+   {
+    "texto": "diarrhoea",
+    "categoria": "SymptomOrSign",
+    "negada": true,
+    "normalizado": "Diarrhea"
+   },
+   {
+    "texto": "well set",
+    "categoria": "SymptomOrSign",
+    "negada": true,
+    "normalizado": null
+   },
+   {
+    "texto": "feeling unwell",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Malaise"
+   },
+   {
+    "texto": "Motion",
+    "categoria": "ExaminationName",
+    "negada": false,
+    "normalizado": "Motion"
+   },
+   {
+    "texto": "assurance of breath",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "heart starts beating",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "breathe",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "outcomes otolaryngology breathing"
+   },
+   {
+    "texto": "every time",
+    "categoria": "Frequency",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "heart",
+    "categoria": "BodyStructure",
+    "negada": false,
+    "normalizado": "Heart"
+   },
+   {
+    "texto": "beating",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "beatings nos"
+   },
+   {
+    "texto": "can't breathe",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "feel",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Feelings"
+   },
+   {
+    "texto": "unwell",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Unwell"
+   },
+   {
+    "texto": "heart",
+    "categoria": "BodyStructure",
+    "negada": false,
+    "normalizado": "Heart"
+   },
+   {
+    "texto": "Cold chest pain",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "pain",
+    "categoria": "SymptomOrSign",
+    "negada": true,
+    "normalizado": "Pain"
+   },
+   {
+    "texto": "activity",
+    "categoria": "ExaminationName",
+    "negada": false,
+    "normalizado": "Active"
+   },
+   {
+    "texto": "my thyroid",
+    "categoria": "ExaminationName",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "little activity",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": null
+   },
+   {
+    "texto": "thyroxine",
+    "categoria": "MedicationName",
+    "negada": false,
+    "normalizado": "levothyroxine"
+   },
+   {
+    "texto": "shortness of breath",
+    "categoria": "SymptomOrSign",
+    "negada": false,
+    "normalizado": "Dyspnea"
+   },
+   {
+    "texto": "feeling good enough for good",
+    "categoria": "SymptomOrSign",
+    "negada": true,
+    "normalizado": null
+   }
+  ],
+  "relacoes": [
+   {
+    "tipo": "TimeOfCondition",
+    "papeis": {
+     "Time": "ago",
+     "Condition": "feeling down"
+    }
+   },
+   {
+    "tipo": "CourseOfCondition",
+    "papeis": {
+     "Condition": "nauseous",
+     "Course": "every now and again"
+    }
+   },
+   {
+    "tipo": "BodySiteOfCondition",
+    "papeis": {
+     "BodyStructure": "heart",
+     "Condition": "beating"
+    }
+   },
+   {
+    "tipo": "BodySiteOfCondition",
+    "papeis": {
+     "Condition": "unwell",
+     "BodyStructure": "heart"
+    }
+   }
+  ]
+ },
+ "sinais_alarme": {
+  "dispneia": {
+   "severidade": 2,
+   "mencoes": [
+    "short of breath",
+    "can't breathe",
+    "shortness of breath"
+   ]
+  },
+  "fadiga": {
+   "severidade": 1,
+   "mencoes": [
+    "feeling unwell"
+   ]
+  },
+  "dor_toracica": {
+   "severidade": 2,
+   "mencoes": [
+    "Cold chest pain"
+   ]
+  }
+ },
+ "acustica": {
+  "taxa_fala_sil_s": 3.2927,
+  "taxa_articulacao_sil_s": 4.604,
+  "pausas_por_min": 33.942,
+  "pausa_media_s": 0.5008,
+  "pausas_longas_por_min": 0.0,
+  "frase_media_s": 1.2574,
+  "proporcao_fonacao": 0.7152,
+  "f0_media_hz": 190.3954,
+  "f0_desvio_st": 4.4436,
+  "f0_amplitude_st": 14.3684,
+  "jitter_local_pct": 1.9443,
+  "shimmer_local_pct": 13.0717,
+  "hnr_db": 11.4589,
+  "cpps_db": 4.9992,
+  "intensidade_media_db": -21.0613,
+  "intensidade_tendencia_db_min": 0.0163,
+  "duracao_fala_s": 325.26
+ },
+ "wav2vec2": true,
+ "modelos_voz": {
+  "disartria": {
+   "prob": 0.066,
+   "limiar": 0.568,
+   "calibrado": true
+  },
+  "respiratorio": {
+   "prob": 0.286,
+   "limiar": 0.614,
+   "calibrado": true
+  },
+  "fadiga": {
+   "prob": 0.325,
+   "limiar": 0.622,
+   "calibrado": true
+  }
+ },
+ "eventos": [
+  {
+   "paciente_id": "PRIMOCK-day3_consultation03",
+   "origem": "audio",
+   "tipo": "sintoma_relatado_dispneia",
+   "severidade": 2,
+   "t": 694.24,
+   "descricao": "Paciente relata dispneia: can't breathe, short of breath, shortness of breath",
+   "detector": "azure",
+   "evidencias": {
+    "mencoes": [
+     "short of breath",
+     "can't breathe",
+     "shortness of breath"
+    ],
+    "fonte_texto": "azure_cache",
+    "fonte_stt": "azure_cache"
+   },
+   "duracao_s": 0.0,
+   "id": "EVT-6F9CAF8B2D",
+   "severidade_rotulo": "urgente"
+  },
+  {
+   "paciente_id": "PRIMOCK-day3_consultation03",
+   "origem": "audio",
+   "tipo": "sintoma_relatado_fadiga",
+   "severidade": 1,
+   "t": 694.24,
+   "descricao": "Paciente relata fadiga: feeling unwell",
+   "detector": "azure",
+   "evidencias": {
+    "mencoes": [
+     "feeling unwell"
+    ],
+    "fonte_texto": "azure_cache",
+    "fonte_stt": "azure_cache"
+   },
+   "duracao_s": 0.0,
+   "id": "EVT-6BD624317C",
+   "severidade_rotulo": "atenção"
+  },
+  {
+   "paciente_id": "PRIMOCK-day3_consultation03",
+   "origem": "audio",
+   "tipo": "sintoma_relatado_dor_toracica",
+   "severidade": 2,
+   "t": 694.24,
+   "descricao": "Paciente relata dor toracica: Cold chest pain",
+   "detector": "azure",
+   "evidencias": {
+    "mencoes": [
+     "Cold chest pain"
+    ],
+    "fonte_texto": "azure_cache",
+    "fonte_stt": "azure_cache"
+   },
+   "duracao_s": 0.0,
+   "id": "EVT-AFD4592713",
+   "severidade_rotulo": "urgente"
+  },
+  {
+   "paciente_id": "PRIMOCK-day3_consultation03",
+   "origem": "audio",
+   "tipo": "combinacao_critica_relatada",
+   "severidade": 3,
+   "t": 694.24,
+   "descricao": "Combinação de sinais de alarme relatada: dor torácica com dispneia",
+   "detector": "regra",
+   "evidencias": {
+    "grupos": [
+     "dispneia",
+     "dor_toracica"
+    ]
+   },
+   "duracao_s": 0.0,
+   "id": "EVT-FEA4102A60",
+   "severidade_rotulo": "crítico"
+  }
+ ],
+ "queixa_principal": "I don't have much appetite or energy lately"
+}

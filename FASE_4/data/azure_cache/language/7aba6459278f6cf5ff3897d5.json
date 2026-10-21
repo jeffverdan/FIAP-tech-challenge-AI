@@ -1,0 +1,1548 @@
+{
+ "_meta": {
+  "servico": "language",
+  "obtido_em": "2026-10-21T13:10:11+00:00",
+  "caracteres": 2138,
+  "endpoint": "https://aurora-language-b92b19.cognitiveservices.azure.com/"
+ },
+ "sentimento": {
+  "geral": "mixed",
+  "scores": {
+   "positive": 0.3,
+   "neutral": 0.22,
+   "negative": 0.47
+  },
+  "frases": [
+   {
+    "texto": "Hello. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.99,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Good morning. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.09,
+     "neutral": 0.91,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Hi, I'm Honda. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.02,
+     "neutral": 0.98,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah, sure. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.34,
+     "neutral": 0.65,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Umm, my name is Bondo, umm, and I'm 27 years old, umm, so I was born in 1991, uh, 17th of November. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.99,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah, yeah. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.06,
+     "neutral": 0.94,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah, exactly. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.46,
+     "neutral": 0.53,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I've I'm kind of struggling to breathe at the moment. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.76,
+     "negative": 0.24
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I, I got stung by a wasp recently, but I'm not sure whether it's kind of bitten or stung, but I, I'm feeling like slightly anxious that there's a bit of I've got a bit of a rash on my arm where I got stung and, and I kind of yeah, as I said, I've got this difficulty breathing and potentially. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.23,
+     "negative": 0.76
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "There's a bit of swelling in my lips and tongue. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.35,
+     "negative": 0.64
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "It was a bit weird. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.08,
+     "negative": 0.91
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "It was just a few minutes ago. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.05,
+     "neutral": 0.7,
+     "negative": 0.25
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah, it's just kind of on the right hand side and and it's just a bit sore maybe it hasn't kind of fully swollen up yet. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.16,
+     "neutral": 0.23,
+     "negative": 0.6
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.03,
+     "neutral": 0.96,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.03,
+     "neutral": 0.96,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Right. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.07,
+     "neutral": 0.92,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I, I, I, I don't feel like it's like particularly acute, but I'm just kind of a bit anxious that it might get a bit worse. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.02,
+     "neutral": 0.11,
+     "negative": 0.87
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I don't, I just wanted to speak to someone. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.2,
+     "neutral": 0.59,
+     "negative": 0.21
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Not that I know of. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.02,
+     "neutral": 0.84,
+     "negative": 0.14
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I haven't, no. I I I find it difficult to tell the difference between a beer and a wasp, but I. Yeah, it was one of the two. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.16,
+     "neutral": 0.42,
+     "negative": 0.42
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah, it was on my arm. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.04,
+     "neutral": 0.62,
+     "negative": 0.34
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah, sure, it's just. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.35,
+     "neutral": 0.59,
+     "negative": 0.06
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Just there. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.08,
+     "neutral": 0.91,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Mm-hmm. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.04,
+     "neutral": 0.94,
+     "negative": 0.02
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "It's it's slightly red, yeah. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.03,
+     "neutral": 0.97,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "And and kind of there's a bit of a like a whole where where I think that the what's done? ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.04,
+     "neutral": 0.93,
+     "negative": 0.03
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Not particularly. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.9,
+     "negative": 0.1
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I guess it's just a bit kind of blotchy and a bit of a rash. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.11,
+     "negative": 0.89
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "It doesn't feel like particularly swollen. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.05,
+     "neutral": 0.46,
+     "negative": 0.49
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Not at the, not at the moment. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.91,
+     "negative": 0.07
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "No. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.02,
+     "neutral": 0.81,
+     "negative": 0.18
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Nothing. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.04,
+     "neutral": 0.82,
+     "negative": 0.14
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Nothing yet. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.73,
+     "negative": 0.26
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I I've had eczema before. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.95,
+     "negative": 0.04
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah, that, that's kind of the the major thing. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.23,
+     "neutral": 0.75,
+     "negative": 0.02
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Nothing, nothing. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.16,
+     "neutral": 0.48,
+     "negative": 0.36
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I'm allergic to penicillin. ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.4,
+     "negative": 0.59
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Not that I think is particularly relevant. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.58,
+     "negative": 0.41
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "No, I don't have. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.09,
+     "neutral": 0.46,
+     "negative": 0.44
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I don't have any. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.1,
+     "neutral": 0.53,
+     "negative": 0.37
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Not that I know of. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.02,
+     "neutral": 0.83,
+     "negative": 0.15
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I've yeah, I've been around dogs and cats and I've been. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.08,
+     "neutral": 0.88,
+     "negative": 0.05
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "No. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.02,
+     "neutral": 0.77,
+     "negative": 0.21
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah, sometimes. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.02,
+     "neutral": 0.97,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Occasionally. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 0.99,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "No. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.82,
+     "negative": 0.17
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yes. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.19,
+     "neutral": 0.8,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I am a computer scientist. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.0,
+     "neutral": 1.0,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yes. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.18,
+     "neutral": 0.8,
+     "negative": 0.02
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I have a cat. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.98,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yup. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.46,
+     "neutral": 0.53,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.04,
+     "neutral": 0.96,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah.   ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.04,
+     "neutral": 0.96,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Right.   ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.06,
+     "neutral": 0.92,
+     "negative": 0.02
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.04,
+     "neutral": 0.96,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah.  ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.04,
+     "neutral": 0.96,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "OK. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.05,
+     "neutral": 0.94,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "No, I think, I think that kind of that makes me feel a bit better, I guess. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.69,
+     "neutral": 0.21,
+     "negative": 0.1
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Can I get that? ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.21,
+     "neutral": 0.78,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Can I get the? ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.02,
+     "neutral": 0.98,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Uh sorry the antihistamine from any shop or like does it have pharmacy? ",
+    "sentimento": "negative",
+    "scores": {
+     "positive": 0.01,
+     "neutral": 0.27,
+     "negative": 0.73
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "OK.  ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.04,
+     "neutral": 0.95,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "OK. Right. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.32,
+     "neutral": 0.67,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.05,
+     "neutral": 0.94,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "OK, great. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.84,
+     "neutral": 0.16,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Yeah, that makes sense. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.72,
+     "neutral": 0.27,
+     "negative": 0.01
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "OK. Thanks. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.76,
+     "neutral": 0.24,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "I appreciate your time. ",
+    "sentimento": "positive",
+    "scores": {
+     "positive": 0.99,
+     "neutral": 0.01,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Bye bye. ",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.11,
+     "neutral": 0.89,
+     "negative": 0.0
+    },
+    "opinioes": []
+   },
+   {
+    "texto": "Bye.",
+    "sentimento": "neutral",
+    "scores": {
+     "positive": 0.08,
+     "neutral": 0.91,
+     "negative": 0.0
+    },
+    "opinioes": []
+   }
+  ]
+ },
+ "frases_chave": [
+  "right hand side",
+  "major thing",
+  "computer scientist",
+  "Honda",
+  "name",
+  "Bondo",
+  "November",
+  "moment",
+  "wasp",
+  "bit",
+  "rash",
+  "arm",
+  "difficulty",
+  "swelling",
+  "lips",
+  "tongue",
+  "someone",
+  "difference",
+  "beer",
+  "blotchy",
+  "No.",
+  "Nothing",
+  "eczema",
+  "penicillin",
+  "dogs",
+  "cats",
+  "Yup",
+  "kind",
+  "antihistamine",
+  "shop",
+  "sense",
+  "time",
+  "Bye"
+ ],
+ "entidades_saude": [
+  {
+   "texto": "27 years old",
+   "categoria": "Age",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 84,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "born",
+   "categoria": "Diagnosis",
+   "subcategoria": null,
+   "confianca": 0.89,
+   "offset": 112,
+   "normalizado": "Childbirth",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C1148523",
+    "AOD:0000002049",
+    "CHV:0000055253",
+    "CSP:2401-7479",
+    "LCH:U005715"
+   ]
+  },
+  {
+   "texto": "1991",
+   "categoria": "Time",
+   "subcategoria": null,
+   "confianca": 0.89,
+   "offset": 120,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "struggling to breathe",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 192,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "stung",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 238,
+   "normalizado": "Sting Injury",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0038340",
+    "CHV:0000011735",
+    "MDR:10042065",
+    "MSH:D001733",
+    "RCD:X79q3"
+   ]
+  },
+  {
+   "texto": "bitten",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 302,
+   "normalizado": "bite injury",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0005658",
+    "CHV:0000001939",
+    "ICPC2P:S12002",
+    "LNC:LA19023-3",
+    "MDR:10004966"
+   ]
+  },
+  {
+   "texto": "stung",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 312,
+   "normalizado": "Sting Injury",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0038340",
+    "CHV:0000011735",
+    "MDR:10042065",
+    "MSH:D001733",
+    "RCD:X79q3"
+   ]
+  },
+  {
+   "texto": "slightly",
+   "categoria": "ConditionQualifier",
+   "subcategoria": null,
+   "confianca": 0.92,
+   "offset": 343,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "anxious",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.98,
+   "offset": 352,
+   "normalizado": "Anxiety",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0003467",
+    "AIR:ANXIE",
+    "AOD:0000003779",
+    "BI:BI00024",
+    "CCC:P40.0"
+   ]
+  },
+  {
+   "texto": "rash",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.97,
+   "offset": 402,
+   "normalizado": "Exanthema",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0015230",
+    "AOD:0000022958",
+    "CHV:0000004754",
+    "CST:RASH",
+    "HPO:HP:4000054"
+   ]
+  },
+  {
+   "texto": "arm",
+   "categoria": "BodyStructure",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 413,
+   "normalizado": "Upper Extremity",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C1140618",
+    "AOD:0000027657",
+    "CHV:0000055073",
+    "CSP:2715-5391",
+    "CST:BODY/UE"
+   ]
+  },
+  {
+   "texto": "stung",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 429,
+   "normalizado": "Sting Injury",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0038340",
+    "CHV:0000011735",
+    "MDR:10042065",
+    "MSH:D001733",
+    "RCD:X79q3"
+   ]
+  },
+  {
+   "texto": "difficulty breathing",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 485,
+   "normalizado": "Dyspnea",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0013404",
+    "AOD:0000005442",
+    "BI:BI00182",
+    "CCPSS:1015304",
+    "CHV:0000004216"
+   ]
+  },
+  {
+   "texto": "bit",
+   "categoria": "ConditionQualifier",
+   "subcategoria": null,
+   "confianca": 0.68,
+   "offset": 533,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "swelling",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 540,
+   "normalizado": "Swelling",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0038999",
+    "AOD:0000004456",
+    "CCPSS:1000701",
+    "CHV:0000011957",
+    "COSTAR:715"
+   ]
+  },
+  {
+   "texto": "lips",
+   "categoria": "BodyStructure",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 555,
+   "normalizado": "Lip structure",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0023759",
+    "AOD:0000017243",
+    "CHV:0000007446",
+    "CSP:2139-1400",
+    "FMA:59816"
+   ]
+  },
+  {
+   "texto": "tongue",
+   "categoria": "BodyStructure",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 564,
+   "normalizado": "Tongue",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0040408",
+    "AOD:0000005476",
+    "CHV:0000012352",
+    "CSP:2139-2049",
+    "FMA:54640"
+   ]
+  },
+  {
+   "texto": "few minutes ago",
+   "categoria": "Time",
+   "subcategoria": null,
+   "confianca": 0.98,
+   "offset": 606,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "right",
+   "categoria": "Direction",
+   "subcategoria": null,
+   "confianca": 0.97,
+   "offset": 654,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "hand",
+   "categoria": "BodyStructure",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 660,
+   "normalizado": "Hand",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0018563",
+    "AOD:0000002469",
+    "CHV:0000005789",
+    "CSP:2715-5520",
+    "FMA:9712"
+   ]
+  },
+  {
+   "texto": "bit",
+   "categoria": "ConditionQualifier",
+   "subcategoria": null,
+   "confianca": 0.84,
+   "offset": 690,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "sore",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.98,
+   "offset": 694,
+   "normalizado": "Sore to touch",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0234233",
+    "CCPSS:0036212",
+    "CHV:0000023288",
+    "CST:PAIN",
+    "LNC:LA17709-9"
+   ]
+  },
+  {
+   "texto": "fully",
+   "categoria": "ConditionQualifier",
+   "subcategoria": null,
+   "confianca": 0.79,
+   "offset": 723,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "swollen up",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.76,
+   "offset": 729,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "Right",
+   "categoria": "Direction",
+   "subcategoria": null,
+   "confianca": 0.77,
+   "offset": 757,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "acute",
+   "categoria": "ConditionQualifier",
+   "subcategoria": null,
+   "confianca": 0.72,
+   "offset": 814,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "bit",
+   "categoria": "ConditionQualifier",
+   "subcategoria": null,
+   "confianca": 0.84,
+   "offset": 844,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "anxious",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.95,
+   "offset": 848,
+   "normalizado": "Anxiety",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0003467",
+    "AIR:ANXIE",
+    "AOD:0000003779",
+    "BI:BI00024",
+    "CCC:P40.0"
+   ]
+  },
+  {
+   "texto": "bit worse",
+   "categoria": "Course",
+   "subcategoria": null,
+   "confianca": 0.74,
+   "offset": 876,
+   "normalizado": null,
+   "negada": false,
+   "certeza": "neutralPossible",
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "arm",
+   "categoria": "BodyStructure",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 1095,
+   "normalizado": "Upper Extremity",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C1140618",
+    "AOD:0000027657",
+    "CHV:0000055073",
+    "CSP:2715-5391",
+    "CST:BODY/UE"
+   ]
+  },
+  {
+   "texto": "Mm",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.57,
+   "offset": 1135,
+   "normalizado": "Morular Metaplasia of the Endometrium",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C1334803",
+    "NCI:C37269"
+   ]
+  },
+  {
+   "texto": "slightly",
+   "categoria": "ConditionQualifier",
+   "subcategoria": null,
+   "confianca": 0.95,
+   "offset": 1153,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "red",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.84,
+   "offset": 1162,
+   "normalizado": "Redness",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0332575",
+    "CHV:0000029494",
+    "LNC:LA22439-6",
+    "MDR:10038198",
+    "NANDA-I:03695"
+   ]
+  },
+  {
+   "texto": "bit",
+   "categoria": "ConditionQualifier",
+   "subcategoria": null,
+   "confianca": 0.71,
+   "offset": 1301,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "blotchy",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 1313,
+   "normalizado": "Blotchy",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0857057",
+    "CHV:0000050454",
+    "MDR:10005876"
+   ]
+  },
+  {
+   "texto": "bit",
+   "categoria": "ConditionQualifier",
+   "subcategoria": null,
+   "confianca": 0.64,
+   "offset": 1327,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "rash",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.97,
+   "offset": 1336,
+   "normalizado": "Exanthema",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0015230",
+    "AOD:0000022958",
+    "CHV:0000004754",
+    "CST:RASH",
+    "HPO:HP:4000054"
+   ]
+  },
+  {
+   "texto": "swollen",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.99,
+   "offset": 1376,
+   "normalizado": "Swelling",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0038999",
+    "AOD:0000004456",
+    "CCPSS:1000701",
+    "CHV:0000011957",
+    "COSTAR:715"
+   ]
+  },
+  {
+   "texto": "eczema",
+   "categoria": "Diagnosis",
+   "subcategoria": null,
+   "confianca": 0.78,
+   "offset": 1453,
+   "normalizado": "Eczema",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0013595",
+    "AOD:0000005208",
+    "BI:BI00585",
+    "CCPSS:0043411",
+    "CHV:0000004268"
+   ]
+  },
+  {
+   "texto": "penicillin",
+   "categoria": "Allergen",
+   "subcategoria": null,
+   "confianca": 1.0,
+   "offset": 1550,
+   "normalizado": "penicillins",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0030842",
+    "AOD:0000019206",
+    "ATC:J01C",
+    "CCPSS:0014106",
+    "CHV:0000009423"
+   ]
+  },
+  {
+   "texto": "Right",
+   "categoria": "Direction",
+   "subcategoria": null,
+   "confianca": 0.73,
+   "offset": 1827,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  },
+  {
+   "texto": "bit",
+   "categoria": "SymptomOrSign",
+   "subcategoria": null,
+   "confianca": 0.59,
+   "offset": 1908,
+   "normalizado": "bit - unit of measure",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C1553019",
+    "NCI:C63625"
+   ]
+  },
+  {
+   "texto": "antihistamine",
+   "categoria": "MedicationClass",
+   "subcategoria": null,
+   "confianca": 0.96,
+   "offset": 1973,
+   "normalizado": "Histamine Antagonists",
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": [
+    "UMLS:C0019590",
+    "AOD:0000019291",
+    "CCPSS:0061867",
+    "CHV:0000006158",
+    "CSP:1524-9334"
+   ]
+  },
+  {
+   "texto": "Right",
+   "categoria": "Direction",
+   "subcategoria": null,
+   "confianca": 0.76,
+   "offset": 2041,
+   "normalizado": null,
+   "negada": false,
+   "certeza": null,
+   "associacao": null,
+   "codigos": []
+  }
+ ],
+ "relacoes_saude": [
+  {
+   "tipo": "TimeOfCondition",
+   "papeis": {
+    "Condition": "born",
+    "Time": "1991"
+   }
+  },
+  {
+   "tipo": "QualifierOfCondition",
+   "papeis": {
+    "Qualifier": "slightly",
+    "Condition": "anxious"
+   }
+  },
+  {
+   "tipo": "BodySiteOfCondition",
+   "papeis": {
+    "BodyStructure": "arm",
+    "Condition": "stung"
+   }
+  },
+  {
+   "tipo": "QualifierOfCondition",
+   "papeis": {
+    "Qualifier": "bit",
+    "Condition": "swelling"
+   }
+  },
+  {
+   "tipo": "BodySiteOfCondition",
+   "papeis": {
+    "Condition": "swelling",
+    "BodyStructure": "lips"
+   }
+  },
+  {
+   "tipo": "BodySiteOfCondition",
+   "papeis": {
+    "Condition": "swelling",
+    "BodyStructure": "tongue"
+   }
+  },
+  {
+   "tipo": "DirectionOfBodyStructure",
+   "papeis": {
+    "Direction": "right",
+    "BodyStructure": "hand"
+   }
+  },
+  {
+   "tipo": "BodySiteOfCondition",
+   "papeis": {
+    "BodyStructure": "hand",
+    "Condition": "sore"
+   }
+  },
+  {
+   "tipo": "BodySiteOfCondition",
+   "papeis": {
+    "BodyStructure": "hand",
+    "Condition": "swollen up"
+   }
+  },
+  {
+   "tipo": "QualifierOfCondition",
+   "papeis": {
+    "Qualifier": "bit",
+    "Condition": "sore"
+   }
+  },
+  {
+   "tipo": "QualifierOfCondition",
+   "papeis": {
+    "Qualifier": "fully",
+    "Condition": "swollen up"
+   }
+  },
+  {
+   "tipo": "QualifierOfCondition",
+   "papeis": {
+    "Qualifier": "acute",
+    "Condition": "anxious"
+   }
+  },
+  {
+   "tipo": "QualifierOfCondition",
+   "papeis": {
+    "Qualifier": "bit",
+    "Condition": "anxious"
+   }
+  },
+  {
+   "tipo": "CourseOfCondition",
+   "papeis": {
+    "Condition": "anxious",
+    "Course": "bit worse"
+   }
+  },
+  {
+   "tipo": "QualifierOfCondition",
+   "papeis": {
+    "Qualifier": "slightly",
+    "Condition": "red"
+   }
+  },
+  {
+   "tipo": "QualifierOfCondition",
+   "papeis": {
+    "Qualifier": "bit",
+    "Condition": "blotchy"
+   }
+  },
+  {
+   "tipo": "QualifierOfCondition",
+   "papeis": {
+    "Condition": "blotchy",
+    "Qualifier": "bit"
+   }
+  }
+ ],
+ "idioma": "en",
+ "provedor": "azure_language"
+}

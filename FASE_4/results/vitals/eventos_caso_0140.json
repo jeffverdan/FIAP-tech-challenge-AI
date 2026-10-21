@@ -1,0 +1,590 @@
+[
+ {
+  "paciente_id": "VDB-0140",
+  "origem": "vitais",
+  "tipo": "desvio_hr",
+  "severidade": 1,
+  "t": 562.0,
+  "descricao": "Subida abrupta de frequência cardíaca: 80 bpm vs. linha de base 64 (z=+5.3)",
+  "detector": "estatistico",
+  "evidencias": {
+   "canal": "HR",
+   "z": 5.33,
+   "mediana_recente": 80.0,
+   "mediana_base": 64.0,
+   "desvio_robusto": 2.97
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-8303759D21",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "VDB-0140",
+  "origem": "vitais",
+  "tipo": "risco_hipotensao_10min",
+  "severidade": 1,
+  "t": 660.0,
+  "descricao": "Risco de hipotensão nos próximos 10 min: p=19% (PAM atual 76 mmHg, tendência -2.5 mmHg/min)",
+  "detector": "ml",
+  "evidencias": {
+   "probabilidade": 0.192,
+   "limiar": 0.091,
+   "MAP_atual": 76.0,
+   "MAP_inclinacao_5min": -2.45
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-F49826C0E8",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "VDB-0140",
+  "origem": "vitais",
+  "tipo": "desvio_map",
+  "severidade": 1,
+  "t": 1212.0,
+  "descricao": "Subida abrupta de PA média: 189 mmHg vs. linha de base 79 (z=+18.5)",
+  "detector": "estatistico",
+  "evidencias": {
+   "canal": "MAP",
+   "z": 18.55,
+   "mediana_recente": 189.0,
+   "mediana_base": 79.0,
+   "desvio_robusto": 5.93
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-259CEFD500",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "VDB-0140",
+  "origem": "vitais",
+  "tipo": "desvio_hr",
+  "severidade": 1,
+  "t": 1442.0,
+  "descricao": "Subida abrupta de frequência cardíaca: 84 bpm vs. linha de base 70 (z=+4.7)",
+  "detector": "estatistico",
+  "evidencias": {
+   "canal": "HR",
+   "z": 4.67,
+   "mediana_recente": 84.0,
+   "mediana_base": 70.0,
+   "desvio_robusto": 1.48
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-D727324C82",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "VDB-0140",
+  "origem": "vitais",
+  "tipo": "risco_hipotensao_10min",
+  "severidade": 1,
+  "t": 1740.0,
+  "descricao": "Risco de hipotensão nos próximos 10 min: p=16% (PAM atual 83 mmHg, tendência -6.2 mmHg/min)",
+  "detector": "ml",
+  "evidencias": {
+   "probabilidade": 0.164,
+   "limiar": 0.091,
+   "MAP_atual": 83.0,
+   "MAP_inclinacao_5min": -6.2
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-E5B369532B",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "VDB-0140",
+  "origem": "vitais",
+  "tipo": "desvio_map",
+  "severidade": 1,
+  "t": 2362.0,
+  "descricao": "Subida abrupta de PA média: 102 mmHg vs. linha de base 72 (z=+4.3)",
+  "detector": "estatistico",
+  "evidencias": {
+   "canal": "MAP",
+   "z": 4.35,
+   "mediana_recente": 101.5,
+   "mediana_base": 72.5,
+   "desvio_robusto": 6.67
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-0461BFC481",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "VDB-0140",
+  "origem": "vitais",
+  "tipo": "desvio_hr",
+  "severidade": 1,
+  "t": 2752.0,
+  "descricao": "Subida abrupta de frequência cardíaca: 81 bpm vs. linha de base 64 (z=+5.7)",
+  "detector": "estatistico",
+  "evidencias": {
+   "canal": "HR",
+   "z": 5.67,
+   "mediana_recente": 81.0,
+   "mediana_base": 64.0,
+   "desvio_robusto": 1.48
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-DFA28245ED",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "VDB-0140",
+  "origem": "vitais",
+  "tipo": "desvio_hr",
+  "severidade": 1,
+  "t": 3432.0,
+  "descricao": "Subida abrupta de frequência cardíaca: 80 bpm vs. linha de base 62 (z=+6.0)",
+  "detector": "estatistico",
+  "evidencias": {
+   "canal": "HR",
+   "z": 6.0,
+   "mediana_recente": 80.0,
+   "mediana_base": 62.0,
+   "desvio_robusto": 1.48
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-E3C4D039BE",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "VDB-0140",
+  "origem": "vitais",
+  "tipo": "desvio_map",
+  "severidade": 1,
+  "t": 3812.0,
+  "descricao": "Queda abrupta de PA média: 83 mmHg vs. linha de base 108 (z=-6.2)",
+  "detector": "estatistico",
+  "evidencias": {
+   "canal": "MAP",
+   "z": -6.25,
+   "mediana_recente": 83.0,
+   "mediana_base": 108.0,
+   "desvio_robusto": 2.97
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-7BEDD3D55F",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "VDB-0140",
+  "origem": "vitais",
+  "tipo": "risco_hipotensao_10min",
+  "severidade": 1,
+  "t": 3990.0,
+  "descricao": "Risco de hipotensão nos próximos 10 min: p=10% (PAM atual 115 mmHg, tendência +2.0 mmHg/min)",
+  "detector": "ml",
+  "evidencias": {
+   "probabilidade": 0.098,
+   "limiar": 0.091,
+   "MAP_atual": 115.0,
+   "MAP_inclinacao_5min": 2.05
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-D94849CDA7",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "VDB-0140",
+  "origem": "vitais",
+  "tipo": "desvio_hr",
+  "severidade": 1,
+  "t": 5402.0,
+  "descricao": "Subida abrupta de frequência cardíaca: 78 bpm vs. linha de base 58 (z=+6.8)",
+  "detector": "estatistico",
+  "evidencias": {
+   "canal": "HR",
+   "z": 6.83,
+   "mediana_recente": 78.5,
+   "mediana_base": 58.0,
+   "desvio_robusto": 1.48
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-7A3D443364",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "VDB-0140",
+  "origem": "vitais",
+  "tipo": "hipotermia",
+  "severidade": 1,
+  "t": 5840.0,
+  "descricao": "Temperatura < 35,5 °C por ≥ 10 min (atual 35 °C)",
+  "detector": "regra",
+  "evidencias": {
+   "canal": "TEMP",
+   "valor": 35.3,
+   "limite": 35.5,
+   "inicio_t": 5240.0,
+   "sustentado_s": 600.0,
+   "extremo": 34.0
+  },
+  "duracao_s": 12448.0,
+  "id": "EVT-B1BA5CE2B9",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "VDB-0140",
+  "origem": "vitais",
+  "tipo": "desvio_map",
+  "severidade": 1,
+  "t": 6342.0,
+  "descricao": "Subida abrupta de PA média: 106 mmHg vs. linha de base 86 (z=+4.9)",
+  "detector": "estatistico",
+  "evidencias": {
+   "canal": "MAP",
+   "z": 4.88,
+   "mediana_recente": 105.5,
+   "mediana_base": 86.0,
+   "desvio_robusto": 1.48
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-0C3BB3BF2B",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "VDB-0140",
+  "origem": "vitais",
+  "tipo": "desvio_hr",
+  "severidade": 1,
+  "t": 6392.0,
+  "descricao": "Subida abrupta de frequência cardíaca: 79 bpm vs. linha de base 59 (z=+6.7)",
+  "detector": "estatistico",
+  "evidencias": {
+   "canal": "HR",
+   "z": 6.67,
+   "mediana_recente": 79.0,
+   "mediana_base": 59.0,
+   "desvio_robusto": 1.48
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-24619D023B",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "VDB-0140",
+  "origem": "vitais",
+  "tipo": "risco_hipotensao_10min",
+  "severidade": 1,
+  "t": 8400.0,
+  "descricao": "Risco de hipotensão nos próximos 10 min: p=16% (PAM atual 79 mmHg, tendência -10.5 mmHg/min)",
+  "detector": "ml",
+  "evidencias": {
+   "probabilidade": 0.155,
+   "limiar": 0.091,
+   "MAP_atual": 79.0,
+   "MAP_inclinacao_5min": -10.49
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-BCF067918E",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "VDB-0140",
+  "origem": "vitais",
+  "tipo": "desvio_map",
+  "severidade": 1,
+  "t": 9672.0,
+  "descricao": "Subida abrupta de PA média: 98 mmHg vs. linha de base 81 (z=+4.4)",
+  "detector": "estatistico",
+  "evidencias": {
+   "canal": "MAP",
+   "z": 4.38,
+   "mediana_recente": 98.5,
+   "mediana_base": 81.0,
+   "desvio_robusto": 2.97
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-E80ECEDF22",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "VDB-0140",
+  "origem": "vitais",
+  "tipo": "desvio_map",
+  "severidade": 1,
+  "t": 11002.0,
+  "descricao": "Queda abrupta de PA média: 60 mmHg vs. linha de base 103 (z=-10.6)",
+  "detector": "estatistico",
+  "evidencias": {
+   "canal": "MAP",
+   "z": -10.62,
+   "mediana_recente": 60.5,
+   "mediana_base": 103.0,
+   "desvio_robusto": 2.97
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-AFDBF0316D",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "VDB-0140",
+  "origem": "vitais",
+  "tipo": "padrao_multivariado_atipico",
+  "severidade": 1,
+  "t": 11040.0,
+  "descricao": "Combinação atípica de sinais vitais — principais desvios: SBP_var (z=+10.6), SBP_tend (z=+9.8), DBP_var (z=+5.4)",
+  "detector": "ml",
+  "evidencias": {
+   "score": -0.6203,
+   "limiar": -0.5636,
+   "explicacao": [
+    [
+     "SBP_var",
+     10.55
+    ],
+    [
+     "SBP_tend",
+     9.84
+    ],
+    [
+     "DBP_var",
+     5.38
+    ]
+   ],
+   "janelas_consecutivas": 2
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-E36353732A",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "VDB-0140",
+  "origem": "vitais",
+  "tipo": "risco_hipotensao_10min",
+  "severidade": 1,
+  "t": 12540.0,
+  "descricao": "Risco de hipotensão nos próximos 10 min: p=14% (PAM atual 78 mmHg, tendência -2.7 mmHg/min)",
+  "detector": "ml",
+  "evidencias": {
+   "probabilidade": 0.135,
+   "limiar": 0.091,
+   "MAP_atual": 78.0,
+   "MAP_inclinacao_5min": -2.68
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-F8873228EA",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "VDB-0140",
+  "origem": "vitais",
+  "tipo": "desvio_map",
+  "severidade": 1,
+  "t": 13212.0,
+  "descricao": "Subida abrupta de PA média: 106 mmHg vs. linha de base 86 (z=+4.9)",
+  "detector": "estatistico",
+  "evidencias": {
+   "canal": "MAP",
+   "z": 4.88,
+   "mediana_recente": 105.5,
+   "mediana_base": 86.0,
+   "desvio_robusto": 2.97
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-C8B55E5078",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "VDB-0140",
+  "origem": "vitais",
+  "tipo": "desvio_map",
+  "severidade": 1,
+  "t": 13872.0,
+  "descricao": "Queda abrupta de PA média: 68 mmHg vs. linha de base 102 (z=-4.1)",
+  "detector": "estatistico",
+  "evidencias": {
+   "canal": "MAP",
+   "z": -4.11,
+   "mediana_recente": 68.5,
+   "mediana_base": 102.0,
+   "desvio_robusto": 8.15
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-BC9968265B",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "VDB-0140",
+  "origem": "vitais",
+  "tipo": "risco_hipotensao_10min",
+  "severidade": 1,
+  "t": 13890.0,
+  "descricao": "Risco de hipotensão nos próximos 10 min: p=26% (PAM atual 71 mmHg, tendência -6.7 mmHg/min)",
+  "detector": "ml",
+  "evidencias": {
+   "probabilidade": 0.265,
+   "limiar": 0.091,
+   "MAP_atual": 71.0,
+   "MAP_inclinacao_5min": -6.68
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-8289BA1580",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "VDB-0140",
+  "origem": "vitais",
+  "tipo": "desvio_map",
+  "severidade": 1,
+  "t": 14582.0,
+  "descricao": "Queda abrupta de PA média: 51 mmHg vs. linha de base 77 (z=-5.8)",
+  "detector": "estatistico",
+  "evidencias": {
+   "canal": "MAP",
+   "z": -5.85,
+   "mediana_recente": 51.0,
+   "mediana_base": 77.0,
+   "desvio_robusto": 4.45
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-9DEEB09A47",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "VDB-0140",
+  "origem": "vitais",
+  "tipo": "risco_hipotensao_10min",
+  "severidade": 1,
+  "t": 14790.0,
+  "descricao": "Risco de hipotensão nos próximos 10 min: p=11% (PAM atual 81 mmHg, tendência +3.2 mmHg/min)",
+  "detector": "ml",
+  "evidencias": {
+   "probabilidade": 0.114,
+   "limiar": 0.091,
+   "MAP_atual": 81.0,
+   "MAP_inclinacao_5min": 3.21
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-81F2653F00",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "VDB-0140",
+  "origem": "vitais",
+  "tipo": "desvio_map",
+  "severidade": 1,
+  "t": 15452.0,
+  "descricao": "Subida abrupta de PA média: 118 mmHg vs. linha de base 88 (z=+6.6)",
+  "detector": "estatistico",
+  "evidencias": {
+   "canal": "MAP",
+   "z": 6.63,
+   "mediana_recente": 117.5,
+   "mediana_base": 88.0,
+   "desvio_robusto": 4.45
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-7F224B961C",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "VDB-0140",
+  "origem": "vitais",
+  "tipo": "desvio_map",
+  "severidade": 1,
+  "t": 18132.0,
+  "descricao": "Queda abrupta de PA média: 76 mmHg vs. linha de base 92 (z=-4.1)",
+  "detector": "estatistico",
+  "evidencias": {
+   "canal": "MAP",
+   "z": -4.12,
+   "mediana_recente": 75.5,
+   "mediana_base": 92.0,
+   "desvio_robusto": 1.48
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-F9FE1F9D6E",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "VDB-0140",
+  "origem": "vitais",
+  "tipo": "risco_hipotensao_10min",
+  "severidade": 1,
+  "t": 18150.0,
+  "descricao": "Risco de hipotensão nos próximos 10 min: p=38% (PAM atual 71 mmHg, tendência -4.4 mmHg/min)",
+  "detector": "ml",
+  "evidencias": {
+   "probabilidade": 0.383,
+   "limiar": 0.091,
+   "MAP_atual": 71.0,
+   "MAP_inclinacao_5min": -4.44
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-A19FCA3503",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "VDB-0140",
+  "origem": "vitais",
+  "tipo": "padrao_multivariado_atipico",
+  "severidade": 1,
+  "t": 18210.0,
+  "descricao": "Combinação atípica de sinais vitais — principais desvios: SBP_var (z=+7.5), SBP_z (z=-6.4), DBP_var (z=+4.7)",
+  "detector": "ml",
+  "evidencias": {
+   "score": -0.5998,
+   "limiar": -0.5636,
+   "explicacao": [
+    [
+     "SBP_var",
+     7.49
+    ],
+    [
+     "SBP_z",
+     -6.43
+    ],
+    [
+     "DBP_var",
+     4.7
+    ]
+   ],
+   "janelas_consecutivas": 2
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-C3D5467168",
+  "severidade_rotulo": "atenção"
+ },
+ {
+  "paciente_id": "VDB-0140",
+  "origem": "vitais",
+  "tipo": "hipotensao",
+  "severidade": 2,
+  "t": 18218.0,
+  "descricao": "PA média < 65 mmHg por ≥ 1 min (atual 60 mmHg)",
+  "detector": "regra",
+  "evidencias": {
+   "canal": "MAP",
+   "valor": 60.0,
+   "limite": 65,
+   "inicio_t": 18158.0,
+   "sustentado_s": 60.0,
+   "extremo": 20.0
+  },
+  "duracao_s": 92.0,
+  "id": "EVT-350591CD25",
+  "severidade_rotulo": "urgente"
+ },
+ {
+  "paciente_id": "VDB-0140",
+  "origem": "vitais",
+  "tipo": "desvio_hr",
+  "severidade": 1,
+  "t": 19092.0,
+  "descricao": "Subida abrupta de frequência cardíaca: 97 bpm vs. linha de base 63 (z=+11.3)",
+  "detector": "estatistico",
+  "evidencias": {
+   "canal": "HR",
+   "z": 11.33,
+   "mediana_recente": 97.0,
+   "mediana_base": 63.0,
+   "desvio_robusto": 1.48
+  },
+  "duracao_s": 0.0,
+  "id": "EVT-51FC8151F1",
+  "severidade_rotulo": "atenção"
+ }
+]
